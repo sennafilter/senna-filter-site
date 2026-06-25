@@ -1,0 +1,19 @@
+{
+  "name": "senna-filter-site",
+  "version": "1.0.0",
+  "description": "Senna Filter — AI, explained without the jargon",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "ai",
+    "education",
+    "content"
+  ],
+  "author": "Senna Filter",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}

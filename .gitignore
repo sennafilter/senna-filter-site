@@ -7,3 +7,10 @@ tweaks-panel.jsx
 image-slot.js
 .DS_Store
 .claude/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
