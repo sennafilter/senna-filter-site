@@ -1,0 +1,9 @@
+screenshots/
+uploads/
+.thumbnail
+.image-slots.state.json
+tweaks.jsx
+tweaks-panel.jsx
+image-slot.js
+.DS_Store
+.claude/
