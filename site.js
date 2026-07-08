@@ -49,7 +49,7 @@ document.documentElement.classList.add('js');
   setTimeout(function () { els.forEach(show); }, 2500);
 })();
 
-// contact form (no backend — friendly confirmation + mailto fallback)
+// contact form — submits to Formspree (see form's action= attribute)
 (function () {
   var form = document.getElementById('inquiry');
   if (!form) return;
@@ -57,10 +57,57 @@ document.documentElement.classList.add('js');
     e.preventDefault();
     var done = document.getElementById('form-done');
     var name = (form.querySelector('[name=name]') || {}).value || 'there';
-    if (done) {
-      done.textContent = "Got it, " + name.split(' ')[0] + ". I'll be in touch soon. — Senna";
-      done.hidden = false;
-    }
-    form.reset();
+    var submitBtn = form.querySelector('button[type=submit]');
+
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { Accept: 'application/json' }
+    }).then(function (res) {
+      if (res.ok) {
+        if (done) {
+          done.textContent = "Got it, " + name.split(' ')[0] + ". I'll be in touch soon. — Senna";
+          done.hidden = false;
+        }
+        form.reset();
+      } else if (done) {
+        done.textContent = "Something went wrong sending that — email me directly at contact@senna-filter.com instead.";
+        done.hidden = false;
+      }
+    }).catch(function () {
+      if (done) {
+        done.textContent = "Something went wrong sending that — email me directly at contact@senna-filter.com instead.";
+        done.hidden = false;
+      }
+    });
+  });
+})();
+
+// newsletter signup — submits to Formspree (see form's action= attribute)
+(function () {
+  var form = document.getElementById('newsletter-signup');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var done = document.getElementById('newsletter-done');
+
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { Accept: 'application/json' }
+    }).then(function (res) {
+      if (done) {
+        done.textContent = res.ok
+          ? "You're in. First issue lands soon. — Senna"
+          : "Something went wrong — email me at contact@senna-filter.com and I'll add you myself.";
+        done.hidden = false;
+      }
+      if (res.ok) form.reset();
+    }).catch(function () {
+      if (done) {
+        done.textContent = "Something went wrong — email me at contact@senna-filter.com and I'll add you myself.";
+        done.hidden = false;
+      }
+    });
   });
 })();
