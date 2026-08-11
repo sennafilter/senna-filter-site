@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Workshops — Senna Filter</title>
+<meta name="description" content="AI workshops for teams. Get your whole team fluent with AI — from a one-day fluency workshop to a multi-day intensive where they learn to build. Led by Senna, who does AI strategy for a living." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=Instrument+Serif:ital@0;1&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* ---- workshops page components (native to styles.css tokens) ---- */
+  .rotate { display:inline-block; transition:opacity .25s ease, transform .25s ease; }
+  .rotate.swap { opacity:0; transform:translateY(8px); }
+
+  /* value grid — "what changes" */
+  .vgrid { display:grid; grid-template-columns:1fr 1fr; gap:clamp(16px,2.4vw,22px); }
+  .vcard {
+    background:var(--paper-2); border-radius:var(--radius);
+    padding:clamp(26px,3vw,38px);
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .vcard:hover { transform:translateY(-6px); box-shadow:0 26px 50px -30px color-mix(in srgb, var(--ink) 70%, transparent); }
+  .vnum { font-family:var(--display); font-weight:var(--display-weight); font-size:42px; line-height:1; display:block; margin-bottom:12px; }
+  body[data-font="bold"] .vnum { font-weight:700; }
+  .vgrid .vcard:nth-child(1) .vnum { color:var(--accent); }
+  .vgrid .vcard:nth-child(2) .vnum { color:var(--c4); }
+  .vgrid .vcard:nth-child(3) .vnum { color:var(--c2); }
+  .vgrid .vcard:nth-child(4) .vnum { color:var(--c3); }
+  .vcard h3 { margin:0 0 8px; }
+  .vcard p { color:var(--ink-72); margin:0; }
+
+  /* picker */
+  .picker {
+    display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+    background:var(--paper-2); border-radius:var(--radius);
+    padding:20px clamp(20px,2.4vw,28px); margin-bottom:clamp(22px,3vw,30px);
+  }
+  .picker-q { font-weight:600; }
+  .picker-opts { display:flex; gap:10px; flex-wrap:wrap; }
+  .popt {
+    font-family:var(--sans); font-size:14px; font-weight:600;
+    background:var(--paper); border:1.5px solid var(--line-strong); color:var(--ink);
+    padding:10px 18px; border-radius:var(--radius-pill); cursor:pointer;
+    transition:background .16s ease, color .16s ease, border-color .16s ease;
+  }
+  .popt:hover { border-color:var(--accent); }
+  .popt.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .picker-rec { flex-basis:100%; margin:0; font-size:16px; color:var(--ink-72); opacity:0; transition:opacity .2s ease; }
+  .picker-rec.show { opacity:1; }
+
+  /* workshop tiers */
+  .tiers { display:grid; grid-template-columns:1fr 1fr; gap:clamp(20px,3vw,30px); }
+  .tier {
+    position:relative; background:var(--paper-2); border-radius:var(--radius);
+    padding:clamp(28px,3.4vw,44px); display:flex; flex-direction:column;
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .tiers .tier:nth-child(1) { box-shadow:11px 11px 0 var(--c4); }
+  .tiers .tier:nth-child(2) { box-shadow:11px 11px 0 var(--accent); }
+  .tiers .tier:nth-child(1):hover { transform:translateY(-6px); box-shadow:11px 11px 0 var(--c4), 0 28px 52px -30px color-mix(in srgb, var(--ink) 70%, transparent); }
+  .tiers .tier:nth-child(2):hover { transform:translateY(-6px); box-shadow:11px 11px 0 var(--accent), 0 28px 52px -30px color-mix(in srgb, var(--ink) 70%, transparent); }
+  .tier.active { outline:2.5px solid var(--accent); outline-offset:4px; }
+  .tier-tag { font-family:var(--sans); font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; margin-bottom:14px; }
+  .tiers .tier:nth-child(1) .tier-tag { color:var(--c4); }
+  .tiers .tier:nth-child(2) .tier-tag { color:var(--accent); }
+  .tier h3 { margin:0; }
+  .tier .dur { font-family:var(--sans); font-size:14px; font-weight:600; color:var(--accent); margin-top:6px; }
+  .tier > p { color:var(--ink-72); margin:16px 0 0; }
+  .tier ul { list-style:none; margin:18px 0 0; padding:0; display:flex; flex-direction:column; gap:10px; }
+  .tier li { position:relative; padding-left:24px; color:var(--ink-72); }
+  .tier li::before { content:"→"; position:absolute; left:0; color:var(--accent); font-weight:700; }
+  .tier .best { margin:20px 0 0; font-size:15px; color:var(--ink-55); }
+  .tier .best b { color:var(--ink); }
+
+  /* secondary offers */
+  .offers { display:grid; grid-template-columns:1fr 1fr; gap:clamp(20px,3vw,28px); }
+  .offer {
+    background:var(--paper-2); border:1.5px solid var(--line); border-radius:var(--radius);
+    padding:clamp(26px,3vw,38px); transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .offer:hover { transform:translateY(-6px); box-shadow:0 26px 50px -30px color-mix(in srgb, var(--ink) 70%, transparent); }
+  .offer h3 { margin:0 0 10px; }
+  .offer p { color:var(--ink-72); margin:0; }
+
+  /* how it works */
+  .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(24px,4vw,44px); }
+  .snum { font-family:var(--display); font-weight:var(--display-weight); font-size:38px; line-height:1; color:var(--accent); }
+  body[data-font="bold"] .snum { font-weight:700; }
+  .steps .step:nth-child(2) .snum { color:var(--c4); }
+  .steps .step:nth-child(3) .snum { color:var(--c2); }
+  .step h3 { margin:12px 0 6px; }
+  .step p { color:var(--ink-72); margin:0; }
+
+  /* final CTA */
+  .cta {
+    background:var(--band-bg); color:var(--band-fg); border-radius:var(--radius);
+    padding:clamp(48px,6vw,84px) clamp(24px,4vw,56px); text-align:center;
+  }
+  .cta h2 { color:var(--band-fg); margin:0 auto; max-width:20ch; }
+  .cta p { color:color-mix(in srgb, var(--band-fg) 82%, transparent); margin:18px auto 0; max-width:52ch; }
+  .cta .btn { margin-top:30px; border-color:var(--band-accent); background:var(--band-accent); color:var(--ink); }
+  .cta .btn:hover { filter:brightness(1.06); background:var(--band-accent); border-color:var(--band-accent); }
+  .cta .em { display:block; margin-top:18px; font-size:14px; color:color-mix(in srgb, var(--band-fg) 60%, transparent); }
+
+  @media (max-width:900px) {
+    .vgrid, .tiers, .offers { grid-template-columns:1fr; }
+    .steps { grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body data-theme="sorbet" data-font="editorial">
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html" aria-label="Senna Filter — home">Senna<span class="dot"> Filter</span></a>
+    <button class="nav-toggle" aria-label="Menu">Menu</button>
+    <nav class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#work">What I do</a>
+      <a href="workshops.html">Workshops</a>
+      <a href="guides.html">Guides</a>
+      <a class="btn btn-sm nav-cta" href="#contact">Work with me</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================================= hero -->
+  <section class="hero" data-screen-label="Hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Workshops</p>
+        <h1 class="reveal">Get your whole team <span class="it rotate" id="rotate">fluent</span> with AI.</h1>
+        <p class="lead reveal" style="max-width: 52ch; margin-top: 28px;">
+          I come into your business and turn AI from something a couple of people
+          dabble with into something your whole team uses every day — from a one-day
+          fluency workshop to a multi-day deep dive where they learn to build with it themselves.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="#contact">Book a workshop <span class="arr">→</span></a>
+          <a class="btn btn-ghost" href="#work">See how it works</a>
+        </div>
+      </div>
+      <div class="hero-portrait-wrap reveal">
+        <div class="hero-portrait">
+          <img src="senna-hero.jpg" alt="Senna" style="width:100%;height:100%;object-fit:cover;object-position:center top;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= what changes -->
+  <section id="changes" data-screen-label="What changes">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">What changes</p>
+        <h2>What your team looks like after we work together.</h2>
+        <p>Not "we did a training." A team that works differently — and keeps working that way.</p>
+      </div>
+      <div class="vgrid">
+        <div class="vcard reveal">
+          <span class="vnum">01</span>
+          <h3>Work that ate hours takes minutes.</h3>
+          <p>The reports, the summaries, the first drafts, the research that fills a day — your team learns to hand the heavy lifting to AI and get it back in a fraction of the time.</p>
+        </div>
+        <div class="vcard reveal">
+          <span class="vnum">02</span>
+          <h3>Everyone can use it — not just one person.</h3>
+          <p>You stop having a single "AI person" and bottlenecking on them. The whole team can reach for it and solve their own problems.</p>
+        </div>
+        <div class="vcard reveal">
+          <span class="vnum">03</span>
+          <h3>AI stops being scary.</h3>
+          <p>People go from anxious and guessing to confident and specific — they know when to use it, when not to, and how to get a good result instead of a generic one.</p>
+        </div>
+        <div class="vcard reveal">
+          <span class="vnum">04</span>
+          <h3>The gains actually stick.</h3>
+          <p>They leave with real skills and habits built into how they work — not a demo they forget by Friday. It sticks because they built it, not because I did.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ============================================= workshops -->
+  <section id="work" data-screen-label="Workshops">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Workshops</p>
+        <h2>Two ways to run a workshop.</h2>
+        <p>One gets your whole team fluent. The other turns them into builders. Pick where you are — I'll tailor the rest.</p>
+      </div>
+
+      <div class="picker reveal">
+        <span class="picker-q">Where's your team right now?</span>
+        <div class="picker-opts">
+          <button class="popt" data-target="fluency" type="button">Getting started</button>
+          <button class="popt" data-target="builder" type="button">Ready to build</button>
+        </div>
+        <p class="picker-rec" id="rec"></p>
+      </div>
+
+      <div class="tiers">
+        <div class="tier reveal" id="tier-fluency">
+          <span class="tier-tag">One focused day</span>
+          <h3>The Fluency Workshop</h3>
+          <div class="dur">1 day · whole team</div>
+          <p>Everyone's heard of AI. Almost no one on a team actually uses it well. In one focused day, your whole team goes from dabbling to working with AI like they mean it — on the real work they do every day.</p>
+          <ul>
+            <li>The handful of tools actually worth their time</li>
+            <li>How to get sharp results, not generic ones</li>
+            <li>Hands-on with your team's real work</li>
+            <li>Habits that stick long after we're done</li>
+          </ul>
+          <div class="best"><b>Best for:</b> getting a whole team using AI well, fast.</div>
+        </div>
+        <div class="tier reveal" id="tier-builder">
+          <span class="tier-tag">Go deeper</span>
+          <h3>The Builder Intensive</h3>
+          <div class="dur">2–5 days · hands-on</div>
+          <p>A multi-day workshop that goes past the basics. Your team learns to actually build with AI — custom assistants, simple tools and sites, and automations for the work they do every day. They build it, so they own it. Length scales with team size and how far you want to go.</p>
+          <ul>
+            <li>Build custom AI assistants and subagents</li>
+            <li>Vibe-code a working tool or site — no engineers needed</li>
+            <li>Automate the repetitive workflows your team runs</li>
+            <li>Everyone leaves able to build, not just use</li>
+          </ul>
+          <div class="best"><b>Best for:</b> teams ready to build their own tools, not just use AI.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ============================================= more ways -->
+  <section id="more" data-screen-label="More ways">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Beyond the workshop</p>
+        <h2>Two more ways to work together.</h2>
+      </div>
+      <div class="offers">
+        <div class="offer reveal">
+          <h3>Custom builds</h3>
+          <p>Reporting, dashboards, internal tools, and sites — built for you, not taught. Good when you want the thing done, not a lesson on how to do it.</p>
+        </div>
+        <div class="offer reveal">
+          <h3>Ongoing support</h3>
+          <p>Keep your team current after the workshop. A monthly check-in, someone to ask when AI questions come up, and a short heads-up on what actually changed and matters to you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= stats band (native) -->
+  <section class="band" data-screen-label="Why it matters">
+    <div class="wrap wrap-narrow" style="margin:0 auto; max-width: var(--maxw);">
+      <p class="eyebrow reveal">Why this work matters</p>
+      <h2 class="reveal" style="max-width: 22ch;">Most teams have AI. Almost none have been shown how to use it.</h2>
+      <div class="stats">
+        <div class="stat reveal">
+          <div class="stat-num">88%</div>
+          <p class="stat-label">of employees now use AI at work — but only a fraction in ways that actually change how they work.</p>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-num">1 in 3</div>
+          <p class="stat-label">employees say they've been properly trained on AI. The rest are guessing.</p>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-num">2&times;</div>
+          <p class="stat-label">people who get hands-on AI training are about twice as likely to actually use it every day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= how it works -->
+  <section id="how" data-screen-label="How it works">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">How it works</p>
+        <h2>Simple to start.</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="snum">01</div>
+          <h3>Reach out</h3>
+          <p>Tell me your team, your size, and what's slowing you down. A short note is plenty.</p>
+        </div>
+        <div class="step reveal">
+          <div class="snum">02</div>
+          <h3>We shape it</h3>
+          <p>I tailor it to your team's tools and the work they actually do — so what they learn and build is stuff they'll use, not a copy-paste curriculum.</p>
+        </div>
+        <div class="step reveal">
+          <div class="snum">03</div>
+          <h3>Your team runs with it</h3>
+          <p>We run it. People leave able to build and fix things themselves — no report to act on later, no outside firm to hire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= final CTA -->
+  <section id="contact" data-screen-label="Contact">
+    <div class="wrap">
+      <div class="cta reveal">
+        <h2>Ready to get your team using AI?</h2>
+        <p>Tell me a bit about your team and what you're trying to do. I'll come back with a plan built for you.</p>
+        <a class="btn" href="mailto:contact@senna-filter.com?subject=Workshop%20inquiry">Book a workshop <span class="arr">→</span></a>
+        <span class="em">or use the contact form on the <a href="index.html#contact" style="color:inherit;text-decoration:underline;">home page</a> · contact@senna-filter.com</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">Senna<span class="dot"> Filter</span></a>
+        <p>Helping everyday people understand AI — no computer science degree required.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#work">What I do</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="guides.html">Guides</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="mailto:contact@senna-filter.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/senna-filter-29698a183/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/sennafilter/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@sennafilter" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 Senna Filter</p>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+<script>
+  // Rotating hero word
+  (function () {
+    var words = ["fluent", "building", "confident"];
+    var el = document.getElementById("rotate");
+    if (!el) return;
+    var i = 0;
+    setInterval(function () {
+      el.classList.add("swap");
+      setTimeout(function () {
+        i = (i + 1) % words.length;
+        el.textContent = words[i];
+        el.classList.remove("swap");
+      }, 250);
+    }, 2400);
+  })();
+
+  // Workshop picker
+  (function () {
+    var map = {
+      fluency: { tier: "tier-fluency", rec: "The Fluency Workshop — get the whole team using AI well before going deeper." },
+      builder: { tier: "tier-builder", rec: "The Builder Intensive — your team builds real tools they'll keep using." }
+    };
+    var rec = document.getElementById("rec");
+    document.querySelectorAll(".popt").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        document.querySelectorAll(".popt").forEach(function (b) { b.classList.remove("on"); });
+        btn.classList.add("on");
+        document.querySelectorAll(".tier").forEach(function (t) { t.classList.remove("active"); });
+        var m = map[btn.dataset.target];
+        var t = document.getElementById(m.tier);
+        if (t) t.classList.add("active");
+        if (rec) { rec.textContent = m.rec; rec.classList.add("show"); }
+      });
+    });
+  })();
+</script>
+</body>
+</html>
