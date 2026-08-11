@@ -76,7 +76,7 @@
   .tier .best b { color:var(--ink); }
 
   /* secondary offers */
-  .offers { display:grid; grid-template-columns:1fr 1fr; gap:clamp(20px,3vw,28px); }
+  .offers { display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(18px,2.4vw,24px); }
   .offer {
     background:var(--paper-2); border:1.5px solid var(--line); border-radius:var(--radius);
     padding:clamp(26px,3vw,38px); transition:transform .2s ease, box-shadow .2s ease;
@@ -248,18 +248,23 @@
     <div class="wrap">
       <div class="sec-head reveal">
         <p class="eyebrow">Beyond the workshop</p>
-        <h2>Two more ways to work together.</h2>
+        <h2>More ways to work together.</h2>
       </div>
       <div class="offers">
         <div class="offer reveal">
-          <h3>Custom AI Builds</h3>
-          <p>Have a workflow you know should be easier? I can build it for you.</p>
-          <p>From internal AI tools and custom assistants to automated workflows, dashboards, website, and lightweight apps, I design and build solutions around the way your team already works.</p>
+          <h3>Apps &amp; Websites</h3>
+          <p>Have an idea you want to bring to life? I build lightweight apps, websites, internal tools, and AI-powered prototypes using today's AI and no-code tools.</p>
+          <p>Great for turning an idea into something real — without a full development team.</p>
         </div>
         <div class="offer reveal">
-          <h3>Ongoing AI Advisory</h3>
-          <p>AI changes fast. I help your team keep up without having to follow every new model, tool, and launch.</p>
-          <p>Ongoing support can include team office hours, workflow reviews, new tool recommendations, and hands-on help as new AI opportunities come up.</p>
+          <h3>Reporting &amp; Automation</h3>
+          <p>Still spending hours on the same reports and repetitive tasks? I help teams use AI and automation to make recurring work faster and easier.</p>
+          <p>From monthly reporting and dashboards to repeatable workflows, we'll simplify what's manual today and build a better way to get it done.</p>
+        </div>
+        <div class="offer reveal">
+          <h3>Ongoing AI Support</h3>
+          <p>AI changes fast. I stay alongside your team as new tools, questions, and opportunities come up.</p>
+          <p>Think ongoing training, office hours, workflow reviews, tool recommendations, and hands-on support to help your team keep getting more out of AI.</p>
         </div>
       </div>
     </div>
