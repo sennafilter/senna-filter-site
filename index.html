@@ -17,27 +17,8 @@
   .ig-sub { color:var(--ink-72); margin:14px 0 0; max-width:46ch; }
   .ig-actions { display:flex; flex-direction:column; align-items:flex-end; gap:12px; }
   .ig-tiktok { margin:0; font-size:15px; color:var(--ink-55); }
-  .ig-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(12px,1.6vw,18px); }
-  .ig-tile {
-    position:relative; aspect-ratio:9/16; border-radius:var(--radius-sm); overflow:hidden;
-    display:block; background:var(--paper-2);
-    box-shadow:0 24px 50px -38px color-mix(in srgb, var(--ink) 80%, transparent);
-    transition:transform .3s cubic-bezier(.2,.7,.2,1);
-  }
-  .ig-grid .ig-tile:nth-child(1) { background:linear-gradient(155deg, color-mix(in srgb, var(--accent) 20%, var(--paper-2)), var(--paper-2)); }
-  .ig-grid .ig-tile:nth-child(2) { background:linear-gradient(155deg, color-mix(in srgb, var(--c4) 22%, var(--paper-2)), var(--paper-2)); }
-  .ig-grid .ig-tile:nth-child(3) { background:linear-gradient(155deg, color-mix(in srgb, var(--c2) 24%, var(--paper-2)), var(--paper-2)); }
-  .ig-grid .ig-tile:nth-child(4) { background:linear-gradient(155deg, color-mix(in srgb, var(--c3) 22%, var(--paper-2)), var(--paper-2)); }
-  .ig-tile img { width:100%; height:100%; object-fit:cover; }
-  .ig-tile:hover { transform:translateY(-5px); }
-  .ig-play {
-    position:absolute; left:50%; top:50%; transform:translate(-42%,-50%);
-    width:0; height:0; border-left:22px solid rgba(255,255,255,.94);
-    border-top:14px solid transparent; border-bottom:14px solid transparent;
-    filter:drop-shadow(0 2px 8px rgba(0,0,0,.35));
-  }
+  .ig-feed { margin-top: clamp(4px, 1vw, 10px); }
   @media (max-width:900px) {
-    .ig-grid { grid-template-columns:repeat(2,1fr); }
     .ig-head { align-items:flex-start; }
     .ig-actions { align-items:flex-start; }
   }
@@ -248,13 +229,8 @@
           <p class="ig-tiktok">More of a TikTok person? <a href="https://www.tiktok.com/@sennafilter" target="_blank" rel="noopener noreferrer">I'm over there too →</a></p>
         </div>
       </div>
-      <!-- To use real reel thumbnails, drop images named ig-1.jpg … ig-4.jpg in the repo
-           and replace each <span class="ig-play"></span> with <img src="ig-1.jpg" alt="" />. -->
-      <div class="ig-grid reveal">
-        <a class="ig-tile" href="https://www.instagram.com/sennafilter/" target="_blank" rel="noopener noreferrer"><span class="ig-play"></span></a>
-        <a class="ig-tile" href="https://www.instagram.com/sennafilter/" target="_blank" rel="noopener noreferrer"><span class="ig-play"></span></a>
-        <a class="ig-tile" href="https://www.instagram.com/sennafilter/" target="_blank" rel="noopener noreferrer"><span class="ig-play"></span></a>
-        <a class="ig-tile" href="https://www.instagram.com/sennafilter/" target="_blank" rel="noopener noreferrer"><span class="ig-play"></span></a>
+      <div class="ig-feed reveal">
+        <behold-widget feed-id="LG4r3y3cITudprWa58Iq"></behold-widget>
       </div>
     </div>
   </section>
@@ -352,5 +328,13 @@
 </footer>
 
 <script src="site.js"></script>
+<!-- Behold Instagram widget loader -->
+<script>
+  (() => {
+    if (window.__bhldScript) return; window.__bhldScript = true;
+    const d = document, s = d.createElement("script"); s.type = "module";
+    s.src = "https://w.behold.so/widget.js"; setTimeout(() => { d.head.append(s); }, 0);
+  })();
+</script>
 </body>
 </html>
