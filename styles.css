@@ -71,6 +71,24 @@
   --card2: #C9A24B;       --card2fg: #17150F;
   --card3: #7C8F5A;       --card3fg: #F7FAF1;
 }
+[data-theme="harbor"] {
+  /* Harbor — blue-led, light cool off-white base, green + yellow accents */
+  --paper:    #F4F6F8;
+  --paper-2:  #E9EEF2;
+  --paper-3:  #DCE4EA;
+  --ink:      #1B2733;
+  --accent:   #2C6BA6;
+  --accent-deep: #1F4E7D;
+  --pop:      #E8B23D;
+  --band-bg:  #16283A;
+  --band-fg:  #F4F6F8;
+  --band-accent: #F0C24E;
+  /* multi-color set: yellow · green · soft blue-grey */
+  --c2: #E6B23C;  --c3: #2A7E63;  --c4: #6E8CA8;
+  --card1: var(--accent); --card1fg: #F0F6FC;
+  --card2: #E6B23C;       --card2fg: #1B2733;
+  --card3: #2A7E63;       --card3fg: #F0FAF6;
+}
 
 :root {
   --line:        color-mix(in srgb, var(--ink) 14%, transparent);
