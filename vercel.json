@@ -1,4 +1,14 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "buildCommand": "node generate-sitemap.js",
+  "outputDirectory": ".",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "senna-filter.com" }],
+      "destination": "https://www.senna-filter.com/:path*",
+      "permanent": true
+    }
+  ]
 }
