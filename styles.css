@@ -660,3 +660,51 @@ body[data-font="bold"] .newsletter h3 { font-weight: 700; }
   }
   .form-row { grid-template-columns: 1fr; }
 }
+
+/* ----------------------------------------------------------- interactions v2 (count-up · hover-lift · guide filter) */
+.stat-num { font-variant-numeric: tabular-nums; }
+
+/* guide rows — hover lift + accent edge */
+.res-list li {
+  position: relative;
+  border-radius: var(--radius-sm);
+  padding-left: 16px; padding-right: 16px;
+  margin-left: -16px; margin-right: -16px;
+  transition: transform .25s ease, background .25s ease, box-shadow .25s ease;
+}
+.res-list li::before {
+  content: ""; position: absolute; left: 0; top: 16px; bottom: 16px;
+  width: 3px; border-radius: 3px; background: var(--accent);
+  opacity: 0; transform: scaleY(.35);
+  transition: opacity .25s ease, transform .25s ease;
+}
+@media (hover: hover) {
+  .res-list li:hover {
+    transform: translateX(5px);
+    background: var(--paper-2);
+    box-shadow: 0 20px 44px -32px var(--ink);
+  }
+  .res-list li:hover::before { opacity: 1; transform: scaleY(1); }
+}
+
+/* guide filter chips */
+.guide-filter { display: flex; flex-wrap: wrap; gap: 10px; margin: 30px 0 4px; }
+.chip {
+  font: inherit; font-size: 14px; font-weight: 600; line-height: 1;
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 10px 16px; border-radius: var(--radius-pill);
+  border: 1px solid var(--line-strong); background: transparent; color: var(--ink);
+  cursor: pointer; transition: color .2s ease, background .2s ease, border-color .2s ease, transform .2s ease;
+}
+.chip:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+.chip .chip-n { font-size: 12px; opacity: .55; font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip[aria-pressed="true"] .chip-n { opacity: .85; }
+.res-list li.hide { display: none; }
+.res-list li.show-anim { animation: guideIn .4s ease both; }
+@keyframes guideIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .res-list li, .res-list li::before, .chip { transition: none; }
+  .res-list li.show-anim { animation: none; }
+}
