@@ -1,0 +1,93 @@
+title: The Instagram Carousel Agent
+cat: agents claude
+date: 2026-07-15
+desc: Set up Claude once, then direct your carousels instead of designing them.
+lead: Set up Claude once, then direct your carousels instead of designing them.
+---
+You already pay for Claude. It can build a full, swipeable Instagram carousel — cover, problem slides, solution slides, CTA — from a single topic. The trick isn't a magic prompt. It's a Project you set up once with your brand and your rules, so every carousel after that takes a topic and a couple of tweaks. This is the setup, step by step, plus the exact instructions I paste in.
+
+> **New to Projects?** A Project in Claude is a saved workspace with its own memory. Anything you put in it stays loaded, so Claude keeps your brand and rules in context without you re-explaining every time. Think of it as hiring one carousel designer and training them once, instead of briefing a stranger from scratch each post.
+
+# 1. Make the Project
+
+~ One workspace, built once, reused forever.
+
+Open Claude, click Projects in the sidebar, and make a new one. Name it something you'll recognize — I called mine IG Carousels.
+
+**Why most people skip it:** a Project looks like just another chat, so they start a fresh conversation every time and re-explain their brand on every single carousel. The Project is the whole point — it remembers so you don't repeat yourself.
+
+> **Start here.** Make the Project and name it before you do anything else. Empty is fine — you'll fill it in the next step.
+
+# 2. Paste your instructions in once
+
+~ This is where you train it.
+
+Every Project has a custom instructions field. This is the part that makes the difference. You're not writing a one-off prompt — you're setting standing rules Claude follows every time you ask for a carousel: your handle, your brand colors, your fonts, your slide structure, your tone.
+
+**Why it matters:** the topic changes every post, but your brand doesn't. Put everything that stays the same here, once. Then your day-to-day prompt is just the topic. The full instruction block I actually use is at the bottom of this guide — copy it, swap in your details, paste it in.
+
+> **Start here.** Grab the template at the end, replace the brand details with yours, and drop it in the Project's instructions field.
+
+# 3. Drop in your topic
+
+~ One line in. A clickable draft out.
+
+Now the easy part. Open a chat inside the Project and give it a topic — nothing fancy. Something like "30-day content plan using Claude prompts" or "3 mistakes new founders make on LinkedIn."
+
+It builds a full interactive preview you can click through slide by slide — an actual mockup of the carousel, not a wall of text you have to imagine. You see the cover, the middle slides, the CTA, laid out the way they'll post.
+
+> **Pro tip.** The sharper your topic, the sharper the draft. "5 ways to use Claude for meal planning" beats "food stuff." Give it the angle, not just the subject.
+
+# 4. Direct the edits
+
+~ You're the art director now.
+
+Something off? Just say it in plain language. I wanted my watermark unbolded — I said so, it fixed it. "Make slide 3's headline shorter." "Swap the arrow to the left side." "This copy is too corporate, loosen it up." No design software, no fiddling with layers.
+
+**The mistake to skip:** people accept the first draft or bail because it's 80% right. Don't. The last 20% is three sentences of feedback. The whole thing — first draft to final — takes about twenty minutes.
+
+> **Start here.** Ask for one specific change on your first draft, even a tiny one, so you feel how fast the loop is.
+
+# 5. Give it a reference design
+
+~ The step that makes it actually look like you.
+
+Drop in a carousel design you already love — yours or one you're inspired by — as a reference. Claude builds that look into a template it reuses, so you're not starting from a blank page every time. Same structure, same feel, new topic.
+
+**Why it's worth it:** generic-looking carousels are the giveaway that a tool made them. A reference locks in your spacing, your type sizes, your vibe — so the output reads as your brand, not a template's.
+
+> **Start here.** Find one carousel whose layout you'd happily copy. Add it to the Project and tell Claude to match its structure going forward.
+
+## The instructions I actually paste in
+
+Copy this into your Project's instructions field. Replace every bracketed detail with your own brand — handle, colors, fonts, tone. Keep the structure; that's what makes the slides consistent.
+
+```
+You are my Instagram carousel agent. Here are my written details — read them, and follow them every time.
+
+My Instagram handle is @yourhandle. My brand colors are [hex] · [hex] · [hex] · [hex] · [hex] · [hex]. My tone is warm, direct, and plain-spoken — never corporate. My fonts are [headline/body font] for headlines and body, [mono font] for pills and labels, and [serif italic font] for pull-quotes.
+
+I'm not giving you a topic — that changes every time. I'll tell you the topic when I ask. These are the standing instructions.
+
+Build me an 8-slide swipeable Instagram carousel in PDF at 4:5 (1080×1350 per slide), unless I specify a different number of slides. Use this structure:
+
+Slide 1 — the cover: dark background, large headline, CTA pill button at the bottom.
+
+Middle slides — problem slides: dark background, a time pill in the corner, a bold heading, body text, and a hand-drawn arrow.
+
+Slides near the end — solution slides, grouped: light top half with the point, and a card filling the bottom half that explains it, with the key line in accent color.
+
+Final slide — the CTA: dark background, a comment-to-DM line, my handle, and a pill button.
+
+Pull all colors and fonts from my brand details above. Never use pure white, keep type large and mobile-readable, and one idea per slide.
+```
+
+Reading it back: notice it never names a topic. That's deliberate. The instructions hold your brand and format; you supply the subject each time. That split is what lets one Project handle every carousel you'll ever post.
+
+## Prompts to try once it's set up
+
+- "Topic: 5 Claude features people pay for and never open. Build the carousel."
+- "Same carousel, but make slide 1's headline punchier and shorter."
+- "Here's a design I love [attach]. Match this layout for all future carousels."
+- "Turn my last newsletter into a carousel using our structure."
+- "Give me 3 cover headline options for this topic before you build the rest."

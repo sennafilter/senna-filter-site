@@ -1,0 +1,69 @@
+title: Claude Design Just Got Way Better
+cat: claude
+date: 2026-07-16
+desc: Three upgrades that turn Claude Design into a real creative tool, and how to use each one.
+lead: Three upgrades that turn Claude Design into a real creative tool — and how to use each one.
+---
+Claude Design quietly got a real upgrade, and almost nobody is talking about it yet. It takes whatever you describe — a prototype, a deck, a presentation, even a video — and builds it out at genuinely good quality. You say what you want, it makes the thing.
+
+The last few changes are what moved it onto my short list of favorite creative tools. Here's what changed, why each one matters, and the first thing to try with each.
+
+> **New to Claude Design?** It's the part of Claude that designs and builds visuals for you instead of just writing about them. Describe what you want in plain language — "a three-slide pitch deck for a coffee brand," "a landing page for my newsletter" — and it produces the actual design, editable, right there. No design software, no templates to wrestle with.
+
+# 1. It lives in the app now, and the limits finally make sense
+
+~ Two changes that only matter together.
+
+Claude Design now lives right inside the Claude app, and your usage is tied to your Claude account. That sounds small. It isn't.
+
+**Why it was easy to miss:** before, you had to go to a separate address, claude.ai/design, just to find it. And the limits were so tight it was hard to finish even one design before you hit a wall. Most people bounced off it before they ever made anything good.
+
+Now it's inside the app you're already working in, and your usage runs on your existing Claude plan — enough to actually start and finish real work instead of quitting halfway.
+
+> **Start here.** Open the Claude app, look for Design in the same place you find your chats and Projects, and ask it to build one small thing — a single social graphic or a one-page layout — start to finish.
+
+# 2. The editing tools: Markup, Comment, and Edit
+
+~ This is the part I keep coming back to.
+
+Most AI design tools force you to regenerate the whole thing when one piece is wrong. Claude Design lets you point at the exact spot and fix just that. Three tools do it:
+
+- **Markup.** Highlight any area and drop a comment right on it. Use this when you want to flag a region — "this whole header feels heavy" — without pinning it to one word.
+- **Comment.** Click one specific spot and leave a note there. This is the pin-point version: a single element, a single instruction.
+- **Edit.** Select any text or element and change it live. Not regenerate the whole design — change the one piece you want and leave everything else exactly as it is.
+
+**Why it matters:** the reason people give up on AI design is that fixing one thing breaks three others. When you can edit a single element in place, you can actually refine a design instead of rolling the dice again and hoping the next version is closer.
+
+> **Try this.** Take a design you've already made, use Edit to change one headline, and watch the rest stay put. That's the whole shift in one click.
+
+# 3. Your connectors work inside Design now
+
+~ What you make in one tool flows into the other.
+
+This is the one with the most room to grow. The connectors you've linked to Claude now work inside Design — so Design can reach out to another tool, generate something, and pull it straight into what you're building.
+
+**Real example:** say you've got Claude connected to Higgsfield. Design can use Higgsfield to generate images or video and drop them directly into your layout — no exporting, downloading, and re-uploading between apps. You describe the piece you need, it gets made in the connected tool, and it lands where you're working.
+
+**Why it's a bigger deal than it looks:** most creative work dies in the handoffs — the copy lives here, the images live there, and you spend your time shuttling files between tabs. When the tools talk to each other, the thing you're building becomes the one place everything comes together.
+
+> **Start here.** Check which connectors you already have linked to Claude, then ask Design to use one of them inside a project — for example, "generate a hero image with Higgsfield and place it at the top."
+
+# 4. And honestly, there's more than three
+
+~ A few smaller things worth knowing once you're in.
+
+The three above are the headline changes, but a handful of habits make Design pay off faster:
+
+- **Describe the outcome, not the layout.** You don't have to art-direct every pixel. Tell it what the thing is for and who it's for — "a clean, trustworthy one-pager for a financial advisor" — and let it make the first pass. Then refine with Edit.
+- **It handles more formats than you'd expect.** Prototypes, decks, presentations, and video all live here — so the same tool that builds your pitch deck can rough out a promo video, and you're not learning four different apps.
+- **Iterate small.** The old instinct with AI design is to rewrite the whole prompt when something's off. With the editing tools, the faster path is to keep the design and fix one element at a time.
+
+> **Pro tip.** Start rough on purpose. Get the structure roughed out in one pass, then spend your real time in Edit tightening the pieces that matter. It's faster than trying to describe the perfect design up front, and you end up with something that actually looks like you meant it.
+
+## Prompts to try
+
+- "Build me a three-slide pitch deck for [your idea]. Clean, modern, one big idea per slide."
+- "Make a one-page landing layout for [your product/newsletter]. Headline, three benefits, one call to action."
+- "Take this design and use Edit to change only the headline to [new headline] — leave everything else."
+- "Use [connected tool] to generate a hero image for the top of this page and place it in the layout."
+- "Turn this deck into a short promo video with the same colors and headings."

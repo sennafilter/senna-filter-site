@@ -1,0 +1,46 @@
+title: What Claude Tag Actually Is and How to Use It
+cat: claude
+date: 2026-07-06
+desc: What Claude Tag actually changed, three ways to use it, and exactly how to set it up for your team.
+lead: The full breakdown of what Claude Tag actually changed, three ways to actually use it, and exactly how to set it up for your team.
+---
+If you commented TAG under my reel — this is that.
+
+## The actual change
+
+Before Claude Tag, when you tagged AI into a work channel, it was acting as you. Your login. Your permissions. Your access. That's fine when it's one person working alone. It falls apart the moment five other people are in that channel too, because now nobody actually knows whose permissions Claude is operating on.
+
+Claude Tag fixes that by giving Claude its own identity inside Slack. Its own account. Its own permissions, set by an admin, not borrowed from whoever happens to be typing. An admin decides, channel by channel, exactly what tools and data Claude is allowed to touch.
+
+That one change is the whole point. Claude isn't a smarter bot anymore. It's showing up as an actual member of the team, with its own name and its own access level.
+
+## Three ways to get the most out of it
+
+# 1. Let it act in real time
+
+Don't just ask Claude questions. Let your team land on a decision inside a thread and tag Claude to go execute it while everyone keeps working. That's the actual unlock. The busy work stops waiting for someone to open a new tab.
+
+# 2. Use it as the shared brain, not a private one
+
+Before this, everyone on your team had their own Claude that only knew their own corner of the work. Claude Tag reads the whole channel, every thread, every decision. Use that. Ask it to summarize what the team decided last week, or catch a new hire up on a project, instead of doing it yourself.
+
+# 3. Let it keep working after hours
+
+Claude Tag doesn't log off when your team does. Hand it something before you close your laptop and it keeps moving overnight or over the weekend, not because you told it to work late, but because it's not tied to any one person's session.
+
+## How to actually set it up
+
+This part matters. Claude Tag has to be configured by an admin before anyone can use it in a channel.
+
+1. **Pair it with your Slack workspace.** A Slack workspace admin runs @Claude connect in any channel. Claude replies with a pairing code, good for 15 minutes. A Claude org Owner pastes that code into the setup screen in your Claude admin console. Note: only a Primary Owner or Owner can do this step, a regular Admin role can't.
+2. **Connect the tools it actually needs.** Wire up whatever Claude should have access to: GitHub, Google Drive, your calendar, a CRM, a data warehouse. Only turn on what this Claude should actually touch. You can always add more later.
+3. **Set a spend limit.** Anthropic has you set a monthly spend cap at the org level before Claude Tag goes live, so usage doesn't run away from you.
+4. **Test it in private first.** Before you roll it out to the whole workspace, drop it into one private channel and actually use it for a week. See what it's good at before your whole team is relying on it.
+
+One more decision worth making up front: who can actually access it. Claude Tag gives you three options: anyone in the Slack workspace, any member of your Claude org, or role-based access (Enterprise plan only). Start tighter than you think you need to. You can always open it up.
+
+## One thing to know before you migrate
+
+Claude in Slack, the old version running on individual logins, is being retired on August 3, 2026. If your team is still on that version, this is the moment to move over, not six months from now when it's retired for you.
+
+That's the whole thing. Set it up in one channel, use it for a week, and you'll know exactly whether it's worth rolling out further.

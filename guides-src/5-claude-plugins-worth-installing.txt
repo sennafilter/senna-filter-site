@@ -1,0 +1,71 @@
+title: 5 Claude Plugins Worth Installing
+cat: claude
+date: 2026-07-01
+desc: The exact plugins that turn Claude from a chat window into a specific kind of worker for your business.
+lead: The exact plugins that turn Claude from a chat window into a specific kind of worker for your business.
+---
+## What's a Cowork plugin?
+
+A bundle of connectors and skills that turns Claude into a specific kind of worker — sales, legal, marketing, and more. Install from Cowork.
+
+Claude has dozens of Cowork plugins sitting there right now, and most people never open one. Each one turns Claude into a specific kind of worker for your business — researching, drafting, tracking, flagging — instead of just answering when you ask. Here are five worth installing this week, what each one actually does, and who it's built for.
+
+# 1. Marketing
+
+~ Writes in your brand voice and tells you what's actually working.
+
+- Drafts on-brand copy for email, social, and ads once it knows your voice
+- Builds out campaign plans and content calendars
+- Pulls performance data across channels so you're not guessing
+
+**Best for:** solo marketers and small teams covering every channel at once.
+
+# 2. Productivity
+
+~ Catches what's slipping through the cracks before it becomes a fire.
+
+- Scans your email, calendar, and chat threads for anything that needs action
+- Tracks it all in one live dashboard instead of five different apps
+- Flags what's overdue or about to be
+
+**Best for:** anyone managing too many threads across too many tools.
+
+# 3. Sales
+
+~ Runs the parts of your pipeline you don't have time to babysit.
+
+- Researches a prospect before you ever send the first message
+- Drafts the cold email and the follow-up sequence
+- Flags deals in your pipeline that are going quiet
+- Pulls competitor intel so you know what you're up against
+
+**Best for:** founders and reps running their own pipeline solo.
+
+# 4. Legal
+
+~ A first pass on any contract before it costs you something.
+
+- Reads any contract or NDA you drop in
+- Flags risky clauses in red, watch-outs in yellow, safe language in green
+- Drafts redline language you can send back
+
+**Best for:** a fast first read — not a replacement for an actual lawyer on anything that matters.
+
+> **Not legal advice.** Have counsel review anything with real money or risk attached.
+
+# 5. Small Business
+
+~ Fifteen prebuilt skills standing in for a handful of hires.
+
+- Invoicing and month-end close
+- Tax prep support
+- Full marketing campaigns
+- The back-office work that usually gets pushed to Sunday night
+
+**Best for:** the business owner doing five jobs at once. This is the one to install first.
+
+## How to install
+
+Open Cowork, search the plugin by name, and install it. It'll ask you to connect a few tools — email, calendar, whatever it needs to actually do the job. Takes a few minutes.
+
+You don't need to build any of these workflows from scratch. They already exist. You just have to open them.

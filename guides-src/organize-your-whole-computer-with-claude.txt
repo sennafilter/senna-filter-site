@@ -1,0 +1,99 @@
+title: Organize Your Whole Computer with Claude
+cat: claude
+date: 2026-07-14
+desc: The exact prompts and steps I used to sort years of files in a few minutes.
+lead: The exact prompts and steps I used to sort years of files in a few minutes.
+---
+Your desktop is a disaster. Most people's is. Screenshots you'll never open again, files from three jobs ago, four hundred photos all named IMG-whatever. Claude can sort the whole thing in a few minutes — but only if you set it up right. Here are the exact prompts I used, plus the two steps most people skip and then wonder why the system falls apart a month later.
+
+> **New to Cowork?** Cowork is the mode in the Claude desktop app that can actually see and organize the files on your computer — not just talk about them. You give it a folder, it reads what's inside, and it moves things where you tell it to. You need the desktop app for this, not the browser tab.
+
+# 1. Give Claude the folder you want cleaned
+
+~ Claude can't organize what it can't see.
+
+Open Claude, go to Cowork, and attach the folder. Click the little files icon and hand it your desktop, your Documents, even a Google Drive folder. This is the step that actually matters — without it, Claude is guessing.
+
+**Start small.** Don't point it at your entire drive on the first try. Your desktop is the perfect test run: high mess, low risk. Get one folder right, then scale up.
+
+**The mistake:** typing "clean up my computer" with nothing attached. Claude will hand you generic advice instead of doing the work, because it has nothing to look at.
+
+> **Start here.** Attach your desktop folder and ask Claude to show you what's in it before it touches anything.
+
+# 2. Tell it exactly how you want to find things later
+
+~ The output is only as good as the sorting logic you give it.
+
+"Organize these files" is too vague. Tell Claude the buckets you actually think in — by project, by client, by topic, by year, by file type. Whatever matches how you'll go looking for this stuff in six months.
+
+The more you tell it about how you search, the better the folders come out. You know how your brain files things. Claude doesn't until you say so.
+
+**The mistake:** letting Claude pick the structure for you. It'll build something tidy that doesn't match how you think, and you'll never use it.
+
+> **Try this.** Name your top three buckets out loud before you prompt. Those become your folder names.
+
+# 3. Answer its questions before it moves anything
+
+~ This is the two minutes that decides whether the system lasts.
+
+Claude will usually come back and ask before it moves things — what to do with duplicates, where the random one-off files should go, whether to rename as it sorts. Don't skip past this. Actually answer.
+
+This is the whole difference between a system that works for you and one you end up redoing down the road. Take the two minutes now so you're not re-sorting in a month.
+
+> **Pro tip.** Ask Claude to show you the full plan first — "tell me what you're going to move where before you do it." You approve, then it runs.
+
+# 4. Set a rule so it stays clean
+
+~ The cleanup is the easy part. Staying organized is the part everyone loses.
+
+Before you close out, ask Claude to write you a simple folder structure and a naming rule for new files. A few lines you can actually follow. That way the next screenshot lands where it belongs instead of piling back up on the desktop.
+
+> **Start here.** Ask Claude to save the naming rule as a note you can pin somewhere you'll see it.
+
+## The exact prompts I used
+
+Copy these straight in. Attach your folder first.
+
+### 1. See what you're dealing with
+
+```
+Here's my desktop folder. Before you touch anything, look through everything and tell me what's in here. Group it by type so I can see what I'm actually working with.
+```
+
+### 2. Sort it
+
+```
+Organize these files into folders by [project / client / year]. Put anything you're unsure about into a folder called "To Review" instead of guessing. Move things — don't delete anything.
+```
+
+### 3. Kill the duplicates
+
+```
+Find duplicate files and repeat screenshots. Show me the list before you remove anything.
+```
+
+### 4. Fix the photo mess
+
+```
+Rename these photos by date and what's in them, so I can actually search for them later.
+```
+
+### 5. Stay safe
+
+```
+Move, don't delete. If you're not sure where something goes, ask me before you do it.
+```
+
+### 6. Keep it clean
+
+```
+Write me a simple folder structure and a naming rule I can follow so this stays organized going forward.
+```
+
+## Before you hit run
+
+[ ] You attached the actual folder — not just described it
+[ ] You told Claude your sorting logic instead of leaving it to guess
+[ ] You said "move, don't delete"
+[ ] You backed up anything irreplaceable first
+[ ] You answered its questions before saying go
