@@ -1,0 +1,73 @@
+title: Where to Use AI, and Where to Keep Thinking
+cat: thinking
+date: 2026-09-17
+desc: The line between using AI to get better and letting it make you replaceable.
+lead: The line between using AI to get better and letting it make you replaceable.
+---
+There's a difference between learning to work with AI and letting it do all the work for you. If it writes your work, summarizes every reading, and hands you the answer before you've wrestled with the question, you're producing more but getting sharper at nothing. You don't become valuable because you can produce something fast. You become valuable when you can solve a problem you've never seen before. Here's where to lean on AI hard, where to keep your own hands on the wheel, and how to make AI teach you instead of replacing you.
+
+# 1. Where to use AI: hand it these
+
+~ The work that doesn't build your judgment.
+
+Give AI the parts where being faster is the only win. It's genuinely good at these, and doing them yourself makes you tired, not better:
+
+- **First drafts.** The blank-page tax. Let it draft what you'll then shape and cut.
+- **Cleanup and formatting.** Messy data, reformatting notes, turning an outline into prose.
+- **Summaries.** Long threads and docs, as a starting map, when you'll still read the source.
+- **Boilerplate.** The email you've written a hundred times, repetitive structure, scaffolding.
+- **Research legwork.** Gathering and organizing options so you can judge them faster.
+
+> **The test.** If getting faster at it wouldn't make you better at your actual job, hand it to AI.
+
+> **Start here.** List the three tasks that eat your week and don't sharpen you. Those are the first things to offload this week.
+
+# 2. Where to keep thinking: guard these
+
+~ The work that makes you worth hiring.
+
+Keep your own hands on the work that builds the judgment nobody can outsource. This is what gets you hired, and what gets you promoted:
+
+- **The problem itself.** Deciding what the real question is before anyone answers it.
+- **Judgment calls.** Choosing between two directions when the instructions are incomplete.
+- **The novel problem.** The one you haven't seen before, where the obvious answer doesn't work.
+- **The first attempt.** Wrestle with it yourself before you let AI weigh in. The struggle is where the skill forms.
+- **The final call.** What actually ships, and standing behind it. That's yours.
+
+> **The test.** If it's the thing you'd get hired or promoted for — a decision under incomplete information, a problem with no template — do it yourself first.
+
+> **The mistake to avoid.** Outsourcing the struggle. When AI hands you the answer before you've thought, you skip the exact part that was making you more capable. Faster, but flat.
+
+> **Start here.** On your next real decision, write your own answer before you open AI. Then bring AI in to pressure-test it — not to make it for you.
+
+# 3. Make AI teach you, not just finish for you
+
+~ Same tool, opposite outcome. Ask it to make you smarter.
+
+The move that keeps you employable: make your own attempt first, then let AI show you what you missed. You come out faster and more capable — instead of dependent. Use these prompts to turn any task into a lesson.
+
+## Prompts that teach
+
+Copy, paste, and swap in your own work.
+
+- **"Here's my attempt. Don't rewrite it — tell me the biggest things I got wrong and why."** Turns feedback into a skill you keep, not a fix you forget.
+- **"Teach me how to do this myself, don't just do it. Walk me through your reasoning."** Next time you won't need to ask.
+- **"What would an expert have done differently here, and why?"** Shows you the ceiling you're aiming for.
+- **"Explain this to me like I'll have to defend it in a meeting tomorrow."** Forces real understanding, not a copy-paste answer.
+- **"Quiz me on this until you're sure I actually get it."** Finds the gaps before they find you.
+- **"What tradeoffs did you weigh to land here? What did you rule out?"** Teaches you how the decision was made, not just the result.
+
+## The template that does the most
+
+```
+Here's my attempt at [task]. Don't rewrite it yet — first tell me the three biggest things I got wrong and why. Then show me a stronger version so I can see the gap between mine and yours.
+```
+
+## Before you paste it in
+
+[ ] Did I take my own shot at this first?
+[ ] Is this a task where speed is the only win — or one that's supposed to make me better?
+[ ] Am I asking it to teach me, or just to finish it?
+[ ] Could I explain and defend this answer without the AI in the room?
+
+Use AI to get better, not just to get finished. Faster, yes — but also smarter, more capable, more adaptable. That's how you use AI to become extra employable.

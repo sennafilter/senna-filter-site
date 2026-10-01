@@ -1,0 +1,270 @@
+title: Build Your Website With AI
+cat: vibe
+date: 2026-10-01
+desc: From brain dump to a live link — no code, no developer, no terminal.
+lead: From brain dump to a live link — no code, no developer, no terminal.
+---
+Years ago I paid over ten thousand dollars for a three-page website. Now I build sites by describing what I want and showing examples until it looks right. You don't need to learn to code. You need to get clear on what you want, and be patient with the back-and-forth. This guide walks the whole path: plan, design, build, and put it online with your own domain.
+
+## New to the words?
+
+- **Code folder.** The files that make up your site. One file is usually called index.html, and that's your home page. That folder is your website.
+- **GitHub.** Google Drive for code. It stores your folder online and keeps every version.
+- **Vercel.** The service that takes the folder on GitHub and turns it into a real web address anyone can visit. That step is called deploying.
+- **Domain.** Your address, like yourname.com. You rent it yearly from a registrar.
+- **DNS.** The settings that point your domain at your site. You'll copy two short lines from Vercel into your domain account. That's it.
+
+# 1. What it actually costs
+
+~ Less than a nice dinner — with one catch if it's a business site.
+
+| Piece | What you need | Cost |
+| AI chat | ChatGPT Plus or Claude Pro. You want a paid plan for the stronger models and the side-by-side preview. | $20 / month |
+| GitHub | Free account. Stores your code. | $0 |
+| Hosting | Vercel's free Hobby plan for a personal site or portfolio. | $0 |
+| Domain | Your .com, bought from a registrar or inside Vercel. | About $10–20 / year |
+| Personal site | Portfolio, side project, fun app. | Under $30 to start |
+
+> **The business catch.** Vercel's free Hobby plan is for personal, non-commercial use only. If the site promotes services you charge for, books clients, or sells anything, Vercel counts that as commercial, and you're expected to be on their Pro plan (about $20 a month). Two good options: pay for Vercel Pro, or host the exact same folder on a free plan that allows business use, like Netlify or Cloudflare Pages. The steps are almost identical.
+
+Even on Pro, you're at roughly $40 a month total. Compare that with a five-figure agency quote and monthly maintenance fees.
+
+> **Start here.** Decide now: is this personal or business? That one answer picks your hosting plan, and you won't get surprised later.
+
+# 2. Start with a brain dump
+
+~ Everything in your head goes into one message. Messy is fine.
+
+**What it is.** Before anything gets designed, you tell the AI what the site is for, who it's for, and what you want people to do when they land on it. Talk the way you'd explain it to a friend.
+
+**Why most people skip it.** They open the chat and type "make me a website." They get something generic, then spend hours fixing it. The brain dump is where the site actually gets good.
+
+**How to do it.** Use voice mode or dictation if typing slows you down. Cover the questions below. Don't edit yourself.
+
+Copy-paste brain dump:
+
+```
+I want to build a website for [your business / project].
+
+What it is: [one or two sentences]
+Who it's for: [your ideal visitor, as specific as you can]
+When they land, I want them to: [book a call / buy / join my list / see my work]
+What makes me different: [the thing you'd want them to remember]
+Sites I love and why: [links + what you like about each]
+Things I already have: [logo, photos, testimonials, videos, copy]
+Things I definitely don't want: [stock-photo vibe, too corporate, etc.]
+
+Don't build anything yet. First, tell me what you understood.
+```
+
+> **Start here.** Set a 15-minute timer, open a new chat, and paste the template. Fill it in out loud.
+
+# 3. Turn it into a site map
+
+~ A page-by-page plan of what goes where. This is the part that makes everything else easy.
+
+**What it is.** A simple outline: every page, and every section on each page, in order. Home, About, Services, Contact, and whatever else your site needs.
+
+**Why it matters.** When the AI builds from a clear map, the first mockup lands close. When it builds from a vague idea, you get a pretty page with nothing to say.
+
+**How to do it.** Let the AI interview you. It will ask questions you didn't think of, like what your main button says or what to show if someone has never heard of you.
+
+The interview prompt:
+
+```
+Interview me and ask every question you need so we know exactly what goes on each page. Ask one at a time. When you have enough, give me a site map: every page, every section in order, and the headline and button text for each section.
+```
+
+**Real example.** A three-page service business usually lands on: Home (headline, who it's for, three offers, testimonials, one clear button), About (your story, photo, credentials), and Contact / Book (form or scheduling link, FAQ). Most small sites need fewer pages than you think.
+
+> **Pro tip.** Keep the whole build in one chat, or in a Project if you're using one. The AI remembers your map and your look, so you never re-explain.
+
+> **Start here.** Paste the interview prompt right after your brain dump. Take your time on the answers.
+
+# 4. Give it your look
+
+~ One folder with everything visual, plus a few sites you love.
+
+**What it is.** Your colors, fonts, logo, photos, and videos, all in one place, so you can hand them over at once.
+
+**Why it's missed.** People describe their style in words ("clean but warm") and hope. Showing beats telling every time.
+
+Build your brand folder:
+
+- Your logo (PNG with a transparent background is best)
+- Color hex codes, like #E8481F. If you don't know yours, ask the AI to pull them from your logo or a photo.
+- Font names, if you have them. If not, ask for two options that match your vibe.
+- Your best photos, renamed clearly: headshot.jpg, studio-1.jpg
+- Short videos, compressed to keep them small (under 25 MB each)
+- Screenshots of 2–3 websites you love
+
+**How to use the screenshots.** Don't just say "make it like this." Say what you like about it: the big bold headline, the soft colors, how the photos are laid out. The AI picks up on the specific thing you name.
+
+> **Start here.** Make a folder on your desktop called website and drop everything in. Then upload the screenshots and logo to your chat.
+
+# 5. Build the mockup, then go back and forth
+
+~ The AI shows you the page in a preview on the side. You react. It changes.
+
+**What it is.** A working version of your page you can actually see and click, right next to the chat. This is where you spend most of your time.
+
+**How to do it.** Start with just the home page. Get it right, then ask for the other pages "in the same style." Give feedback the way you'd give it to a designer: specific and one area at a time.
+
+Kick off the build:
+
+```
+Using the site map and my brand folder, build the home page as a single HTML file I can preview here. Use my colors and fonts. Make it look great on a phone too. Keep it simple: plain HTML, CSS, and JavaScript, no frameworks.
+```
+
+Feedback that works:
+
+- "Make the headline bigger and move the button up so I see it without scrolling." Clear, visual, one thing. Fast fix.
+- "The testimonials feel cramped. Give them more space and use my peach color behind them." Names the section and the fix.
+- "Show me this on a phone screen." Catches the layout problems most visitors will actually see.
+
+**Add a little interaction.** You can ask for small moving pieces in plain English. On my site, one word in the headline switches every few seconds. I just asked for it.
+
+> **Try this.** In the headline "I help [word] grow online," rotate the word between [coaches], [creators], and [small shops] every 3 seconds with a soft fade.
+
+Other easy asks: buttons that change color on hover, sections that fade in as you scroll, a photo carousel, a sticky menu, a FAQ that opens when you tap a question.
+
+> **Pro tip.** When something finally looks right, say "save this as version 3." If a later change breaks it, you can say "go back to version 3" instead of starting over.
+
+> **Start here.** Build only the home page today. Give it ten rounds of feedback before you touch another page.
+
+# 6. Get your code folder
+
+~ When it's done, the AI hands you the files. That folder is your website.
+
+**What you're getting.** A handful of files. A simple site usually looks like this:
+
+```
+my-website/
+  index.html   ← your home page (must be named exactly this)
+  about.html
+  contact.html
+  style.css    ← the look
+  script.js    ← the moving parts
+  images/      ← your photos and logo
+```
+
+Ask for it like this:
+
+```
+Package the full site as a downloadable zip: index.html for the home page, one HTML file per page, plus any CSS, JavaScript, and an images folder. Make sure every link between pages and every image path works. Then explain in plain English what each file does.
+```
+
+**The mistake.** Downloading files one at a time and losing track. Ask for a zip, unzip it, and open index.html by double-clicking it. It opens in your browser. If it looks right there, you're ready.
+
+> **Start here.** Double-click index.html and click every link and button. Anything broken, tell the AI before you upload.
+
+# 7. Put it on GitHub
+
+~ Google Drive for your code. All in the browser, no terminal.
+
+1. Go to github.com and create a free account.
+2. Click New (or the + in the top corner, then New repository). A repository, or "repo," is just a project folder. Name it something simple like my-website. Public or Private both work.
+3. Click Create repository.
+4. On the next screen, click uploading an existing file.
+5. Open your unzipped folder, select everything inside it, and drag it onto the page. index.html needs to sit at the top level, not tucked inside another folder. This is the most common snag.
+6. Scroll down and click Commit changes. That's GitHub for "save."
+
+> **Pro tip.** GitHub's browser upload caps single files at 25 MB. If a video won't upload, compress it, or put it on YouTube or Vimeo and ask the AI to embed it instead.
+
+> **Start here.** Create the account and the repo now. It takes five minutes and it's the scariest-sounding part.
+
+# 8. Go live with Vercel
+
+~ A few buttons and you have a real link you can text to anyone.
+
+1. Go to vercel.com and sign up with GitHub. That connects the two automatically. Choose Hobby for a personal site. For a business site, see the catch in section 1.
+2. Click Add New, then Project.
+3. Find your my-website repo and click Import. If you don't see it, click the option to adjust GitHub permissions and give Vercel access to that repo.
+4. Leave the settings as they are. For a plain HTML site, the framework can stay on Other.
+5. Click Deploy. In under a minute you'll get a link ending in .vercel.app. Your site is live.
+
+**How updates work.** Every time you change a file on GitHub, Vercel republishes your site on its own. So the loop forever is: ask the AI for the change, upload the new file to GitHub, commit, done.
+
+> **Start here.** Deploy, then open the link on your phone. Send it to one person you trust for honest feedback.
+
+# 9. Connect your own domain
+
+~ Swap the .vercel.app link for yourname.com.
+
+1. Buy your domain. You can buy it right inside Vercel (easiest, it connects itself), or from a registrar like Namecheap, Porkbun, or Cloudflare.
+2. In Vercel, open your project, then Settings, then Domains. Type your domain and click Add.
+3. If you bought it somewhere else, Vercel shows you a couple of DNS records. Copy them into the DNS settings at your registrar exactly as shown.
+4. Wait. It can take a few minutes or a few hours. Vercel shows a green check when it's connected, and it sets up the secure padlock (https) for you.
+
+> **Pro tip.** Screenshot the DNS screen at your registrar and paste it into the chat with "what do I put where?" The AI will tell you which box gets which value.
+
+> **Start here.** Search your name or business name and grab the .com if it's open. If it's taken, try adding a word: hello, studio, co.
+
+# 10. If the launch part feels scary
+
+~ Two ways to get help: have AI explain every step, or let it do the clicks.
+
+**Option one: have Claude list the steps.** This is the one I recommend. You still click every button, but you understand what's happening under the hood. The next time you update your site, you won't need help.
+
+> **Try this.** "I have a website folder on my computer. I've never used GitHub or Vercel. Walk me through putting it online one step at a time. After each step, wait for me to say 'done' and tell you what I see on my screen before you give me the next one."
+
+**Option two: let Claude do the clicks.** With Claude in Chrome, Claude can work in your own browser: open GitHub, create the repo, and click through Vercel while you watch. You stay signed in to your own accounts, and you can stop it any time.
+
+> **Pro tip.** Even if Claude does the clicks, ask it to narrate each step. You'll learn the flow by watching it once.
+
+> **Start here.** Paste the step-by-step prompt above into Claude, with your code folder ready on your desktop.
+
+## Before you share the link
+
+Five minutes now saves you an awkward text later.
+
+[ ] Every button and link goes somewhere real. No "#" placeholders.
+[ ] It looks right on your phone, not just your laptop.
+[ ] Your contact form or booking link actually works. Send yourself a test.
+[ ] No leftover filler text like "Lorem ipsum" or "Your headline here."
+[ ] Your name, email, and social handles are spelled right.
+[ ] Photos load fast. If a page feels slow, ask the AI to compress your images.
+[ ] The browser tab shows your site name, not "Untitled." Ask for a title and a little icon (a favicon).
+[ ] Business site? You're on a hosting plan that allows commercial use.
+
+## Prompts to try
+
+Copy, paste, swap the brackets.
+
+### Write the words
+
+```
+Write the copy for my home page using my site map. Sound like me: [3 words that describe how you talk]. Keep every section short enough to read on a phone.
+```
+
+### Fix the vibe
+
+```
+This feels too [corporate / busy / plain]. Here's a site I love: [screenshot]. Keep my content, but match that feeling.
+```
+
+### Get found on Google
+
+```
+Add a page title, meta description, and image alt text for every page, written for someone searching for [what you offer] in [your city].
+```
+
+### Add a page later
+
+```
+Add a [FAQ / Pricing / Portfolio] page in the exact same style as the rest of the site, and add it to the menu on every page. Give me only the files that changed.
+```
+
+### Something broke
+
+```
+Here's a screenshot of what's wrong: [screenshot]. Here's the file: [paste or upload]. Explain what's causing it in plain English, then give me the fixed file.
+```
+
+### Hand-off notes
+
+```
+Write me a one-page "how to update my site" cheat sheet: how to change text, swap a photo, and add a page, using GitHub and Vercel.
+```
+
+The more time you put in, the better it gets. But the whole time, you're just describing and showing what you want.

@@ -1,0 +1,62 @@
+title: The AI Stack I Actually Use
+cat: resources
+date: 2026-09-14
+desc: 20 tools, sorted into the 5 folders I build everything from.
+lead: 20 tools, sorted into the 5 folders I build everything from.
+---
+Most people collect AI tools like browser tabs — twenty open, none doing much. I don't think in tools, I think in jobs: what am I actually trying to do right now? Build something, think through something, create something, ship it, or grow it. Sort your tools that way and the overwhelm goes away. Here's every tool in my stack, what each one is for, and when to actually reach for it.
+
+> **Start here.** You don't need all 20. Pick the one folder that matches what you're doing this month, choose a single tool inside it, and get good at that. A stack grows one job at a time.
+
+# 1. Build
+
+~ Turn an idea into a real product — no coding experience required.
+
+- **[Claude Code](https://claude.com/claude-code).** An AI coding agent that builds, refactors, and reviews code for you. Reach for it when you want to actually ship software — an app, a script, a fix — and you'd rather describe the outcome than write the code.
+- **[Cursor](https://cursor.com).** An AI code editor you can chat with about your whole project. Reach for it when you're editing real code and want AI that sees every file, not just the snippet in front of you.
+- **[Replit](https://replit.com).** Builds and hosts a working app end to end, right in the browser. Reach for it when you want to go from idea to a live link without setting anything up on your computer.
+- **[Supabase](https://supabase.com).** Your database, logins, and file storage, set up in minutes. Reach for it when your app needs to remember users or data — the moment "it works on my screen" needs to become "it works for everyone."
+
+> **Start here.** Describe the smallest useful version of your idea in plain English and let Claude Code build the first draft. You can grow it from there.
+
+# 2. Think
+
+~ Research, reason, and get to a clear answer.
+
+- **[Claude](https://claude.ai).** Your deep-thinking partner for writing and untangling complexity. Reach for it when the work is hard — strategy, long documents, or a decision you'd normally sit on for a week.
+- **[ChatGPT](https://chatgpt.com).** The versatile everyday assistant for thinking and creating. Reach for it when you want a quick draft, a brainstorm, or fast back-and-forth on something low-stakes.
+- **[Manus](https://manus.im).** An agent that runs multi-step research and tasks for you. Reach for it when a question needs ten steps, not one answer — it goes and does the digging while you do something else.
+- **[NotebookLM](https://notebooklm.google.com).** Turns your own docs and sources into answers you can trust. Reach for it when you want answers grounded only in the material you uploaded — no guessing, no made-up sources.
+
+> **Start here.** Take the decision you've been avoiding, give Claude the full picture, and ask it to reason through the trade-offs before it recommends anything.
+
+# 3. Create
+
+~ Make the visuals, video, and voice.
+
+- **[Nano Banana](https://gemini.google.com).** Google's image model for generating and editing images from a simple prompt. Reach for it when you need a visual fast and want to refine it just by describing the changes you want.
+- **[Higgsfield](https://higgsfield.ai).** Turns ideas into cinematic, scroll-stopping AI video. Reach for it when you want motion that looks directed and intentional, not generic stock.
+- **[HeyGen](https://heygen.com).** Creates avatar and presenter videos in any language. Reach for it when you want a talking-head video without filming — or the same video in five languages.
+- **[ElevenLabs](https://elevenlabs.io).** Generates natural voiceovers and audio that actually sound human. Reach for it when you need narration, a voiceover, or a consistent voice across your content.
+
+# 4. Ship
+
+~ Put it out and see what breaks.
+
+- **[Vercel](https://vercel.com).** Pushes your website or app live in one click. Reach for it when your build is ready for a real URL you can send to someone.
+- **[GitHub](https://github.com).** Stores your code and lets you collaborate without chaos. Reach for it when your project is worth not losing — which is sooner than you think.
+- **[Sentry](https://sentry.io).** Flags errors and slowdowns before your users do. Reach for it when real people are using your thing and you want to hear about problems first.
+- **[PostHog](https://posthog.com).** Shows you how people actually use what you built. Reach for it when you want to know what's working instead of guessing.
+
+# 5. Grow
+
+~ Find an audience and keep them.
+
+- **[beehiiv](https://beehiiv.com).** Publishes and grows your newsletter in one place. Reach for it when you're ready to own your audience instead of renting it from an algorithm.
+- **[Manychat](https://manychat.com).** Automates your DMs and comment-to-DM funnels. Reach for it when a post takes off and you want everyone who comments to get a reply automatically. (This is the "comment a word and I'll send it" magic.)
+- **[Apollo](https://apollo.io).** Finds leads and runs your outbound outreach. Reach for it when you need to reach specific people, not just post and hope.
+- **[Semrush](https://semrush.com).** Shows what people search for and what competitors rank for. Reach for it when you want to make things people are already looking for.
+
+> **Start here.** Pick the one folder that matches your current goal. Set up a single tool in it this week. Come back for the next one when you actually need it.
+
+The best AI stack isn't the one with the most tools. It's the one where every tool has a clear job. Pick your folder, pick one tool, and go make something.
