@@ -1,8 +1,14 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "buildCommand": "node generate-sitemap.js",
+  "buildCommand": "node build-guides.js && node generate-sitemap.js",
   "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/guides-src/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    }
+  ],
   "redirects": [
     {
       "source": "/:path*",

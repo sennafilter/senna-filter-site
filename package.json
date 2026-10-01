@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "node generate-sitemap.js"
+    "build": "node build-guides.js && node generate-sitemap.js"
   }
 }
