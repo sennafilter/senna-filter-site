@@ -1,0 +1,76 @@
+title: Google Calendar Setup Kit
+cat: setup
+date: 2026-07-03
+desc: Connect Claude to your calendar in under 5 minutes. Then just talk to it and watch the events appear.
+lead: Connect Claude to your calendar in under 5 minutes.
+---
+Once Claude can see your calendar, it can read screenshots, scan your email for events, and add things just from you talking to it. Setup takes five minutes. You only do it once.
+
+## 1. Connect your calendar
+
+1. **Download the Claude desktop app.** Mac or Windows — get it at claude.ai. You need the desktop app, not the browser tab.
+2. **Open Settings, then Connectors.** In the desktop app, go to Settings and find Connectors. This is where Claude gets permission to read from your apps.
+3. **Find Google Calendar.** Scroll through the connector list and select Google Calendar. If you use Outlook, it is there too — connect whichever one you actually live in.
+4. **Click Connect and sign in.** Sign in with your Google account and approve the permissions it asks for. Claude only reads your calendar — it cannot create or delete events unless you explicitly ask it to.
+5. **Set permissions to Always On.** Once connected, make sure the toggle is set to Always On. This means Claude references your calendar automatically whenever it is relevant, without you having to remind it.
+6. **Download Claude on your phone.** Get the Claude app from the App Store or Google Play. Your connectors sync across devices — the same calendar access works on mobile the moment you log in.
+
+> **Outlook user?** The steps are identical. Just select Microsoft Outlook instead of Google Calendar in the connectors list. Sign in with your Microsoft account and set it to Always On.
+
+## 2. Three ways to actually use this
+
+This is what it looks like in real life.
+
+# 1. Screenshots, pictures, and PDFs
+
+If you are in a group chat with friends nailing down a dinner plan, screenshot that conversation and send it straight to the Claude app on your phone. Claude reads the whole thing, pulls the date, time, and place, and creates the event — it will even invite whoever was in the conversation if you want.
+
+Same thing with flyers and PDFs. I get so many of them — things from work, stuff for my son, event invites forwarded to my email. Instead of reading through them and typing in the details myself, I take a picture or forward the PDF and tell Claude to add it to my calendar. Every detail pulled, event created, done.
+
+# 2. Just talking to it
+
+Open the Claude app on your phone, hit the microphone, and speak naturally. Tell Claude you want to add a dentist appointment Thursday at 10am and to remind you the morning before. Tell it to schedule a call with your team next Tuesday and invite three people. Tell it to block two hours Friday afternoon for focused work.
+
+It handles all of it exactly the way you described it — no typing, no opening a separate app. This is the one I use most with a baby in one arm.
+
+# 3. Scanning your email for events
+
+Connect Claude to your Gmail or Outlook too, and tell it to go through your inbox and pull anything that should be added to your calendar. Event invites, confirmation emails, things people forwarded you — Claude finds all of it, surfaces what is worth adding, and creates the events. You stop things from falling through the cracks without ever having to manually search your inbox.
+
+> **Bonus: pulling events from a website.** This requires the Claude Chrome extension. Give Claude a URL and tell it to grab all the important dates from that page. I gave Claude my son's school website URL, told it to pull all the important dates for the year, and it added every single one to my calendar and invited Jimmy too. School events, days off, performances — all of it added at once. Any website with a schedule or a list of dates works the same way.
+
+> **Pro tip.** Use voice for all of this, especially on your phone. Dictating is faster than typing and Claude handles natural, messy speech just fine. You do not have to phrase things perfectly.
+
+## 3. Prompts to try
+
+Real prompts — type or dictate them into Claude once your calendar is connected.
+
+### Daily use
+
+- "What is on my calendar today?"
+- "Walk me through tomorrow — what do I need to know before each meeting?"
+- "What is my week looking like? Flag anything back-to-back or heavy."
+- "Do I have any conflicts this week?"
+
+### Adding events
+
+- "Add a dentist appointment Thursday at 10am and remind me the morning before."
+- "Block two hours Friday afternoon for deep work — no meetings around it."
+- "Schedule a one-hour call with [name] next Tuesday and send them an invite."
+- "I just screenshotted a group chat about dinner Saturday — add it to my calendar."
+- "Go through my inbox and pull anything that should be on my calendar."
+
+### Planning
+
+- "Find me a two-hour block this week for focused work with no meetings around it."
+- "Am I overbooked any day this week?"
+- "What does my Thursday look like? I am trying to decide if I can add something."
+- "I need to schedule a call with someone in EST — what times work for me this week?"
+
+### Combining context
+
+- "Pull up my calendar for next week and draft me a plan for when I will work on [project]."
+- "What meetings do I have tomorrow and what should I prep for each one?"
+- "I have back-to-back calls from 10 to 2 — help me figure out when I am eating lunch."
+
+Save this to get your calendar set up. It takes 5 minutes and will save you hours each week.

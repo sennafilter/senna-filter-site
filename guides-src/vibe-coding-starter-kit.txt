@@ -1,0 +1,95 @@
+title: Vibe Coding Starter Kit
+cat: vibe
+date: 2026-07-03
+desc: Your idea, plain English, a working app — no code required. The tools and exact prompts to get there.
+lead: Your idea. Plain English. A working app. No code required.
+---
+Vibe coding is not a tool. It is a shift in how software gets built. You describe what you want in plain English. The AI writes the code. You are not programming — you are directing. This kit gives you the tools, the framework, and the exact prompts to go from idea to working app.
+
+> **Coined by Andrej Karpathy.** One of the original researchers behind ChatGPT coined the term. His point: the technical barrier between having an idea and building it is basically gone. 63% of people vibe coding right now were never programmers.
+
+## 1. The tools
+
+These are the main vibe coding tools right now. You only need one to start.
+
+- **Lovable (recommended).** Describe your app in plain English and it builds a working prototype — design, code, and all. You refine it by chatting. The fastest path from idea to something real. This is what I used with my mom. *Best for: first-time builders, non-technical founders, anyone with a product idea.*
+- **Claude + Artifacts (free).** Open Claude, describe what you want to build, and ask it to write the code in an Artifact. Best for simple tools, calculators, dashboards, or anything browser-based. No account setup beyond Claude. *Best for: quick tools, one-page apps, experiments.*
+- **Cursor (power user).** A code editor with AI built in. You write in plain English, it writes the code alongside you. More control than Lovable, but you are still looking at code files. Best once you want more precision. *Best for: people who want more control or are building something complex.*
+- **Replit (collaborative).** Browser-based coding environment with AI assistance. Good for apps that need a backend or database. Also great for sharing and deploying quickly. *Best for: apps that need to store data or run server-side logic.*
+- **v0 by Vercel (UI focused).** Describe a UI component or interface and it generates clean, production-ready front-end code. Best for people who know what they want visually and want to drop it into an existing project. *Best for: building specific UI components, working with developers.*
+
+> **Where to start.** If you have never done this before, start with Lovable. The free tier gets you far enough to see if your idea works. You can always move to a different tool later.
+
+## 2. The first prompt framework
+
+The quality of your first prompt sets the foundation for everything. Vague prompt, vague app. Use this framework every time.
+
+# 1. The idea
+
+One or two sentences. What does this app do? Explain it like you are texting a friend. No technical language.
+
+# 2. Who it is for
+
+Be specific. Not just "people" — "moms planning meals for picky eaters" or "freelancers tracking client invoices." The more specific, the better design decisions the AI makes.
+
+# 3. The one main action
+
+What is the single most important thing a user does in this app? Book an appointment. Track a habit. Submit a form. Pick one. You can add more later.
+
+# 4. The vibe
+
+Three words that describe how it should feel. Clean and minimal. Bold and editorial. Warm and approachable. Add color references — hex codes or descriptions like "sage green and warm white."
+
+# 5. What not to include
+
+The one most people skip. Tell it what to leave out. No dark mode. No onboarding flow. Keep it dead simple. Constraints make the first build cleaner.
+
+# 6. Login and data needs
+
+Does this app need users to log in? Does it need to save information between sessions? Answer these explicitly — if you skip them, the AI guesses. It usually guesses wrong.
+
+Fill-in-the-blank template:
+
+```
+Build me an app called [name]. It is for [who]. The main thing users do is [action]. Design it in a [3 words] style. Colors: [your colors]. Must-have features: [feature 1] / [feature 2] / [feature 3]. Login needed: [yes/no]. Needs to save data: [yes/no]. Do NOT include: [your exclusions].
+```
+
+## 3. What to know going in
+
+Vibe coding works. It is also not magic. Know these going in.
+
+- **The code can have bugs.** AI-generated code is not always perfect. Test your app as you build. If something breaks, describe what happened and ask it to fix it — that conversation is part of the process.
+- **Complex projects still need developers.** Vibe coding is excellent for MVPs, prototypes, and simple tools. If you are building something with complex logic, payment systems, or scale requirements, you will eventually need a real developer. This gets you further than you think before that point.
+- **Specificity is the skill.** The more clearly you describe what you want — the user, the action, the feel, what to exclude — the better the output. Vague in, vague out. The framework in section 2 exists for this reason.
+- **You still own the decisions.** The AI builds what you describe. If the first version is not right, you did not fail — you learned what you actually want. Iterate. That is the whole workflow.
+
+## 4. Prompts to keep going
+
+Once your first version exists, these are the prompts that move it forward.
+
+### Refining the design
+
+- "Make it feel warmer — try a softer color palette."
+- "The layout feels cluttered. Simplify the main screen."
+- "I want it to look more like Notion meets Airbnb."
+- "Make the buttons bigger and the font easier to read."
+
+### Adding features
+
+- "Add a way for users to save their progress and come back to it."
+- "I want a simple search bar at the top that filters the list."
+- "Add a confirmation message after someone submits the form."
+- "Can you add a dark mode toggle?"
+
+### Fixing problems
+
+- "When I click [button], nothing happens. Fix it."
+- "The app breaks when I try to [action]. Here is what I see: [describe]."
+- "This feature is not working the way I described. Here is what I want: [re-explain]."
+- "Start over on just the [section] — keep everything else the same."
+
+### Shipping it
+
+- "How do I share this with someone else to test it?"
+- "What do I need to do to make this a real app people can use?"
+- "Can you write me a one-paragraph description of what this app does?"

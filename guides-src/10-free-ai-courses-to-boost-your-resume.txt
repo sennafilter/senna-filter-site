@@ -1,0 +1,85 @@
+title: 10 Free AI Courses to Boost Your Resume
+cat: resources
+date: 2026-08-07
+desc: Ten free AI courses from Microsoft, Google, IBM, Anthropic, and more, with the direct link to each.
+lead: Ten free AI courses worth adding to your resume, with the direct link to each.
+---
+# 1. Career Essentials in Generative AI
+
+~ Microsoft and LinkedIn
+
+Generative AI intro: key models, hands-on Copilot, and ethics. Free career certificate.
+
+[linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin](https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin)
+
+# 2. Google AI Essentials
+
+~ Google on Coursera
+
+Using AI at work: prompting, productivity, responsible use. Free to audit, aid for the cert.
+
+[coursera.org/specializations/ai-essentials-google](https://www.coursera.org/specializations/ai-essentials-google)
+
+# 3. AI Foundations for Everyone
+
+~ IBM on Coursera
+
+Job-ready AI foundations in plain language. No background required.
+
+[coursera.org/specializations/ai-foundations-for-everyone](https://www.coursera.org/specializations/ai-foundations-for-everyone)
+
+# 4. AI Applications and Agents on Azure
+
+~ Microsoft Learn
+
+Hands-on path to build AI apps and agents. A step up once you know the basics.
+
+[learn.microsoft.com/training/paths/get-started-ai-apps-agents](https://learn.microsoft.com/training/paths/get-started-ai-apps-agents/)
+
+# 5. DeepLearning.AI (whole library)
+
+~ Andrew Ng
+
+100+ courses from actual field leaders. Start with idea to app in 30 minutes.
+
+[deeplearning.ai/courses](https://www.deeplearning.ai/courses)
+
+# 6. Elements of AI
+
+~ University of Helsinki
+
+The classic no-math intro. 1.8M+ learners, still one of the clearest anywhere.
+
+[elementsofai.com](https://www.elementsofai.com)
+
+# 7. Introduction to Artificial Intelligence
+
+~ LinkedIn Learning
+
+Short, plain-English, 4.6 stars. Easiest one to add straight to your LinkedIn profile.
+
+[linkedin.com/learning/introduction-to-artificial-intelligence-24947908](https://www.linkedin.com/learning/introduction-to-artificial-intelligence-24947908)
+
+# 8. AI for Marketing
+
+~ HubSpot Academy
+
+Built for marketers: content, personalization, and vetting the tools you're sold. Free.
+
+[academy.hubspot.com/courses/AI-for-Marketers](https://academy.hubspot.com/courses/AI-for-Marketers)
+
+# 9. GitHub Foundations Certification
+
+~ GitHub Education
+
+Prep for the Foundations cert. How modern teams build and ship, engineer or not.
+
+[education.github.com/experiences/foundations_certificate](https://education.github.com/experiences/foundations_certificate)
+
+# 10. Anthropic Academy (whole library)
+
+~ Makers of Claude
+
+26+ free courses, each with a real certificate. Start with Claude 101.
+
+[anthropic.skilljar.com](https://anthropic.skilljar.com)

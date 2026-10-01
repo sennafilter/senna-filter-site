@@ -1,0 +1,87 @@
+title: Build an App With No Code and Actually Own It
+cat: vibe
+date: 2026-08-06
+desc: Go from an idea to a live link you control, in three tools.
+lead: Go from an idea to a live link you control — in three tools.
+---
+Most no-code tools hand you a working app and quietly keep you renting. Your whole project lives on their platform. If they raise prices, change their terms, or shut down, it can go with them.
+
+This is the version where you keep the code yourself. Same easy build, but the actual thing is yours — you can move it anywhere, and no single company can hold it hostage. It sounds way more technical than it is. It's three tools, and you can tell the AI to do most of the clicking for you.
+
+> **New to "owning your code"?** When you build on a closed platform, you get an app but not the files behind it. "Owning it" just means you have the actual code on your own accounts — so you're the one who decides where it lives and who can shut it off. That's the whole difference between renting and owning.
+
+# 1. Claude or ChatGPT: write the plan first
+
+~ Before anything gets built, you write a spec. The AI can build it for you.
+
+**What it is.** A PRD — a project requirements document. It's just a clear write-up of what you're building, who it's for, and what it needs to do. It becomes the blueprint every other step follows.
+
+**Why most people skip it.** They jump straight to "build me an app," get something vague, and spend hours correcting it. Ten minutes on a PRD saves you that whole mess.
+
+**How to do it.** Open Claude or ChatGPT, describe your idea in plain English, and ask it to write you a PRD. Give it as much as you can — the goal, the features, who's using it, what it should look like. It'll ask a few follow-up questions to fill the gaps. Answer them, and you've got your blueprint.
+
+**Try this prompt:** "I want to build [describe your idea]. It's for [who]. It needs to [main things it does]. Write me a detailed PRD I can hand to an AI coding tool to build from. Ask me any questions you need before you write it."
+
+> **Start here.** Spend ten minutes describing your idea to Claude and asking for a PRD. Don't build anything yet — just get the blueprint right.
+
+# 2. Claude Code: build it
+
+~ This is where the plan becomes a real, working thing.
+
+**What it is.** Claude Code is where the actual building happens. You hand it the PRD and it writes the whole project — the code, the files, all of it.
+
+**Why it matters.** This is the step that gives you ownership. Because Claude Code builds the real files on your machine, you end up with the actual project — not a locked version trapped inside someone's website.
+
+**How to do it.** Drop your PRD into Claude Code and let it build. Then you go back and forth — tell it what's broken, what you want changed, what to add — until it's actually right. When you're happy, ask for the files. It'll hand them over with a README, which is just a plain-English note explaining what everything is and how to run it.
+
+> **Pro tip.** Change one thing at a time. "Make the button blue and move it up" is easier to check than ten changes at once — and if something breaks, you know exactly what did it.
+
+> **Start here.** Paste your PRD into Claude Code and let it build the first version. Then ask for one small change so you get the feel of going back and forth.
+
+# 3. GitHub: save it
+
+~ Think of GitHub as your Google Drive, but for code.
+
+**What it is.** GitHub is where your project lives and gets saved. It's the online home for your code — the same way Google Drive is the home for your docs. This is the account that makes the project truly yours.
+
+**Why it matters.** Once it's on your GitHub, the project exists somewhere you control. No platform is holding it. You can hand it to a developer later, move it to a different tool, or just have the peace of mind that it's backed up and it's yours.
+
+**How to do it.** The easy way: tell Claude to upload the whole thing to GitHub for you. The do-it-yourself way: make a free account at github.com, create a "repo" (short for repository — just a folder for one project), and push your files into it. Either way, that's you saving the real thing.
+
+> **Start here.** Make a free GitHub account now, before you need it. Then tell Claude to push your project to it.
+
+# 4. Vercel: ship it
+
+~ GitHub stores it. Vercel is what puts it in front of people.
+
+**What it is.** Vercel takes your code and makes it live — turns it into a real link on the internet that anyone can open. GitHub is the storage. Vercel is the storefront.
+
+**Why it matters.** A project sitting in GitHub isn't visible to anyone yet. Vercel is the step that flips it from "saved on my account" to "live and shareable." It connects straight to your GitHub, so the two work together.
+
+**How to do it.** Tell the AI to deploy your project to Vercel, or do it yourself — make a free account, connect your GitHub, pick the project, hit deploy. A couple minutes later you've got a live link. Takes about five minutes either way.
+
+> **Start here.** Once your project is on GitHub, connect Vercel and deploy. Send the live link to one person today.
+
+## The whole flow, in order
+
+1. Describe your idea to Claude or ChatGPT and get a PRD.
+2. Drop the PRD into Claude Code and it builds the project.
+3. Push the files to GitHub, so the project is saved and yours.
+4. Deploy to Vercel, and it's live on the internet.
+
+## Before you ship
+
+[ ] You wrote a PRD first, so the build had a blueprint to follow.
+[ ] You have the actual files and a README, not just a preview.
+[ ] The project is pushed to your own GitHub account.
+[ ] It's deployed to Vercel and you've opened the live link yourself.
+[ ] You sent that link to at least one real person.
+
+## Prompts to try
+
+- **To start the PRD:** "I want to build [idea] for [who]. Walk me through the questions you need answered, then write me a full PRD."
+- **To build in Claude Code:** "Here's my PRD. Build this project, then give me the files and a README explaining how to run it."
+- **To save it:** "Push this whole project to a new repo on my GitHub account and give me the link."
+- **To ship it:** "Deploy this to Vercel from my GitHub repo and send me the live URL."
+
+GitHub is where you store your code. Vercel is where you ship it. Owning both is the difference between building something and actually keeping it.

@@ -1,0 +1,72 @@
+title: Sol, Terra, Luna: Which ChatGPT Model to Use When
+cat: basics
+date: 2026-08-18
+desc: ChatGPT's three new models, and the job each one is actually built for.
+lead: ChatGPT's three new models, and the job each one is actually built for.
+---
+ChatGPT dropped three models at once — Sol, Terra, and Luna — and most people are going to do what they always do: leave it on the default and never touch the picker. That's the mistake. These three aren't better-and-worse versions of the same thing. They're three different tools for three different jobs, and once you know which is which, you stop overpaying for easy questions and stop under-powering the hard ones.
+
+> **New to switching models?** In ChatGPT, the model name sits in a dropdown at the top of the chat. Tap it and you'll see all three. Whatever you pick stays selected until you change it — so the habit to build is choosing the model before you start typing, based on what the task actually needs.
+
+# 1. Sol: the powerhouse
+
+~ When you need the best answer and don't care how long it takes.
+
+Sol is the one that thinks hard. It's built for deep research, strategy, and coding — the work where being right matters more than being fast. This is the model you reach for when the output is going to sit in front of a client, ship as real code, or shape a decision you'll live with.
+
+**Why people miss it:** it's slower, so the instinct is to avoid it. But slower is the point. You're trading a few seconds for an answer that doesn't fall apart when you look closely.
+
+**How to use it:** save it for the heavy stuff — a research dive, a strategy doc, a chunk of code you need to actually run. Give it the full context up front instead of drip-feeding it.
+
+**Real example:** "Here's my full situation — [paste the details]. Build me a strategy for X, show your reasoning, and flag anything you're unsure about." That's a Sol job, not a Luna job.
+
+> **Start here.** Take the one task this week you'd normally sit on — the hard email, the pricing call, the messy code — and run it through Sol with everything you know pasted in first.
+
+# 2. Terra: the everyday model
+
+~ The default you actually want as your default.
+
+Terra is the best balance of speed and intelligence of the three. It's fast enough that you're not waiting around, smart enough that it handles most of what you throw at it. If Sol is for the projects and Luna is for the throwaways, Terra is for the eighty percent in the middle — the normal working day.
+
+**Why people miss it:** they either camp on the most powerful model for everything (slow, wasteful) or the fastest one (fine until it isn't). Terra is the setting most people should live on and rarely do.
+
+**How to use it:** make it your resting default. Drafting, back-and-forth, summarizing, rewriting, working through an idea — Terra carries all of it without making you wait.
+
+**Real example:** "Rewrite this in a warmer tone," "summarize these notes," "help me think through this." Everyday reps live here.
+
+> **Start here.** Set Terra as your default now. Only switch up to Sol for the hard stuff or down to Luna for quick tests — otherwise stay here.
+
+# 3. Luna: the speed model
+
+~ Fastest and cheapest. For when you just need an answer, not a brilliant one.
+
+Luna is built for speed and cost. It's the quickest and cheapest of the three, which makes it perfect for the low-stakes stuff — quick questions, fast tests, checking whether a prompt is even pointed in the right direction before you spend a heavier model on it.
+
+**Why people miss it:** "cheapest" reads as "worst," so people skip it. But for half of what you do, you don't need brilliance — you need a fast, decent answer, and paying premium speed-and-cost for that is just waste.
+
+**How to use it:** quick lookups, first drafts you're going to gut anyway, testing a prompt's shape before you run it on Sol. Treat it as your scratchpad.
+
+**Real example:** "What's a faster way to word this?" or "give me five rough angles on this" — then take the good one to Terra or Sol to build out.
+
+> **Start here.** Next time you're about to fire off a tiny, low-stakes question, run it on Luna. Notice how little you miss by not using the big model.
+
+# 4. The part that actually got me: efficiency
+
+~ Same-tier intelligence at a fraction of the cost.
+
+Here's what moved me from curious to reaching for it daily. Sol is basically tied with Claude's best model on intelligence — and it gets there at about a third of the cost. If you've ever been deep in a project and hit your usage limit right when you needed one more good answer, you know exactly why that matters.
+
+Cheaper doesn't just mean a smaller bill. It means more runway. More of the good answers before you hit a wall, more room to work without rationing your best model. That's the whole reason I've been reaching for Sol more than anything else this week.
+
+> **Pro tip.** This isn't a pick-one situation. You're going to end up keeping a few of these, the same way you don't wear the same shoes to the gym and to a wedding. Different jobs, different tools.
+
+## The cheat sheet
+
+When you're not sure, use this.
+
+| Model | Use it for | Skip it when |
+| Sol | Deep research, strategy, coding, anything where being right beats being fast | It's a quick, low-stakes question |
+| Terra | Your everyday default — drafting, summarizing, thinking out loud | You need max reasoning, or max speed |
+| Luna | Quick tests, fast lookups, throwaway drafts, checking a prompt's shape | The answer actually has to hold up |
+
+> **The one rule.** Default to Terra. Switch up to Sol for the hard stuff, down to Luna for the quick stuff. That single habit gets you most of the value.

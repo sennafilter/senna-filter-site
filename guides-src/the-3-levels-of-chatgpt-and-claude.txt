@@ -1,0 +1,69 @@
+title: The 3 Levels of ChatGPT and Claude
+cat: basics agents
+date: 2026-08-06
+desc: What each product is actually for, and when to reach for it.
+lead: What each product is actually for — and when to reach for it.
+---
+Both ChatGPT and Claude are really one brain with three ways to use it. Same intelligence underneath — what changes is how much you're driving versus how much you're handing off. Most people never leave level one. This walks you through all three, side by side for both tools, so you know exactly which one to open for the thing in front of you.
+
+> **The one idea to hold onto.** It's the same model at every level. Level one, you steer every step. Level two, you hand off a whole task. Level three, you hand off the whole build. You're not learning three tools — you're deciding how much to let go of the wheel.
+
+# 1. Level one: Chat
+
+~ You ask, it answers, you go back and forth. You're driving.
+
+**ChatGPT, the chat window.** The default app. Ask questions, draft, brainstorm, upload a file, search the web. Memory carries details between chats, and Custom GPTs let you save a setup you reuse.
+
+**Claude, the chat window.** Same back-and-forth. Connect it to tools like Notion and Gmail, and use Projects — separate workspaces that each hold their own context so you're not re-explaining yourself every time.
+
+This is where about ninety percent of people live, and it's genuinely useful. But you are doing all the directing — every question, every follow-up, every correction is you.
+
+That's fine for thinking out loud, quick answers, and learning something. It's the wrong tool the second the job has more than a few steps.
+
+**What most people get wrong:** they treat chat like Google — one question, one answer, done. The value is in the back-and-forth. Push on the answer. Ask it to argue the other side. Make it show its work.
+
+> **Start here.** Pick the thing you explain to it most often — your brand, your role, a client. In Claude, make it a Project and paste that context in once. In ChatGPT, put it in Memory or a Custom GPT. Every chat after that starts already knowing it.
+
+# 2. Level two: The agent layer
+
+~ You hand it a whole task and walk away. You're delegating.
+
+**ChatGPT, Agent Mode.** It works on its own computer. Give it a task and it works inside its own sandboxed computer: browses sites, reads and builds files, fills forms, edits spreadsheets, then hands back the finished thing. Most tasks run 5–30 minutes. Paid plans only.
+
+**Claude, Cowork.** Delegate, then come back to finished work. The same agent power wrapped in a simple screen built for non-technical people — no command line. Connect your tools, hand it research, reports, or file cleanup, and it plans the steps and does them. Type /schedule to have it run on repeat.
+
+This is the jump most people haven't made. Instead of going line by line, you describe the outcome — "research these five competitors and build me a one-pager," "sort these files and rename them," "pull my morning brief together" — and it goes and does the whole sequence. You stop steering and start delegating. That's the real shift, and it's where the time actually comes back.
+
+**What most people get wrong:** they give it a one-line prompt like they're still in chat. Agents work better with the full picture up front: what you want, what "done" looks like, and any rules it should follow. Treat it like briefing a capable assistant, not typing a search.
+
+> **Pro tip.** This is where recurring work disappears. Set up a daily brief or a weekly report once, schedule it, and it runs without you — even a morning digest that pulls from your calendar, email, and notes before you're up.
+
+> **Start here.** Think of one task that takes you 20+ minutes and has clear steps — competitive research, cleaning up a folder, turning notes into a doc. Hand the whole thing to Cowork or Agent Mode with the full context, and let it run.
+
+# 3. Level three: The builder
+
+~ You hand off the whole build. The most powerful level — and less complicated than it sounds.
+
+**ChatGPT, Codex.** The coding agent. Reads an entire codebase, makes changes across files, runs tests, and ships the work for review. It can run several agents in parallel and lives in a desktop app or right inside your editor.
+
+**Claude, Claude Code.** The coding agent. Full access to your files, your system, your whole codebase. It makes changes across everything, can run scheduled jobs in the cloud even with your laptop closed, and spins up multiple agents on different parts of a problem at once.
+
+Here's the part that surprises people: you use it the exact same way you use level two — you just talk to it in plain English. It looks like a developer tool, and honestly it started as one. But it's quietly becoming the thing doing the heavy lifting behind everything else. The only real difference from Cowork is what you save it for. This is the one you reach for when you're building, not just chatting — websites, apps, shipping real code, vibe coding. All of that happens in here.
+
+**What most people get wrong:** they assume it's off-limits because they can't code. You don't write the code — you describe what you want and it builds it. The barrier isn't technical skill anymore. It's just knowing this level exists and being willing to open it.
+
+> **Start here.** Pick one small real thing you'd love to exist — a simple tracker, a landing page, a tiny tool that does one annoying task. Open Claude Code or Codex, describe it in plain English, and let it build the first working version. That's the whole on-ramp.
+
+## So which level do you actually need?
+
+- **Level 1.** You're thinking, learning, or drafting. Quick answers, a sounding board, understanding something new. Use chat.
+- **Level 2.** You want a task done, not a conversation. Multi-step work you'd rather hand off and come back to. Use Cowork or Agent Mode.
+- **Level 3.** You're building something real. An app, a site, a tool, actual code. Use Claude Code or Codex.
+
+## Three prompts to feel the difference
+
+- **Level 1.** "Explain the difference between these two options for my situation, then argue the strongest case for each before you tell me what you'd pick."
+- **Level 2.** "Research the top 5 [competitors/tools/options] in [space]. Compare them on price, features, and reviews, and build me a one-page summary I can share."
+- **Level 3.** "Build me a simple [tracker / landing page / tool] that does [one specific thing]. Keep it clean, and walk me through how to run it."
+
+Same brain the entire time. The only thing that changes at each level is how much you let it off the leash. Most people are using the most powerful tools on earth like a search bar — you don't have to be one of them.

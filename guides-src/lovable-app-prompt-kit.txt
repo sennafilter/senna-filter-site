@@ -1,0 +1,64 @@
+title: Lovable App Prompt Kit
+cat: vibe
+date: 2026-07-03
+desc: Everything you need to build your app idea — before you type a single word into Lovable.
+lead: Everything you need to build your app idea — before you type a single word into Lovable.
+---
+Lovable can build your app from scratch — but a vague prompt gets a vague result. The more context you give it upfront, the better your first version will be. Fill this out before you start, then paste your answers directly into Lovable as your first message.
+
+Think of this as a starting point, not a rigid formula. Add, skip, or adjust anything that doesn't fit your idea.
+
+> **New to Lovable?** Lovable is an AI-powered app builder. You describe what you want in plain English, and it writes the code and builds the interface for you. No coding required. You start by typing a prompt, Lovable generates a working app, and then you keep refining it by chatting with it. The first prompt you send sets the foundation, which is exactly what this guide is for.
+
+## 1. Your app idea
+
+- **What does your app do?** One or two sentences. Pretend you're explaining it to a friend.
+- **Who is it for?** For example: "moms with newborns," "freelance designers," "small restaurant owners."
+- **What's the one main thing a user does in this app?** For example: "track daily habits," "book appointments," "submit invoices."
+
+## 2. Look and feel
+
+- **Brand colors.** Hex codes or descriptions — for example "#FF6B35, #1A1A2E" or "sage green, warm white, gold."
+- **Fonts you like (optional).** For example: "DM Sans for body, Playfair for headings" or "clean and modern, nothing too techy."
+- **3 words that describe the vibe.** For example: "clean, minimal, approachable" or "bold, editorial, feminine."
+- **Websites or apps whose design you love.** URLs or names. Lovable pulls real design inspiration from references. The more specific, the better.
+
+> **Pro tip.** You can say "make it look like Notion meets Airbnb" and Lovable actually understands that. Be as specific or as vibes-based as you want — it handles both. You can always come back and say "make it feel warmer" or "try a darker theme" in a follow-up message.
+
+## 3. Must-have features
+
+- **Top 3–5 features (one per line).** Keep it focused — you can always add more later in the chat. A tight scope means a cleaner first build.
+- **Do users need to log in or create an account?** Yes, no, or not sure. This affects how Lovable structures the whole app from the start.
+- **Does it need to save user data?** For example: "yes, users save their progress between sessions" or "no, it's a one-time tool."
+
+## 4. Extra context
+
+- **What should Lovable not include?** For example: "no social feed," "keep it dead simple," "no dark mode," "no onboarding flow."
+- **Anything else that helps Lovable understand your vision?** Competitor apps you like, the tone you want, the platform (mobile-first vs desktop), anything goes.
+
+## 5. Your Lovable prompt
+
+Fill in sections 1–4 first, then drop your answers into the template below. Copy the whole thing and paste it as your very first message in Lovable.
+
+```
+Build me an app called [app name].
+It's for [who it's for]. The main thing users do is [primary action].
+Design it in a [3 vibe words] style. Colors: [your colors].
+Fonts: [your fonts or "use your best judgment"].
+Design inspiration: [reference sites or apps].
+Must-have features:
+— [Feature 1]
+— [Feature 2]
+— [Feature 3]
+User login needed: [yes/no]. Needs to save data: [yes/no].
+Do NOT include: [your exclusions].
+Extra context: [anything else].
+```
+
+## Before you hit send
+
+[ ] **Did you describe who it's for?** Lovable designs better when it knows the actual user.
+[ ] **Did you give design references?** At least one URL or app name makes a huge difference in the output.
+[ ] **Is your feature list under 5 things?** Scope creep in the first prompt means a messy first build. You can always add more later.
+[ ] **Did you mention login and data needs?** Skipping these causes Lovable to guess — and usually guess wrong.
+[ ] **Did you say what NOT to include?** Telling it what to leave out is just as useful as telling it what to build.
