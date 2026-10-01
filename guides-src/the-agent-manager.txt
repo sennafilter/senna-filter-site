@@ -1,0 +1,128 @@
+title: The Agent Manager
+cat: agents
+date: 2026-09-02
+desc: The new AI job that pays into six figures, needs zero code, and hires people who can prove one thing: they can run a team of agents safely.
+lead: The new AI job that pays into six figures, needs zero code, and hires people who can prove one thing: they can run a team of agents safely.
+---
+Everyone spent the last year chasing the forward-deployed engineer. Great job — but it wants an engineering background you may not have.
+
+Here's the one that doesn't. It barely existed eighteen months ago. Companies call it the agent manager — some call it the chief agent officer. Agents can do real work now, which means someone has to point them at it: decide how they work together, what they're allowed to touch, and how they run safely next to human beings. That someone isn't a coder. It's a manager who understands agents. If you already use Claude, you're closer to this than you think — and this guide is the whole path, from "what is it" to the one thing you'll show in the interview.
+
+> **New to AI agents?** An agent is different from a chatbot. A chatbot answers you and stops. An agent is given a goal, then plans steps, uses tools, and takes action to reach it — searching, writing files, sending things, calling other software — with far less hand-holding. That new independence is exactly why the role exists. Independent workers need a manager.
+
+# 1. What an agent manager actually does
+
+~ Not prompting. Directing. There's a difference, and it's the whole job.
+
+Prompting one agent is a skill. Running several so they finish real work without breaking things is a different skill — and it's the one that pays. An agent manager designs the team: who does what, in what order, where a human signs off, and what happens when an agent gets something wrong.
+
+Day to day, that looks like three things. You assign roles — this agent researches, this one drafts, this one checks. You set the rules of engagement — what each agent can access, how much it can spend or send, when it has to stop and ask a person. And you own the outcome — you measure whether the team's work was actually good, and you tune it when it wasn't. It's closer to running a small team than to writing code. If you've ever managed people or a project, you already have the instinct.
+
+> **The mistake.** Thinking the job is "be really good at prompts." A great prompt is a nice sentence. The job is a working system: roles, limits, hand-offs, and a way to know it worked.
+
+> **Start here.** Write one sentence: "The repetitive work I'd hand to a team of agents is ___." That sentence is the job you're training for.
+
+# 2. Why it pays, and why the window is open now
+
+~ New role, real budgets, not enough people who can do it. That gap is the opportunity.
+
+This isn't a someday role. Salesforce already has people running whole fleets of agents inside the company. Microsoft's 2025 Work Trend Index found 28% of leaders plan to hire roles to manage AI agents in the next 12 to 18 months. Harvard Business Review ran a piece in early 2026 titled, plainly, "Companies Need Agent Managers." When HBR names your job, the job is real.
+
+Pay follows scarcity. Listings for agent-manager and agent-operations roles are landing well into six figures — postings have reached around $190K, and senior "chief agent officer" titles go higher. The reason it pays isn't the title. It's that companies are buying agents faster than they can find people who know how to run them without causing a mess. You're not competing with a million applicants. You're competing with almost none.
+
+> **Pro tip.** The salary isn't for knowing what an agent is. It's for being trusted to let agents act on real systems without a human watching every second. That trust is what you'll prove in section 6.
+
+> **Start here.** Search "agent manager," "agentic operations," and "AI automation lead" on one job board today. Read three listings. Notice how few real applicants they'd have — and copy the exact phrases they use.
+
+# 3. The one skill that matters: directing agents safely
+
+~ Everything else is learnable in a weekend. This is the part they're actually paying for.
+
+Companies aren't nervous about whether an agent can write an email. They're nervous about an agent that can send it, spend money, or delete a file with nobody checking. "Directing agents safely" breaks into three concrete decisions you make for every agent you deploy.
+
+**How they work together.** Don't build one agent that does everything — it gets vague and sloppy. Split the work into narrow roles and hand off between them, like a relay. A researcher gathers, a drafter writes, a reviewer checks. Each one is sharp because each one has a single job.
+
+**What they can touch.** Every agent gets the least access it needs, and nothing more. A research agent can read the web but can't send email. A drafting agent can write a document but can't publish it. You decide the blast radius before the agent ever runs — so the worst case is small on purpose.
+
+**How they run safely alongside people.** You place approval gates at every point where an agent does something hard to undo — spending, sending, deleting, anything customer-facing. The agent does the work up to that line, then stops and waits for a human yes. This is the single habit that separates someone who "plays with AI" from someone a company will pay to run it.
+
+> **The mistake.** Giving one agent broad access "to save time." It's the fastest way to a story that ends with "...and then it emailed the whole client list." Narrow access isn't caution for its own sake. It's the job.
+
+> **Start here.** For any task you'd give an agent, write two lists: Can do on its own and Must ask first. That two-column habit is 80% of the role.
+
+# 4. Your free training path
+
+~ About three hours, three courses, a certificate at the end. All free on Anthropic Academy.
+
+You don't need a bootcamp or a degree. Anthropic Academy publishes short, free courses with certificates, and three of them stack into exactly what this role needs. Take them in order — each one sets up the next.
+
+1. **AI Fluency.** The foundation. How to work with AI deliberately instead of poking at it — giving context, delegating well, judging what comes back. This is the mindset the whole role sits on. Start here even if you already use Claude daily; it names the things you've been doing by feel.
+2. **Intro to Claude Cowork.** Where you meet an agent that actually does multi-step work for you — handling files and tasks, not just chatting. This is your first real feel for delegating a job and watching an agent carry it, which is the thing you'll be managing.
+3. **Intro to Agent Skills.** How you give an agent repeatable, specialized abilities — the building blocks of a team where each agent is genuinely good at its one job. This is the piece that turns "I use AI" into "I can design what an agent does."
+
+> **Pro tip.** Do the certificate, screenshot it, and don't stop there. The certificate gets you in the door. The build in section 5 is what gets you the offer.
+
+> **Start here.** Open Anthropic Academy and start AI Fluency today — it's the shortest of the three. Block 45 minutes. One course down tonight.
+
+*Note: Anthropic Academy updates its catalog often, so course titles and links can shift. If a title looks different, search the Academy for "AI Fluency," "Cowork," and "Agent Skills" and take the closest current version.*
+
+# 5. Build your proof: the three-agent team
+
+~ One small project that shows you can run agents, not just prompt one. This is the whole interview.
+
+A certificate says you took a course. A build says you can do the job. So build the smallest real thing: a three-agent team that turns one input into one finished piece of work — with limits and a human check-in, exactly like a company would want.
+
+Pick a real, boring job you actually have. A weekly competitor update. A first-draft blog post. A summary of your inbox. Then assign three agents:
+
+- **Agent 1, the Researcher.** Job: gather the raw material and hand over notes. Can do: read sources, collect facts, list links. Can't do: write the final piece, send anything.
+- **Agent 2, the Drafter.** Job: turn the researcher's notes into a first draft. Can do: write, structure, suggest a headline. Can't do: publish, post, or send. Draft only.
+- **Agent 3, the Reviewer.** Job: check the draft for errors, tone, and gaps. Can do: flag problems, rate it, suggest fixes. Can't do: rewrite silently or approve on its own.
+
+> **Approval gate.** Nothing leaves this team until you read the reviewer's notes and say go.
+
+That's it. Three narrow roles, hard limits on each, one human gate before anything ships. Run it on one real job, start to finish. You now have something almost no other applicant has: a working system you designed, not a screenshot of a chat.
+
+> **The mistake.** Making it fancy. A five-agent monster that half-works loses to a clean three-agent team that finishes one real job. Small and finished beats big and broken.
+
+> **Start here.** Name your one job in a sentence, then set up Agent 1 (Researcher) only. Get good notes out of it before you build the other two.
+
+# 6. The one-page scorecard
+
+~ The interview artifact. It proves you didn't just run agents — you can tell whether they did good work.
+
+Anyone can say "I built an agent team." The scorecard is how you show you managed it. After your team finishes its one real job, grade the run on a single page. This is the document you screenshot, bring to the interview, and talk through. Managers grade work. That's the signal.
+
+| What you graded | Score 1–5 | Note |
+| Did it finish the job? | | Complete, start to end? |
+| Was the output actually good? | | Would you send it as-is? |
+| Did each agent stay in its lane? | | Any agent overstep its limits? |
+| Did the approval gate hold? | | Did anything ship without your yes? |
+| How much did you have to fix? | | Light touch, or heavy rework? |
+| Would you trust it again? | | What you'd change next run. |
+
+Fill it in honestly — a scorecard that says "the reviewer missed two errors, here's how I'd fix it" is more impressive than straight 5s. It shows you can see an agent's failures and correct them. That's the manager.
+
+> **Try this.** Copy this table into one page. Run your team once, grade it, and write two sentences at the bottom: what worked, and the one thing you'd change. That page is your interview.
+
+# 7. Turn it into the job
+
+~ You have the certificate, the build, and the scorecard. Here's how to make it land.
+
+Don't wait to feel "ready." The whole point of the window is that the people hiring can't find anyone who's done this at all. Three moves:
+
+- **Show the artifact, not the résumé.** Lead with the scorecard and a two-line description of your three-agent team. "I built and graded a three-agent research-to-draft team with an approval gate" beats any bullet point about tools you've used.
+- **Post it where hiring managers look.** Write up your build in plain language — the roles, the limits, the gate, what the scorecard showed. One honest post about a real thing you made outperforms fifty cold applications.
+- **Speak the outcome, not the hype.** In any conversation, say what your team did and where it needed a human. That's the exact instinct the role is hiring for, and most candidates won't have it.
+
+> **Start here.** Take a screenshot of your scorecard and write three sentences under it: the job, the team, the result. That's your first post — and your interview opener.
+
+## Before you call yourself an agent manager
+
+Six gut-checks. Hit all six and you're not "learning about" this role — you can do it.
+
+[ ] I can explain the difference between a chatbot and an agent in one sentence.
+[ ] I finished the three Anthropic Academy courses and have the certificate.
+[ ] I can name, for any task, what an agent can do alone vs. must ask first.
+[ ] I built a three-agent team with hard limits and one approval gate.
+[ ] I ran it on one real job, start to finish.
+[ ] I graded that run on a one-page scorecard I can show and talk through.

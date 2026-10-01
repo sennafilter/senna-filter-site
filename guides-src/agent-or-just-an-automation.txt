@@ -1,0 +1,91 @@
+title: Agent, or Just an Automation?
+cat: agents
+date: 2026-09-03
+desc: The one question that tells you which one you actually need, before you build the wrong thing.
+lead: The one question that tells you which one you actually need — before you build the wrong thing.
+---
+Most people think they need to build an agent. A lot of the time, they really just need an automation. And when you get that wrong, you're not only overcomplicating things — you end up with something slower, pricier, and less predictable than the simple version would've been. This is the whole framework I use to decide, in plain English, with real examples of each.
+
+## Start with the words
+
+**An automation follows a fixed recipe.** You wrote the steps, it runs them the same way every time. Think: every Monday, pull these numbers, drop them in this doc, email me.
+
+**An agent is handed a goal and a set of tools,** and it figures out the steps itself as it goes — because the right next move depends on what it just found. Nobody wrote the recipe in advance.
+
+# 1. The one question
+
+~ Ask this before you build anything.
+
+Does this need to happen the exact same way — same steps, same order — every single time?
+
+If yes, and you can actually sit down and write out step one, step two, step three, you don't need an agent. You need an automation. If you genuinely can't write the steps because the next move depends on what just happened, that's when an agent earns its place.
+
+That's the whole test. Everything below is just what to do with your answer.
+
+# 2. When it's an automation
+
+~ Boring, reliable, does the same thing every time. Which is the point.
+
+**What it is:** a set path you defined. It doesn't think, it doesn't improvise. It runs your recipe and stops. For anything repetitive, that predictability is exactly what you want.
+
+**How to spot it:** you can describe it as a sentence with "then" in it. "Pull my sales numbers, then format them, then send them to me." If your whole task fits in one of those sentences, it's an automation.
+
+**Real example:** I've got one that pulls my weekly business numbers every Monday morning, drops them into one summary, and has it waiting for me before coffee. Same steps, every week, done. I don't think about it and I don't want it making any decisions — I want the same thing every time.
+
+> **The mistake.** Reaching for an agent here "so it can be smart about it." You don't want smart. You want the same output on repeat. Smart just adds ways for it to surprise you.
+
+> **Start here.** Pick the one task you do on a schedule that never changes. Write out its exact steps in order. If you can — that's your first automation. Build that one.
+
+# 3. When it's an agent
+
+~ For work where the next move depends on what just happened.
+
+**What it is:** you hand it a goal and some tools and let it find its own way there. You're not mapping the path step by step, because you can't — the path changes based on what it finds along the way.
+
+**How to spot it:** you can name the goal but not the steps. If you'd have to say "well, it depends on what it finds" more than once while explaining it, that's an agent.
+
+**Real example:** in my actual job, this looks like handing an agent a messy pile of processes across a whole team and saying: figure out what should get automated and what shouldn't. There's no fixed script for that. There can't be — the answer for one team looks nothing like the answer for the next.
+
+> **The mistake.** Building an agent for something you actually could write out, just because it feels more impressive. If the steps don't change, the agent is doing improv for no reason — and charging you for the privilege.
+
+> **Start here.** Take a task you keep avoiding because it's too fuzzy to systematize. If you can't write its steps without saying "it depends," that's your candidate for an agent.
+
+## The cheat sheet
+
+| | Automation | Agent |
+| You supply | The exact steps | A goal + tools |
+| It decides | Nothing — it follows | The next move, as it goes |
+| Best for | Repetitive, identical tasks | Fuzzy, "it depends" tasks |
+| Cost and speed | Cheap, fast, predictable | Slower, pricier, variable |
+| The tell | You can write step 1, 2, 3 | You can't — it changes each run |
+| My example | Monday business numbers | Audit a team's whole workflow |
+
+## The 15-second decision
+
+1. Can you write out the exact steps, in order? Yes → automation. Stop here.
+2. Does it need to react to what it finds and change course? Yes → agent.
+3. Still not sure? Default to the automation. It's cheaper to build, easier to trust, and you can always graduate to an agent later if the task really is too fuzzy.
+
+An automation repeats. An agent decides.
+
+## Try it on your own list
+
+### Sort your own tasks
+
+```
+Here are 5 things I do regularly: [list them]. For each one, tell me whether it's better as a fixed automation or an AI agent, and explain in one line why — based on whether the steps are the same every time or change depending on what comes up.
+```
+
+### Pressure-test an "agent" idea
+
+```
+I want to build an agent that [describe it]. Before I do — can this actually be written as a fixed set of steps? If yes, walk me through it as a simple automation instead and tell me what I'd be overcomplicating.
+```
+
+### Write the steps for me
+
+```
+This task repeats the same way every time: [describe it]. Write it out as a clear, numbered step-by-step recipe I could hand to an automation tool.
+```
+
+> **The whole thing in one line.** If you can write out the steps, you don't need an agent. You need an automation.

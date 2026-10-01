@@ -1,0 +1,124 @@
+title: Build Your First Project
+cat: vibe
+date: 2026-09-03
+desc: A finished project on your resume beats a list of skills every time, and you can build one this week, even if you've never written a line of code.
+lead: A finished project on your resume beats a list of skills every time — and you can build one this week, even if you've never written a line of code.
+---
+Anyone can list skills on a resume. A finished project is proof you can actually use them.
+
+A project gives an employer something real to look at. It shows you take initiative, that you can turn an idea into a working thing, and that you know how to use AI tools to get there. In 2026, with the tools that exist now, there's really no excuse not to have one. This is the whole path — idea, build, understand, deploy, write-up — start to finish, no coding background required.
+
+> **New to building with AI?** You no longer type code to make software. With tools like Claude Code, you describe what you want in plain English and the tool writes and runs the code for you. You're the director — you decide what it should do, try it, and ask for changes. That's why "I can't code" is no longer a reason to skip this.
+
+# 1. Why a project beats a skills list
+
+~ A skills list is a claim. A project is evidence. Employers trust evidence.
+
+"Proficient in Python. Familiar with React." Everyone writes that, and it proves nothing — the reader has no way to know if it's true. A project flips it. Now there's a real thing they can click, poke at, and judge for themselves. It quietly answers the three questions every hiring manager is actually asking: Can you start something without being told exactly what to do? Can you finish it? And can you explain it like you understand it? A link does all three in one click.
+
+> **The mistake.** Waiting until you "know enough" to build. You learn the skill by building the project. The project isn't the reward at the end — it's how you get good in the first place.
+
+> **Start here.** Give yourself one week and one small idea. Not a startup. One finished, clickable thing beats three half-built ones.
+
+# 2. Find your idea
+
+~ Two ways in: copy a proven project to learn the moves, or solve a problem you actually have.
+
+Stuck for an idea is the most common place to stall. Don't overthink it. Start from one of these:
+
+- **Build Your Own X** ([github.com/codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)). Step-by-step guides to rebuild things you already use — your own chat app, search engine, or web server. Great for seeing how real software is put together.
+- **Project Based Learning** ([github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)). Thousands of tutorials sorted by language and project type. Pick one that sounds fun and follow it end to end.
+- **YouTube.** Search "build a [thing] tutorial." A walk-through you can pause and copy. Good for a first project when you want to watch someone do it before you try.
+
+Better yet: build something for a problem you've actually hit. The app you wished existed last week. The spreadsheet you're tired of updating by hand. The thing your mom, your team, or your group chat keeps complaining about. A project that solves a real annoyance is easier to explain in an interview, because you actually care about it.
+
+> **Start here.** Write down three small annoyances from your own week. One of them is your project. Circle the one you'd genuinely use.
+
+# 3. Don't just copy it. Make it yours.
+
+~ Following a tutorial gets you moving. Changing it is what makes it a project you can claim.
+
+A carbon copy of someone's tutorial isn't proof of much — the interviewer can tell. So take what they built and bend it toward you. Three easy ways:
+
+- **Change the audience.** A budgeting app built for students becomes one for freelancers. Same bones, new spin, new decisions to explain.
+- **Add a feature.** The tutorial builds a to-do list? Add due-date reminders, or a weekly summary. The extra piece is the part that's yours.
+- **Use a different dataset.** A weather app that uses your city. A movie tracker fed with the shows you watch. Real, personal data makes it real.
+
+> **Pro tip.** The changes you make are exactly what you'll talk about in the interview. "I started from a tutorial, then rebuilt it for X and added Y" is a great answer — it shows you can extend, not just copy.
+
+> **Start here.** Pick your base project, then name one change before you build: new audience, new feature, or new data. That change is your fingerprint on it.
+
+# 4. Build it with AI
+
+~ You describe it, the tool builds it. Your job is to direct, try, and refine — not to memorize syntax.
+
+Tools like Claude Code, Cursor, and Codex can build the whole thing with you. You don't write code — you tell them what you want, they write it, and you run it and react. The skill is describing clearly and knowing what "good" looks like. Start small and add one piece at a time instead of asking for everything at once.
+
+A good starting prompt:
+
+```
+I want to build [a simple app that does X]. The people using it are [who], and the main thing they need to do is [the one core action].
+
+I'm new to this, so:
+- Start with the smallest version that works.
+- Explain each step in plain English as you go.
+- After it runs, tell me how to test it.
+
+Let's build it one piece at a time, not all at once.
+```
+
+> **The mistake.** Asking for the giant finished app in one go, then drowning when something breaks. Build one working slice, get it running, then add the next. Small working steps beat one big broken one.
+
+> **Start here.** Open Claude Code (or Cursor / Codex), paste the prompt above with your idea filled in, and get the smallest version running today. Momentum is the whole game.
+
+# 5. Understand what you made
+
+~ AI can build it. It can't sit in the interview for you. This is the step that separates a real project from a magic trick.
+
+You don't need to know every line. But you do need to be able to explain the shape of it — because the interview question isn't "can you build an app," it's "walk me through what you made." Make sure you can answer these three, out loud, without notes:
+
+- **What decisions did you make?** Why this feature, this audience, this tool. Every project is a stack of small choices — know yours.
+- **What went wrong?** The bug that took an hour. The thing that didn't work the first way you tried. This is the most impressive part — it shows you actually did it.
+- **How did you test it?** How you checked it actually works. Even "I clicked through every button and tried to break it" is a real answer.
+
+> **Pro tip.** When the AI writes something you don't follow, ask it: "explain what this does like I'm new." Understanding your own project is a five-minute conversation, not a course.
+
+> **Try this.** Record a two-minute voice memo walking through your project as if to a friend. If you can do that cleanly, you can do it in an interview.
+
+# 6. Deploy it so they can click it
+
+~ A project a hiring manager can open in one click beats a folder of code they'll never download.
+
+Put it somewhere live. The whole point is that an employer can click a link and try it — no setup, no "clone this repo." Free, beginner-friendly hosts like Vercel, Netlify, or Replit will put your app online, and your AI tool can walk you through it step by step. Ask it: "help me deploy this to Vercel, one step at a time."
+
+Then put the code on GitHub too. It takes a few minutes, it's the standard place employers look, and it makes you look like someone who ships. Your AI tool can do this part with you as well.
+
+> **The mistake.** Leaving the project on your laptop. If they can't click it, it barely counts. "Deployed and live" is the phrase that makes a resume line land.
+
+> **Start here.** Ask your AI tool to help you deploy to Vercel and push to GitHub, one step at a time. End the day with a link you can send someone.
+
+# 7. Write it up
+
+~ The write-up is where you get credit for the thinking. Four short parts, that's it.
+
+A live link is great. A live link with a clear write-up is what makes an employer trust you. Put it in the project's README on GitHub, or a short page linked from the app. Keep it to four parts:
+
+- **The problem.** One or two sentences. What this solves and for who.
+- **What I built.** What it does, and the tools you used to make it.
+- **What went wrong.** The hard part, the bug, the thing you had to rethink. (Keep this in — it's the most convincing part.)
+- **What I'd improve next.** One or two things you'd add with more time. Shows you can see past version one.
+
+> **Pro tip.** Ask your AI tool to draft the README from your project, then edit it in your own words. Draft in seconds, sound like yourself in a minute.
+
+> **Start here.** Write the four headers first, then one honest line under each. You can polish later — get the real version down today.
+
+## Before you add it to your resume
+
+Your project doesn't have to be groundbreaking. It has to be real, finished, and something you can talk about. Six checks:
+
+[ ] It solves a real problem, and I made at least one change that's mine.
+[ ] It's finished — the core thing actually works start to finish.
+[ ] It's deployed somewhere an employer can click and try in one tap.
+[ ] The code is on GitHub.
+[ ] There's a write-up: the problem, what I built, what went wrong, what's next.
+[ ] I can explain my decisions, my bugs, and how I tested it — out loud, no notes.
