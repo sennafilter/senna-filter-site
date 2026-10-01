@@ -1,0 +1,58 @@
+title: Claude Skills Guide
+cat: claude setup
+date: 2026-07-08
+desc: Stop re-explaining yourself every time you open a new chat. Set it up once and Claude remembers forever.
+lead: Stop re-explaining yourself every time you open a new chat. Set it up once. Claude remembers forever.
+---
+## What is a skill?
+
+A skill is a set of instructions that teaches Claude how you work. Your brand voice. Your meeting format. Your coding style. Your formatting standards. Instead of re-explaining all of that every new chat, you write it down once — and Claude already knows. Every time.
+
+*"They're not prompting harder. They're building systems."*
+
+## How to set one up
+
+# 1. Open Claude Desktop
+
+Go to Customize → Skills → Browse.
+
+# 2. Install the Skill Creator
+
+Find "Skill Creator" in the browse menu and hit Install.
+
+# 3. Open a new chat
+
+The Skill Creator is now available inside any chat.
+
+# 4. Build your skill
+
+**Option A:** Describe the skill you want — Claude asks questions and builds it.
+
+**Option B:** Walk through a workflow you already do, then tell Claude to save it as a skill.
+
+# 5. Click Install and you're done
+
+Your skill is live. Next time you need it, Claude calls it automatically.
+
+## 8 skills to build first
+
+Not sure where to start? These are the highest-leverage skills for most people.
+
+- **Meeting Notes Summarizer.** Paste messy notes and get a clean summary in your exact format, every time.
+- **Brand Voice Writer.** Claude writes in your tone without you pasting guidelines each time.
+- **Email Drafter.** Describe what you need to say and Claude drafts it in your style.
+- **Weekly Report Builder.** Drop in raw updates and Claude structures your weekly report automatically.
+- **Reel Script Polish.** Paste a rough idea and Claude shapes it into a script in your voice.
+- **Caption Writer.** Feed it your script and Claude writes the caption, CTA, and hashtags.
+- **Research Summarizer.** Paste any article or doc and Claude extracts the key points your way.
+- **Client Proposal Template.** Describe the project and Claude builds a proposal in your structure.
+
+## When does Claude call your skill?
+
+You don't have to think about it. Claude recognizes when a task matches a skill you've installed and calls it automatically. Here's what that looks like in practice:
+
+| You type this | Claude does this |
+| "Summarize my meeting notes" + paste notes | Calls your Meeting Notes skill and outputs in your exact format |
+| "Write a caption for this reel" + paste script | Calls your Caption Writer skill, in your voice with your CTA structure |
+| "Draft an email to my client about the delay" | Calls your Email Drafter skill, so it sounds like you and not a template |
+| "Turn this into a report" | Calls your Report Builder skill with your headers and your structure |

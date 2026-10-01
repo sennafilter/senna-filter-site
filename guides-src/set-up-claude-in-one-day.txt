@@ -1,0 +1,91 @@
+title: Set Up Claude in One Day
+cat: claude setup
+date: 2026-08-12
+desc: The five things to set up first, so Claude stops feeling like ChatGPT in 2022.
+lead: The five things to set up first, so it stops feeling like ChatGPT in 2022.
+---
+Most people open Claude, start typing, and never touch the setup. Then they repeat themselves in every chat, never get a great answer on the first try, and quietly decide the tool is overrated. It's almost always the setup. Ten minutes here does more than any prompt trick you'll ever learn — here's exactly what to do, in order.
+
+> **Before you start.** You need a paid Claude account for most of this — connectors and model switching live behind the subscription. If you're on the free tier, do steps 1 and 2 today; they'll still change how it feels.
+
+# 1. Get the desktop app
+
+~ Work inside the app, not the browser tab.
+
+The desktop app can reach the files and documents on your computer. The browser can't. That one difference is why the app feels like a completely different tool — you can hand it a spreadsheet, a PDF, a folder of notes, and it actually works with them.
+
+**Why people miss it:** the browser is right there and it works, so they never download the app and never find out what they're missing.
+
+**How to do it:** download the app from Claude's site, sign in, and make it the place you actually open. Pin it to your dock or taskbar so it's the default, not the tab.
+
+> **Start here.** Download the app now and move your very next Claude chat into it instead of the browser.
+
+# 2. Fill out your instructions
+
+~ Tell it who you are once. It remembers for every chat.
+
+In your settings there's an instructions section — this is where you tell Claude who you are and what you do, one time. It carries that context into every single chat, so you stop reintroducing yourself at the top of every conversation.
+
+**Why people miss it:** it's tucked in settings, so most people never open it and re-explain their job in every new chat forever.
+
+**The part that actually matters:** be specific, and tell it what to stop doing. The "stop" rules are what most people leave out, and they're what make the answers usable on the first try.
+
+Steal this template:
+
+```
+I'm [name], a [role / what you do].
+I'm usually working on [the kind of work you bring here].
+Talk to me like [a smart friend / a blunt colleague / etc.].
+Always: [push back when I'm wrong, show your reasoning].
+Never: [no em dashes, no filler, keep it under 150 words].
+```
+
+> **Start here.** Fill in the template above and paste it into your instructions. Add one "never" rule for the thing Claude does that annoys you most.
+
+# 3. Connect the tools you live in
+
+~ Stop copy-pasting between Claude and everything else.
+
+In the connectors section you can hook Claude up to the apps you're already in every day — Gmail, Google Drive, Notion, your calendar. Once they're connected, Claude can go work inside those apps and pull what it needs, instead of you copying things back and forth by hand.
+
+**Why people miss it:** copy-paste feels normal, so they never realize Claude could just reach the source itself.
+
+**How to do it:** open connectors, connect the two or three tools where your actual work lives. Start with wherever your email and documents are.
+
+**Real example:** "Summarize my unread emails from the last day and flag anything that needs a reply," or "pull the doc called Q3 plan and turn it into a checklist."
+
+> **Start here.** Connect the one app you open the most. Then ask Claude to do something with it right away so you feel the difference.
+
+# 4. Learn to switch models
+
+~ The right model for the job, not the same one for everything.
+
+There's a little dropdown at the top of the chat that lets you change which model you're using — and you can switch it on any chat. The models aren't just faster and slower versions of each other; they're built for different kinds of work.
+
+**Why people miss it:** they leave it on the default forever and either wait too long for easy questions or under-power the hard ones.
+
+**How to use it:** reach for the most powerful model when you're doing real thinking — strategy, brainstorming, anything where being right matters. Drop to a lighter, faster model for the busy work: quick rewrites, small questions, first passes.
+
+> **Start here.** Next hard problem, open the dropdown and pick the most powerful model before you start typing.
+
+# 5. Create one project
+
+~ A home for one whole part of your life — with its own memory.
+
+A project keeps everything about one thing in one place. It has its own files and its own instructions, and everything you drop in stays in there — so Claude always has the full context without you re-explaining it.
+
+**Why people miss it:** it looks like just another folder, so they never load it with context and never see the payoff.
+
+**How to use it, a real one:** say you're planning a wedding. Make one wedding project. Drop your venue contract and your budget into the files. In the project instructions, put your date, your guest count, the vibe you're going for, and your vendors. Now every chat inside that project already knows all of it — you can ask it to draft a vendor email or sanity-check the budget without setting the scene first.
+
+> **Start here.** Pick the one area of your life with the most moving parts. Make it a project and drop in two files plus a few lines of context today.
+
+## Before you call it done
+
+[ ] Desktop app downloaded and set as your default
+[ ] Instructions filled in — including at least one "never" rule
+[ ] Your most-used app connected
+[ ] You've switched models on purpose at least once
+[ ] One project created with files and context inside
+
+Most people blame Claude. It's almost always the setup. Do these five and you're already ahead of nearly everyone using it.

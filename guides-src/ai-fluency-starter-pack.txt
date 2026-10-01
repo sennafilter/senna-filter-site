@@ -1,0 +1,81 @@
+title: AI Fluency Starter Pack
+cat: basics
+date: 2026-07-03
+desc: 30 AI terms explained in plain English — the glossary that should've come with every AI tool you've ever downloaded.
+lead: 30 terms every non-technical person should actually know.
+---
+AI has a vocabulary problem. Everyone uses the terms, almost no one explains them. This is the glossary that should have come with every AI tool you have ever downloaded.
+
+## How AI thinks
+
+**Machine Learning.** AI that learns from examples instead of being explicitly programmed. You show it thousands of emails labeled spam or not spam, and it figures out the pattern on its own.
+
+**Deep Learning.** A type of machine learning that uses layered networks loosely inspired by the brain. The reason AI got so good so fast — it can find patterns in enormous amounts of data.
+
+**Neural Network.** The architecture behind deep learning. Data passes through layers of nodes, each one transforming it slightly, until the model produces an output. Think of it as a very complex chain of if-then decisions.
+
+**Training Data.** The material a model learns from. Text, images, code, audio — whatever you feed it shapes what it knows and how it behaves. Bad data in, bad model out.
+
+**Parameters.** The internal settings a model adjusts during training to get better at its task. A model with more parameters can capture more nuance — but also costs more to run.
+
+**Inference.** What happens when a model actually runs — takes your input and produces an output. Training is the learning phase. Inference is the using phase.
+
+## Types of AI
+
+**Generative AI.** AI that creates new content — text, images, audio, video, code. It doesn't retrieve stored answers; it generates something new each time based on patterns it learned.
+
+**LLM (Large Language Model).** The engine behind most AI text tools. Trained on massive amounts of text to predict and generate language. GPT-4, Claude, Gemini — all LLMs.
+
+**Multimodal AI.** A model that can work across more than one type of input or output — text and images, or text and audio. Claude can read images. GPT-4o can hear you speak.
+
+**Agentic AI.** AI that does not just respond to a single prompt — it takes sequences of actions, uses tools, and works toward a goal with some autonomy. Less chatbot, more assistant that actually does things.
+
+**AI Agent.** A specific instance of agentic AI built to complete a task or set of tasks. Agents can browse the web, write and run code, send emails, and chain steps together without you doing each one manually.
+
+**Foundation Model.** A large model trained on broad data that can be adapted to many tasks. Most AI products you use are built on top of a foundation model — they don't train from scratch.
+
+**Reasoning Model.** A model designed to think through problems step by step before answering, rather than just pattern-matching to a response. Better at math, logic, and multi-step problems.
+
+**ANI / AGI / ASI.** Three levels of AI capability. ANI (narrow) is what we have now — good at specific tasks. AGI (general) would match human-level reasoning across domains. ASI (superintelligence) would exceed it. We are firmly in ANI territory.
+
+## How models work
+
+**Token.** The unit of text a model reads and generates. Roughly a word or part of a word. Models have a limit on how many tokens they can process at once — that limit is the context window.
+
+**Context Window.** How much text a model can hold in its working memory at one time. Older models had small windows — you had to summarize conversations. Modern models can hold entire documents.
+
+**Temperature.** A setting that controls how predictable or creative a model's outputs are. Low temperature = consistent, conservative. High temperature = more varied, sometimes surprising.
+
+**Embeddings.** A way of representing words and concepts as numbers so a model can understand relationships between them. The reason a model knows that king minus man plus woman equals queen.
+
+**RAG (Retrieval-Augmented Generation).** A technique where a model pulls in relevant information from an external source before responding, instead of relying only on what it learned during training. How AI can answer questions about your specific documents.
+
+**Fine-Tuning.** Taking a pre-trained model and training it further on a specific dataset to make it better at a particular task or tone. Different from prompting — you are actually changing the model's weights.
+
+## Using AI
+
+**Prompt.** The input you give an AI model. The quality of your prompt directly affects the quality of the output. Prompting well is a real skill.
+
+**System Prompt.** Instructions given to a model before the conversation starts, usually by the developer or product. It sets the tone, persona, and constraints. The reason Claude behaves differently inside different apps.
+
+**Hallucination.** When a model generates something confident and wrong — a fake citation, a made-up statistic, a person who doesn't exist. It happens because models predict likely text, not because they know facts.
+
+**Open Source vs Closed Source.** Open source models (like Llama) release their weights publicly so anyone can run or modify them. Closed source models (like Claude or GPT-4) are proprietary — you access them through an API or product.
+
+**API (Application Programming Interface).** The way developers connect to an AI model programmatically. When an app uses Claude under the hood, it is calling the Claude API.
+
+**Automation vs AI.** Automation follows fixed rules — if this, then that. AI makes judgments based on patterns. Automation is deterministic. AI is probabilistic. They are often used together but are not the same thing.
+
+## The bigger picture
+
+**Alignment.** The challenge of making sure AI systems do what humans actually want — not just what they were literally told to do. A major area of research because a misaligned powerful AI is dangerous.
+
+**Guardrails.** Constraints built into a model or product to prevent harmful outputs. Content filters, refusal behaviors, safety classifiers — all guardrails.
+
+**Synthetic Data.** Training data that was generated by AI rather than collected from humans. Used to fill gaps, protect privacy, or scale up datasets cheaply.
+
+**Knowledge Cutoff.** The date after which a model has no training data. Ask Claude about something that happened last week and it genuinely does not know — its knowledge stops at a fixed point.
+
+**Benchmark.** A standardized test used to measure and compare model performance. Companies use benchmarks to show how their model stacks up. Worth knowing because they can be gamed.
+
+**MCP (Model Context Protocol).** An open standard that lets AI models connect to external tools and data sources — your calendar, your files, your apps. The reason Claude can actually do things in the real world, not just talk about them.

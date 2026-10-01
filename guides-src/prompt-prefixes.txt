@@ -1,0 +1,73 @@
+title: Prompt Prefixes
+cat: prompting
+date: 2026-07-03
+desc: Four words that completely change how Claude responds — before it even reads your question.
+lead: Four words that completely change how Claude responds.
+---
+## What is a prompt prefix?
+
+A prompt prefix is a word or short phrase you type at the beginning of any message to Claude. It acts like an instruction mode — it tells Claude how to approach your question before it even reads it.
+
+Think of it like adjusting a dial. Same question, completely different output depending on the prefix you use.
+
+Most prompts people use are just questions. Prompt prefixes are a layer on top of that. They tell Claude what thinking style to use, not just what to answer.
+
+## The four prefixes that actually matter
+
+# 1. ELI5
+
+~ Explain like I'm five
+
+Tells Claude to strip out jargon and rebuild the explanation from the ground up — simple analogies, plain language, no assumed knowledge. Great for anything technical, legal, or just unfamiliar.
+
+**Example:** ELI5 how does compound interest work?
+
+**What Claude does:** Claude skips the financial formulas and explains it like a snowball rolling downhill — your money earns money, and then that money earns money. Simple enough to actually stick.
+
+# 2. Steel man then kill it
+
+~ Adversarial two-step review
+
+Claude first argues the strongest possible version of your idea, then systematically tears it apart. Built-in devil's advocate — without having to ask twice.
+
+**Example:** Steel man then kill it: I should move to a new city for a fresh start.
+
+**What Claude does:** Claude makes the strongest case for why it could be the best decision of your life — then dismantles it, surfacing the things you haven't let yourself think about yet.
+
+# 3. Red team this
+
+~ Every critic in the room, all at once
+
+Claude attacks your plan or decision from every angle a skeptic would. Like having a room full of people who want to find the flaw — before it finds you.
+
+**Example:** Red team this: my plan to go back to school for a career change.
+
+**What Claude does:** Claude surfaces the hardest objections — cost, timeline, opportunity cost, whether the degree actually leads to the job — in thirty seconds instead of two years of regret.
+
+# 4. Break this down from first principles
+
+~ No recycled internet answers
+
+Tells Claude to stop pattern-matching on common answers and rebuild the logic from scratch. Instead of summarizing what everyone else says, it reasons through it from fundamental truths.
+
+**Example:** Break this down from first principles: why is sleep so important?
+
+**What Claude does:** Instead of listing the usual bullet points, Claude reasons through what your brain and body are actually doing — memory consolidation, cellular repair, hormone regulation — from the ground up.
+
+## How to use them
+
+These work with any topic. Just type the prefix, then your actual question or content right after it.
+
+The format:
+
+```
+[prefix] + [your normal question or content]
+```
+
+Examples:
+
+- Red team this: my plan to negotiate a raise at work.
+- ELI5 what is the difference between a Roth IRA and a traditional IRA?
+- Break this down from first principles: why do habits take so long to form?
+
+You can also stack them. "Steel man then kill it" already combines two instructions — you can do the same with others.

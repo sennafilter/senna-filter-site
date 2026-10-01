@@ -1,0 +1,39 @@
+title: 5 Claude Features Breakdown
+cat: claude
+date: 2026-07-08
+desc: The five features already sitting in your subscription that almost nobody opens — Skills, Projects, Artifacts, Models, Extended Thinking.
+lead: Most people use about ten percent of what they already pay for. These five are sitting inside your subscription right now — here's what each one does and the first thing to try with it.
+---
+# 1. Skills
+
+Write out exactly how you want something done, one time. Claude repeats those same steps every time after — same structure, same standards, same format. It's the difference between prompting harder and actually building a system.
+
+> **Start here.** I have skills for my LinkedIn posts, one that plays devil's advocate on an idea before I commit, and one for carousels. Pick one task you do every week and turn it into a skill.
+
+# 2. Projects
+
+Run a bunch of workspaces side by side, each with its own memory and its own instructions. They don't bleed into each other, so Claude always has the right context loaded for the thing you're working on.
+
+> **Start here.** Mine are split by newsletter and by LinkedIn, each loaded with just the context for that thing. Make one project per client, business, or goal.
+
+# 3. Artifacts
+
+Ask Claude to build something and you get a live version right there in the chat — an app, a site, a whole dashboard. Not a description of one. The real, working thing you can click through.
+
+> **Start here.** Next time you'd sketch an idea, ask Claude to build it as an artifact instead and interact with the real version.
+
+# 4. Models
+
+Nobody touches this. There's a picker sitting right there and almost everyone leaves it on the default. One model is fast, built for quick back-and-forth. Another reasons through a problem properly before it answers. Same subscription, completely different tool depending on which you pick.
+
+> **Start here.** Leave the fast model on for everyday chat. Switch to the slower, reasoning model for anything with real stakes attached.
+
+# 5. Extended Thinking
+
+For the actually hard stuff — big decisions, real strategy calls. Claude slows down and reasons through the problem step by step before it gives you anything back, instead of answering on instinct.
+
+> **Start here.** Turn it on for the decisions you'd normally sit on for a week. Give it the full picture and let it think.
+
+## You're already paying for all of it.
+
+Open one of these today. That's the whole difference.

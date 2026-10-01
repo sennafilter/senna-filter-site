@@ -1,0 +1,117 @@
+title: Your Voice Setup Kit
+cat: setup
+date: 2026-07-03
+desc: Fill this out once and Claude writes in your actual voice from here on — not stiff robot-speak.
+lead: Everything you need to make Claude write exactly like you.
+---
+Most people have asked Claude to write something and gotten back a response that sounds nothing like them — full of em dashes, "certainly," and that unmistakable AI sentence structure. This kit fixes that. Fill it out once, and Claude will write in your actual voice from here on.
+
+## New to Cowork?
+
+Cowork is Claude's desktop app feature that can read and reference files saved on your computer. Unlike the browser chat, Cowork has file access — which is what makes your About Me and Voice files actually work. Download the Claude desktop app at claude.ai to get started.
+
+## 1. The setup
+
+1. **Download Claude desktop.** Mac or Windows — get the app at claude.ai, not just the browser tab.
+2. **Open Cowork, not Chat.** This is important. Chat has no file access. Cowork does. The whole system depends on this.
+3. **Create your folder.** Type this into Cowork: "Create a folder on my desktop called Claude with two files inside: About Me and Voice." Claude will do it.
+4. **Run the interview.** Type: "Interview me to fill out the About Me and Voice files." Claude will read the files and start asking questions. Use the questions in section 2 to make sure nothing important gets missed.
+5. **Add your ban list.** Once your files are filled in, add a ban list to your Voice file. Use section 4 as a starting point, then customize it with the specific words and patterns that make you cringe.
+
+> **Pro tip.** Use WhisperFlow or your phone's voice-to-text when Claude interviews you. You'll give longer, more natural answers than you would typing. The About Me and Voice files work best when they sound like you talking, not you filling out a form.
+
+## 2. About Me: the 30 questions
+
+These aren't basic profile questions. The goal is to give Claude enough texture that it writes like someone who actually knows you — not a bio. Answer in full sentences, in the way you'd actually talk.
+
+### The basics
+
+1. What's your full name, and what do you go by day-to-day?
+2. How old are you, and where did you grow up?
+3. Where do you live now, and how long have you been there?
+4. What's your relationship status, and who are the people closest to you? (partner, kids, family you're tight with)
+5. What do you do for work — title, company or type of company, and what that actually means in practice?
+6. How did you end up in that career? Give me the real path, not the resume version.
+
+### Personality and communication
+
+7. How do your closest friends describe you — not how you'd describe yourself?
+8. What's a belief you hold that most people around you don't share?
+9. What are you genuinely bad at? Not fake-humble bad — actually bad.
+10. What topic could you talk about for an hour without prep?
+11. Are you more of a starter or a finisher? Be honest.
+12. When you disagree with someone, what do you actually do?
+13. What do you need people to understand about you that they usually get wrong?
+
+### Work and creative style
+
+14. What does a good workday look like versus a bad one?
+15. How do you make decisions when you don't have all the information?
+16. What's your relationship with structure? (Planner, figurer-outer, somewhere in between)
+17. What kind of work puts you in flow — where time disappears?
+18. What's something you've built or created that you're actually proud of?
+19. How do you feel about being wrong in public — corrected, called out, etc.?
+
+### Values and worldview
+
+20. What do you think is genuinely overrated that most people won't admit?
+21. What's something you used to believe that you've completely changed your mind on?
+22. What do you think the people ahead of you got right that most people miss?
+23. What's a hill you'll die on — something you won't budge on no matter the pushback?
+24. How do you think about money? (Not what you earn — how it factors into your decisions)
+25. What's your relationship with ambition? Is it a driver, a pressure, something else?
+
+### Life texture
+
+26. What do you do to actually decompress — not what you think you should do?
+27. What are you into that has nothing to do with your work or personal brand?
+28. What's something about your everyday life that would surprise people?
+29. What's a running joke, phrase, or thing in your household that's just yours?
+30. What have you tried and quit that you don't regret quitting?
+31. What's the last thing that genuinely made you laugh out loud?
+
+## 3. Voice file: writing samples
+
+The Voice file is what creates actual accuracy. It's not about facts — it's about how you put sentences together. Paste in 10–20 samples of real writing you've done: old emails, texts, captions, Slack messages, anything. Length matters more than polish. A messy long email is worth more than a tidy Instagram caption.
+
+If you don't have enough samples yet, use these prompts. Answer them by voice — don't edit, don't clean it up. The raw version is the point.
+
+1. You're texting a friend to explain something you just figured out. Write exactly what you'd send.
+2. Write a caption for a photo you'd actually post — pick any scenario from your real life.
+3. Explain what you do for work to someone who has no context about your industry.
+4. You're annoyed about something. Write the rant, exactly how it sounds in your head.
+5. Give someone unsolicited advice about something you know a lot about.
+6. Describe a recent win — something you're quietly proud of. Be as specific as you'd actually be.
+7. Tell a story about something that went wrong. Doesn't need to be dramatic.
+8. Respond to someone asking "how are you?" in a way you'd actually respond, not a polite version.
+9. Write what you'd put in a Notes app draft that no one was ever supposed to see.
+10. Share a take on something in your field that most people get wrong.
+
+> **How much is enough?** Aim for at least 10 samples, ideally 20. Longer samples (200+ words each) matter more than many short ones. The model needs enough to learn your rhythms, not just your word choices.
+
+## 4. The ban list
+
+Paste this section directly into your Voice file under a heading called BAN LIST. Then customize it — add anything that makes your writing feel off when you see it. The more specific you are here, the less you'll have to fix later.
+
+**Words to never use:** Certainly · Absolutely · Delve · It's worth noting · It's important to remember · Leverage (as a verb) · Utilize · Robust · Seamlessly · Empower · Unlock · Game-changer
+
+**Structural patterns to avoid:** Em dashes used for drama — like this, all the time · Three-part parallel lists that feel too clean · "In a world where..." · "At its core..." · Ending on a rhetorical question · "Here's the thing:" as a formal section intro
+
+**Tone mismatches to flag:** Overly formal sign-offs · Exclamation points in every sentence · Hedging phrases like "it seems that" or "one might argue" · Starting every paragraph the same way
+
+Also add context-specific rules: how you address people, whether you use exclamation points, how formal your sign-offs are, anything you've had to correct Claude on before.
+
+## 5. Your first Cowork prompt
+
+Once your files are set up, every Cowork session starts with this. Paste it as your opening message any time you want Claude to write in your voice.
+
+```
+Before we start, read the About Me and Voice files in my Claude folder on my desktop. Use everything in those files to inform how you write for me — my background, my tone, my sentence rhythm, and especially my ban list. Never use anything on the ban list. Confirm once you've read them, then I'll tell you what I need.
+```
+
+## Before you hit send
+
+[ ] **Did you answer all 30 questions?** Skimped answers mean skimped output. Full sentences, real detail.
+[ ] **Do you have 10+ writing samples in your Voice file?** The more (and longer), the better. This is the accuracy engine.
+[ ] **Is your ban list specific to you?** The examples in section 4 are a start. Add your actual pet peeves.
+[ ] **Have you tested it?** Ask Claude to write something short in your voice. If it's off, add more samples or be more specific in your ban list.
