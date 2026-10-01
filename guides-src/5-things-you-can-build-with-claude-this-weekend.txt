@@ -1,0 +1,123 @@
+title: 5 Things You Can Build With Claude This Weekend
+cat: vibe claude
+date: 2026-08-21
+desc: Five tools you'd normally pay for, built in an afternoon, with the exact prompts to copy.
+lead: Five tools you'd normally pay for — built in an afternoon, with the exact prompts to copy.
+---
+You pay for Claude and use it like a smarter Google. That's the ten-percent version. The part almost nobody touches: Claude can build you a working tool — a real page you open in your browser — from one plain-English request. No code, no app store, no template to buy.
+
+Below are five you can build this weekend. Each one is something people normally pay a monthly subscription for. Copy the prompt, answer the couple of questions Claude asks, and you'll have it in about ten minutes. Pick one. You don't have to build all five.
+
+> **New to building with Claude?** When you ask Claude to build something, it can write a complete little app as a single file and show it to you right there — you don't install anything. Ask it to "make this a file I can save and reopen," and you keep it forever. Everything here works on the Claude you already have.
+
+## How every one of these works
+
+1. Copy the prompt and paste it into a new Claude chat.
+2. Answer the few questions it asks — your city, your numbers, your accounts.
+3. Ask for changes in plain words: "make it blue," "add a habit tracker."
+
+# 1. Daily Brief
+
+~ Your calendar, tasks, the news, and the weather — on one screen before you're out of bed.
+
+**What it is.** One dashboard that gathers everything you check first thing — today's schedule, your top priorities, a quick news digest, the weather — so you stop opening five apps to start your day.
+
+**Why most people don't have one.** They assume it needs an app subscription and a Sunday of setup in Notion. It doesn't. It's one prompt and a file you open each morning.
+
+The prompt:
+
+```
+Build me a daily brief as a single-page dashboard I can open every morning. Show today's date and weather, my calendar for the day, my top priorities as a checklist, a short "what I missed" news digest, and one motivational quote. Use warm, clean cards. Make it a self-contained HTML file, and ask me anything you need first.
+```
+
+**Make it yours.** Tell Claude your city so the weather is right, and which sections matter. Drop the news and add a water or workout tracker. Swap the quote for a daily reminder you actually want to see.
+
+> **The mistake.** Asking for "a productivity app." Too vague, and you'll get something generic. Name the exact blocks you want on the screen and Claude lays them out the way you pictured.
+
+> **Start here.** Paste the prompt, tell Claude your city and your top three tasks for tomorrow, and open the file it makes.
+
+# 2. Inbox Summary
+
+~ Wake up to an inbox that's already read, sorted, and has replies drafted.
+
+**What it is.** Claude reads everything that came in overnight and hands you the short version: how many emails need a reply, which are urgent, and what it filed away — plus a draft response for each one that needs you, ready to approve.
+
+**Why it's missed.** People think connecting email to AI is a technical project. It's a toggle. Claude connects to your Gmail directly, and you approve every single action before anything happens.
+
+The prompt:
+
+```
+Connect my Gmail and write me an overnight inbox summary. Tell me how many emails need a reply, which are urgent or time-sensitive, and what you'd auto-archive. For each email that needs a response, summarize what they actually want and draft a reply I can approve. Don't send anything without my okay.
+```
+
+**Make it yours.** Give it your rules: "always flag anything from my editor," "draft a polite no to every pitch," "never touch newsletters." It follows them.
+
+> **The mistake.** Letting it send on its own. Keep yourself in the loop — that "don't send without my okay" line is doing real work. Read the draft, then hit send yourself.
+
+> **Start here.** Connect Gmail in Settings, then Connectors, first. Then paste the prompt and let it triage last night's inbox.
+
+# 3. Monthly Finance Tracker
+
+~ See where your money actually went this month — in a chart, in two minutes.
+
+**What it is.** You paste your transactions and get back a dashboard: total spent against a budget you set, a category breakdown as a donut chart, budget-vs-actual bars, and a clean list that's already sorted by category.
+
+**Why it's missed.** People wait until they finally sign up for a budgeting app. You don't need one — the data is already sitting in the CSV export from your bank.
+
+The prompt:
+
+```
+Make me a monthly finance tracker dashboard. I'll paste my transactions. Show total spent versus a budget I'll set, a category breakdown as a donut chart, budget-vs-actual bars per category, and a recent-transactions list that's auto-categorized. Clean, light design in one self-contained HTML file.
+```
+
+**Make it yours.** Set your real budget numbers and the categories you care about. Tell it to call out anything where you went over.
+
+> **The mistake.** Not giving it real data. Export your transactions as a CSV from your bank first (most banks have a "download" button on the activity page), then paste or upload it. Made-up numbers give you a made-up picture.
+
+> **Start here.** Download last month's transactions from your bank as a CSV, paste the prompt, then drop the file in.
+
+# 4. Credit Card Points Dashboard
+
+~ Find out what your points are actually worth — and the smartest way to spend them.
+
+**What it is.** One place that tracks your balance on every card, your total points and roughly what they're worth in dollars, what you earned this month, and the best redemptions ranked by cents-per-point.
+
+**Why it's missed.** The value is hidden across four different bank apps, so nobody ever sees the whole picture. Put it on one screen and the smart move gets obvious.
+
+The prompt:
+
+```
+Build me a credit card points dashboard for my cards: [Chase Sapphire, Amex Gold, Citi, Capital One]. Track my balance on each, my total points and roughly what they're worth, how much I earned this month, and rank the smartest ways to redeem them by cents-per-point. Make it look premium — one self-contained HTML file.
+```
+
+**Make it yours.** Swap in your real cards and balances inside the brackets. Ask it to note which card to use for which category so you earn more going forward.
+
+> **The mistake.** Redeeming for cash back by default — it's usually the worst value a point can get. Let Claude rank your options first; transfers to travel partners are often worth two to three times more.
+
+> **Start here.** List your cards and current point balances, paste the prompt, and see your total value in one number.
+
+# 5. Subscription Tracker
+
+~ Find the charges you forgot you're paying, and cancel with confidence.
+
+**What it is.** Every subscription in one view: your total monthly spend, the yearly projection, upcoming renewal dates as a timeline, and a flag on the ones you barely use so you know exactly what to cut.
+
+**Why it's missed.** Most people underestimate their subscription spend by two to three times. The charges are scattered across cards and buried in email, so they never add up in your head.
+
+The prompt:
+
+```
+Help me build a subscription tracker. I'll list what I'm subscribed to and the cost. Show my total monthly spend, the yearly projection, upcoming renewal dates as a timeline, and flag the ones I barely use so I know what to cancel. Break the spend down by category. One clean HTML page.
+```
+
+**Make it yours.** Tell it the last time you actually used each one, and ask it to flag anything you haven't opened in 30 days as a "cancel candidate."
+
+> **The mistake.** Guessing your total from memory. Pull your last card statement and list the real recurring charges — the number is almost always higher than you think, and that gap is the point.
+
+> **Start here.** Open your last statement, list every recurring charge with its cost, and paste the prompt.
+
+## Pick one and build it this weekend
+
+You don't need to be technical. You need the right prompt and ten minutes. Start with whichever one solves the thing that's been annoying you this week — the messy inbox, the mystery credit card charges, the money that disappears by the 20th.
+
+> **Pro tip.** When Claude finishes, say "save this as a file I can reopen" so you keep it. Want it to look nicer? Just describe the change — "make the header bigger," "use my favorite color" — and it rebuilds on the spot.

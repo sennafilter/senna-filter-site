@@ -1,0 +1,100 @@
+title: Build Your First AI Agent
+cat: agents
+date: 2026-08-20
+desc: Start with one text file. Have a working agent by the end of the day.
+lead: Start with one text file. Have a working agent by the end of the day.
+---
+Most people think agents are some complicated engineering thing you need a computer science degree to touch. They're not. An agent is really just a text file of plain instructions, plus something that reads that file and does the steps for you. That's the whole idea. Once it clicks, the scary part disappears, and you can build your first one in an afternoon. This guide walks you through exactly what a markdown file is, what turns it into an agent, and the literal thing to type to get your first one running.
+
+> **New to markdown?** A markdown file is just a plain text file with light formatting, like headings and bullet points, that both you and AI can read easily. It's the same kind of writing you'd put in a Notes app. No code, no special software. When you hear "markdown file," think: a normal document, saved as plain text.
+
+# 1. The text file is the whole secret
+
+~ Plain words. Simple formatting. That's it.
+
+When you work with Claude or ChatGPT, it's reading text files to figure out how to work with you. Your preferences, the way you like things done, the steps you want it to follow, the tone you want it to write in. All of it just sits there in plain English, in a file.
+
+That's why "markdown file" sounds more technical than it is. It's not a program. It's a page of instructions written the way you'd explain something to a new assistant on their first day: here's who I am, here's what I need, here's how I like it.
+
+**Why most people miss it:** the word "file" makes it sound like something you build in an app. It isn't. If you can write a text, you can write one of these.
+
+> **Start here.** Open a blank note and write three sentences about how you'd want an assistant to handle your inbox. That's a markdown file in spirit. You just wrote instructions.
+
+# 2. What actually makes it an "agent"
+
+~ The file is the instructions. The agent is the one that does them.
+
+Here's the part that trips everyone up. The file by itself doesn't do anything. It's just words on a page. The agent is the thing that picks up the right file and actually goes and does the steps.
+
+Think of it like a recipe and a cook. The markdown file is the recipe: the ingredients, the steps, the order. The agent is the cook that reads the recipe and makes the meal. Same recipe, but nothing happens until someone's in the kitchen following it.
+
+So when people say they "built an agent," what they usually mean is: they wrote clear instructions in a file, and pointed an AI at it with permission to act. The AI reads the file, figures out which steps apply, and carries them out, even the same time every day.
+
+**Why it's missed:** "agent" sounds like a robot with a mind of its own. It's closer to a very reliable assistant who never forgets the instructions you wrote down once.
+
+> **Pro tip.** The better your instructions, the better your agent. Vague file, vague results. Specific file, and it behaves like it read your mind.
+
+# 3. Build your first one in five minutes
+
+~ Don't type it. Talk it.
+
+The fastest way to write your first instruction file is to not write it at all. Open Claude, turn on any voice-to-text tool, and just talk. Ramble. You'll say more, and it'll sound more like you, than if you sat staring at a blank page trying to word it perfectly.
+
+Tell it what you want the agent to do, in plain language. Who you are, what the task is, when it should happen, and what a good result looks like to you. Don't overthink the order. You can clean it up after.
+
+When you're done talking, say one line: "Turn this into a clean markdown file I can save and reuse." That's your first file, built from your own voice in a couple of minutes.
+
+> **Start here.** Pick the one task you do every morning that you wish you didn't have to. Talk through how you'd hand it off to an assistant. Then ask for the markdown file.
+
+# 4. A real example: the 8am email agent
+
+~ The one most people build first, because you feel it the next morning.
+
+Say you want an agent that reads your email every morning and tells you what actually matters, so you're not scrolling your inbox with your coffee getting cold. Here's the literal thing you can say out loud to build it:
+
+```
+I want to create an agent that goes through my email every morning at 8am. I want it to tell me what's important and actually needs my attention, skip the newsletters and promos, and flag anything from my boss or a client as urgent.
+
+Keep it short. Bullet points. Most important first.
+
+Now turn this into a clean markdown file I can save, then set it to run every morning at 8am.
+```
+
+Claude turns that into a saved instruction file and schedules it. From then on, you wake up to one short brief instead of a full inbox. You didn't write a single line of code. You described what you wanted, in your words, and pointed an agent at it.
+
+**The mistake to skip:** being vague. "Summarize my emails" gives you mush. "Skip promos, flag anything from a client, most important first" gives you something you'll actually trust. Specifics in the file become behavior in the agent.
+
+> **Try this.** Build the email one first even if it's not your dream agent. It's the one where you feel the payoff the very next morning, and that first ping is what gets you hooked.
+
+# 5. A template for any agent you want next
+
+~ Fill in the blanks and you've got a solid instruction file.
+
+Once the email one clicks, you'll want more. Use this as the skeleton, spoken or typed. The five pieces below are all an agent really needs to behave well.
+
+```
+# my [NAME] agent
+
+Who I am: [your role, your context]
+What I want it to do: [the task, in one line]
+When: [every morning at 8am / when I ask / weekly]
+What a good result looks like: [short, bullets, most urgent first, in my voice]
+What to ignore: [promos, anything low-priority]
+
+Turn this into a clean markdown file I can save and reuse.
+```
+
+That's it. Five lines of plain answers and you've described an agent well enough for Claude to run it.
+
+# 6. Prompts to try today
+
+~ Steal these. Change the brackets to fit your life.
+
+- Read my unread email from the last 12 hours. Flag anything from [a client or my boss], skip promos and newsletters, and give me the 5 things that need a response, most urgent first.
+- Every Sunday at 6pm, look at my calendar for the week ahead and tell me where I'm overbooked, what I still need to prep for, and any day with no breaks.
+- Turn how I like to write LinkedIn posts into a markdown file I can reuse: my tone, what I never say, and a few examples. Then use it every time I ask for a post.
+- Take everything I just rambled about my morning routine and turn it into a clean markdown instruction file I can save and run daily.
+
+## The one thing to remember
+
+An agent isn't magic and it isn't code. It's a plain text file of instructions, plus something that reads it and does the work. Write the file once, and you've built your first agent. Start with the email one, feel that first morning ping, and you'll be building the next three before the week is out.

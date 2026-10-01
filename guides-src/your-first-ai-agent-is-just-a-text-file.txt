@@ -1,0 +1,113 @@
+title: Your First AI Agent Is Just a Text File
+cat: agents
+date: 2026-08-25
+desc: Write the file, point Claude at it, and have your first agent running before your coffee's cold.
+lead: Write the file, point Claude at it, and have your first agent running before your coffee's cold.
+---
+The word "agent" sounds like something you need a computer science degree to touch. You don't. An agent is plain words on a page — instructions written in normal English — plus something that reads those words and goes and does them. That's the whole idea. This guide takes you from "that sounds scary" to a working agent that pings you every morning, in about five minutes of actual work.
+
+> **New to markdown?** Markdown is just plain text with a few tiny formatting marks — a # to make a heading, a - to make a list. That's it. It's the same typing you already do, and AI reads it easily because it's clean and simple. You don't have to learn it to start. You can write your first agent in totally normal sentences and it'll work fine.
+
+# 1. A markdown file is just plain text
+
+~ No app to install. No code. Words on a page.
+
+Open any notes app and type a sentence. That's the material an agent is made of. A markdown file (it ends in .md) is the exact same thing with room for a heading here and a bullet there. When people say "agent file," this is all they mean: a short document, written in plain English, that tells the AI how you want something done.
+
+**Why it trips people up:** the word makes it sound alive and complicated. It isn't. It doesn't run on its own or think for itself. It just sits there, like a recipe card, until something reads it.
+
+> **Start here.** Open a blank note and write one sentence describing a task you explain to someone over and over. That sentence is already the first line of an agent.
+
+# 2. The file is the instructions. The agent is the doer.
+
+~ Two parts, and keeping them straight makes the whole thing click.
+
+Here's the split that makes it make sense. The file is the instructions — what you want, how you like it, the steps, and when. The agent is the part that actually picks up that file and goes and does the steps. Recipe and cook. Sheet music and musician. Same relationship every time.
+
+The clever bit is that the agent knows which file to open, and when. You can have one file for your morning email, another for drafting your newsletter, another for cleaning up meeting notes. The agent grabs the right one for the job in front of it. You're not managing software — you're writing down how you like things and letting the AI follow along.
+
+> **Pro tip.** One file, one job. Don't cram "do my email AND write my posts AND book my travel" into a single file. Small, focused files are easier to fix and far more reliable than one that tries to do everything.
+
+# 3. What actually goes inside the file
+
+~ Three things: what you want, how you want it, and when.
+
+A good agent file answers three plain questions. What's the job? "Go through my inbox and tell me what matters." How do I like it done? Your preferences, your rules, the tone, what to ignore. When and in what order? The steps, top to bottom, the way you'd explain them to a new assistant on day one.
+
+That last part is the secret. You already know how to do this — you do it every time you hand a task to a person. Write it the same way. Here's what a real one looks like:
+
+```
+morning-email.md
+
+# My Morning Email Agent
+
+# What I want
+Every weekday at 8am, read my inbox from the last 24 hours and tell me what actually needs me.
+
+# How I like it
+- Group into: Needs a reply, FYI, and Ignore.
+- One line per email. No fluff.
+- Flag anything with a deadline in the next 3 days.
+- Skip newsletters and receipts.
+
+# The order
+1. Pull emails from the last 24 hours.
+2. Sort them into the three groups above.
+3. Give me the short list, most urgent first.
+```
+
+> **Start here.** Copy those three headings — What I want, How I like it, The order — into a note and fill them in for one task. You've just written an agent file.
+
+# 4. Build your first one in five minutes: just talk
+
+~ You don't have to type it. You can say it out loud.
+
+This is the part that surprises people. You don't have to write anything the "right" way. Open Claude, turn on any voice-to-text (the mic on your phone keyboard works), and just talk. Describe what you want like you're explaining it to a friend. Claude turns your rambling into a clean file for you.
+
+Say something like: "I want an agent that goes through my email every morning at 8am and tells me what's important and actually needs my attention. Group it into needs-a-reply, FYI, and ignore. Skip the newsletters."
+
+That's it. Claude writes the file, you read it back, and you tweak the one or two things it got slightly wrong.
+
+**Why most people stall:** they think it has to be perfectly worded before it counts. It doesn't. Messy out loud beats perfect never. You can always fix a word later — the agent is a text file, so editing it is just editing text.
+
+> **Pro tip.** I dictate half of mine one-handed with a baby on my hip. Speak the whole thing in one go, mistakes and all, then ask Claude to "clean this up into an agent file." It does the tidying.
+
+# 5. Your fill-in-the-blank starter
+
+~ Steal this. Change the brackets. Done.
+
+If you'd rather start from a shape than a blank page, paste this into Claude and fill in the brackets out loud or by typing. It's the same three-part structure from section 3, ready to go.
+
+```
+I want an agent that [does this task].
+Run it [when — e.g. every weekday at 8am].
+How I like it:
+- [your first rule]
+- [what to always include]
+- [what to skip or ignore]
+Then give it back to me as [a short list / a draft / a summary], [most urgent first / in my voice / etc.].
+Write this up as a clean agent file I can reuse.
+```
+
+> **Try this.** Fill it in for the email agent first — it's the easiest win and the one you'll feel every single morning.
+
+# 6. Six agents worth building first
+
+~ Small, real, and you'll feel each one within a day.
+
+- **The 8am inbox brief.** Reads your email and hands you a short list of what actually needs you. The one everyone gets hooked on.
+- **The meeting-notes cleaner.** Takes your messy notes and turns them into decisions, action items, and who owns what.
+- **The weekly planner.** Looks at your calendar and to-do list every Sunday night and blocks out the week so Monday isn't a scramble.
+- **The reply drafter.** Writes first-draft responses to routine emails in your voice, so you're editing instead of starting cold.
+- **The "explain this" agent.** Forward it a dense PDF — a contract, a school form — and get it back in plain English with the parts that matter flagged.
+- **The content repurposer.** Give it one thing you wrote and get it reshaped for the other places you post, keeping your tone.
+
+## Before you save your first agent
+
+[ ] It does one job, not five. Focused files are the reliable ones.
+[ ] You wrote the steps in the order you'd hand them to a new assistant.
+[ ] You said what to skip, not just what to do — the skips save you the most.
+[ ] You read the file back and it sounds like how you'd actually explain it.
+[ ] You ran it once, live, and tweaked the one thing it got slightly wrong.
+
+The first morning it pings you, you're hooked. That's not a sales line — it's just what happens. The moment a little brief lands in your lap before you've even opened your inbox, something clicks and you start seeing agents everywhere. Build the email one today. Then build the next. You already know how to write down how you like things done. That was always the only skill this took.
