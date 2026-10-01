@@ -1,0 +1,88 @@
+title: Record a Skill
+cat: claude
+date: 2026-07-27
+desc: Teach Claude a task by doing it once. It watches, and never makes you explain it again.
+lead: Teach Claude a task by doing it once. It watches, and never makes you explain it again.
+---
+You already have tasks you'd never bother automating. The monthly expense report. The same three edits to every draft. The way you sort a folder. Individually they're too small to script, so you keep doing them by hand forever. Record a Skill fixes that with the lowest-effort setup Claude has shipped yet: you do the task while it records, talk through it as you go, and it builds a reusable skill from what it actually watched. This is the exact setup — where to find it, how to record one that works, and what to leave off screen.
+
+> **New to skills?** A skill is a set of instructions Claude saves and reuses, so you stop re-explaining the same process every time. Think of it as a saved recipe — once it exists, you just say the name and Claude runs the whole thing. Recording is now the fastest way to create one.
+
+# 1. Why recording beats the old ways
+
+~ You used to have two options. Both worked. Both cost you time up front.
+
+Option one was walking Claude through the whole workflow live, step by step, in a real session. Option two was writing every step out in detail so it could save it. Fine for a process you can cleanly describe. But so much of what you do is hard to put into words — half of it you don't think about, you just do it. That's exactly where writing instructions falls apart and recording wins.
+
+**Why it's better:** Claude captures your clicks, your navigation, and your voice, then pulls the intent out of the recording — not a brittle frame-by-frame replay. So the skill still works when a button moves or the page looks a little different. One early tester put it bluntly: you'd be amazed how messy you can be on screen and still get a coherent skill back.
+
+> **Start here.** Pick one task you've done more than three times this month and never automated. That's your first recording.
+
+# 2. The exact setup
+
+~ It lives in the desktop app, not the browser tab.
+
+Open the Claude desktop app and find the + menu — the same place you start a new chat or attach a file. Choose Record a skill. Claude starts watching your screen and listening. You do the task exactly how you normally would. When you're done, you stop the recording and Claude turns what it saw into a skill you can run again.
+
+**Two things to check first:** it's on Pro, Max, and Team plans, and the rollout is phased — if you don't see it yet, you're in the queue, not missing a setting. And it's the desktop app specifically. The browser version won't show the option.
+
+> **Start here.** Open the desktop app, click the +, and look for "Record a skill." If it's there, you're ready. If not, you're on the waitlist side of the rollout.
+
+# 3. How to record one that actually works
+
+~ The recording is the instructions. Narrate like you're teaching a smart new hire over your shoulder.
+
+Before you hit record, know the start and the end of the task — where you begin and what "done" looks like. Then go slow enough to talk. You don't need to be precise or perfect. You need to be clear about what you're doing and why. Claude is reading intent, so the "why" matters more than a flawless click path.
+
+What to say as you go:
+
+- Name the goal out loud first: "I'm filing my monthly expense report."
+- Call out each move as intent, not coordinates: "I open the receipts folder" beats silently clicking around.
+- Explain the judgment calls: "I only include receipts over twenty dollars" — that's the part you could never write down easily.
+- Say when you're done: "That's it, the report's submitted." Give it a clean ending.
+
+> **Pro tip.** Do one full clean run, not a rehearsal plus the real thing. If you fumble, don't restart in a panic — narrate the correction ("that was wrong, the file I actually want is this one"). Claude follows the intent, and you skip re-recording the whole thing.
+
+# 4. What to keep off screen
+
+~ A recording captures everything visible — not just the clicks Claude needs.
+
+This is the one rule to take seriously. Because the recording sees your whole screen, treat it like a screen-share with a stranger. Before you record, close or mask anything you wouldn't want saved.
+
+**Never record:** passwords typed in plain text, API keys, credit card numbers, or any unmasked financial or personal account data. If a task genuinely needs a login, log in before you start recording so the credentials never hit the screen. And when a step involves a connected app, let Claude use the proper connector instead of the raw interface — it keeps the sensitive screen out of it entirely.
+
+> **Try this.** Do a five-second dry run in your head first — "what's going to be visible while I do this?" Close the tabs that shouldn't be, then record.
+
+# 5. What Claude does after you stop
+
+~ The recording is the input. The skill is the thing you keep.
+
+Once you stop, Claude analyzes the sequence and writes it up as a skill definition it can rerun on demand. If any step maps to a tool it already connects to — your email, your calendar, a file app — it'll suggest the connector instead of clicking through the UI every time, which makes the skill faster and far less likely to break. It works across both browser tasks and computer-use tasks.
+
+Give the skill a plain name you'll actually remember ("file expense report," not "workflow 3"). Then run it once on a real, low-stakes example and watch it. If it misses a judgment call, you don't re-record — you tell Claude what to fix and it updates the skill.
+
+> **Start here.** Right after recording, run the new skill once on something safe. Watching the first run is how you catch the one step it read differently than you meant.
+
+# 6. Good first skills to record
+
+~ Aim at the boring, repeated stuff. That's where this earns its keep.
+
+The best candidates aren't your biggest, highest-stakes work — they're the small tasks you repeat identically and never thought were worth automating. A few that people reached for first:
+
+- Filing an expense or reimbursement report the same way every month.
+- Your standard reply to a recurring type of email.
+- A repeatable LinkedIn or content task — reformatting, cross-posting, the same set of edits.
+- Sorting a messy folder into your usual structure.
+- Pulling the same numbers into the same report layout on a schedule.
+
+## Before you record: quick checklist
+
+[ ] You're in the desktop app and can see "Record a skill" in the + menu.
+[ ] You know where the task starts and what "done" looks like.
+[ ] Anything sensitive is closed, masked, or logged into beforehand.
+[ ] You're ready to talk through it, not do it silently.
+[ ] You've got one clean run in you — no rehearsal needed.
+
+## The whole point
+
+You're not documenting a process. You're just working, and Claude is watching. The stuff that was always too fiddly to explain is exactly the stuff this captures best — so record the task you've quietly done a hundred times, and hand it off for good.

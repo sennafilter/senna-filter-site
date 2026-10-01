@@ -1,0 +1,59 @@
+title: How to Catch AI When It's Lying
+cat: thinking
+date: 2026-07-17
+desc: The full list: why AI answers wrong with total confidence, and exactly what to do about it.
+lead: The full list — why it happens, and exactly what to do about it.
+---
+AI answers wrong questions with total confidence. Once you know the one reason why, it gets so much easier to catch.
+
+Here's the part almost nobody talks about, and Anthropic published it themselves: there's a setting inside the model that's basically "I don't know," and it's on by default. But the second the model even halfway recognizes your topic, that setting flips off — because it's also trained to be maximally helpful. So instead of "I'm not sure," it just answers. Confidently. Even without the facts to back it up. It's not that it doesn't know. It forgot it was allowed to say so.
+
+> **The danger zone.** It guesses most when you ask for a stat, a name, a date, a source, or anything recent or genuinely niche. The more specific and lookup-shaped your question, the more you should verify the answer. That's where it fills gaps with confident fiction.
+
+## The full list: what to actually do
+
+# 1. Make it show its work
+
+~ Don't just take the answer. Make the reasoning visible.
+
+Ask for the sources behind a claim, then — in the same breath — have it go back and check that those sources actually say what it claimed. Half the time it'll walk back its own answer when it has to re-read what it cited.
+
+> **Try this.** "List your sources for that, then re-check each one and tell me if it actually supports what you said."
+
+# 2. Give it permission to not know
+
+~ Take the pressure off, out loud.
+
+That "I don't know" setting flips off because the model is trying to be helpful. So tell it that not knowing is helpful. Literally typing this changes the answers you get — it stops reaching for a guess.
+
+```
+It's okay if you don't know. I'd rather have "I'm not sure" than a guess.
+```
+
+# 3. Verify in a fresh chat
+
+~ A new chat won't defend the old answer.
+
+In the same chat, the model tends to defend what it already said. For anything that really matters, open a brand new chat, paste the answer in cold with no context, and ask it to verify from scratch. Stripped of the pressure to be consistent, it's a much harder critic.
+
+> **Try this.** New chat → paste the claim → "Is this accurate? Check it from scratch."
+
+# 4. Ask how confident it is, and why
+
+~ Force the uncertainty into the open.
+
+Make it rate its own confidence and explain the basis. "High confidence because it's a widely documented fact" is different from "medium, I'm inferring from general patterns." The second one is your cue to go verify.
+
+> **Try this.** "How confident are you in that, and what's it based on?"
+
+# 5. Watch for the tells in the danger zone
+
+~ Specific + recent + niche = verify by default.
+
+Exact statistics, proper names, dates, quotes, citations, and anything after its training cutoff are the classic slip points. When an answer hits one of those, treat it as a draft to confirm, not a fact to trust. Connect it to live search or paste in the real source when you can.
+
+> **Start here.** Pick your last AI answer that had a number or a name in it. Go verify just that one thing.
+
+## The one-line version
+
+It's not that the model doesn't know — it's that it forgot it was allowed to say so. Every new model gets a little better at this. For now, it's still on you.

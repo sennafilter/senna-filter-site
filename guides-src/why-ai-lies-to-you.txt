@@ -1,0 +1,86 @@
+title: Why AI Lies to You
+cat: thinking
+date: 2026-08-02
+desc: The one reason AI hands you confident wrong answers, and three ways to catch it before it burns you.
+lead: The one reason AI hands you confident wrong answers — and three ways to catch it before it burns you.
+---
+AI will give you a wrong answer with total confidence. No hedging, no "I'm not sure" — just a clean, convincing response that happens to be made up. People call this hallucinating, and it's the single fastest way to get burned by a tool you otherwise trust. But there's one reason it happens, and once you understand it, catching it gets a lot easier. Here's the why, and the exact moves I use to check.
+
+# 1. The one reason it happens
+
+~ There's an "I don't know" switch — and helpfulness keeps turning it off.
+
+Underneath everything, the model is doing one thing: reading an enormous amount of text and getting very good at guessing the next word. Like autocomplete on your phone, just far more sophisticated. Most of the time, that works great.
+
+Here's the part almost nobody talks about, and Anthropic's own researchers published it. There's essentially a built-in setting inside the model that means "I don't have this," and it's on by default. But the moment the model even half-recognizes your topic, that setting flips off — and because it's also been trained to be as helpful as possible, it treats "give an answer" as the goal. So instead of telling you "I'm not sure," it just answers. Confidently. Even when it doesn't actually have the facts.
+
+That's the whole trap. It's not lying on purpose. It's been nudged to always be useful, and a confident guess feels more useful to it than an honest "I don't know."
+
+# 2. The danger zone
+
+~ Where it guesses the most — this is when to slow down.
+
+You don't need to fact-check every answer. You need to know which answers are high-risk. It guesses most when you ask for something exact or something it likely never saw much of:
+
+- Stats and specific numbers
+- Names — people, companies, products
+- Dates and timelines
+- Direct quotes and citations
+- Anything recent (past its training cutoff)
+- Anything niche or highly specialized
+
+> **Start here.** When an answer includes any of the above and it matters, treat it as unverified until you've run one of the checks below.
+
+# 3. Fix #1: Give it permission to not know
+
+~ The easiest one. Takes the pressure off.
+
+Since the model is chasing "be helpful," you can change what counts as helpful. Tell it, in plain words, that "I don't know" is an acceptable answer. It's one sentence and it works better than you'd expect.
+
+```
+If you're not sure or don't have the facts, say so instead of guessing.
+```
+
+You're basically telling it that admitting a gap is a successful response, not a failure. That flips the incentive that made it guess in the first place.
+
+> **Start here.** Add that line to the end of your next factual question and watch how much more willing it is to say "I'm not certain."
+
+# 4. Fix #2: Make it show its work
+
+~ Ask for sources, then make it check its own sources.
+
+Asking for sources is step one, but it's not enough on its own — a model will happily cite things that don't actually say what it claimed. The real catch is the second pass, where you make it audit itself.
+
+- **Step one:** "Give me the source for each claim."
+- **Step two:** "Now go back and check that each source actually says what you claimed. Flag anything that doesn't hold up."
+
+That second step is where the made-up stuff falls out. The first list of sources can be just as invented as the answer — forcing it to re-read and verify is what exposes the gap.
+
+> **Start here.** On your next research answer, ask for sources, then paste: "Re-check that these sources actually support each claim." Watch what it walks back.
+
+# 5. Fix #3: Verify in a fresh chat
+
+~ For anything that really matters. This is the strongest check.
+
+Open a brand-new chat. Paste the answer in cold, with no lead-up, and ask it to verify from scratch. The reason this works: in the same chat, the model tends to defend what it already told you — it's motivated to stay consistent with itself. A blank chat has nothing to protect, so it evaluates the claim on its own merits.
+
+```
+Is the following accurate? Check each claim and tell me what's wrong or unsupported.
+```
+
+> **Start here.** For anything high-stakes — money, health, legal, or something you're about to post publicly — do the cold-chat check before you trust it.
+
+*"It's not that the model doesn't know. It just forgot it was allowed to say so."*
+
+## Before you trust an answer
+
+[ ] Did I give it permission to say "I don't know"?
+[ ] Is this recent, niche, or full of exact numbers, names, or dates?
+[ ] Did I ask for sources — and make it re-check them?
+[ ] For anything high-stakes, did I verify it in a fresh chat?
+
+## The three fixes at a glance
+
+- **Permission:** "it's okay if you don't know."
+- **Show its work:** ask for sources, then re-check the sources.
+- **Fresh chat:** paste it cold, verify from scratch.

@@ -1,0 +1,51 @@
+title: 22 Free Anthropic AI Courses, Ranked
+cat: resources
+date: 2026-07-17
+desc: Every one is free. Here's the order to actually take them in.
+lead: Every one is free. Here's the order to actually take them in.
+---
+Anthropic has twenty-two free courses and no map for where to start, so most people open one, feel behind, and close the tab. This is the path. Start at your level, follow the track, and skip the ones that aren't for you yet.
+
+Everything lives at [anthropic.skilljar.com](https://anthropic.skilljar.com) — no credit card, no API key, and every course ends in a certificate you can drop on LinkedIn.
+
+> **Start here.** New to all of this? Do the first two on this list in order, then stop. Come back for the rest once Claude is part of your week.
+
+## If you're a total beginner
+
+1. **Claude 101** (everyone, start line). The core walkthrough — what Claude does, how to talk to it, and the workflows that actually save you time. If you take one course, take this one.
+2. **AI Fluency: Framework and Foundations** (everyone). How to collaborate with AI, not just prompt it. Builds the mental model for what it's good at, where it fails, and how to think about it strategically. 101 gets you using it; this gets you using it well.
+3. **AI Capabilities and Limitations** (everyone, optional). What's happening under the hood, in plain language. Take it if you want to understand why AI does what it does — not required, but it makes everything after it click.
+
+## If you already use AI at work
+
+4. **Intro to Claude Cowork** (highest ROI for most people). Research, reports, delegating real tasks. This is the one that hands you back your afternoon. If you're past the basics, jump straight here.
+
+> **Try this.** After Cowork, pick one task you do every week — a recurring report, inbox triage, meeting prep — and rebuild it as a Cowork workflow. That's where the time savings become real.
+
+## If you're already deep in this
+
+5. **Intro to Agent Skills** (advanced). Where you stop just using AI and start building things it can run for you. Skills package your instructions so Claude does a job the way you'd do it, every time.
+6. **Intro to Subagents** (advanced). Hand a big job to a team of Claudes working in parallel. The next step after Skills — automation that runs on its own.
+
+## If you're a developer: the full run
+
+7. **Claude Code 101** (developer). Claude in your terminal. The starting point for building with code instead of chatting.
+8. **Claude Code in Action** (developer). 101's practical follow-up — real projects, real workflows, Claude Code doing the heavy lifting.
+9. **Claude Platform 101** (developer). The foundation for building on Claude — how the platform fits together before you touch the API.
+10. **Building with the Claude API** (developer). Your first API call through to real integrations. The core developer course.
+11. **Intro to MCP** (developer). Model Context Protocol — how you connect Claude to your own tools and data. The standard everyone's building on.
+12. **MCP Advanced Topics** (developer). The deep end of MCP — for when you're building production connections, not demos.
+13. **Claude on Amazon Bedrock** (developer, cloud). Running Claude in AWS. Take it if you deploy on Amazon's stack.
+14. **Claude on Google Vertex** (developer, cloud). Same idea, Google Cloud. For teams on Vertex AI.
+
+## Built for a specific person
+
+15. **AI Fluency for Educators** (teachers). The fluency framework, aimed at the classroom and how teachers actually work.
+16. **AI Fluency for Students** (students). How to use AI to learn more, not to skip the learning.
+17. **AI Fluency for Nonprofits** (nonprofit teams). The framework tuned for lean teams that need to do more with less.
+18. **AI Fluency for Small Businesses** (owners and operators). Practical AI for running a small business — the stuff that saves you a hire.
+19. **AI Fluency for Builders** (makers). For people building products and tools with AI at the center.
+20. **Teaching AI Fluency** (trainers). How to teach this to other people — for anyone running AI training inside a team or school.
+21. **AI Fluency for Kids (K–12)** (younger learners). Age-appropriate AI basics for kids across the K–12 range. They really did think of everyone.
+
+> **The mistake most people make.** Trying to take all of them. You don't need the developer run or the cloud courses unless you write code. Pick your track, finish it, then decide if you want more. Two finished courses beat twenty-two open tabs.

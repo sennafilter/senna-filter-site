@@ -1,0 +1,164 @@
+title: Humanizer: Delete Every AI Tell in Your Writing
+cat: prompting
+date: 2026-08-05
+desc: Set up the free skill in a few minutes, plus all 33 tells it hunts for, so you can catch them yourself.
+lead: Set up the free skill in a few minutes — plus all 33 tells it hunts for, so you can catch them yourself.
+---
+AI can write your first draft. It just leaves fingerprints all over it. The dashes, the "it's not X, it's Y," the tidy little rule-of-three lists — patterns that quietly tell everyone a robot wrote it.
+
+Humanizer is a free, open-source skill with nearly 33,000 saves on GitHub. It's built on Wikipedia's own guide for spotting AI writing — the one their editors made after reading thousands of AI-generated pages. You point it at your text, it runs two passes, and what comes back sounds like a person wrote it. Here's how to set it up, and exactly what it looks for.
+
+> **New to "skills"?** A skill is just a set of instructions you add to your AI tool so it knows how to do one job well. Humanizer runs inside your AI — Claude, Cursor, whatever you use — not on some separate website you paste into. You install it once, then call it whenever you want.
+
+# 1. What it actually does
+
+~ Two passes, no made-up facts, and it can learn your voice.
+
+Most people try to fix AI writing by asking the AI to "make this sound more human." That barely works, because the model doesn't know what its own tells are. Humanizer does. It carries a checklist of 33 specific patterns and rewrites against every one.
+
+Then it does the part that matters: a second pass. After the first rewrite, it runs an "is this still obviously AI?" audit and cleans up anything it missed the first time. That's why the output holds up.
+
+One rule keeps it honest — it never invents facts. No fake names, dates, or sources to sound more specific. If a detail isn't in your original text, it stays out. The specificity has to come from you, which is exactly what you want.
+
+> **Start here.** Before you install anything, keep reading to section 4. Even if you never run the tool, knowing the 33 tells makes your own edits sharper.
+
+# 2. Install it: pick one path
+
+~ Two clean ways in. Start with whichever tool you already use.
+
+**If you use Claude Code**, this is the simplest. Run these two lines:
+
+```
+/plugin marketplace add blader/humanizer
+/plugin install humanizer@humanizer
+```
+
+Then call it any time with `/humanizer:humanizer`.
+
+**If you use Cursor, Codex, or another AI coding tool**, install it everywhere at once with the skills command in your terminal:
+
+```
+npx skills add blader/humanizer --global
+```
+
+To update it later, swap `add` for `update`. Start a fresh session after installing so it loads.
+
+> **Pro tip.** Not sure you have any of these? The one most of my audience already has is Claude Code. If you don't, the terminal command above works across every major AI tool, so it's the safest single path.
+
+> **Start here.** Open the tool you use most, paste in the matching command, and hit enter. That's the whole install.
+
+# 3. How to use it
+
+~ Three ways to run it, depending on what you've got.
+
+**Paste text in.** Call the skill and drop your writing under it:
+
+```
+/humanizer
+[paste your text here]
+```
+
+**Point it at a file.** If your draft already lives somewhere, just say so and it rewrites it in place:
+
+```
+Humanize the prose in my-launch-post.md
+```
+
+**Or just ask.** No slash command needed — "Please humanize this text: ..." works too.
+
+> **Try this.** Grab the last email or caption you had AI help write, run it through once, and read both versions side by side. That first comparison is where it clicks.
+
+# 4. The 33 tells it hunts
+
+~ This is the real payoff. Learn these and you'll spot AI writing everywhere.
+
+Humanizer sorts the tells into five buckets. Here's the full list, with the fix for each.
+
+### Content: inflating things that aren't there
+
+- **1. Significance inflation.** "marking a pivotal moment in the evolution of..." → just state what happened.
+- **2. Notability name-dropping.** "cited in NYT, BBC, FT, and The Hindu" → trim to what's actually sourced.
+- **3. Superficial -ing analysis.** "symbolizing... reflecting... showcasing..." → cut it.
+- **4. Promotional language.** "nestled within the breathtaking region" → "is a town in the region."
+- **5. Vague attributions.** "experts believe it plays a crucial role" → name a source or cut.
+- **6. Formulaic challenges.** "despite challenges... continues to thrive" → keep the facts, drop the spin.
+
+### Language: the word-level giveaways
+
+- **7. AI vocabulary.** "testament, landscape, showcasing, additionally."
+- **8. Copula avoidance.** "serves as, features, boasts" → "is, has."
+- **9. Negative parallelism.** "it's not just X, it's Y" → say the point directly.
+- **10. Rule of three.** "innovation, inspiration, and insights" → use a real number of items.
+- **11. Synonym cycling.** "protagonist... central figure... hero" → pick one and repeat it.
+- **12. False ranges.** "from the Big Bang to dark matter" → just list the topics.
+- **13. Passive or subjectless fragments.** "no configuration needed" → name who does what.
+
+### Style: the formatting fingerprints
+
+- **14. Em-dash overuse.** The big one. Cut most of them for periods and commas.
+- **15. Boldface overuse.** Stop bolding every other term.
+- **16. Inline-header lists.** "Performance: performance improved" → write it as prose.
+- **17. Title Case Headings.** "Strategic Negotiations And Partnerships" → sentence case.
+- **18. Emojis.** The rocket, the lightbulb → gone.
+- **19. Curly quotes.** Smart quotes → straight quotes.
+- **26. Hyphenated word pairs.** "cross-functional, data-driven, client-facing."
+- **27. Authority tropes.** "at its core, what matters is..." → say the thing.
+- **28. Signposting.** "let's dive in," "here's what you need to know."
+- **29. Fragmented headers.** A header, then one line restating it.
+- **30. Diff-anchored writing.** "this was added to replace..." → describe what it does.
+- **31. Manufactured punchlines.** "No preference. No prior. No nostalgia." → vary your sentences.
+- **32. Aphorism formulas.** "symmetry is the language of trust" → make the real claim.
+- **33. Fake-candid openers.** "Honestly? It depends..." → drop the setup.
+
+### Communication: the chatbot residue
+
+- **20. Chatbot artifacts.** "I hope this helps! Let me know if..." → delete.
+- **21. Cutoff disclaimers.** "while details are limited in available sources..."
+- **22. Sycophantic tone.** "Great question! You're absolutely right!"
+
+### Filler and hedging: the padding
+
+- **23. Filler phrases.** "in order to" → "to"; "due to the fact that" → "because."
+- **24. Excessive hedging.** "could potentially possibly" → "may."
+- **25. Generic conclusions.** "the future looks bright" → a specific plan or fact.
+
+### See it in one before and after
+
+**Before (AI wrote it):** "Nestled along the banks of the Tagus River, Lisbon stands as a vibrant testament to Portugal's enduring spirit, where rich history and modern energy intertwine at every turn."
+
+**After (humanized):** "The hills are the whole story and somehow never make the brochures. My hotel was up in Alfama, which photographs beautifully and, in practice, meant climbing a six-story staircase every time I wanted coffee."
+
+Same trip. One sounds like a brochure. The other sounds like a person who was actually there — specific, a little uneven, no "testament to enduring spirit."
+
+# 5. The setting that makes it sound like you
+
+~ Voice calibration — the step almost nobody uses.
+
+Out of the box, Humanizer removes the robot but lands on a generic "clean" voice. To make it sound like you, hand it a writing sample first. It studies your sentence rhythm, your word choices, your quirks, and rewrites in that instead.
+
+```
+/humanizer
+Here's a sample of my writing for voice matching: [paste 2–3 paragraphs you actually wrote]
+Now humanize this text: [paste the AI text]
+```
+
+> **Pro tip.** Keep a saved "voice sample" note with a few paragraphs that sound most like you. Paste it in every time. Your sample even overrides the em-dash rule, so if dashes are genuinely how you write, it keeps them.
+
+> **Start here.** Pull 2–3 paragraphs from something you wrote and loved — an old caption, a text, an email — and save them somewhere easy to grab.
+
+# 6. No tool? Catch the top 6 by hand
+
+~ A 30-second pass before you hit send.
+
+[ ] Kill the em-dashes. Most become periods or commas.
+[ ] Delete any "it's not just X, it's Y." Say the point straight.
+[ ] Break up the rule-of-three lists. Real thoughts aren't always in threes.
+[ ] Cut signpost phrases: "let's dive in," "here's what you need to know."
+[ ] Swap AI vocab: testament, landscape, showcase, seamless, robust.
+[ ] Add one specific, true detail only you would know.
+
+## The takeaway
+
+Let AI do the first draft. Just don't let it sound like AI did.
+
+Install it once, run everything through it before it goes out — emails, proposals, website copy. Even the drafts you only got AI to start.

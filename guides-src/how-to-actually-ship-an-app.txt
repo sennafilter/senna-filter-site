@@ -1,0 +1,98 @@
+title: How to Actually Ship an App
+cat: vibe
+date: 2026-07-19
+desc: The five-tool pipeline that takes an AI idea from "looks cool on my screen" to a live URL you can send anyone.
+lead: The five-tool pipeline that takes an AI idea from "looks cool on my screen" to a live URL you can send anyone.
+---
+Everyone can get AI to spit out an app that runs on their laptop. Almost nobody knows the part after that — the steps that turn a demo into something that lives on the internet, has a real link, and updates when you ask. That gap is why so many people build something they love and then it dies on their desktop. This is the exact pipeline I used to build a live World Cup 2026 tracker. Same five tools, same order, every time.
+
+> **New to this?** "Shipping" means getting your app off your computer and onto a real web address anyone can open. A demo runs only for you. A shipped app runs for everyone, and you can send the link in a text. Every step below moves you closer to that link.
+
+# 1. Lovable, Bolt, and Replit
+
+~ The easy way in. Live project in minutes.
+
+These are the "describe it and watch it appear" tools. You type what you want in plain English, and a working app shows up in your browser — no setup, no install. They exist to remove the barrier to entry and get your feet wet, and they're genuinely great at that.
+
+**Where people stall:** they think this is the whole thing. It's the front door, not the house. These tools get you a demo fast, but a demo trapped inside their editor isn't an app you own yet. Start here to prove the idea works — then graduate.
+
+> **Start here.** Pick one and describe the simplest version of your idea in a sentence. "Build me a habit tracker with a calendar view." Watch it build. That five-minute hit is the point.
+
+# 2. Claude Code
+
+~ Describe it. It builds it — into real files on your computer.
+
+This is where it gets more technical and you actually understand what's going on under the hood. You talk, and Claude Code writes real files onto your machine. Then you go back and forth — change the layout, fix what's ugly, add a page — just by describing what you want. No copy-pasting code between windows.
+
+The difference from the tools above: the files are *yours*, sitting in a folder on your computer, not locked inside someone's web editor. That's what makes everything after this possible.
+
+**Real example:** for the World Cup app I typed: "Build me an app where I can track the scores in real time. Colorful and lively. I want a map of all the host cities, games today / tomorrow / all, a bracket view, a calendar view, and a filter by country." It wrote the whole thing to a local folder. Then I kept refining by sentence.
+
+> **Pro tip.** Stuck on something hard? Switch the model to a stronger one and turn thinking up before you ask. Save the fast default for small tweaks.
+
+> **Start here.** Take the demo idea from step 1 and rebuild it in Claude Code so the files land on your own computer. One prompt: "Build me [your app] as real files I can deploy."
+
+# 3. GitHub
+
+~ Where your code lives.
+
+GitHub is the home base for your files online — a backup and a history book in one. Every version you save is kept, so nothing gets lost and you can always roll back. You don't have to learn the commands: Claude Code pushes your files there for you. You just ask.
+
+The part most people miss: GitHub isn't just storage. It's what your host watches for changes. That connection is the whole reason the next step works automatically.
+
+**The mistake:** skipping GitHub and uploading files to a host by hand. It works once, then every future update is a manual chore. Wire it up now and updates become automatic later.
+
+> **Start here.** In Claude Code, say "upload these files to GitHub." It creates the repo and pushes everything. That's it — you now have a home for your code.
+
+# 4. Vercel
+
+~ Puts it on the internet.
+
+Vercel is the host — it takes your code and gives it a real, live web address. Connect your GitHub repo, hit deploy, and you have a URL you can send anyone. For a project like a personal app or tracker, it's free.
+
+This is the moment a demo becomes a real app. Before this, your project only existed for you. After this, it exists for the world and has a link to prove it.
+
+**How it works:** sign in to Vercel with GitHub, click Import on your repo, hit Deploy. A minute later you get a live URL. No servers to manage, no config to memorize.
+
+> **Start here.** Go to vercel.com, sign in with GitHub, import the repo you just made, and deploy. Text the link to one person. That reaction is your reward.
+
+# 5. The loop
+
+~ Updates take one sentence now.
+
+Here's the payoff for wiring it up properly. Once the pipeline exists, you never rebuild it. You tell Claude Code what to change — "change the primary background to a lighter yellow" — it pushes to GitHub, and Vercel updates your live site automatically. No re-uploading, no redeploying by hand.
+
+Built once, yours forever. Every future edit is just a sentence.
+
+1. You describe a change to Claude Code.
+2. It writes the files and pushes to GitHub.
+3. Vercel sees the change and redeploys your live URL.
+4. Your app is updated. You did nothing but type.
+
+> **Try this.** Make one tiny change to your live app by sentence — a color, a word, a spacing tweak. Watch it appear on the real URL a minute later. That's when it clicks.
+
+## The whole pipeline at a glance
+
+- **1. Lovable, Bolt, or Replit:** prove the idea in minutes.
+- **2. Claude Code:** rebuild it as real files you own.
+- **3. GitHub:** give your code a home and a history.
+- **4. Vercel:** put it on a live, shareable URL.
+- **5. The loop:** update forever with one sentence.
+
+## Prompts to try
+
+Copy these into Claude Code. Fill in the brackets.
+
+- Build me [your app idea] as real files I can deploy. Make it [colorful / minimal / dark].
+- Add a [calendar view / map / filter by category] to the app.
+- Upload these files to GitHub.
+- Change the [primary background / font / header] to [what you want].
+- The [button / layout] on mobile looks off — fix the spacing.
+
+## Before you call it shipped
+
+[ ] The app runs as real files on your own computer, not just in a web editor
+[ ] Your code is pushed to a GitHub repo
+[ ] Vercel is connected to that repo and gave you a live URL
+[ ] You opened the URL on your phone to confirm it works
+[ ] You made one edit by sentence and saw it go live automatically
