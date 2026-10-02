@@ -1,0 +1,188 @@
+title: The ChatGPT Morning Brief
+cat: setup
+date: 2026-10-01
+desc: Set up ChatGPT to check your email, calendar and the weather every morning, then draft your replies. One prompt, about 15 minutes.
+lead: One prompt that checks your inbox, your calendar and the weather every morning, then drafts your replies. Set it up tonight.
+---
+Most mornings start the same way. Open email, scroll. Open the calendar, squint. Check the weather. Remember the RSVP you forgot. Four apps before 8 am, and you still miss something. This guide sets up one brief that does all of it for you before you wake up: what needs you today, your whole day in one view, and replies already drafted. It takes about 15 minutes, and you only do it once.
+
+## New to the words?
+
+- **Apps (connectors).** Permission for ChatGPT to read from tools you already use, like Gmail and Google Calendar. You sign in once. ChatGPT only sees what your account can see.
+- **Scheduled task.** A prompt ChatGPT runs on its own at a time you pick, then sends you the result. It replaced the old Pulse feature, which was retired in 2026.
+- **Brief.** The answer that comes back each morning. Three sections: needs you, today, drafts.
+
+# 1. Connect the apps your life runs on
+
+~ It can only brief you on what it can reach.
+
+**What it is.** Connecting Gmail and Google Calendar lets ChatGPT read your email and your events when you ask. Weather needs no setup. ChatGPT looks it up.
+
+**Why it's missed.** People ask ChatGPT about their day and get a generic answer, because it can't see anything yet. The connection is the whole trick.
+
+**How to do it.**
+
+1. Open ChatGPT on the web or desktop and go to **Settings**.
+2. Find **Apps**. On some accounts it's labeled **Plugins** or **Connectors**.
+3. Choose **Gmail**, sign in with your Google account and approve access.
+4. Do the same for **Google Calendar**.
+5. If you use more than one calendar (work, family, a shared one with your partner), make sure they all live in the Google account you connected.
+
+**Real example.** Once both are connected, "what's on my calendar today?" pulls your actual events, and "anything in my inbox I need to deal with?" reads your actual mail.
+
+> **Start here.** Connect Gmail and Google Calendar now, then ask: "What's on my calendar tomorrow?" If it lists your real events, you're set.
+
+# 2. Everything that needs you, in one list
+
+~ A short list of what matters, not a recap of everything.
+
+**What it is.** Instead of summarizing your whole inbox, ChatGPT pulls out only the things waiting on you: replies, payments, RSVPs, deliveries, forms.
+
+**Why it's missed.** The default ask is "summarize my email," which gives you a tidy version of the same overwhelm. Asking for *action* is the difference.
+
+**How to do it.** Tell it the time window, what counts as "needs me," and to give one line on why. That last part matters. The reason is what lets you trust the list without opening every email.
+
+Copy-paste:
+
+```
+Check my inbox from the last 24 hours. List only what needs me today: replies, payments, RSVPs, deliveries, forms, deadlines. For each one, give one line on why it needs me and when it's due. Skip newsletters, promotions and anything that's just FYI.
+```
+
+**Real example.** A good list looks like this: electric bill, $84, due Friday. Maya's birthday dinner, she needs a headcount tonight. Package needs a signature, tomorrow 2 to 5. Jen asked for the deck before Friday.
+
+**The mistake.** Leaving it open-ended. Without "skip newsletters and promotions," you'll get a list of twenty. Be picky so it can be picky.
+
+> **Start here.** Run the prompt once right now. If something important is missing, tell it what it missed and why that kind of email matters to you.
+
+# 3. Your whole day in one view
+
+~ Work, family and plans together, plus the weather.
+
+**What it is.** One view of everything on today's calendar, with the weather and anything you need to prep or leave early for.
+
+**Why it's missed.** Calendars show *when*. They don't tell you it's raining at pickup, or that the 9 am meeting needs the numbers sitting in your inbox.
+
+**How to do it.** Ask it to combine your calendar, the forecast for your city and anything in your email related to today's events. Name your city so the weather is right.
+
+Copy-paste:
+
+```
+Show me today in one view. List my calendar events in order with a one-line note for each: what to prep, when to leave, or what to bring. Add the weather for [your city] and tell me if it changes my plans. Flag any conflicts or back-to-backs.
+```
+
+**Real example.** 9:00 team sync, the Q4 numbers are in Jen's email. 12:30 dentist, leave by 12:10. 5:30 pickup, rain by then, umbrella in the car. 7:00 dinner with friends, reservation for 4.
+
+> **Start here.** Add your city to the prompt and run it for tomorrow. Read it tonight and see if it catches something you would have missed.
+
+# 4. Your replies, already drafted
+
+~ Nothing sends without you.
+
+**What it is.** For everything on the "needs you" list, ChatGPT writes a first draft. You read it, edit it and send it yourself.
+
+**Why it's missed.** People either don't trust AI with their email at all, or they let it send things. Drafting is the middle ground. It does the blank-page part. You keep the judgment.
+
+**How to do it.** Ask for short drafts that match your tone, and say clearly not to send anything. If you want it to sound more like you, paste in two or three emails you've actually written and say "match this."
+
+Copy-paste:
+
+```
+Draft a short reply to each item that needs me. Match my tone: warm, direct, no fluff. Keep each one under 4 sentences. Don't send anything. Show me the drafts so I can edit them.
+```
+
+**Real example.** "We're in for Saturday. Count us as two, and let me know what to bring." That's a 10-second edit instead of a 2-minute reply.
+
+**The mistake.** Sending drafts without reading them. It doesn't know that you already told Jen on the phone, or that the dinner is actually a surprise. Read every one.
+
+> **Start here.** Pick one email you've been avoiding. Ask for a draft, edit it and send it. That's the whole workflow.
+
+# 5. Make it automatic
+
+~ Waiting for you every morning, weekends included.
+
+**What it is.** A scheduled task runs your brief on its own every morning and notifies you when it's ready.
+
+**Why it's missed.** Everything above works when you remember to ask. Scheduling it is what makes it happen every day.
+
+**How to do it.**
+
+1. Run the master prompt below by hand once and check the result.
+2. Fix anything that's off (your city, what counts as urgent, your tone).
+3. Ask ChatGPT to turn it into a scheduled task: "Run this every day at 6:30 am."
+4. Check that it shows up in the **Scheduled** section.
+5. In **Settings**, then **Notifications**, choose push, email or both, so the brief actually reaches you.
+
+**Good to know.**
+
+| Plan | How often | Active tasks |
+|---|---|---|
+| Free and Go | daily at most | 3 |
+| Plus | up to hourly | 5 |
+| Pro | up to hourly | 15 |
+
+Plans and features change, so check what yours shows. One daily brief fits every plan.
+
+> **Start here.** Run the master prompt tonight, fix one thing, and schedule it for tomorrow at 6:30 am.
+
+## The master prompt
+
+Copy, paste, swap the brackets. This is the one you schedule.
+
+```
+Every morning at 6:30 am, prepare my morning brief using my Gmail, my Google Calendar and the weather for [your city].
+
+1. NEEDS YOU: From the last 24 hours of email, list only what needs me today (replies, payments, RSVPs, deliveries, forms, deadlines). One line each on why and when it's due. Skip newsletters, promotions and FYIs.
+
+2. TODAY: My calendar events in order, each with a one-line note (what to prep, when to leave, what to bring). Add the weather and flag anything it changes. Flag conflicts.
+
+3. DRAFTS: A short reply to each item in NEEDS YOU. Match my tone: [warm, direct, short]. Don't send anything.
+
+On Saturdays and Sundays, skip work email and work meetings. Focus on plans, errands, family and anything due early next week.
+
+Keep the whole brief short enough to read in two minutes.
+```
+
+## Make it yours
+
+### Add your VIPs
+
+```
+Always put emails from [names or domains] at the top of NEEDS YOU, even if they don't ask for anything.
+```
+
+### Ignore the noise
+
+```
+Never include emails from [senders or keywords]. Treat school newsletters as FYI unless they mention a date, a form or money.
+```
+
+### Add a packing list
+
+```
+After TODAY, add a short "bring" list based on my events and the weather.
+```
+
+### Look ahead
+
+```
+On Sundays, add a "this week" section: deadlines, bills and anything I need to book or buy before Friday.
+```
+
+## Before you rely on it
+
+[ ] Gmail and Google Calendar are connected and returning real results
+[ ] Your city is in the prompt
+[ ] You ran it by hand once and checked it against your actual inbox
+[ ] The prompt says "don't send anything"
+[ ] Notifications are on, so the brief reaches you
+[ ] It's saved in Scheduled, set for every day at 6:30 am
+
+## If something looks off
+
+- **Missing emails or events.** Check the app connection in Settings and that you connected the right Google account.
+- **Wrong weather.** Put your city in the prompt. Don't rely on it guessing.
+- **Too long.** Add "only the 5 most important items" to NEEDS YOU.
+- **Drafts don't sound like you.** Paste in three emails you've written and say "match this tone from now on."
+- **No notification.** Turn on push or email under Settings, then Notifications.
+
+Set it once, and the brief is waiting before you open a single app.
