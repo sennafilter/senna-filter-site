@@ -1,0 +1,188 @@
+title: Build Your First AI Employee
+cat: claude setup
+date: 2026-10-05
+desc: Stop living in one sacred chat. Set Claude up to know you everywhere, then give it a skill for the work you repeat every week.
+lead: Stop living in one sacred chat. Teach Claude who you are once, then give it a job.
+---
+You know the chat. The one that finally knows your voice, how you write your proposals, who your clients are. You're scared to close it. The problem is that chat is fragile. It gets long and fuzzy, it disappears when you delete it or switch tools, and every new chat sends you back to square one. This guide moves everything that chat learned into a setup that lives outside any one conversation, so Claude knows you everywhere and gets better every time you use it.
+
+I run my whole reel workflow this way. I hand Claude a messy idea and a couple of phrases I want in there, and the script comes back sounding like me. That didn't happen in one day. It happened one correction at a time.
+
+## New to the words?
+
+- **Chat.** One conversation. Whatever you teach it lives in that one thread and nowhere else.
+- **Instructions.** A section in Claude's settings where you tell it who you are and how you like things. It applies to every chat, automatically.
+- **Skill.** A saved set of instructions for one specific job, like your proposals or your weekly report. Claude pulls it in whenever that job comes up. Think of it as the training doc you'd hand a new hire.
+- **AI employee.** Not a product. It's what you get when Claude already knows who you are, has written instructions for a real job, and gets corrected the way you'd coach a person.
+
+# 1. Rescue what your sacred chat knows
+
+~ Before you build anything, get the good stuff out.
+
+**What it is.** Your best chat has been quietly collecting rules. "Shorter." "Don't open with a question." "That client hates bullet points." None of that is saved anywhere you can reuse.
+
+**Why it's missed.** You never wrote any of it down. You just kept correcting, and the chat kept adapting.
+
+**How to do it.** Open that chat and ask Claude to pull everything out for you. Then save what it gives you in a doc. You'll split it up in steps 2 and 3.
+
+Copy-paste into your sacred chat:
+
+```
+Look back over this whole conversation. List everything you've learned about me and how I like things done. Split it into two groups:
+
+1. GENERAL: things that are true about me everywhere (my role, my voice, words I hate, how I like answers formatted).
+2. JOB-SPECIFIC: rules that only apply to one kind of task (for example, how I write proposals or client emails). Group these by task.
+
+Use plain bullet points. Include the corrections I gave you, not just the final result.
+```
+
+**The mistake.** Copying the whole chat into a new one. That just recreates the same fragile chat. You want the rules, not the transcript.
+
+> **Start here.** Run the prompt above in the chat you'd be most upset to lose. Paste the answer into a doc called "What Claude knows about me."
+
+# 2. Teach Claude who you are, once
+
+~ The layer that follows you into every single chat.
+
+**What it is.** Your instructions are the general stuff: who you are, what you do, how you talk, what you can't stand. Set it once in Claude's settings and every new chat starts already knowing it.
+
+**Why it's missed.** It's tucked in settings, so most people never open it and reintroduce themselves forever.
+
+**How to do it.** Take the GENERAL list from step 1 and shape it into the template below. Keep it short and specific. This layer is about you, not about any one task.
+
+Copy-paste template:
+
+```
+I'm [name], a [role / what you do] at [company or type of business].
+My work is mostly [the kinds of things you bring to Claude].
+My audience / clients are [who you write for].
+
+How I write: [short sentences / casual / direct / warm], like I'm talking to [a smart friend / a client I like].
+Always: [push back when I'm wrong, ask before guessing, keep answers tight].
+Never: [words or habits you hate, like "delve," em dashes, starting with "Great question"].
+```
+
+**Real example.** Something like "I'm not technical, and I explain AI to smart people who aren't engineers" changes how every answer comes back, even in chats that have nothing to do with content.
+
+**The mistake.** Stuffing every task rule in here. "Proposals always have five sections" doesn't belong in your instructions. That's a job, and jobs get skills.
+
+If you want Claude to really nail your voice, the [Voice Setup Kit](https://www.senna-filter.com/guides/voice-setup-kit) walks you through the 30-question interview and the writing samples that make it accurate.
+
+> **Start here.** Fill in the template and paste it into your instructions. Then open a brand new chat and ask, "What do you know about me?" If the answer is thin, add more.
+
+# 3. Give it a job with a skill
+
+~ One skill per thing you do over and over.
+
+**What it is.** A skill is the written-down version of a job. The steps, the format, the examples, the "please never do this." Once it's saved, you don't explain the task again. You just say what you need.
+
+**Why it's missed.** People assume skills are a developer thing. They're not. A skill is mostly plain English, and Claude can write the first draft with you.
+
+**How to pick your first one.** Look at your week. Pick the task where you paste in the same context, or give the same corrections, every time. Good first skills:
+
+| Job | What the skill holds |
+|---|---|
+| Client proposals | Your section order, pricing language, tone, one great past proposal |
+| Client emails | Your greeting and sign-off, how formal you get, phrases you always use |
+| Weekly report | Your headers, what counts as a "win," what your boss actually reads |
+| Social captions | Your caption rules, hashtag count, CTA format, words you never use |
+| Meeting notes | The exact summary format you want, who gets action items |
+
+**How to do it.**
+
+1. In Claude, go to Customize, then Skills, and install the Skill Creator if you don't have it yet.
+2. Open a new chat and describe the job, or just do the task once and say, "Turn what we just did into a skill."
+3. Paste in the JOB-SPECIFIC rules for that task from step 1.
+4. Add one real example of the output done right. One great example teaches more than ten rules.
+5. Save it.
+
+Copy-paste to start your first skill:
+
+```
+I want to build a skill for [the task, e.g. writing client proposals].
+
+Here's how I do it now: [describe the steps, or paste a recent one].
+Here are the rules I always end up giving you: [paste the job-specific list].
+Here's one example I was really happy with: [paste it].
+
+Interview me with any questions you need, then write the skill. Keep it in plain English.
+```
+
+**Real example.** My reel skill knows my voice, my caption rules (all lowercase, except AI, "I," and names), the words I can't stand, and the structure I like. Now I just give it a raw idea and a couple of phrases I want in, and it comes back sounding like me. The full walkthrough is in the [Claude Skills Guide](https://www.senna-filter.com/guides/claude-skills-guide).
+
+**The mistake.** Building one giant skill for "all my work." Keep each skill to one job. Small and specific beats big and vague.
+
+> **Start here.** Pick the task you did most this week. Build one skill for it today using the prompt above. Just one.
+
+# 4. Train it like a new hire
+
+~ This is the part that makes it get better every time.
+
+**What it is.** When a person on your team gets something wrong, you don't re-explain the whole job. You give them one note and they remember it. Your skill works the same way, but only if you write the note down.
+
+**Why it's missed.** The habit is to fix it in the chat and move on. That fixes today. Tomorrow, the same mistake comes right back.
+
+**How to do it.** Every time the output is off, ask yourself one question: would I give this same note again next time? If yes, it goes in the skill.
+
+Copy-paste when something's off:
+
+```
+That's not quite right. [What was wrong and what you wanted instead.]
+Add a rule to my [skill name] skill so you don't do this again. Show me the exact line you're adding.
+```
+
+**Real example.** My reel skill has a line that just says: never end on a rhetorical question. Another one bans words like "game-changer." Most of my skill is notes like that, the kind of thing you'd tell a new hire once and never again.
+
+**The mistake.** Waiting until you have a "perfect" skill before using it. Your first version will be maybe 70 percent right. That's fine. The corrections are what get it the rest of the way.
+
+> **Start here.** The next time a skill gives you something you'd fix, don't just fix it. Use the prompt above and add the rule.
+
+# 5. Know when a plain chat is still fine
+
+~ Not everything needs a system.
+
+**What it is.** Quick questions, one-off research, brainstorming something you'll never do again. A normal chat is perfect for that. Your instructions from step 2 still come along, so it already knows who you are.
+
+**The rule of thumb.** If you've explained the same thing three times, it's a skill. If you'll never do it again, it's a chat.
+
+**Real example.** "What's a good name for this workshop?" is a chat. "Write this week's client update" is a skill.
+
+> **Start here.** Write down three tasks you've re-explained to Claude more than once. Those are your next three skills.
+
+## Before you call it hired
+
+[ ] **Did you pull the rules out of your sacred chat?** Saved in a doc, split into general and job-specific.
+[ ] **Are your instructions filled in?** A new chat should know who you are without you saying a word.
+[ ] **Did you build one skill?** One job, one real example, plain English.
+[ ] **Did you test it in a fresh chat?** Ask for the task with no extra context. If you have to explain anything, add it to the skill.
+[ ] **Do you have the correction habit?** Every repeat note goes in the skill, not just the chat.
+
+## Prompts to try
+
+Copy, paste, swap the brackets.
+
+### Find your first skill
+
+```
+Based on what you know about my work, what are 5 tasks I probably repeat every week that would make good skills? For each, tell me what the skill would need to know.
+```
+
+### Check what Claude already knows
+
+```
+Without looking anything up, tell me everything you know about me and how I like things done. Then tell me what's missing that would help you do better work for me.
+```
+
+### Tune up a skill
+
+```
+Review my [skill name] skill. Point out anything vague, anything that contradicts itself, and anything you'd need to ask me about before you could do this job perfectly. Then suggest the edits.
+```
+
+### Turn today's work into a skill
+
+```
+We just did [task] together. Turn the way we did it, including every correction I gave you, into a skill I can reuse. Use plain English.
+```
+
+If you have to re-explain yourself every time, you don't have an AI employee. You have an intern with amnesia.
