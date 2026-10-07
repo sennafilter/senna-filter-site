@@ -1,0 +1,209 @@
+title: Your First AI Agent: The Daily Brief
+cat: agents setup claude
+date: 2026-10-07
+desc: Build an agent in Claude that reads your email, calendar and Notion every morning and hands you one brief. Five steps, no code.
+lead: An agent is just AI with a job. Here's how to give Claude its first one: a daily brief waiting for you every morning.
+---
+You've heard someone say "oh, my agent handles that" and thought, must be nice. It's way simpler than it sounds. An agent is just AI with a job. You tell it what to do, how you want it done, and you give it access to the tools it needs. Then it does it on its own, without you asking. No coding. This guide walks through the exact five steps I used to build mine in Claude, the one that goes through my Gmail, calendar and Notion every morning and gives me one brief for the day. Copy the instructions, swap in your details, and you'll have yours running by tomorrow morning.
+
+## New to the words?
+
+- **Agent.** AI with a standing job. Instead of you asking it something every time, it runs on its own, on a schedule, and follows the instructions you gave it once.
+- **Connectors.** Permission for Claude to read from apps you already use, like Gmail, Google Calendar, Notion and Slack. You sign in once. Claude only sees what your account can see.
+- **Scheduled task.** A set of instructions Claude runs by itself at a time you pick, like every weekday at 7 a.m.
+- **Brief.** The result it hands you each morning. One page with everything you need to know about your day.
+
+# 1. Give it a job
+
+~ One job. Just one.
+
+**What it is.** The single, clear responsibility your agent owns. Think of it like the first line of a job description.
+
+**Why most people skip it.** They try to build one agent that does everything: email, calendar, research, to-dos, reminders. It gets confused and so do you. One job is how you get something reliable.
+
+**How to do it.** Write one sentence with three parts: when it runs, where it looks, and what it hands you.
+
+Copy-paste job:
+
+```
+Every weekday at 7 a.m., go through my Gmail, my Google Calendar and my Notion, and give me a brief for the day.
+```
+
+**Real example.** Mine is exactly that line. Everything else in this guide is just teaching it how to do that one job well.
+
+> **Start here.** Write your one-sentence job. If it has the word "and" more than twice, it's two jobs. Pick one.
+
+# 2. Give it context
+
+~ Tell it how your day actually works.
+
+**What it is.** The stuff a new assistant would need to know about you before they could plan your day. Without it, your agent can only tell you what's happening. With it, it can tell you what matters.
+
+**Why it's missed.** People skip straight to "summarize my day" and get a generic list. Context is what lets it say "you have three meetings back to back, and the third one needs prep you haven't done."
+
+**How to do it.** Just talk. Turn on voice-to-text and ramble about your normal day. Cover these:
+
+- When you're available, and when you're not (workouts, school pickup, getting ready)
+- When you do your best focused work
+- How many meetings in a row you can handle before you're done
+- Whose emails always come first (your boss, your team, your biggest client)
+- What kind of deadlines get priority
+
+Copy-paste context:
+
+```
+Here's how my day works. I'm not available until [time] because [your morning routine]. I do my best focused work [morning / afternoon]. I can do about [number] meetings back to back before I need a break. Emails from [names, team, or domains] always come first. Deadlines for [type of work] beat everything else.
+```
+
+**The mistake.** Being polite instead of honest. If you really can't think straight after two meetings in a row, say two. The agent can only protect the day you actually describe.
+
+> **Start here.** Record a two-minute voice note about your typical Tuesday. Paste the transcript in as your context. Messy is fine.
+
+# 3. Set the rules
+
+~ What to look for, and what it's not allowed to do.
+
+**What it is.** Two lists. The first tells it what to pay attention to. The second is the boundaries, the things it can never do without asking you.
+
+**Why it's missed.** Without rules, you get a recap of everything, which is just your inbox again in a different font. And without boundaries, people get nervous and never turn it on.
+
+**How to do it.** Start with what it should look for. Mine:
+
+- Emails from leadership
+- Anything waiting on my reply
+- Overdue or upcoming deadlines
+- Meetings I need to prep for
+
+Then have it draft replies to anything you haven't answered. Drafts only. You read them and press send yourself.
+
+Then the boundaries. This is the part that makes it safe to leave running.
+
+Copy-paste rules:
+
+```
+Look for: emails from [leadership / my manager / key clients], anything waiting on my reply, deadlines that are overdue or due in the next [3] days, and meetings today or tomorrow that I need to prep for.
+
+Draft a short reply to anything I haven't answered that needs one. Match my tone: [warm, direct, short].
+
+Boundaries: you can draft emails and suggest changes to my calendar, but never send an email, accept or decline an invite, or move anything on my calendar without my approval.
+```
+
+**Real example.** It flags that my manager asked for an update yesterday, drafts a three-line reply, and suggests moving a 4 p.m. that collides with a deadline. I decide. It never acts on its own.
+
+> **Start here.** Write down the three kinds of emails you never want to miss. That's your first rule list.
+
+# 4. Connect your apps
+
+~ It can only see what you give it.
+
+**What it is.** Hooking up the apps your day actually runs on, so Claude can read them when the brief runs.
+
+**Why it's missed.** People ask Claude about their day before connecting anything and get a generic answer. The connection is what makes it yours.
+
+**How to do it.**
+
+1. In Claude, open your settings and find **Connectors**.
+2. Connect **Gmail** and **Google Calendar** and sign in with the Google account you actually use.
+3. Connect **Notion** if that's where your to-dos and projects live.
+4. If your boss hands out deadlines in **Slack** or another project tool, connect that too.
+5. Test it. Ask: "What's on my calendar tomorrow, and what's waiting on my reply?" If it shows your real events and emails, you're set.
+
+**The mistake.** Connecting the wrong account. If you have a work and a personal Google account, make sure the one with your actual calendar is the one you connect.
+
+> **Start here.** Connect Gmail and Google Calendar now and run the test question above.
+
+# 5. Show it what done looks like
+
+~ Be really clear here. This is the part you'll see every day.
+
+**What it is.** The exact layout of your brief: the sections, the order, and even the look of it.
+
+**Why it's missed.** People let the AI decide. Then every morning the brief looks a little different, and you have to hunt for things.
+
+**How to do it.** List your sections in the order you want them. Mine:
+
+1. **My day.** My calendar at a glance, with conflicts and back-to-backs flagged.
+2. **Priorities.** My to-do list for today, most important first.
+3. **Ready to send.** Drafted replies I just need to read and send.
+4. **Meetings to prep for.** What each one needs and where the info is.
+5. **Don't miss.** Anything I'm overlooking: deadlines, follow-ups, appointments, conflicts.
+
+Then tell it the vibe. Short or detailed, bullets or a few sentences, and colors if you want it formatted as a page. You can even send it a screenshot of a layout you like.
+
+**Real example.** Mine comes back as one clean page I can read in two minutes, with the drafted emails right there. I open it, send what's ready, and I know exactly what my day looks like.
+
+> **Start here.** Write out your five section names. If a section never has anything useful in it after a week, cut it.
+
+## Put it all together
+
+Copy, paste, swap the brackets. This is the full set of instructions.
+
+```
+JOB
+Every weekday at 7 a.m., go through my Gmail, my Google Calendar and my Notion, and give me a brief for the day.
+
+CONTEXT
+I'm not available until [time] because [routine]. I do my best focused work [when]. I can do about [number] meetings back to back. Emails from [names / team / domains] always come first. Deadlines for [type of work] get top priority.
+
+RULES
+Look for: emails from [leadership], anything waiting on my reply, deadlines that are overdue or due in the next [3] days, and meetings I need to prep for.
+Draft short replies to anything unanswered that needs one, in my tone: [warm, direct, short].
+Never send an email, respond to an invite, or change my calendar without my approval. Only draft and suggest.
+
+THE BRIEF
+1. My day: calendar at a glance, conflicts and back-to-backs flagged.
+2. Priorities: today's to-do list, most important first.
+3. Ready to send: drafted replies.
+4. Meetings to prep for: what each needs and where to find it.
+5. Don't miss: deadlines, follow-ups, appointments, conflicts.
+Keep it short enough to read in two minutes.
+```
+
+## Make it run every morning
+
+1. Paste the full instructions into a new chat in Claude and run it once by hand.
+2. Check it against your real inbox and calendar. Fix anything that's off.
+3. Ask Claude to schedule it: "Run this every weekday at 7 a.m." You can also type `/schedule`.
+4. Confirm it shows up in your scheduled tasks.
+
+Scheduled tasks are on paid plans, and features change, so check what your account shows.
+
+## Before you rely on it
+
+[ ] It has one clear job
+[ ] Your real routine is in the context
+[ ] Gmail, Google Calendar and Notion are connected to the right account
+[ ] The boundaries say it can't send or change anything without you
+[ ] You ran it by hand once and checked it against your actual day
+[ ] It's scheduled for every weekday morning
+
+## If something looks off
+
+- **It's too long.** Add "only the 5 most important items per section."
+- **It flags stuff that doesn't matter.** That's normal the first week. Tell it what to skip, the same way you'd correct a new assistant.
+- **Drafts don't sound like you.** Paste in three emails you've written and say "match this tone from now on."
+- **Missing emails or events.** Check that the right account is connected.
+
+## Version two ideas
+
+Once the basic brief feels right, add one upgrade at a time.
+
+### Meeting prep
+
+```
+For any meeting flagged in "Meetings to prep for," pull the related emails and Notion pages and give me a 5-bullet prep summary: who's there, what they want, and what I should bring.
+```
+
+### Deck starter
+
+```
+If a meeting today needs a presentation I haven't made, draft an outline for it and list the info I'll need.
+```
+
+### Protect my day
+
+```
+If my calendar breaks my rules (too many meetings in a row, a meeting during my focus time), suggest a rearranged schedule. Don't change anything. Just show me the suggestion.
+```
+
+An agent is just AI with a job, and this is your first one.
