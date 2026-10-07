@@ -1,0 +1,220 @@
+title: Build Your Own AI Job Search Assistant
+cat: agents setup
+date: 2026-10-07
+desc: The prompts to build a job search assistant in Perplexity Computer. It finds matching roles every morning, scores them, tailors your resume and tracks your follow-ups.
+lead: One build, about an hour. It finds the jobs, scores them, tailors your resume and reminds you to follow up. You still do the interview.
+---
+Job searching is a second full-time job. You scroll the same boards every morning, rewrite your resume for every posting, lose track of where you applied and forget to follow up. None of that is the part that gets you hired. This guide gives you the exact prompts to build an assistant in Perplexity Computer that handles the busywork, so your energy goes into the applications and interviews that matter.
+
+I built mine in about an hour. Plan on the same.
+
+## New to the words?
+
+- **Perplexity Computer.** Perplexity's agent. Regular Perplexity answers questions. Computer actually does the work: it searches, builds files and trackers, and keeps running in the background after you close your laptop. It also picks which AI model handles each part of a task, so you don't have to.
+- **Connector.** Permission for Computer to use an app you already have, like Gmail, Google Drive or Notion. You sign in once.
+- **Scheduled task.** A job Computer runs on its own at a time you pick. This is what makes the morning search happen without you.
+- **Fit score.** A 1 to 10 rating of how well a posting matches your actual resume, with the reasons written out.
+
+# 1. Set it up once
+
+~ Your resume, your criteria, and the apps it can reach.
+
+**What it is.** Before Computer can search for you, it needs three things: your resume, a clear picture of the job you want, and access to wherever you want the tracker to live.
+
+**Why most people skip it.** They type "find me a marketing job" and get a list of fifty generic postings. The assistant is only as good as your criteria. Vague in, vague out.
+
+**How to do it.**
+
+1. Go to perplexity.ai, sign in and click the **Computer** icon in the left sidebar.
+2. Open **Connectors** and enable the apps you want it to use. Google Drive or Notion for the tracker, Gmail if you want follow-up drafts there. Approve the sign-in for each.
+3. Have your resume ready as a PDF or Word file. Use your most complete version, not a one-page cut. More real experience gives it more to work with.
+4. Write down your criteria before you start: target titles, location or remote, minimum salary, seniority, and any dealbreakers.
+
+**Real example.** "Senior Product Manager or AI Product Lead. Remote or Orange County hybrid. $160K minimum. No agencies, no relocation." That's specific enough to filter out most of the noise on day one.
+
+**The mistake.** Listing one job title. Companies name the same role five different ways. Give it two or three titles and let the scoring sort out the rest.
+
+> **Start here.** Write your criteria in a note right now: titles, location, salary floor, dealbreakers. That note is half the prompt.
+
+# 2. The build prompt
+
+~ One prompt that creates the whole system.
+
+**What it is.** This is the prompt that builds everything in one go: the daily search, the scoring, the tailored bullets, the job brief, the tracker and the follow-up reminders. Attach your resume and paste it in.
+
+**How to do it.** Swap everything in brackets for your details. Leave the rules about never inventing experience exactly as they are.
+
+Copy-paste build prompt:
+
+```
+I want you to build me a personal job search assistant. I'm attaching my resume. Here's what I'm looking for:
+
+- Target role(s): [e.g. Senior Product Manager, AI Product Lead]
+- Location: [city / remote / hybrid]
+- Minimum salary: [$___]
+- Seniority level: [e.g. senior, lead, director]
+- Industries or companies I'm excited about: [optional]
+- Dealbreakers: [optional, e.g. no agencies, no relocation]
+
+Build the following:
+
+1. DAILY JOB SEARCH
+Every morning at [8am my time], search job boards and company career pages for new postings from the last 24 hours that match my criteria. Skip duplicates and anything I've already seen or applied to.
+
+2. FIT SCORING
+Score each posting from 1-10 against my actual resume. For each one, give me 2-3 sentences on why it's a strong fit or why it isn't. Flag any gaps between the requirements and my experience. Sort the list highest score first.
+
+3. TAILORED RESUME BULLETS
+When I mark a job as "interested," rewrite my resume bullets for that specific posting. Rules:
+- Only use experience that is actually on my resume. Never invent skills, titles, tools, metrics, or accomplishments.
+- Reframe and reorder what I've already done to match the language and priorities in the job description.
+- If something in the posting isn't covered by my experience, tell me instead of filling the gap.
+
+4. JOB BRIEF
+For every job I mark as interested, include:
+- Direct link to the posting and the company's website
+- The hiring manager or recruiter, if they're listed
+- Anyone in my LinkedIn network who works there
+- Salary range, if posted
+- How long the posting has been up
+- 2-3 recent news items about the company I could reference in an interview
+
+5. TRACKER
+Keep everything in one tracker with these columns: Company, Role, Fit Score, Link, Salary, Date Posted, Date Applied, Status (New / Interested / Applied / Interviewing / Rejected / Offer), Contact, Notes, Follow-Up Date.
+
+6. FOLLOW-UP REMINDERS
+When I mark a job as "Applied," set a follow-up date 7 days out. If the status hasn't changed by then, remind me and draft a short, friendly follow-up message I can send.
+
+Before you start, ask me any questions you need to get my criteria right. Then run the first search today so I can see how it works.
+```
+
+**Why the last line matters.** "Ask me questions first" catches the things you forgot to say. "Run the first search today" means you see real results in the same session, instead of waiting until tomorrow morning to find out your criteria were off.
+
+> **Start here.** Paste the prompt, answer its questions, and let it run the first search. Don't tweak anything until you've seen one real batch.
+
+# 3. Fit scoring that tells you why
+
+~ This is the part that saves the hours.
+
+**What it is.** Every morning's results come back ranked 1 to 10 against your real experience, with a short reason for each score and any gaps flagged.
+
+**Why it's missed.** Most job alerts match on keywords. A posting can say "AI" six times and still be a terrible fit. The reasons are what let you skip the bad ones in ten seconds instead of reading the whole description.
+
+**How to do it.** After the first batch, read the reasons, not just the numbers. If it scored something an 8 that you'd never apply to, tell it why. It adjusts.
+
+Copy-paste to tune it:
+
+```
+You scored [company / role] a [score], but I wouldn't apply to it because [reason]. Adjust how you score future postings so this kind of role ranks lower.
+```
+
+**Real example.** "You scored that startup a 9, but it's a contract role and I need full-time with benefits." One correction, and contract roles stop floating to the top.
+
+**The mistake.** Only applying to 9s and 10s. A 7 with a clear reason ("strong fit, but they want SQL you haven't listed") is often a real shot. Read the gap and decide for yourself.
+
+> **Start here.** After your first batch, pick the two scores you disagree with most and correct them with the prompt above.
+
+# 4. Tailored resume bullets, with no lying
+
+~ Same experience. Framed for what this company wants.
+
+**What it is.** When you mark a job as interested, it rewrites your resume bullets for that one posting. It reorders and rephrases what you've already done to match the job's language. It never adds anything you haven't done.
+
+**Why it matters.** Recruiters and applicant tracking systems look for the words in their own job description. If they say "cross-functional stakeholder alignment" and your resume says "worked with other teams," you're describing the same thing but they won't see it.
+
+**How to do it.** The build prompt already has the rules. Before you use any bullets, do one pass yourself and check each line against what you actually did.
+
+Copy-paste for a gut check:
+
+```
+For each tailored bullet, show me which line on my original resume it came from. Flag anything that stretches what I actually did.
+```
+
+**Real example.** Original: "Ran weekly meetings with sales and product to prioritize features." Tailored for a PM role that stresses alignment: "Led weekly prioritization across sales and product, aligning roadmap decisions with customer demand." Same work. Their language.
+
+**The mistake.** Trusting it blindly. The rules keep it honest, and the gut-check prompt proves it. You're the one who has to talk about every bullet in the interview.
+
+> **Start here.** Mark one job as interested and run the gut-check prompt on the bullets it gives you.
+
+# 5. The job brief
+
+~ Walk in sounding like you did your homework.
+
+**What it is.** For every job you're interested in, a short brief: links to the posting and company site, the hiring manager or recruiter if listed, people in your network who work there, the salary range if posted, how long the posting has been up, and a few recent news items about the company.
+
+**Why it's missed.** This research is what most people skip because it takes 30 minutes per company. It's also what makes your follow-up email and your first interview answer sound specific.
+
+**How to use it.**
+
+- **How long it's been up.** A posting that's 45 days old is either hard to fill or quietly filled. Apply anyway, but reach out to a person too.
+- **The hiring manager.** If one is listed, a short note to them after you apply beats waiting in the pile.
+- **The news.** One line in an interview ("I saw you just launched X, how's that changing the team's priorities?") does more than any rehearsed answer.
+
+**A note on LinkedIn.** The "people in your network" line only works if Computer can actually see your LinkedIn connections. If it can't, it will tell you. In that case, open the company's LinkedIn page yourself and click the "people you know" link. It takes 30 seconds.
+
+> **Start here.** Pick your top job from today and read its brief. Find one news item you could mention in an interview.
+
+# 6. One tracker and follow-up reminders
+
+~ Never wonder "did I apply there?" again.
+
+**What it is.** Every job lands in one tracker with its status. When you mark one as Applied, it sets a follow-up date 7 days out. If nothing has changed by then, it reminds you and drafts a short follow-up message.
+
+**Why most people skip it.** They track in their head, or a spreadsheet they stop updating in week two. Following up is the thing almost nobody does, which is exactly why it works.
+
+**How to do it.** Tell it where the tracker should live when it asks. Notion or Google Sheets both work if you connected them in step 1. Then the only thing you ever have to do is update the status.
+
+Copy-paste to update:
+
+```
+Mark [company / role] as Applied today.
+```
+
+Copy-paste when you hear back:
+
+```
+Mark [company / role] as Interviewing. The interview is [date]. Add a note: [who you're meeting].
+```
+
+**Real example.** A follow-up draft looks like this: "Hi Jordan, I applied for the Senior PM role last week and wanted to say I'm genuinely excited about it, especially after your launch of the new analytics product. Happy to share more about my experience whenever it's useful." Short, specific, easy to say yes to.
+
+> **Start here.** Mark your first application as Applied, then check that the follow-up date shows up 7 days out.
+
+## Before you trust it
+
+[ ] Your criteria include two or three titles, a salary floor and your dealbreakers
+[ ] The tracker lives somewhere you'll actually open (Notion or Google Sheets)
+[ ] You ran the first search and corrected at least two scores
+[ ] You ran the gut-check prompt on your first set of tailored bullets
+[ ] You know whether it can see your LinkedIn network
+[ ] The daily search is scheduled for a time you'll actually read it
+
+## Prompts to try
+
+Copy, paste, swap the brackets. Each one is its own build, the same way you built the job search assistant.
+
+### Salary negotiation coach
+
+```
+I just got an offer for [role] at [company] for [salary + details]. Research typical pay for this role, level and location. Tell me what's fair, where I have room to negotiate, and draft a short, confident counter. Then role-play the recruiter so I can practice my response out loud.
+```
+
+### One-page interview brief
+
+```
+I'm interviewing with [company] for [role] on [date]. Build me a one-page brief: what the company does, recent news, how they make money, who I'm meeting if you can find them, three smart questions to ask, and which parts of my resume to lead with for this role.
+```
+
+### LinkedIn rewrite for the role you want
+
+```
+Here's my current LinkedIn headline and About section: [paste]. I want to be found for [target role]. Rewrite both using only my real experience. Give me three headline options and one About section under 200 words, written in first person.
+```
+
+### Networking tracker
+
+```
+Build me a networking tracker with these columns: Name, Company, How We Know Each Other, Last Contact, Next Step, Follow-Up Date. Every Monday, remind me who I haven't contacted in 30 days and draft a short, natural check-in for each.
+```
+
+It won't get you the job. It just gets you to the interview with energy left to be good in it.
