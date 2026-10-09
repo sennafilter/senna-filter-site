@@ -1,0 +1,179 @@
+title: 5 Everyday Things to Build With AI This Weekend
+cat: vibe claude
+date: 2026-10-08
+desc: A card perks tracker, a trip itinerary, a meal plan that fills your cart, a workout planner and a money dashboard, with the exact prompts.
+lead: Five tools for your real life, built in an afternoon each. Copy the prompt, answer a few questions, use it Monday.
+---
+Most people use AI to answer questions. The bigger move is asking it to build you something: a small working tool you open, click and keep. No code, no app to download, no template to buy. You describe what you want in plain English and Claude builds it.
+
+These five are for everyday life, not work. Your credit cards, your next trip, dinner, your workouts and your money. Pick one for Saturday. You don't have to build all five.
+
+## New to the words?
+
+- **Artifact.** The finished tool Claude builds and shows you right in the chat. It's a real page with buttons, charts and checkboxes, not a wall of text.
+- **HTML file.** The format these tools are saved in. You double-click it and it opens in your browser like a website, except it lives on your computer.
+- **Connector.** A one-time link between Claude and an app you already use, like Gmail, Google Calendar or Instacart. You approve it once, and you approve every action it takes.
+- **CSV.** A plain spreadsheet file. Almost every bank lets you download your transactions as one.
+
+## How every one of these works
+
+1. Open a new chat in Claude and paste the prompt.
+2. Answer the questions it asks. Your real cards, your real trip, your real schedule.
+3. Ask for changes in plain words: "make the text bigger," "add a column for notes," "use dark mode."
+4. When you like it, say "make this a single HTML file I can save and reopen." Download it. That's your tool.
+
+> **Pro tip.** Each tool works best when you give it real information. Made-up numbers get you a pretty demo. Your actual cards, bookings and statements get you something you'll open every week.
+
+# 1. Points + Perks Tracker
+
+~ Every card you carry, what it earns, and the benefits you're already paying for.
+
+**What it is.** One screen with a tab for each card. For each one: your points balance, what the card earns the most on, and a list of its perks (the statement credits, lounge access, free night certificates) with progress bars for what you've used and what's left. Anything about to expire gets flagged.
+
+**Why it's missed.** Premium cards come with credits worth hundreds of dollars a year, split into monthly and yearly buckets across different apps. Nobody tracks them, so a lot of people pay a big annual fee and use a fraction of what it includes. The points get attention. The perks quietly expire.
+
+**How to do it.** Open each card's benefits page in your bank app or on the card's website and copy the list of credits. Paste that into Claude along with your points balance. Claude organizes it by card and by reset date (monthly, every six months, yearly), so you can see what's live right now.
+
+The prompt:
+
+```
+Build me a points and perks tracker for my credit cards. Make a tab for each card: [card 1], [card 2], [card 3]. For each card show my points balance, what it earns the most on, and every benefit or statement credit with how much I've used and how much is left. Group credits by how often they reset (monthly, every six months, yearly) and flag anything that resets or expires in the next 30 days. Add a total at the top for how much value I've used this year. Dark, premium design in one self-contained HTML file. Ask me for my balances and benefits before you build it.
+```
+
+**Real example.** On a card with a monthly rideshare credit, the tracker shows "$15 this month, unused, use by Oct 31" in yellow. That one line is the whole point. You see it, you use it, and you stop losing money you already paid for.
+
+**Make it yours.** Add a "which card do I use?" section: tell Claude where you spend most (groceries, gas, travel, dining) and ask it to name the best card for each.
+
+> **The mistake.** Trusting Claude's memory of your card's benefits. Card perks change often, and AI can be out of date. Always paste the current list from your card's own benefits page.
+
+> **Start here.** Pick the card with the highest annual fee. Copy its benefits page, paste the prompt with that one card, and see what you haven't used this year.
+
+# 2. Trip Itinerary
+
+~ Paste your bookings once. Get every day of the trip in order.
+
+**What it is.** A day-by-day itinerary with tabs for each day. Flights, hotel check-ins, reservations and the things you want to see, all in time order, tagged by type (flight, hotel, eat, see), with confirmation numbers right where you need them and reminders for anything you need to book ahead.
+
+**Why it's missed.** Trip details live in six confirmation emails, three apps and a note on your phone. People assume organizing them is a chore you do in a spreadsheet the night before you leave. It takes one paste.
+
+**How to do it.** Forward or copy your confirmation emails (flight, hotel, any reservations) into the chat. Then list the things you want to do, even loosely: "a viewpoint at sunset," "one nice dinner," "a museum on the rainy day." Claude places each one on the right day near where you'll already be.
+
+The prompt:
+
+```
+Build me a day-by-day trip itinerary. I'm going to [city] from [dates] with [who]. I'll paste my flight, hotel and reservation confirmations. Put everything in time order with a tab for each day, tag each stop as flight, hotel, eat, see or transit, and keep confirmation numbers next to each booking. Fill open time with things near where I'll already be, and add a reminder for anything that needs to be booked ahead. Clean, light design in one self-contained HTML file.
+```
+
+**Real example.** If your flight lands at 3 p.m., Claude won't schedule a museum at 4. It puts check-in, a short walk near the hotel and an easy dinner on day one, and saves the big stuff for day two.
+
+**Make it yours.** Ask for a "rainy day swap" for each day, or a packing list based on the forecast and what's on the schedule.
+
+> **The mistake.** Packing every hour. A good itinerary has slack in it. Tell Claude "no more than three plans per day" and it'll keep the trip feeling like a vacation.
+
+> **Start here.** Open your next trip's confirmation emails, paste them in with the prompt, and see the whole trip on one screen.
+
+# 3. Meal Plan + Grocery Cart
+
+~ Decide dinner for the week, and get the list sorted by aisle.
+
+**What it is.** A weekly plan for the nights you'll actually cook, with cook times, plus one combined grocery list sorted by store section. If you've connected Instacart to Claude, it can add the list straight to your cart for you to review and check out.
+
+**Why it's missed.** People think meal planning means a Sunday afternoon and a Pinterest board. Most of the work is the decisions, and that's the part AI handles well: what you like, what you hate, how much time you have, and which ingredients overlap so nothing goes bad.
+
+**How to do it.** Be honest about your week. How many nights you'll really cook, how long you're willing to spend, what you always have at home, and anything nobody in your house will eat. Claude plans around overlap (one bag of spinach across two meals) so you buy less.
+
+The prompt:
+
+```
+Plan [number] dinners this week for [number of people]. Each one should take under [minutes] to make. We like [foods]. We don't eat [foods]. I already have [staples]. Reuse ingredients across meals so nothing goes to waste. Give me the plan as cards with cook times, then one grocery list sorted by store section with quantities. Make it one clean HTML page I can check off at the store.
+```
+
+To fill your cart, add this line after the plan is right:
+
+```
+Now add everything on the grocery list to my Instacart cart. Don't check out. I'll review it first.
+```
+
+**Real example.** Four dinners for two, under 30 minutes each: sheet-pan fajitas, lemon orzo with salmon, turkey taco bowls and pesto pasta. One shopping trip, around 23 items, and the cilantro and peppers get used twice.
+
+> **The mistake.** Planning seven dinners. You'll eat out, get invited somewhere or be too tired. Plan four. Leftovers and one easy backup cover the rest.
+
+> **Start here.** Tell Claude how many nights you'll cook this week and two foods you never want to see. Paste the prompt and get the list before Sunday.
+
+# 4. Workout Planner
+
+~ A workout built around the time you actually have today.
+
+**What it is.** A planner that asks one question each day: how much time do you have? Pick 10, 20, 30 or 45 minutes and it gives you a complete workout that fits, using only the equipment you own, with sets, reps and rest times.
+
+**Why it's missed.** Most workout plans assume you have an hour, six days a week. Then life happens, you miss two days and the whole plan feels broken. A planner that starts with your real time keeps you moving on busy days too.
+
+**How to do it.** Tell Claude what equipment you have (even "nothing, just a floor"), any injuries or moves you avoid, and what you're going for: strength, energy, mobility, or just moving every day. Ask it to rotate muscle groups so back-to-back days don't hit the same thing.
+
+The prompt:
+
+```
+Build me a workout planner. I have [equipment]. I avoid [injuries or moves]. My goal is [goal]. At the top, let me pick how much time I have today: 10, 20, 30 or 45 minutes. Then generate a full workout that fits that time, with a warm-up, the moves, sets, reps and rest. Rotate muscle groups so I'm not working the same thing two days in a row. Add a short description of each move. Dark, bold design in one self-contained HTML file.
+```
+
+**Real example.** 20 minutes, dumbbells and a mat: goblet squats, push-ups, renegade rows, reverse lunges and a plank, three rounds with 40 seconds of rest. Done before the coffee's cold.
+
+> **The mistake.** Asking for the "perfect" program. The best plan is the one you'll do on a Tuesday when you're tired. Start with the 10-minute option and let consistency do the work.
+
+> **Start here.** Tell Claude what equipment you have, paste the prompt, and do the 10-minute workout today.
+
+# 5. Money Dashboard
+
+~ See where your money actually goes, and every subscription you forgot.
+
+**What it is.** A dashboard from your real statements: total spending by category in a donut chart, the big categories ranked, and a list of every recurring charge, with the ones you're not using flagged so you know what to cancel.
+
+**Why it's missed.** Spending feels fine until you see it added up. Delivery and rideshare hide in small charges. Subscriptions renew quietly on three different cards. Nobody adds it all up by hand, so nobody sees the total.
+
+**How to do it.** Download the last three months of transactions from your bank and credit cards as CSV files (look for "download" or "export" on the activity page). Remove anything sensitive like full account numbers before you upload. Three months is the sweet spot: enough to spot recurring charges without drowning in data.
+
+The prompt:
+
+```
+Here are 3 months of my transactions. Build me a money dashboard. Show total spending by category as a donut chart, rank the categories, and call out anything surprising. Then list every recurring charge with its monthly cost and when I last seem to have used it, and flag the ones that look unused. One clean, light HTML page.
+```
+
+**Real example.** The most common surprise is delivery. Seeing three months of food delivery and rideshare as one number tends to change behavior faster than any budget.
+
+**Make it yours.** Ask Claude to compare this month to the average, or to show what you'd save in a year by cutting the flagged subscriptions.
+
+> **The mistake.** Only uploading one card. Subscriptions hide on the card you forgot about. Pull statements from every card and account you use.
+
+> **Start here.** Download one month of transactions from your main card, paste the prompt, and look for one subscription to cancel today.
+
+## Before you call it done
+
+[ ] You used real information, not placeholder numbers
+[ ] You asked for "a single HTML file I can save and reopen" and downloaded it
+[ ] You saved it somewhere you'll find it (your desktop or a "Tools" folder)
+[ ] You removed account numbers before uploading any statements
+[ ] You asked for at least one change so it fits how you actually live
+
+## Prompts to try
+
+Copy, paste, swap the brackets.
+
+### Update it later
+
+```
+Here's my [tool name] file. Update it with this week's numbers: [new info]. Keep the design the same.
+```
+
+### Make it easier to use on your phone
+
+```
+Make this layout work well on a phone screen. Bigger buttons, one column, nothing cut off.
+```
+
+### Fix something that looks off
+
+```
+The [section] doesn't look right. [Describe what you see]. Fix it and keep everything else the same.
+```
+
+Build one this weekend, and use it Monday.
