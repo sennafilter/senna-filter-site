@@ -1,0 +1,204 @@
+title: Make Your First AI Skill
+cat: claude setup basics
+date: 2026-10-12
+desc: Teach Claude or ChatGPT how you do something once, so you never explain it again. Three ways to make one, plus free ones to grab.
+lead: Teach Claude or ChatGPT how you do something once, so you never explain it again.
+---
+If you use Claude or ChatGPT and you find yourself typing the same instructions over and over, you're doing extra work. A skill fixes that. You write down how you like something done one time, and AI pulls it out every time you ask for that thing. This guide covers what a skill actually is, how to spot your first one, three easy ways to make it, where to find free ones, and how to set it up in both Claude and ChatGPT.
+
+## New to the words?
+
+- **Skill.** A saved set of instructions that teaches AI how to do one specific task your way. Think of it as a recipe card.
+- **Custom GPT.** ChatGPT's version of a saved setup with its own instructions. On a personal ChatGPT account, this is the closest thing to a skill.
+- **GitHub.** Basically Google Drive for code. It's where people (and AI companies) share free skills.
+- **.md file.** A plain text file with a little formatting. Skills are usually written in one, and you can open it in any text editor.
+
+# 1. What a skill actually is
+
+~ A recipe card for one task. Written once, used forever.
+
+**What it is.** A skill is a set of instructions for one repeatable task. How you like your meeting notes summarized. The steps you follow for your monthly report. The tone you want in a sales email. Once it's saved, AI recognizes when you're asking for that task and follows your instructions automatically.
+
+**Why most people skip it.** It sounds technical, so people assume it's for developers. It isn't. A skill is just written instructions. If you can explain a task to a new coworker, you can make a skill.
+
+**How it's different from a regular prompt.** A prompt lives in one chat and disappears. A skill sticks around. You don't have to paste it, find it, or even remember it exists. You just say "summarize my notes," and AI reaches for the skill on its own.
+
+**Real example.** At the end of every meeting, I want my notes summarized the same way. Decisions first, then who's doing what, then anything still open. That used to take me about an hour of cleanup. Now I drop in my notes and it's one message.
+
+> **Start here.** Think of one thing you've explained to AI more than twice. That's your first skill.
+
+# 2. Find your first skill
+
+~ Look for anything you do the same way more than once.
+
+**How to spot one.** Good skills share three traits. You do the task often. You do it roughly the same way every time. And you have preferences about how it should come out. If all three are true, it should be a skill.
+
+**Common first skills:**
+
+- **Meeting notes.** Messy notes in, your exact summary format out.
+- **Sales or client emails.** Your tone, your structure, your sign-off.
+- **Marketing copy.** Your brand voice, words you never use, how long things should be.
+- **Weekly team update.** Raw bullet points in, a clean update in your usual layout out.
+- **Monthly reporting.** Same columns, same math, same deck, every month.
+- **Research.** How you like sources checked and findings summarized.
+- **Personal stuff.** I have one for finding hotels I'll actually like, so I'm not re-explaining my preferences every vacation.
+
+**The mistake.** Starting with your biggest, most complicated workflow. Start with something small and boring that you do every week. You'll see it work in five minutes, and that's what gets you to build the next one.
+
+> **Start here.** Write down three tasks from your week that you'd love to never explain again. Pick the smallest one.
+
+# 3. Way one: write out the steps
+
+~ Best when you already know exactly how you like it done.
+
+**How to do it.** Open a new chat and write out the task step by step, the way you'd explain it to someone on their first day. Include what goes in, what should come out, and the little judgment calls you make without thinking. Then ask AI to turn it into a skill.
+
+**Real example.** For meeting notes, my steps are: pull out every decision first, then list each action item with the person who owns it and the due date, then anything still unresolved, and keep the whole thing under one page.
+
+Copy-paste starter:
+
+```
+I want to turn this into a reusable skill.
+
+The task: [what you want done, e.g. summarize meeting notes]
+
+What I'll give you: [e.g. messy notes or a transcript]
+
+What I want back: [the exact format, e.g. decisions first, then action items with owners and due dates, then open questions]
+
+My rules: [anything you always want or never want, e.g. under one page, no fluff, bullets not paragraphs]
+
+Before you build it, ask me any questions you need to get it right. Then save it as a skill.
+```
+
+**The mistake.** Being vague. "Make it good" doesn't help. "Decisions first, three bullets max per section" does. The skill is only as good as the instructions in it.
+
+> **Start here.** Paste the starter above, fill in the brackets for your smallest task, and let AI ask you questions.
+
+# 4. Way two: do it once, then save it
+
+~ Best when it's easier to show than explain.
+
+**How to do it.** Just do the task with AI the way you normally would. Go back and forth. Fix what's off. "Actually, put the decisions at the top." "Make that shorter." When the result finally looks right, tell it to save the whole thing as a skill.
+
+**Why it works.** All your corrections become part of the instructions. The stuff you'd never think to write down, like "I always want the totals bolded," gets captured because you asked for it along the way.
+
+Copy-paste for the end of the chat:
+
+```
+This is exactly how I want this done. Save everything we just did as a skill, including every correction I made along the way, so next time you do it this way from the start.
+```
+
+**Real example.** This is the easiest way to build a monthly reporting skill. Do one month's report with AI, step by step, and save it at the end. Next month, it already knows the steps.
+
+> **Start here.** Next time you do a repeat task with AI, don't close the chat when you're done. Ask it to save it as a skill first.
+
+# 5. Way three: record yourself doing it
+
+~ Best for tasks you do on autopilot and can't easily put into words.
+
+**How to do it.** In the Claude desktop app, there's an option to record a skill. You do the task on your screen while talking through it, and Claude builds the skill from what it watched. It's the lowest-effort way to make one, especially for tasks with lots of clicking around.
+
+**What to say while you record.** Name the goal out loud, explain each step as you do it, and say the judgment calls. "I only include receipts over twenty dollars" is the kind of thing that never makes it into written instructions.
+
+**The mistake.** Recording with sensitive stuff on screen. A recording sees everything. Close anything with passwords, account numbers, or private info before you start.
+
+**No recording option?** Take screenshots of each step instead, upload them, and ask AI to write the steps and save them as a skill. This works in both Claude and ChatGPT.
+
+> **Pro tip.** I have a full walkthrough of the recording setup, including what to say and what to keep off screen. [Read the Record a Skill guide](https://www.senna-filter.com/guides/record-a-skill).
+
+# 6. Grab free skills instead of building
+
+~ You don't have to make every skill yourself.
+
+**Built-in skills.** Claude comes with some skills you can just turn on, like ones for making Word docs, PowerPoints, and spreadsheets. Look under Customize, then Skills.
+
+**Free skills on GitHub.** Anthropic, the company that makes Claude, shares a whole folder of free skills on GitHub at [github.com/anthropics/skills](https://github.com/anthropics/skills). There are ones for documents, presentations, brand guidelines, design, and more. Other people share theirs too. Search GitHub for "Claude skills" and you'll find hundreds.
+
+**How to install one in Claude.**
+
+1. Open the skill's folder on GitHub and read the README so you know what it does.
+2. Download the folder to your computer and zip it.
+3. In Claude, go to Customize, then Skills, and upload the zip.
+4. Try it by asking for the thing it does.
+
+**Using a Claude skill in ChatGPT.** Skills are mostly written instructions. Open the skill's main .md file, copy the instructions, and paste them into a custom GPT (see the next step). It won't be a perfect match for every skill, but for writing and formatting skills it works well.
+
+**The mistake.** Installing ten at once. Install one, use it for a week, then add the next. You'll actually know which ones are helping.
+
+> **Start here.** Browse [github.com/anthropics/skills](https://github.com/anthropics/skills), pick one that matches something you do every week, and install it today.
+
+# 7. Set it up in Claude or ChatGPT
+
+~ Same idea, slightly different spots depending on your app and plan.
+
+| | Claude | ChatGPT |
+| What it's called | Skills | Skills (work accounts) or custom GPTs (personal accounts) |
+| Where to find it | Customize, then Skills | Skills: sidebar, under Plugins. Custom GPTs: Explore GPTs, then Create |
+| Who has it | Paid plans | Skills: Business, Enterprise, and Edu. Custom GPTs: paid plans |
+| Does it trigger automatically? | Yes, when your request matches the skill | Skills, yes. Custom GPTs only work when you open that GPT |
+
+**In Claude.** Once a skill is saved or installed, you don't have to call it by name. Ask for the task, and Claude pulls up the skill on its own. To check what you have, go to Customize, then Skills, and turn each one on or off.
+
+**In ChatGPT on a work account.** If your company has ChatGPT Business or Enterprise, skills may already be turned on. Look in the sidebar. If you don't see them, your admin may need to enable them.
+
+**In ChatGPT on a personal account.** Use a custom GPT. Go to Explore GPTs, click Create, and paste your instructions into the instructions box. Name it after the task, like "Meeting Notes," and open it whenever you need it.
+
+> **Start here.** Find where skills live in the app you use most, so you know where your first one will show up.
+
+# 8. Make your skill better over time
+
+~ Your first version will be a little off. That's normal.
+
+**How to fix it.** Use the skill on a real task and look at what's wrong. Then tell AI exactly what to change. "Update my meeting notes skill so action items always include a due date." You don't have to start over.
+
+**When to update.** Any time you catch yourself correcting the same thing twice. That correction belongs in the skill.
+
+**The mistake.** Giving up after one weird result. A skill gets better the more you tune it. Most of mine took two or three rounds before they were exactly right.
+
+> **Start here.** After your first skill runs, write down one thing you'd change and ask AI to update the skill.
+
+## Before you build: quick checklist
+
+[ ] You picked one small task you do every week.
+[ ] You know what goes in and what should come out.
+[ ] You wrote down your rules, including what you never want.
+[ ] You picked a way to make it: write the steps, do it once, or record it.
+[ ] Nothing sensitive is in your instructions or on your screen.
+[ ] You gave it a plain name you'll remember.
+
+## Prompts to try
+
+Copy, paste, swap the brackets.
+
+### Find your first skill
+
+```
+Here's what a typical week of work looks like for me: [describe your week]. Which tasks do I repeat the same way often enough that they should be a skill? Rank the top three by how much time they'd save.
+```
+
+### Build a skill from scratch
+
+```
+Interview me one question at a time to build a skill for [task]. Ask about what I'll give you, what I want back, my format, my tone, and anything I never want. When you have enough, write the skill and save it.
+```
+
+### Turn this chat into a skill
+
+```
+Save everything we just did as a skill called [name]. Include every correction I made so you do it this way from the start next time.
+```
+
+### Fix a skill
+
+```
+Update my [skill name] skill. Last time it [what went wrong]. From now on, [what you want instead].
+```
+
+### Meeting notes skill
+
+```
+Create a skill for summarizing my meeting notes. Always put decisions first, then action items with the owner and due date, then open questions. Keep it under one page, use bullets, and skip small talk.
+```
+
+Pick the one thing you're tired of explaining, and turn it into a skill.
