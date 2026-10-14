@@ -1,0 +1,226 @@
+title: 15 Free Online Resources to Learn AI
+cat: resources basics
+date: 2026-10-13
+desc: Fifteen AI courses from OpenAI, Anthropic, Google, Microsoft, IBM, GitHub and more, with what each covers, how long it takes and the direct link.
+lead: Fifteen courses from the companies building AI, with what each one covers, how long it takes and where to start.
+---
+The companies building AI now teach it too, and most of it costs nothing. The hard part is knowing which course is worth your time. Here are fifteen, what each one actually covers, how long it takes and the direct link. If you only take one, start with OpenAI's AI Foundations or Anthropic's AI Fluency.
+
+## Where to start
+
+| If you are... | Start with | Then try |
+|---|---|---|
+| Brand new to AI | Elements of AI | Introduction to Generative AI |
+| Using ChatGPT at work | AI Foundations (OpenAI) | Applied AI Foundations |
+| Using Claude | AI Fluency (Anthropic) | AI Capabilities and Limitations |
+| Using Copilot at work | AI Fluency (Microsoft) | Career Essentials in Generative AI |
+| A manager or business owner | Transform Your Business with AI | AI for Business Professionals |
+| Curious about building | GitHub Foundations | Agents and Workflows |
+
+# 1. AI Foundations
+
+~ OpenAI Academy
+
+**What it covers.** The basics of working with ChatGPT: how AI works, how to prompt, how to give it context, and how to use it responsibly.
+
+**Time.** About 60 to 75 minutes.
+
+**What you get.** A course badge when you pass the assessment with 80% or higher. Finish all three OpenAI foundations courses and you get a pathway certificate.
+
+**Best for.** Anyone who uses ChatGPT but has never been taught how.
+
+[academy.openai.com](https://academy.openai.com/)
+
+> **Start here.** Sign in with your ChatGPT account, open Courses in the sidebar and choose AI Foundations.
+
+# 2. Applied AI Foundations
+
+~ OpenAI Academy
+
+**What it covers.** Turning the prompts that work into repeatable workflows, choosing the right ChatGPT feature for a task, and where to add a human review step.
+
+**Time.** About 75 to 90 minutes.
+
+**Best for.** People who already use ChatGPT daily and keep retyping the same prompts.
+
+[academy.openai.com](https://academy.openai.com/)
+
+# 3. Agents and Workflows
+
+~ OpenAI Academy
+
+**What it covers.** Handing structured, multi-step work to AI agents while you stay in charge of the result.
+
+**Time.** About 75 to 90 minutes.
+
+**Best for.** The third course in the OpenAI pathway. Take it after the first two.
+
+[academy.openai.com](https://academy.openai.com/)
+
+# 4. AI Fluency: Framework and Foundations
+
+~ Anthropic Academy
+
+**What it covers.** The 4D framework for working with AI: delegation, description, discernment and diligence. In plain English: what to hand off, how to ask for it, how to judge what comes back, and how to use it responsibly.
+
+**Time.** 14 lessons, about 4 hours, with a quiz.
+
+**What you get.** A completion badge.
+
+**Best for.** Anyone. This is the best "how to think about working with AI" course on the list.
+
+[academy.claude.com/courses/ai-fluency-framework-foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations)
+
+# 5. AI Capabilities and Limitations
+
+~ Anthropic Academy
+
+**What it covers.** What large language models can and can't do: next-token prediction, what they know, working memory, how steerable they are, and context limits.
+
+**Time.** 13 lessons, about 3.5 hours, with a quiz.
+
+**What you get.** A completion badge.
+
+**Best for.** Knowing when to trust AI and when to double-check it.
+
+[academy.claude.com/courses/ai-capabilities-and-limitations](https://academy.claude.com/courses/ai-capabilities-and-limitations)
+
+# 6. Introduction to Generative AI
+
+~ Google Skills
+
+**What it covers.** What generative AI is, how it works and how it differs from older kinds of AI.
+
+**Time.** About 45 minutes.
+
+**What you get.** A skill badge.
+
+**Best for.** The fastest real primer on the list.
+
+[skills.google/course_templates/536](https://www.skills.google/course_templates/536)
+
+# 7. Introduction to Large Language Models
+
+~ Google Skills
+
+**What it covers.** What large language models are, how they work and where they're useful.
+
+**Time.** About 1 hour.
+
+**Best for.** The follow-up to Introduction to Generative AI. Take them back to back.
+
+[skills.google/course_templates/539](https://www.skills.google/course_templates/539)
+
+# 8. AI for Business Professionals
+
+~ HP LIFE
+
+**What it covers.** Using AI to work more efficiently, make better decisions and grow your career. Built for non-technical professionals.
+
+**What you get.** HP LIFE courses are free and come with a certificate when you finish.
+
+**Best for.** A practical, business-first take with no jargon.
+
+[life-global.org/course/423-ai-for-business-professionals](https://www.life-global.org/course/423-ai-for-business-professionals)
+
+# 9. AI Fluency
+
+~ Microsoft Learn
+
+**What it covers.** AI basics, generative AI, responsible AI, and getting productive with Microsoft Copilot.
+
+**Time.** 7 modules, about 4 hours 40 minutes. Beginner.
+
+**Best for.** Anyone whose company runs on Microsoft 365.
+
+[learn.microsoft.com/training/paths/ai-fluency](https://learn.microsoft.com/en-us/training/paths/ai-fluency/)
+
+# 10. Transform Your Business with AI
+
+~ Microsoft Learn
+
+**What it covers.** How to plan, prioritize and scale AI projects responsibly inside a business.
+
+**Time.** 4 modules, about 2.5 hours. Beginner.
+
+**Best for.** Business leaders, owners and anyone asked to "figure out our AI strategy."
+
+[learn.microsoft.com/training/paths/transform-your-business-with-microsoft-ai](https://learn.microsoft.com/en-us/training/paths/transform-your-business-with-microsoft-ai/)
+
+# 11. AI Fundamentals: Foundations for Understanding AI
+
+~ IBM SkillsBuild
+
+**What it covers.** The core ideas behind AI and how it's used in the real world, from IBM.
+
+**What you get.** A digital badge you can share on LinkedIn.
+
+**Best for.** A structured beginner course with a credential at the end.
+
+[netacad.com/courses/ibm-foundations-understanding-ai](https://www.netacad.com/courses/ibm-foundations-understanding-ai)
+
+# 12. Elements of AI
+
+~ University of Helsinki and MinnaLearn
+
+**What it covers.** What AI is, what it can and can't do, and how it affects society. No math or coding needed. When you finish, Building AI goes a level deeper.
+
+**Best for.** The classic starting point. Clear, calm and well made.
+
+[elementsofai.com](https://www.elementsofai.com/)
+
+# 13. Google AI Essentials
+
+~ Google on Coursera
+
+**What it covers.** Hands-on practice using AI tools to come up with ideas, create content and speed up daily work tasks, plus prompting and responsible use.
+
+**The cost catch.** This one isn't free by default. It runs on a Coursera subscription after a 7-day free trial. You can finish it inside the trial, or apply for Coursera financial aid.
+
+**Best for.** People who want a Google certificate on their resume.
+
+[grow.google/ai-essentials](https://grow.google/ai-essentials/)
+
+# 14. Career Essentials in Generative AI
+
+~ Microsoft and LinkedIn
+
+**What it covers.** Generative AI basics, hands-on Copilot and the ethics of using AI at work.
+
+**Time.** 5 courses, about 4 hours.
+
+**What you get.** A career certificate that shows up on your LinkedIn profile.
+
+**Best for.** Adding something visible to LinkedIn this week.
+
+[linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin](https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin)
+
+# 15. GitHub Foundations, Parts 1 and 2
+
+~ GitHub and Microsoft Learn
+
+**What it covers.** How modern teams build and ship software: repositories, version control, collaboration and GitHub itself. It also preps you for the GitHub Foundations certification.
+
+**Time.** Part 1 is 8 modules, about 6 hours 45 minutes.
+
+**Best for.** Anyone who wants to build with AI. Worth it even if you're not an engineer, because understanding how software ships is quickly becoming a baseline skill.
+
+[Part 1](https://learn.microsoft.com/en-us/training/paths/github-foundations/) · [Part 2](https://learn.microsoft.com/en-us/training/paths/github-foundations-2/)
+
+> **Start here.** Pick one course from the table at the top and block one hour on your calendar this week. Finishing one beats bookmarking fifteen.
+
+## Putting it on your resume
+
+- **List it under Licenses and Certifications** on LinkedIn, with the provider as the issuing organization.
+- **Name the skill, not just the course.** "Completed Anthropic's AI Fluency course: delegating, prompting and evaluating AI output" says more than a course title.
+- **Pair it with one real example.** Say what you used it for: "Built a weekly reporting workflow in ChatGPT after OpenAI's Applied AI Foundations."
+- **Badges aren't certifications.** OpenAI says so directly about its own. Call them what they are: completion badges and certificates.
+
+## Before you add it to LinkedIn
+
+[ ] You finished the course and passed any quiz or assessment
+[ ] You downloaded or saved the badge or certificate
+[ ] You used what you learned on one real task
+[ ] You wrote one line about what you did with it
+
+The courses are free. The edge goes to whoever actually finishes one and uses it.
