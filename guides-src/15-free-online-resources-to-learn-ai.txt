@@ -9,7 +9,6 @@ The companies building AI now teach it too, and most of it costs nothing. The ha
 ## Where to start
 
 | If you are... | Start with | Then try |
-|---|---|---|
 | Brand new to AI | Elements of AI | Introduction to Generative AI |
 | Using ChatGPT at work | AI Foundations (OpenAI) | Applied AI Foundations |
 | Using Claude | AI Fluency (Anthropic) | AI Capabilities and Limitations |
