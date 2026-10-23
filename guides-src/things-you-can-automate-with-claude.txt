@@ -1,0 +1,159 @@
+title: Things You Can Automate With Claude
+cat: agents claude setup
+date: 2026-10-23
+desc: Real examples of daily tasks to hand off to Claude, the exact prompts to copy, and how to set each one to run on its own.
+lead: Hand off the stuff you dread. Here are the tasks worth automating first, with the exact prompts to copy.
+---
+I don't think everything should be handed off to AI. But if you're doing the same boring task by hand every single day, you're giving away time you could spend on the work you actually care about. For me, it was my inbox every morning and my newsletters. I'm subscribed to about ten, so that's ten a day, and reading all of them started to take forever. Now Claude handles both before I start my day. This guide gives you that setup, plus more examples worth handing off, each with a prompt you can copy.
+
+## New to the words?
+
+- **Connector.** Permission for Claude to read from an app you already use, like Gmail, Google Calendar, Google Drive or Notion. You sign in once in settings, under Connectors. Claude only sees what your account can see.
+- **Scheduled task.** Instructions Claude runs by itself at a time you pick, like every weekday at 7 a.m. You write them once and it keeps going.
+- **Digest.** The one summary it hands you at the end of the run. Instead of opening ten things, you open one.
+
+# 1. Find the thing you dread
+
+~ Start with your own list, not someone else's.
+
+**What it is.** A quick audit of the tasks you repeat that drain you. The best thing to automate is rarely the flashiest one. It's the one you put off every day.
+
+**Why most people skip it.** They start with a cool demo they saw online, build it, and never use it. If it doesn't solve a real annoyance in your week, you'll forget it exists.
+
+**How to do it.** For one week, every time you do something and think "ugh, this again," write it down. At the end of the week, circle anything that checks these three boxes:
+
+- It happens on a schedule (daily, weekly, every Monday)
+- It mostly involves reading, sorting, or summarizing
+- The information already lives in an app Claude can connect to
+
+**Real example.** My two were obvious. Going through my inbox every morning, and going through all my newsletters looking for anything worth turning into a video.
+
+> **Start here.** Open your notes app and title a note "Things I dread." Add to it for one week. Pick the one that shows up most.
+
+# 2. The inbox digest
+
+~ What's urgent, what can wait, and replies already drafted.
+
+**What it does.** Every morning, Claude goes through your Gmail, sorts what came in by urgency, summarizes the important threads, and drafts replies for the ones that need one. You open one summary instead of fifty emails.
+
+**How to do it.** Connect Gmail, then tell it exactly what to flag and what to skip. The more specific you are about whose emails matter, the better it gets.
+
+Copy-paste inbox digest:
+
+```
+Every weekday at [time], go through my Gmail from the last 24 hours and give me a digest.
+
+Sort it into three sections:
+1. Urgent: needs a reply or action from me today
+2. Can wait: worth knowing, no action yet
+3. Skip: promos, receipts, and automated notifications (just give me a count)
+
+Always treat emails from [names, teams, or domains] as urgent.
+For anything in Urgent that needs a reply, draft one in my voice and save it as a draft. Never send anything.
+Keep each summary to one or two lines.
+```
+
+**The mistake.** Leaving out the "never send" line. Once Gmail is connected, Claude can send email. Mine is set to only draft, so nothing goes out without me reading it first. Put that rule in writing.
+
+> **Start here.** Write down three people whose emails always come first. Those names go in the "always urgent" line.
+
+# 3. The newsletter digest
+
+~ Key points, what's worth reading in full, and ideas you can use.
+
+**What it does.** It goes through every newsletter you got that day, pulls out the key points, rates which ones actually had the best content, and tells you which are worth reading in full. Then it pulls out any ideas you can use.
+
+**Why it's worth it.** Newsletters are great until there are ten a day. You either skim and miss the good stuff, or you stop opening them. This keeps the good stuff and skips the rest.
+
+**Real example.** Mine rates each newsletter and tells me whether I should read the whole thing, because sometimes I do want to. Then it gives me content ideas from them, so my research is mostly done before I sit down.
+
+Copy-paste newsletter digest:
+
+```
+Every weekday at [time], find the newsletters I received in the last 24 hours in Gmail. Newsletters are from [list senders, or: anything with an unsubscribe link that isn't a promo].
+
+For each one:
+- 3 bullet key points
+- A rating from 1 to 5 for how useful it is for [your job, business, or interests]
+- Read in full: yes or no, with one line why
+
+At the end, give me [number] ideas I could use for [content / my work / my team], each with a one-line angle.
+```
+
+> **Start here.** Search your inbox for "unsubscribe" and list the newsletters you actually want covered. Paste that list into the prompt.
+
+# 4. More things worth handing off
+
+~ Pick one. Build it. Then come back for the next.
+
+Each of these follows the same pattern: what to look at, when to run, and what to hand you.
+
+**Meeting prep.** Before each day, it looks at your calendar and gives you a short brief for every meeting: who's in it, what you last discussed, and anything you promised to send.
+
+```
+Every weekday at [time], look at today's meetings on my Google Calendar. For each one, search my Gmail for recent threads with the attendees and give me: who they are, what we last talked about, anything I said I'd follow up on, and one question I should ask.
+```
+
+**Follow-up nudges.** It finds threads where you're waiting on someone and nobody has replied.
+
+```
+Every [Monday and Thursday], find emails I sent in the last [10] days that haven't gotten a reply. List them by who I'm waiting on, and draft a short, friendly follow-up for each. Save as drafts. Never send.
+```
+
+**Weekly recap.** Every Friday, it looks back at your week and writes the update you'd otherwise build from memory.
+
+```
+Every Friday at [time], look at my calendar, sent emails, and [Notion / Google Drive] from this week. Write a short recap: what I finished, what moved forward, what's stuck, and what's on deck for next week. Keep it under 200 words so I can send it to [my manager / my team].
+```
+
+**Inbox cleanup list.** It tells you which subscriptions and senders you never open, so you can unsubscribe in five minutes.
+
+```
+Every [first of the month], look at my Gmail from the last 30 days. List the senders I get the most emails from that I never open or reply to, with a count for each. Don't unsubscribe or delete anything. Just give me the list.
+```
+
+**Industry watch.** It reads the news so you don't have to, and only tells you what's relevant.
+
+```
+Every weekday at [time], search the web for news from the last 24 hours about [your industry, company, competitors, or topic]. Give me the top [3] stories that actually matter for [your role], each with two lines on why it matters.
+```
+
+> **Start here.** Pick the one from this list that saves you the most time this week. Just one.
+
+# 5. Set it up to run on its own
+
+~ Connect, describe, schedule. That's the whole thing.
+
+**How to do it.**
+
+1. **Connect your apps.** In Claude's settings, open Connectors and sign in to the ones your task needs, like Gmail or Google Calendar.
+2. **Test it once by hand.** Paste your prompt into a normal chat first and read what comes back. This is where you catch it flagging the wrong things.
+3. **Fix what's off.** Tell it what it got wrong in plain English: "Newsletters from [sender] aren't urgent." Then update your prompt with that rule.
+4. **Pick the format.** Tell it how you want the digest to look: short bullets, sections, a table, whatever you'll actually read.
+5. **Schedule it.** Ask Claude to turn the prompt into a scheduled task that runs at the time you want, like weekdays at 7 a.m.
+
+**The mistake.** Scheduling it before testing it. Run it by hand two or three times first. A few small fixes up front save you from a week of digests you stop trusting.
+
+**Real example.** This is the exact flow I used for my inbox and newsletter digests. Connect Gmail, describe what I want each morning, tell it what to flag and ignore, pick the format, and set it on a schedule.
+
+> **Start here.** Take the prompt you picked, swap in your details, and run it once in a regular chat today.
+
+## Before you schedule it
+
+[ ] The right apps are connected under Connectors
+
+[ ] Your prompt says when to run, where to look, and what to hand you
+
+[ ] You named the people or senders that matter most
+
+[ ] Anything that touches email says "save as drafts, never send"
+
+[ ] You ran it by hand at least once and fixed what was off
+
+[ ] The format is something you'll actually read in under two minutes
+
+## Want to go deeper?
+
+If you want the full walkthrough for a morning brief across your email, calendar and Notion, the [Daily Brief guide](https://www.senna-filter.com/guides/your-first-ai-agent-the-daily-brief) covers it step by step.
+
+If something happens every day and you dread doing it, that's the first thing to hand off.
