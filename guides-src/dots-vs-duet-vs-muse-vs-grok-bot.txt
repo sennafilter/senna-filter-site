@@ -33,6 +33,7 @@ Four big AI companies launched agents in the last few months, and they all make 
 **What it is.** A dot is an agent that lives in your ChatGPT account. You give it a goal and it keeps working on it on its own cloud computer, with its own browser, even after you close your laptop. You can run several projects at once, and it learns your preferences from your feedback over time.
 
 **The perks.**
+
 - Connects to more than 4,000 apps through ChatGPT's plugins.
 - You can message it from ChatGPT, Slack or Microsoft Teams, or talk to it by voice.
 - When you're not giving it work, it does what OpenAI calls proactive research: it looks through your connected apps for ways to help, using read-only access. In that mode it can't send messages or change anything.
@@ -59,6 +60,7 @@ You own my [client proposal / side project / research topic]. Every time [new in
 **What it is.** Duet is Claude working as a proactive agent. Every morning it sends you a brief of what matters across your email, calendar and connected apps. During the day it keeps checking and only messages you when something needs you. You can also hand it tasks, from scheduling meetings to building a dashboard, a sales or financial forecast, or a product prototype.
 
 **The perks.**
+
 - It asks before it sends a message, makes a payment, signs a document or deletes anything.
 - When it buys something, it uses a one-time card number for that purchase, so your real card number isn't exposed.
 - It never sees your passwords or login tokens directly.
@@ -85,6 +87,7 @@ Every morning, tell me the three things in my inbox and calendar that actually n
 **What it is.** Muse is Meta's agent for everyday life. You message it in its own app or on WhatsApp, like you'd text a friend, and it books, shops and plans for you. It works on its own secure cloud computer with a built-in browser and keeps going after you close the app.
 
 **The perks.**
+
 - It connects to your Instagram and Facebook to learn more about you, and to apps like Gmail, Spotify, Ticketmaster, Shopify and OpenTable.
 - It can go through the recipe videos you've saved on Instagram and Facebook and turn them into something you can actually use, like a grocery list.
 - You can give it its own name, avatar and communication style.
@@ -112,6 +115,7 @@ Look through the recipes I've saved on Instagram, pick three dinners for this we
 **What it is.** Grok Bot signs into the tools you already use, works in them the way you would, and hands back finished work. You assign tasks by messaging it like a teammate, and it only checks back when it needs your approval.
 
 **The perks.**
+
 - You can teach it by showing it how you do a task, and it repeats that workflow.
 - It remembers your conversation history and preferences.
 - It has its own cloud computer, so it's working even when you aren't.
