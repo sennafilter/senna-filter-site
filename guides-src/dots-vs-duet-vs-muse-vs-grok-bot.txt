@@ -1,0 +1,177 @@
+title: Dots vs. Duet vs. Muse vs. Grok Bot: Which AI Agent Is for You
+cat: agents basics
+date: 2026-11-02
+desc: The side-by-side cheat sheet: what each new AI agent does, what it costs, who it's for, and the first job to give it.
+lead: The side-by-side cheat sheet: what each new AI agent does, what it costs, who it's for, and the first job to give it.
+---
+Four big AI companies launched agents in the last few months, and they all make the same promise: it works while you're away. OpenAI has Dots. Anthropic has Claude Duet. Meta has Muse. xAI has Grok Bot. The names are confusing, the launch videos all look alike, and almost nobody explains what's actually different. This guide does. You'll get the cheat sheet first, then a full breakdown of each one, then a checklist and the first jobs to hand whichever one you pick.
+
+## New to the words?
+
+- **Agent.** An AI that takes a job, not just a question. You tell it the outcome you want, and it does the steps: opening apps, clicking, filling things in, following up.
+- **Chatbot.** The AI you already know. You ask, it answers, it waits for you. All four of these products are agents.
+- **Always-on.** The agent keeps working after you close the app or shut your laptop. It runs on its own computer in the cloud, not on yours.
+- **Connectors (or plugins).** The permissions that let an agent use your other apps, like Gmail, Calendar, Slack or Shopify. You choose which ones to turn on.
+- **Approval.** The moment an agent stops and asks you before doing something that matters, like sending a message or spending money.
+
+## The cheat sheet
+
+| | Dots | Claude Duet | Muse | Grok Bot |
+| Made by | OpenAI | Anthropic | Meta | xAI |
+| What it is | ChatGPT assistants that work 24/7 | A work assistant that runs your day in the background | A personal assistant you text | An AI coworker you can train |
+| Built for | Juggling lots of projects | Work, email and admin | Personal errands and life admin | Repetitive weekly tasks |
+| Where you talk to it | ChatGPT, Slack, Teams, voice | Its own app and claude.ai | Its own app, muse.ai, WhatsApp | Desktop and iOS |
+| Standout perk | Runs several projects at once across 4,000+ apps | Morning brief, and asks before it sends, pays, signs or deletes | Connects to your Instagram and Facebook | Show it a task once and it learns it |
+| How to get it | One dot included with ChatGPT Pro (from $100/month) | Waitlist, included with Claude Pro ($20/month) and Max during the preview | Free with limits, $20 or $100/month for more | X Subscription Premium ($30/month) and up |
+
+> **The one rule.** Don't pick the smartest agent. Pick the one that fits how your days already run. If you live in ChatGPT, start with Dots. If work is the problem, start with Duet. If your life runs on your phone, start with Muse. If you do the same tasks every week, start with Grok Bot.
+
+# 1. Dots (OpenAI)
+
+~ ChatGPT assistants that work 24/7.
+
+**What it is.** A dot is an agent that lives in your ChatGPT account. You give it a goal and it keeps working on it on its own cloud computer, with its own browser, even after you close your laptop. You can run several projects at once, and it learns your preferences from your feedback over time.
+
+**The perks.**
+- Connects to more than 4,000 apps through ChatGPT's plugins.
+- You can message it from ChatGPT, Slack or Microsoft Teams, or talk to it by voice.
+- When you're not giving it work, it does what OpenAI calls proactive research: it looks through your connected apps for ways to help, using read-only access. In that mode it can't send messages or change anything.
+- It checks with you before anything that could affect your accounts or share information. Some things, like changing a password, always stay with you.
+
+**How to get it.** One dot is included with ChatGPT Pro (from $100 a month) and Business Premium. You create a new dot in the ChatGPT desktop app or in ChatGPT in a desktop browser. Chatting with a dot doesn't count toward your ChatGPT limits, but work it starts in Codex or ChatGPT Work does.
+
+**Best for.** People who already use ChatGPT for everything and have a lot going on at once. Side projects, research that keeps changing, proposals that need updating every time a client changes their mind.
+
+**Real example.** Give it something ongoing, not a one-off question:
+
+```
+You own my [client proposal / side project / research topic]. Every time [new information arrives / the client emails / I add notes], update [the document] and tell me what changed. Check with me before you send anything to anyone.
+```
+
+**The catch.** It's the priciest way in of the four. OpenAI also says dots can still make mistakes and tells you to review anything consequential.
+
+> **Start here.** Pick one project you keep re-explaining to ChatGPT. Make that your first dot's job, and connect only the two or three apps it actually needs.
+
+# 2. Claude Duet (Anthropic)
+
+~ A work assistant that runs your day in the background.
+
+**What it is.** Duet is Claude working as a proactive agent. Every morning it sends you a brief of what matters across your email, calendar and connected apps. During the day it keeps checking and only messages you when something needs you. You can also hand it tasks, from scheduling meetings to building a dashboard, a sales or financial forecast, or a product prototype.
+
+**The perks.**
+- It asks before it sends a message, makes a payment, signs a document or deletes anything.
+- When it buys something, it uses a one-time card number for that purchase, so your real card number isn't exposed.
+- It never sees your passwords or login tokens directly.
+- It runs on Claude Opus 5.5, Anthropic's most capable model.
+
+**How to get it.** Duet is a research preview, which means early access. Right now it's open by waitlist to Claude Pro ($20 a month) and Max subscribers in the US, at no extra cost during the preview. It's a separate app on iOS and Android, and it also works on claude.ai. It uses the same usage limits as the rest of your Claude plan, including the morning brief and background checks.
+
+**Best for.** Professionals and small business owners buried in email and admin. A founder chasing invoices, a manager who needs the weekly numbers pulled, anyone who opens their inbox and wants someone to tell them what actually matters.
+
+**Real example.**
+
+```
+Every morning, tell me the three things in my inbox and calendar that actually need me today, and draft replies for anything I can answer in one line. Don't send anything without asking me first.
+```
+
+**The catch.** Anthropic is upfront that it's early. It can misread a thread or misjudge what's urgent. It checks your accounts every few hours rather than nonstop, so something urgent can land between checks. It's built for work, so it's weaker at personal errands like buying tickets. It doesn't support Microsoft 365 yet, and it's not available on Team or Enterprise plans yet.
+
+> **Start here.** Join the waitlist. When you're in, connect just your email and calendar for the first week and read the morning brief every day before you hand it any tasks.
+
+# 3. Muse (Meta)
+
+~ A personal assistant you text.
+
+**What it is.** Muse is Meta's agent for everyday life. You message it in its own app or on WhatsApp, like you'd text a friend, and it books, shops and plans for you. It works on its own secure cloud computer with a built-in browser and keeps going after you close the app.
+
+**The perks.**
+- It connects to your Instagram and Facebook to learn more about you, and to apps like Gmail, Spotify, Ticketmaster, Shopify and OpenTable.
+- It can go through the recipe videos you've saved on Instagram and Facebook and turn them into something you can actually use, like a grocery list.
+- You can give it its own name, avatar and communication style.
+- It remembers your preferences. You can review its activity log and edit what's in its memory.
+- Meta says it doesn't see your passwords or payment details directly.
+
+**How to get it.** Muse is available in the US to people 18 and over, in the Muse app on iOS and Android, at muse.ai, and on WhatsApp. It's free with usage limits, and you can pay $20 or $100 a month to raise them. Meta says it's coming to its AI glasses next.
+
+**Best for.** Busy people running a household and a social life from their phone. Booking dinner, buying concert tickets, planning a trip, or finally doing something with all those saved reels.
+
+**Real example.**
+
+```
+Look through the recipes I've saved on Instagram, pick three dinners for this week that take under 30 minutes, and make me one grocery list sorted by aisle.
+```
+
+**The catch.** It works best when you give it a lot of your life, and that's a real trade-off with any Meta product. Before launch, Meta employees testing Muse raised concerns about its reliability and security, and Meta delayed the launch to address them. Start with low-stakes errands.
+
+> **Start here.** Connect Instagram and one other app you use daily. Give it one errand you've been putting off this week and watch how it handles it before you connect anything with money attached.
+
+# 4. Grok Bot (xAI)
+
+~ An AI coworker you can train.
+
+**What it is.** Grok Bot signs into the tools you already use, works in them the way you would, and hands back finished work. You assign tasks by messaging it like a teammate, and it only checks back when it needs your approval.
+
+**The perks.**
+- You can teach it by showing it how you do a task, and it repeats that workflow.
+- It remembers your conversation history and preferences.
+- It has its own cloud computer, so it's working even when you aren't.
+- xAI's examples cover sales, customer support, recruiting, engineering and operations.
+
+**How to get it.** Grok Bot is in early beta on desktop and iOS. It's included with the X Subscription Premium plan ($30 a month), plus Super ($100) and Ultra ($200). The $8 Plus plan doesn't include it. Its usage comes out of the same weekly allowance as the rest of Grok. Businesses can join a waitlist for enterprise access.
+
+**Best for.** Anyone stuck doing the same tasks every week. Updating the CRM, sorting support tickets, screening applicants. Teach it once, then hand it off.
+
+**Real example.**
+
+```
+Every Monday, go through last week's [support tickets / leads / applications], sort them into [your categories], update [the tool you track them in], and send me a five-line summary of anything unusual. Ask me before you reply to anyone.
+```
+
+**The catch.** It's still labeled early beta, and xAI has changed how you pay for Grok more than once this year. Check the plan page before you subscribe.
+
+> **Start here.** Pick the most boring task you did last week that takes the same steps every time. Write those steps down, show Grok Bot once, and let it run it for you next week while you check its work.
+
+## Before you hand any agent your accounts
+
+[ ] Start with one or two connected apps, not everything at once.
+[ ] Keep approval on for anything that sends a message, spends money or deletes something.
+[ ] Give it one low-stakes job first: a summary, a reminder, a piece of research.
+[ ] Read its activity log for the first week so you know what it's actually doing.
+[ ] Check its work on anything that goes to another person.
+[ ] Know how to disconnect an app or turn the agent off before you need to.
+
+## First jobs to give your agent
+
+Copy, paste, swap the brackets. These work with any of the four.
+
+### The morning brief
+
+```
+Every morning at [time], tell me the three things that actually need me today across my [email / calendar / messages]. One line each, most urgent first.
+```
+
+### The follow-up chaser
+
+```
+Find anyone I promised to get back to in the last [two weeks] and haven't. List them with what I owe them, and draft a short reply for each. Don't send anything.
+```
+
+### The research watcher
+
+```
+Keep an eye on [topic / competitor / price / job listings]. Once a week, send me only what changed, with links.
+```
+
+### The weekly cleanup
+
+```
+Every Friday, go through [my inbox / downloads / a shared folder] and sort it into [categories]. Show me anything you're not sure about before you move it.
+```
+
+### The life admin errand
+
+```
+I need to [book / buy / plan] [the thing] by [date] for under [budget]. Give me your top three options with the trade-offs, and wait for me to pick before you book or pay.
+```
+
+These are all early, and they all make mistakes. The agent that earns a place in your day is the one you start small with and let prove itself.
