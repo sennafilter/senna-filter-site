@@ -1,0 +1,158 @@
+title: MCP in Plain English
+cat: claude basics setup
+date: 2026-11-06
+desc: What MCP actually is, why it matters, and how to connect your first app to Claude in about five minutes.
+lead: What MCP actually is, why it matters, and how to connect your first app to Claude in about five minutes.
+---
+Most people use AI like a smart stranger. It knows a lot, but it can't see your email, your calendar, your files, or your notes, so you end up copying and pasting everything in by hand. MCP is what fixes that. This guide explains what it is in plain English, then walks you through connecting your first app to Claude.
+
+## New to the words?
+
+- **MCP.** Short for Model Context Protocol. A standard way for AI to plug into other apps and tools.
+- **Protocol.** Just an agreed set of rules, so two things can talk to each other. Think of how every website uses the same rules to load in your browser.
+- **Connector.** What Claude calls an MCP connection you can switch on. Gmail, Google Drive, Notion, and Slack are all connectors.
+- **MCP server.** The piece that sits in front of an app and lets AI talk to it. You never have to build one to use a connector. Someone already did.
+- **Permissions.** What Claude is allowed to do once it's connected. Read only, or read and write.
+
+# 1. What MCP actually is
+
+~ One plug that fits every app.
+
+**What it is.** MCP is a standard that lets an AI tool connect to other apps in one consistent way. Anthropic built it and open-sourced it, which means anyone can use it for free.
+
+**Why it matters.** Before a standard like this, every connection between an AI and an app had to be built from scratch. Different app, different setup, and someone had to keep each one working. That's slow and expensive, so a lot of those connections never got built at all.
+
+**The analogy.** Remember when every device had its own charger? Then USB-C showed up and one cable worked with everything. MCP is that for AI. Build the connection once, and any AI that speaks MCP can use it.
+
+**The bigger picture.** I think of it as the plumbing for the AI internet. The web needed shared rules before browsers could open any site. AI needs shared rules before it can reach into any tool. Plumbing isn't exciting, but everything else gets built on top of it.
+
+> **Start here.** Say it out loud once, in your own words: "MCP is one plug that lets AI connect to my apps." If you can say that, you've got the whole idea.
+
+# 2. What it looks like when it works
+
+~ Less copying and pasting. More just asking.
+
+**Why most people miss it.** MCP sounds like something for engineers. But you never see the protocol. You see a button that says Connect.
+
+**Real example.** I have Claude connected to my Notion, my Gmail, and my Google Drive. When I finish a script, I can say "save this to my content calendar" and it just does it. I didn't build anything. I clicked Connect on each one.
+
+**What else this looks like:**
+
+- "Find the email from last week about the venue and pull out the date and price."
+- "Look in my Drive for the proposal draft and give me three ways to tighten it."
+- "Add these five ideas to my project board in Notion."
+- "What did I tell the team in Slack about the launch date?"
+
+Each of those used to mean opening an app, hunting for the thing, and pasting it into a chat. Now you just ask.
+
+> **Start here.** Think of the one app you copy and paste from the most. That's your first connector.
+
+# 3. Connect your first app to Claude
+
+~ About five minutes, no code.
+
+**How to do it.**
+
+1. Open Claude and go to **Settings**, then **Connectors**.
+2. Browse the directory of ready-made connectors. Pick one app you use every day.
+3. Click **Connect** and sign in to that app when it asks. This is the same login screen you already know.
+4. Read what Claude is asking permission to do, then approve.
+5. Start a new chat and make sure the connector is switched on. You can toggle connectors per chat from the plus button in the message box.
+
+**Pro tip.** Start with one. Gmail, Google Drive, or Notion are good first picks because you'll feel the difference right away.
+
+**The mistake.** People connect five apps at once, never use them, and forget what Claude can see. One connector you actually use beats five you don't.
+
+**If you're on a team plan.** An admin may need to turn a connector on for your organization before you can connect it yourself.
+
+> **Start here.** Connect one app today. Then ask Claude one real question about something inside it.
+
+# 4. Try it for real
+
+~ Ask for something you'd normally dig for.
+
+**Real example.** Don't test it with "what can you do?" Test it with something you actually need this week.
+
+Copy-paste for Gmail or Drive:
+
+```
+Search my [Gmail / Google Drive] for [the thing you're looking for]. Show me what you found, then summarize the key points in five bullets.
+```
+
+Copy-paste for Notion:
+
+```
+Look at my Notion page called [page name]. Tell me what's out of date or missing, and suggest three things to add.
+```
+
+**What to check.** Look at what Claude says it searched. If the answer seems off, ask it to show you the source it used.
+
+> **Start here.** Use the first prompt above with a real search. Time how long it would have taken you by hand.
+
+# 5. Be smart about access
+
+~ Connecting is easy. Choosing what to connect is the real skill.
+
+**What it is.** A connector gives Claude real access to real data. That's the point. It's also why you should think a minute before you click.
+
+**How to do it.**
+
+- Connect apps you'd be comfortable describing out loud to a coworker.
+- Check what permissions each connector asks for, and approve only what you need.
+- Turn connectors off for chats that don't need them.
+- Treat anything an AI reads in an email or a document as untrusted. It can contain instructions written by someone else.
+- You can disconnect any app from Settings whenever you want.
+
+**The mistake.** Connecting your work and personal accounts together without thinking about it. Keep them separate if you can.
+
+> **Start here.** Open Settings, then Connectors, and look at what you've already connected. Turn off anything you don't use.
+
+# 6. Where this is headed
+
+~ Why it's worth paying attention to now.
+
+**What it is.** We're heading toward AI that works across every tool you already use. Your email. Your calendar. Your files. Your customer info. All through one layer, instead of a hundred one-off integrations.
+
+**The honest part.** It's still early. Some connections are smoother than others. Some apps give Claude more access than others. Things will break now and then, and the list of what's available keeps changing.
+
+**Why learn it now.** MCP is infrastructure, so it's not the flashy part of AI. But the people who understand it early will have a head start when it's just how everything works.
+
+> **Start here.** Pick one thing you do every week that involves two apps. Ask Claude to do it with both connected.
+
+## Before you connect anything
+
+[ ] I know which one app I want to start with
+[ ] I've read what permissions it's asking for
+[ ] I'm only connecting accounts I'm comfortable with
+[ ] I know where to disconnect it (Settings, then Connectors)
+[ ] I have one real question ready to ask
+
+## Prompts to try
+
+Copy, paste, swap the brackets.
+
+### Find something fast
+
+```
+Search my [app] for anything about [topic] from the last [time period]. List what you found with the date next to each one.
+```
+
+### Catch me up
+
+```
+Look through my [app] and give me a summary of what I need to know about [project or person]. Flag anything that looks like it needs a reply.
+```
+
+### Save something
+
+```
+Take what we just wrote and save it to [app] in [page, folder, or database]. Tell me exactly where you put it.
+```
+
+### Check your work
+
+```
+Show me every app you used to answer that and what you searched for in each one.
+```
+
+Build the connection once, and any AI that speaks MCP can use it.
