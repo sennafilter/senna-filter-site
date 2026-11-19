@@ -11,6 +11,11 @@
   ],
   "redirects": [
     {
+      "source": "/workshops",
+      "destination": "/courses",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "senna-filter.com" }],
       "destination": "https://www.senna-filter.com/:path*",
