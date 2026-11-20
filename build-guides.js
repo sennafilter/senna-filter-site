@@ -185,7 +185,7 @@ const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com" />\n<l
 const SAMEAS = [
   'https://www.linkedin.com/in/senna-filter-29698a183/',
   'https://www.instagram.com/sennafilter/',
-  'https://www.tiktok.com/@sennajillian',
+  'https://www.tiktok.com/@sennafilter',
   'https://www.youtube.com/channel/UChR2IHt4rpOVCOc4ZQRxvmg'
 ];
 function baseGraph() {
