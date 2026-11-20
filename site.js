@@ -181,3 +181,43 @@ document.documentElement.classList.add('js');
     });
   });
 })();
+
+// course waitlist — submits to Formspree (forms with class .waitlist-form)
+(function () {
+  var forms = document.querySelectorAll('.waitlist-form');
+  if (!forms.length) return;
+  forms.forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var done = form.parentNode.querySelector('.waitlist-done');
+      function say(msg) { if (done) { done.textContent = msg; done.hidden = false; } }
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' }
+      }).then(function (res) {
+        if (res.ok) { say("You're on the list. I'll email you when the doors open. — Senna"); form.reset(); }
+        else { say("Something went wrong — email me at contact@senna-filter.com and I'll add you myself."); }
+      }).catch(function () {
+        say("Something went wrong — email me at contact@senna-filter.com and I'll add you myself.");
+      });
+    });
+  });
+})();
+
+// countdown to the course opening (element with data-opens)
+(function () {
+  var box = document.querySelector('[data-opens]');
+  if (!box) return;
+  var target = new Date(box.getAttribute('data-opens')).getTime();
+  var d = box.querySelector('[data-unit=d]'), h = box.querySelector('[data-unit=h]'), m = box.querySelector('[data-unit=m]');
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function tick() {
+    var s = Math.max(0, Math.floor((target - Date.now()) / 1000));
+    d.textContent = Math.floor(s / 86400);
+    h.textContent = pad(Math.floor((s % 86400) / 3600));
+    m.textContent = pad(Math.floor((s % 3600) / 60));
+  }
+  tick();
+  setInterval(tick, 30000);
+})();
