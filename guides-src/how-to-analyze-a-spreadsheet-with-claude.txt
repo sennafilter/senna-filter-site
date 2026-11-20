@@ -1,0 +1,101 @@
+title: How to Analyze a Spreadsheet With Claude (No Formulas Needed)
+cat: life claude
+date: 2026-11-19
+desc: Upload a spreadsheet, ask questions in plain English and get trends, totals and charts, plus how to check Claude's math before you trust it.
+lead: Upload a spreadsheet, ask questions in plain English and get trends, totals and charts, plus how to check Claude's math before you trust it.
+---
+You have a spreadsheet full of numbers and a vague feeling there's something useful in it. Maybe it's sales, expenses, survey answers or a class roster. You don't need to know a single formula to dig into it. You can ask Claude questions the way you'd ask a coworker, then check the answers. This guide walks through it step by step, with prompts you can copy.
+
+> **A note on honesty.** This is general education, not professional financial or business advice. If the numbers drive a real decision, have someone who knows the subject look over the result.
+
+## New to the words?
+
+- **Dataset.** Your spreadsheet's rows and columns, seen as one pile of information.
+- **Trend.** A direction over time: going up, going down or staying flat.
+- **Outlier.** A value that sits far from the rest, like one huge order in a list of small ones. It's either interesting or a typo.
+- **CSV.** A plain-text spreadsheet file. Most spreadsheet apps can export one.
+
+# 1. Clean up before you upload
+
+~ Five minutes here saves an hour of confusing answers.
+
+**How to do it.** Give each column one clear heading in the top row. Remove blank rows, merged cells and notes typed into random cells. Keep one kind of thing per column, so don't put dates and comments in the same one.
+
+**Privacy check.** Delete names, account numbers and anything confidential you don't need for the question. Your workplace may have rules about what you can upload to AI tools, so check them first.
+
+> **Start here.** Pick one sheet and one question you actually care about. "What's going on in my data?" is too big. "Which month did we spend the most, and on what?" is a great start.
+
+# 2. Upload it and let Claude describe it first
+
+~ Make sure it understood your file before you ask for insights.
+
+Attach the file in a new chat. The supported file types and size limits change, so check Claude's official help pages if the upload fails.
+
+```
+I've attached a spreadsheet. Before analyzing anything, tell me: how many rows and columns there are, what each column seems to contain, and anything that looks messy, like blanks, duplicates or inconsistent spellings. Don't fix anything yet.
+```
+
+**Why it works.** If Claude misreads your columns here, you catch it before it builds an analysis on the wrong foundation.
+
+# 3. Ask plain-English questions
+
+~ One question at a time, with the goal attached.
+
+```
+I'm trying to [your goal, like "understand where our money went this quarter"]. Using this data, what are the three most important things you notice? Show the numbers behind each one.
+```
+
+Then follow up like a conversation:
+
+- "Which category grew the most from the first month to the last?"
+- "Are there any outliers? List them and tell me which rows they came from."
+- "Compare [group A] to [group B] and tell me what's different."
+
+**Make it better.** Always ask it to name the rows or columns it used. That makes checking easy.
+
+# 4. Ask for a table or a chart
+
+~ Easier to read, easier to share.
+
+```
+Summarize this as a table: one row per [category], with the total, the average and the number of entries. Sort it from largest to smallest. Then suggest the best type of chart for it and tell me why.
+```
+
+If Claude can build the chart for you, great. If not, ask for the table and make the chart in your spreadsheet app. Features vary by plan and over time, so look at Claude's official pages for what's available to you.
+
+# 5. Get formulas you can reuse
+
+~ So next month you don't need Claude for the same thing.
+
+```
+Show me the spreadsheet formula that would calculate [what you just asked for] in [Excel or Google Sheets], using my actual column letters. Explain it in one plain sentence.
+```
+
+Paste it into a cell and see if it matches Claude's number. If it does, you have a repeatable answer you can trust.
+
+# 6. Check the math
+
+~ AI is good with data, not perfect with it.
+
+Pick two or three numbers Claude gave you and confirm them yourself with a simple sum, a filter or a sort in your spreadsheet. Check totals, counts and anything that will end up in a decision or a report.
+
+```
+Double-check your last answer. Re-do the calculation a different way, list any assumptions you made and tell me anything in the data that could make this answer wrong.
+```
+
+For more on why this matters, read [How to Catch AI When It's Lying](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying).
+
+> **The mistake.** Trusting a confident answer built on messy data. Clean data and a quick spot-check beat any clever prompt.
+
+## Spreadsheet checklist
+
+[ ] I cleaned the headings and removed blank rows.
+[ ] I removed private or confidential information.
+[ ] I had Claude describe the file before analyzing it.
+[ ] I asked a specific question with a goal.
+[ ] I asked Claude to show which rows it used.
+[ ] I checked at least two numbers myself.
+
+## Where to go next
+
+Using a spreadsheet to track money? Try [How to Make a Budget With Claude](https://www.senna-filter.com/guides/how-to-make-a-budget-with-claude). To get sharper answers from any prompt, read [How to Write a Good Prompt for Claude](https://www.senna-filter.com/guides/how-to-write-a-good-prompt-for-claude). Want Claude to remember your setup? See [What Is a Claude Project and How to Set One Up](https://www.senna-filter.com/guides/what-is-a-claude-project-and-how-to-set-one-up).
