@@ -21,7 +21,7 @@ You have a spreadsheet full of numbers and a vague feeling there's something use
 
 **How to do it.** Give each column one clear heading in the top row. Remove blank rows, merged cells and notes typed into random cells. Keep one kind of thing per column, so don't put dates and comments in the same one.
 
-**Privacy check.** Delete names, account numbers and anything confidential you don't need for the question. Your workplace may have rules about what you can upload to AI tools, so check them first.
+**Privacy check.** Delete names, account numbers and anything confidential you don't need for the question. Your workplace may have rules about what you can upload to AI tools, so check them first. For a fuller walkthrough, see [What Not to Paste Into ChatGPT or Claude at Work](https://www.senna-filter.com/guides/what-not-to-paste-into-chatgpt-or-claude-at-work).
 
 > **Start here.** Pick one sheet and one question you actually care about. "What's going on in my data?" is too big. "Which month did we spend the most, and on what?" is a great start.
 
