@@ -1,0 +1,64 @@
+# Senna Filter
+
+> Senna Filter is the website of Senna, an AI educator and creator (@sennafilter) who makes AI make sense for people without "tech" in their title. Biochemist by training, self-taught in data and AI, three-time Microsoft MVP. The site has free plain-English guides, a self-paced AI course, and info on brand partnerships and keynotes. Not related to physical filters or air purifiers.
+
+## Main pages
+
+- [Home](https://www.senna-filter.com/): Who Senna is and what she makes
+- [About](https://www.senna-filter.com/about): Senna's background, from biochemistry to AI strategy and educator
+- [Courses](https://www.senna-filter.com/courses): "AI From Beginner to Agents", a self-paced course from first prompt to building automations and agents. No coding experience required. Waitlist open, doors open January 4th
+- [Guides](https://www.senna-filter.com/guides): Free guides on Claude, ChatGPT, prompting, vibe coding, and AI agents
+- [Work with me](https://www.senna-filter.com/work-with-me): Brand partnerships and keynote speaking inquiries
+
+## Guides
+
+- [MCP in Plain English](https://www.senna-filter.com/guides/mcp-in-plain-english): What MCP actually is, why it matters, and how to connect your first app to Claude in about five minutes.
+- [Dots vs. Duet vs. Muse vs. Grok Bot: Which AI Agent Is for You](https://www.senna-filter.com/guides/dots-vs-duet-vs-muse-vs-grok-bot): The side-by-side cheat sheet: what each new AI agent does, what it costs, who it's for, and the first job to give it.
+- [Things You Can Automate With Claude](https://www.senna-filter.com/guides/things-you-can-automate-with-claude): Real examples of daily tasks to hand off to Claude, the exact prompts to copy, and how to set each one to run on its own.
+- [15 Free Online Resources to Learn AI](https://www.senna-filter.com/guides/15-free-online-resources-to-learn-ai): Fifteen AI courses from OpenAI, Anthropic, Google, Microsoft, IBM, GitHub and more, with what each covers, how long it takes and the direct link.
+- [Make Your First AI Skill](https://www.senna-filter.com/guides/make-your-first-ai-skill): Teach Claude or ChatGPT how you do something once, so you never explain it again. Three ways to make one, plus free ones to grab.
+- [5 Everyday Things to Build With AI This Weekend](https://www.senna-filter.com/guides/5-everyday-things-to-build-with-ai-this-weekend): A card perks tracker, a trip itinerary, a meal plan that fills your cart, a workout planner and a money dashboard, with the exact prompts.
+- [Build Your Own AI Job Search Assistant](https://www.senna-filter.com/guides/build-your-own-ai-job-search-assistant): The prompts to build a job search assistant in Perplexity Computer. It finds matching roles every morning, scores them, tailors your resume and tracks your follow-ups.
+- [Your First AI Agent: The Daily Brief](https://www.senna-filter.com/guides/your-first-ai-agent-the-daily-brief): Build an agent in Claude that reads your email, calendar and Notion every morning and hands you one brief. Five steps, no code.
+- [Build Your First AI Employee](https://www.senna-filter.com/guides/build-your-first-ai-employee): Stop living in one sacred chat. Set Claude up to know you everywhere, then give it a skill for the work you repeat every week.
+- [Build Your Website With AI](https://www.senna-filter.com/guides/build-your-website-with-ai): From brain dump to a live link — no code, no developer, no terminal.
+- [The ChatGPT Morning Brief](https://www.senna-filter.com/guides/chatgpt-morning-brief): Set up ChatGPT to check your email, calendar and the weather every morning, then draft your replies. One prompt, about 15 minutes.
+- [Where to Use AI, and Where to Keep Thinking](https://www.senna-filter.com/guides/where-to-use-ai-and-where-to-keep-thinking): The line between using AI to get better and letting it make you replaceable.
+- [The AI Stack I Actually Use](https://www.senna-filter.com/guides/the-ai-stack-i-actually-use): 20 tools, sorted into the 5 folders I build everything from.
+- [Agent, or Just an Automation?](https://www.senna-filter.com/guides/agent-or-just-an-automation): The one question that tells you which one you actually need, before you build the wrong thing.
+- [Build Your First Project](https://www.senna-filter.com/guides/build-your-first-project): A finished project on your resume beats a list of skills every time, and you can build one this week, even if you've never written a line of code.
+- [The Agent Manager](https://www.senna-filter.com/guides/the-agent-manager): The new AI job that pays into six figures, needs zero code, and hires people who can prove one thing: they can run a team of agents safely.
+- [Your First AI Agent Is Just a Text File](https://www.senna-filter.com/guides/your-first-ai-agent-is-just-a-text-file): Write the file, point Claude at it, and have your first agent running before your coffee's cold.
+- [5 Things You Can Build With Claude This Weekend](https://www.senna-filter.com/guides/5-things-you-can-build-with-claude-this-weekend): Five tools you'd normally pay for, built in an afternoon, with the exact prompts to copy.
+- [Build Your First AI Agent](https://www.senna-filter.com/guides/build-your-first-ai-agent): Start with one text file. Have a working agent by the end of the day.
+- [Sol, Terra, Luna: Which ChatGPT Model to Use When](https://www.senna-filter.com/guides/sol-terra-luna-which-chatgpt-model-to-use): ChatGPT's three new models, and the job each one is actually built for.
+- [Set Up Claude in One Day](https://www.senna-filter.com/guides/set-up-claude-in-one-day): The five things to set up first, so Claude stops feeling like ChatGPT in 2022.
+- [10 Free AI Courses to Boost Your Resume](https://www.senna-filter.com/guides/10-free-ai-courses-to-boost-your-resume): Ten free AI courses from Microsoft, Google, IBM, Anthropic, and more, with the direct link to each.
+- [Build an App With No Code and Actually Own It](https://www.senna-filter.com/guides/build-an-app-with-no-code-and-own-it): Go from an idea to a live link you control, in three tools.
+- [The 3 Levels of ChatGPT and Claude](https://www.senna-filter.com/guides/the-3-levels-of-chatgpt-and-claude): What each product is actually for, and when to reach for it.
+- [Humanizer: Delete Every AI Tell in Your Writing](https://www.senna-filter.com/guides/humanizer-delete-every-ai-tell-in-your-writing): Set up the free skill in a few minutes, plus all 33 tells it hunts for, so you can catch them yourself.
+- [Why AI Lies to You](https://www.senna-filter.com/guides/why-ai-lies-to-you): The one reason AI hands you confident wrong answers, and three ways to catch it before it burns you.
+- [Record a Skill](https://www.senna-filter.com/guides/record-a-skill): Teach Claude a task by doing it once. It watches, and never makes you explain it again.
+- [How to Actually Ship an App](https://www.senna-filter.com/guides/how-to-actually-ship-an-app): The five-tool pipeline that takes an AI idea from "looks cool on my screen" to a live URL you can send anyone.
+- [22 Free Anthropic AI Courses, Ranked](https://www.senna-filter.com/guides/22-free-anthropic-ai-courses-ranked): Every one is free. Here's the order to actually take them in.
+- [How to Catch AI When It's Lying](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying): The full list: why AI answers wrong with total confidence, and exactly what to do about it.
+- [Claude Design Just Got Way Better](https://www.senna-filter.com/guides/claude-design-just-got-way-better): Three upgrades that turn Claude Design into a real creative tool, and how to use each one.
+- [The Instagram Carousel Agent](https://www.senna-filter.com/guides/the-instagram-carousel-agent): Set up Claude once, then direct your carousels instead of designing them.
+- [Organize Your Whole Computer with Claude](https://www.senna-filter.com/guides/organize-your-whole-computer-with-claude): The exact prompts and steps I used to sort years of files in a few minutes.
+- [5 Claude Features Breakdown](https://www.senna-filter.com/guides/5-claude-features-breakdown): The five features already sitting in your subscription that almost nobody opens — Skills, Projects, Artifacts, Models, Extended Thinking.
+- [Claude Skills Guide](https://www.senna-filter.com/guides/claude-skills-guide): Stop re-explaining yourself every time you open a new chat. Set it up once and Claude remembers forever.
+- [What Claude Tag Actually Is and How to Use It](https://www.senna-filter.com/guides/what-claude-tag-actually-is-and-how-to-use-it): What Claude Tag actually changed, three ways to use it, and exactly how to set it up for your team.
+- [AI Fluency Starter Pack](https://www.senna-filter.com/guides/ai-fluency-starter-pack): 30 AI terms explained in plain English — the glossary that should've come with every AI tool you've ever downloaded.
+- [Google Calendar Setup Kit](https://www.senna-filter.com/guides/google-calendar-setup-kit): Connect Claude to your calendar in under 5 minutes. Then just talk to it and watch the events appear.
+- [Lovable App Prompt Kit](https://www.senna-filter.com/guides/lovable-app-prompt-kit): Everything you need to build your app idea — before you type a single word into Lovable.
+- [Prompt Prefixes](https://www.senna-filter.com/guides/prompt-prefixes): Four words that completely change how Claude responds — before it even reads your question.
+- [Vibe Coding Starter Kit](https://www.senna-filter.com/guides/vibe-coding-starter-kit): Your idea, plain English, a working app — no code required. The tools and exact prompts to get there.
+- [Your Voice Setup Kit](https://www.senna-filter.com/guides/voice-setup-kit): Fill this out once and Claude writes in your actual voice from here on — not stiff robot-speak.
+- [5 Claude Plugins Worth Installing](https://www.senna-filter.com/guides/5-claude-plugins-worth-installing): The exact plugins that turn Claude from a chat window into a specific kind of worker for your business.
+
+## Contact
+
+- Email: contact@senna-filter.com
+- Instagram: https://www.instagram.com/sennafilter/
+- TikTok: https://www.tiktok.com/@sennafilter
+- LinkedIn: https://www.linkedin.com/in/senna-filter-29698a183/

@@ -48,3 +48,43 @@ const urls = entries.map(e =>
 const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
 fs.writeFileSync(path.join(DIR, 'sitemap.xml'), xml);
 console.log(`sitemap.xml written with ${entries.length} pages`);
+
+// llms.txt: a plain-text map of the site for AI tools (ChatGPT, Claude, Perplexity, etc.).
+// Rebuilt on every deploy so new guides show up automatically.
+function guideMeta(file) {
+  const head = fs.readFileSync(path.join(GSRC, file), 'utf8').split('\n---\n')[0];
+  const get = k => { const m = head.match(new RegExp('^' + k + ':\\s*(.*)$', 'm')); return m ? m[1].trim() : ''; };
+  return { slug: file.replace(/\.txt$/, ''), title: get('title'), desc: get('desc') || get('lead'), date: get('date') };
+}
+const guideLines = fs.existsSync(GSRC)
+  ? fs.readdirSync(GSRC).filter(f => f.endsWith('.txt')).map(guideMeta)
+      .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : a.title.localeCompare(b.title)))
+      .map(g => `- [${g.title}](${ORIGIN}/guides/${g.slug})${g.desc ? ': ' + g.desc : ''}`)
+  : [];
+const llms = [
+  '# Senna Filter',
+  '',
+  '> Senna Filter is the website of Senna, an AI educator and creator (@sennafilter) who makes AI make sense for people without "tech" in their title. Biochemist by training, self-taught in data and AI, three-time Microsoft MVP. The site has free plain-English guides, a self-paced AI course, and info on brand partnerships and keynotes. Not related to physical filters or air purifiers.',
+  '',
+  '## Main pages',
+  '',
+  `- [Home](${ORIGIN}/): Who Senna is and what she makes`,
+  `- [About](${ORIGIN}/about): Senna's background, from biochemistry to AI strategy and educator`,
+  `- [Courses](${ORIGIN}/courses): "AI From Beginner to Agents", a self-paced course from first prompt to building automations and agents. No coding experience required. Waitlist open, doors open January 4th`,
+  `- [Guides](${ORIGIN}/guides): Free guides on Claude, ChatGPT, prompting, vibe coding, and AI agents`,
+  `- [Work with me](${ORIGIN}/work-with-me): Brand partnerships and keynote speaking inquiries`,
+  '',
+  '## Guides',
+  '',
+  ...guideLines,
+  '',
+  '## Contact',
+  '',
+  '- Email: contact@senna-filter.com',
+  '- Instagram: https://www.instagram.com/sennafilter/',
+  '- TikTok: https://www.tiktok.com/@sennafilter',
+  '- LinkedIn: https://www.linkedin.com/in/senna-filter-29698a183/',
+  ''
+].join('\n');
+fs.writeFileSync(path.join(DIR, 'llms.txt'), llms);
+console.log(`llms.txt written with ${guideLines.length} guides`);
