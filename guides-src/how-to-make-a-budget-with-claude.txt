@@ -69,6 +69,8 @@ Build me a simple page where I can add my spending each week and see how I'm doi
 
 Download the new transactions, paste them in and ask "How did I do against my budget, and what changed?" Adjust one number and move on.
 
+Want to dig deeper into any spreadsheet, not just bank files? See [How to Analyze a Spreadsheet With Claude](https://www.senna-filter.com/guides/how-to-analyze-a-spreadsheet-with-claude).
+
 ## Budget checklist
 
 [ ] I removed account numbers from my files.
