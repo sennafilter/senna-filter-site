@@ -1,0 +1,85 @@
+title: How to Build a Habit Tracker With Claude
+cat: vibe life
+date: 2026-11-18
+desc: Make your own habit tracker page in about 20 minutes, shaped around the habits you actually have.
+lead: Make your own habit tracker page in about 20 minutes, shaped around the habits you actually have.
+---
+Habit apps are built for everyone, so they fit nobody. You get streaks you don't care about and reminders you turn off. With Claude you can build a tracker that does exactly what you want and nothing else. It takes one prompt and a few rounds of tweaks, and it's a good first thing to build because you'll know right away whether it works.
+
+## New to the words?
+
+- **Artifact.** A working page Claude builds right in the chat. You can click it, use it and ask for changes.
+- **Habit.** Something you want to do regularly, like walking or reading.
+- **Streak.** How many days in a row you've done something.
+
+# 1. Pick three habits
+
+~ Fewer is better.
+
+**What it is.** Choose two to four habits. More than that and you won't use it.
+
+**How to choose.** Make them small and specific: "walk 20 minutes" works better than "get healthy". Include one that's easy so you get early wins.
+
+> **Start here.** Write your habits in a note. Be able to say "done" or "not done" about each at the end of the day.
+
+# 2. Describe the tracker
+
+~ Say how it should feel.
+
+```
+Build me a habit tracker I can use daily. My habits are: [habit 1], [habit 2], [habit 3]. Show a grid for the current month with a checkbox for each habit and day. Show my current streak for each habit and a simple "this month" percentage. Use a calm, simple design with lots of space. Save my checkmarks so they're still there when I come back. Put it in one self-contained file.
+```
+
+**What happens.** Claude builds a working page in the chat. Click the checkboxes to try it.
+
+# 3. React like a designer
+
+~ One change at a time.
+
+Look at it and say what bugs you in plain words:
+
+- "Make the checkmarks bigger and easier to tap on my phone."
+- "Use a warmer color and a softer font."
+- "Show today at the top so I don't have to scroll."
+- "Add a notes box where I can write one line a day."
+
+```
+Make today's row stand out and put it at the top. Keep the rest of the month below it.
+```
+
+# 4. Make it kinder
+
+~ Streaks can backfire.
+
+**What to add.** Many people give up after missing one day. Ask Claude to make missing a day less harsh.
+
+```
+Change the streak so missing one day doesn't reset it to zero. Instead show "days this month" and highlight my best week. Add a short encouraging line when I come back after a miss.
+```
+
+# 5. Save it somewhere you'll open it
+
+~ A tool you don't open doesn't help.
+
+```
+Make this a single file I can save to my computer and open any time. Explain how to add it to my phone's home screen too.
+```
+
+Or put it online with GitHub and Vercel so you can open it on any device with a link. Your own checkmarks stay saved in your browser on each device.
+
+# 6. Review it weekly
+
+~ Two minutes on Sunday.
+
+Paste in what you did, or just look at the page, and ask: "Which habit did I miss most and what's one small change that would help?" Adjust one thing and keep going.
+
+> **The mistake.** Adding more habits when it works. Add one only after the current ones feel automatic.
+
+## Tracker checklist
+
+[ ] I picked two to four habits that are small and specific.
+[ ] The tracker saves my checkmarks.
+[ ] Today is easy to find and tap.
+[ ] Missing a day doesn't wipe out my progress.
+[ ] I saved a copy or put it online.
+[ ] I have a weekly check-in.

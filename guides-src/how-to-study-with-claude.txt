@@ -1,0 +1,83 @@
+title: How to Study With Claude (Without Just Copying Answers)
+cat: life claude
+date: 2026-11-14
+desc: Turn your notes into a study guide, quiz yourself and get unstuck on hard topics, so you actually learn the material.
+lead: Turn your notes into a study guide, quiz yourself and get unstuck on hard topics, so you actually learn the material.
+---
+Asking AI for the answer feels like studying and isn't. You read it, nod and forget it by Friday. The better use is making it work like a tutor and a quiz machine: it explains what you don't get, then tests you until you do. This guide shows how to set that up with your own notes, for school, a certification or a new skill.
+
+> **A note on honesty.** Check your school's rules on AI before you use it for graded work. Everything here is about learning the material, not producing something to hand in.
+
+## New to the words?
+
+- **Active recall.** Pulling an answer out of your own head instead of rereading it. It's one of the best-supported ways to remember things.
+- **Spaced repetition.** Reviewing something again after a day, then a few days, then a week.
+- **Study guide.** A short summary of what you need to know, organized by topic.
+
+# 1. Give Claude your real material
+
+~ Notes, slides, a chapter. Not the topic name.
+
+**How to do it.** Paste or upload your notes, the lecture slides or the chapter. Then say what the test or goal is.
+
+```
+I'm studying for [exam or goal] on [date]. Here are my notes. Make me a study guide: the 10 most important ideas, each explained in two sentences, plus the terms I need to know. If my notes seem to be missing something important, tell me what.
+```
+
+> **Start here.** Use what your teacher or course gave you. Claude shouldn't be your only source of what's on the test.
+
+# 2. Make it explain what you don't get
+
+~ Ask for it a different way until it clicks.
+
+```
+Explain [concept] like I'm new to the subject. Use one everyday analogy and one worked example. Then ask me a question to check whether I understood it.
+```
+
+**Why it works.** The last line matters. It turns an explanation into a conversation where you have to show what you understood.
+
+**When it still doesn't click.** Say "I'm still confused about [the specific part]" and ask for a different analogy.
+
+# 3. Quiz yourself
+
+~ This is where the learning happens.
+
+```
+Quiz me on this material, one question at a time. Start easy and get harder. Wait for my answer before telling me if I'm right. If I'm wrong, explain the idea briefly and ask me a similar question later. Mix question types: short answer, multiple choice and "explain why".
+```
+
+**Make it better.** Tell Claude to keep a list of what you missed and give you a second round on only those.
+
+# 4. Make flashcards
+
+~ Quick to make, easy to review.
+
+```
+Turn this material into 30 flashcards. Format them as a two-column table with the question on the left and the answer on the right. Keep each answer under 20 words. Skip anything that isn't likely to be tested.
+```
+
+If your flashcard app imports CSV files, ask Claude to put the cards in that format.
+
+# 5. Make a plan to the exam date
+
+~ A schedule beats good intentions.
+
+```
+My exam is on [date] and I can study [hours] a week. Based on these topics, make a study schedule that reviews each topic at least three times, with the hardest ones first. Include a day to take a practice test.
+```
+
+# 6. Check what it tells you
+
+~ AI can be wrong, especially on details.
+
+Cross-check anything that matters, like formulas, dates, dosages and definitions, against your textbook or course. If Claude and your notes disagree, trust the course material and ask Claude why they differ.
+
+> **The mistake.** Studying only from AI's summary. Use it to organize and test yourself, then go back to the original material for the details.
+
+## Study checklist
+
+[ ] I used my own notes or textbook, not just the topic name.
+[ ] I made Claude quiz me, not just explain.
+[ ] I made a list of what I got wrong.
+[ ] I checked key facts against my course material.
+[ ] I have a schedule that ends with a practice test.

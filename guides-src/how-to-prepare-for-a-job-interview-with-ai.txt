@@ -1,0 +1,82 @@
+title: How to Prepare for a Job Interview With AI
+cat: career claude
+date: 2026-11-13
+desc: Practice real questions, build your stories and run a mock interview with Claude, step by step.
+lead: Practice real questions, build your stories and run a mock interview with Claude, step by step.
+---
+Most people prepare for interviews by reading the job posting once and hoping for the best. A better way is to practice out loud against realistic questions, with something that pushes back. Claude can play the interviewer, find the weak spots in your answers and help you build a few strong stories you can reuse. It takes about an hour.
+
+## New to the words?
+
+- **Behavioral question.** A question that starts "Tell me about a time when…". The interviewer wants a real example.
+- **STAR.** A way to tell a story: the Situation, the Task, what you did (Action) and the Result.
+- **Mock interview.** A practice run where Claude plays the interviewer and asks one question at a time.
+
+# 1. Give Claude the full picture
+
+~ The better the context, the better the questions.
+
+**What it is.** Paste the job posting, your resume and a line about the company.
+
+```
+I'm interviewing for the role below at [company]. Here is the job posting and my resume. List the 8 questions I'm most likely to be asked, including 3 behavioral ones and 2 I might find hard. For each, tell me what the interviewer is really trying to find out.
+```
+
+> **Start here.** Paste the full posting, not a summary. The wording tells you what they care about.
+
+# 2. Build five stories
+
+~ Five good stories cover most questions.
+
+**What it is.** A few real experiences from your work that you can adapt: a win, a mistake, a disagreement, a time you led, and a time you learned something fast.
+
+```
+Interview me, one question at a time, to find five stories from my work: a big win, a mistake I learned from, a conflict, a time I led without being in charge, and a time I learned something quickly. For each, help me turn it into a 90-second answer using the STAR structure. Use only what I tell you. Don't invent details.
+```
+
+**Why it matters.** When you have stories ready, every behavioral question becomes "which one fits?" instead of a blank mind.
+
+# 3. Run a mock interview
+
+~ One question at a time, out loud.
+
+```
+Act as the hiring manager for this role. Ask me one interview question at a time and wait for my answer. After each answer, give me one thing that worked and one thing to improve, then ask the next question. Make the questions get harder. Stop after 8.
+```
+
+**Make it real.** Use voice mode, or speak your answers and paste them in. Typing lets you edit as you go, and an interview doesn't.
+
+> **Pro tip.** When an answer feels weak, ask "give me a stronger version using only the facts in my answer", then say it out loud in your own words.
+
+# 4. Prepare for the questions you hate
+
+~ Salary, gaps and weaknesses.
+
+```
+Help me answer these three questions honestly and calmly: "Why are you leaving your current job?", "What's your biggest weakness?" and "What are your salary expectations?" Give me two options for each, one shorter and one more detailed. My situation: [explain briefly].
+```
+
+**Check the facts.** Look up typical pay for the role in your area from a source you trust, not just from Claude. Pay data changes and varies a lot by place.
+
+# 5. Prepare your questions for them
+
+~ You're interviewing them too.
+
+```
+Based on this job posting and what I know about the company, write 8 thoughtful questions I could ask the interviewer. Include some about the team, how success is measured and the first 90 days. Skip anything I could find on their website.
+```
+
+# 6. Practice the day before
+
+~ A short final pass.
+
+Do one 15-minute mock interview, re-read your five stories and write down three things you want them to know about you.
+
+## Interview checklist
+
+[ ] I read the job posting and know the top three requirements.
+[ ] I have five stories ready.
+[ ] I practiced out loud, not just in writing.
+[ ] I have an answer for salary, leaving and weaknesses.
+[ ] I have questions to ask them.
+[ ] I checked the company's recent news myself.

@@ -1,19 +1,21 @@
-title: Build Your Own Library Site With Claude
+title: Use Claude to Build Anything, Starting With a Bookshelf
 cat: vibe claude
 date: 2026-11-19
-desc: I made a retro bookshelf website without writing code. Here's every step, plus the repo so you can make the exact one.
-lead: I made a retro bookshelf website without writing code. Here's every step, plus the repo so you can make the exact one.
+desc: Claude can build you a working tool in an afternoon. Here's my bookshelf site start to finish, five more things to build, and the repo to copy.
+lead: Claude can build you a working tool in an afternoon. Here's my bookshelf site start to finish, five more things to build, and the repo to copy.
 ---
-I wanted a place for every book I've read, want to read and love, something like Goodreads but way cooler. So I described it to Claude, reacted to what it made, and ended up with a wooden bookcase full of books, my reading lists, and a live link. This guide walks through exactly how, so you can build the same thing, or swap the books for anything: recipes, trips, movies, a portfolio.
+Most people use Claude to answer questions. The bigger move is asking it to build you something: a page you open, click and keep. I wanted a home for every book I've read, want to read and love, something like Goodreads but way cooler. So I described it, reacted to what Claude made, and ended up with a wooden bookcase full of books, my reading lists and a live link. No code.
 
-> **Want the exact one?** Open the repo, click **Use this template**, then jump to step 5. Everything is here: [github.com/sennafilter/shelf-life](https://github.com/sennafilter/shelf-life)
+This guide shows how I did it, then gives you five more things to build the same way. The bookshelf is just the example. The method works for a trip, a budget, a recipe box or a portfolio.
 
-## What you'll end up with
+> **Want the exact bookshelf?** Open the repo, click **Use this template**, then jump to step 4. Everything is here: [github.com/sennafilter/shelf-life](https://github.com/sennafilter/shelf-life)
 
-- A wooden bookcase with about 70 books on it, grouped by genre, with real-looking spines.
-- Reading lists you can flip between: all books, my reads, reading now, to read, recommended.
-- A side drawer for each book where you mark its status, give it stars and recommend it.
-- An "add a book" button, light and dark mode, and a live link you can send to anyone.
+## New to the words?
+
+- **Artifact.** A finished tool Claude builds and shows you in the chat. It's a real page with buttons, not a wall of text.
+- **GitHub.** Google Drive for code. It stores your project online and keeps every version.
+- **Vercel.** The service that turns your GitHub project into a real web address. That step is called deploying.
+- **Template.** A repo anyone can copy in one click. Mine is a template, so you get your own copy of the bookshelf.
 
 ## What you need
 
@@ -21,31 +23,36 @@ I wanted a place for every book I've read, want to read and love, something like
 - A free GitHub account
 - A free Vercel account (sign up with GitHub)
 
+## The loop
+
+Every build I do follows the same four moves:
+
+1. **Describe it, with a reference.** A screenshot of something you love beats a paragraph.
+2. **React like a designer.** Say what bugs you in plain words, one note at a time.
+3. **Ask for options first.** Mock-ups on a separate page before it changes the real thing.
+4. **Ship it.** GitHub saves it, Vercel puts it online.
+
 # 1. Describe it, with a reference
 
-~ Start with the feeling, not the features. A screenshot helps more than a paragraph.
+~ Start with the feeling, not the features.
 
-**What it is.** The first message tells Claude what you want and shows it something you love. I screenshotted a library site I admired and said what I wanted to be different.
+**What it is.** The first message says what you want and shows Claude something you love. I screenshotted a library site I admired and said what I wanted to be different.
 
-**Why it works.** "Make me a website" gets you something generic. A reference and a feeling gets you something with a point of view. Saying "I can't copy it exactly" also pushes Claude to make its own version.
-
-Copy-paste, with your own reference:
+**Why it works.** "Make me a website" gets something generic. A reference plus a feeling gets something with a point of view. Saying you can't copy it exactly pushes Claude to make its own version.
 
 ```
 I want to create a website like Goodreads, but way cooler. Here's one I really like: books on a shelf, editorial, and I want real-looking books. I can't copy it exactly, so make mine different.
 ```
 
-**Say who it's for.** I told Claude I like Colleen Hoover and the most popular books, nothing too girly, and that I love nonfiction. It filled the shelf with books like that instead of a random list.
+**Say who it's for.** I told Claude I like Colleen Hoover and the most popular books, nothing too girly, and that I love nonfiction. It stocked the shelf with books like that instead of a random list.
 
-> **Start here.** Screenshot a site, an app or a poster you love. Paste it in with the message above.
+> **Start here.** Screenshot a site, an app or a poster you love. Paste it in with the message above, changed to fit what you're building.
 
-# 2. React like a designer
+# 2. React, then ask for options
 
-~ The first version won't be right. Say plainly what bugs you.
+~ The first version won't be right. That's the process.
 
-**What it is.** You look at what Claude made and tell it what you don't like, in your own words. You don't need design vocabulary.
-
-**How to do it.** Send one short note at a time. These are the real ones I sent:
+**React like a designer.** Send one short note at a time, in your own words. These are the real ones I sent:
 
 ```
 This is too similar to hers. Maybe other colors, something more retro or editorial.
@@ -60,114 +67,116 @@ These shelves look too much like hers.
 ```
 
 ```
-I want the books to look a little more realistic.
-```
-
-```
 I want to be able to see my reads, recommended, to read, and so on.
 ```
 
-Each note changed something real. The colors went retro, the lines disappeared, the shelves became a wooden bookcase, and the reading lists showed up.
+Each note changed something real. The colors went retro, the lines disappeared, the shelves became a wooden bookcase and the reading lists showed up.
 
-> **Pro tip.** If you can't say what's wrong, say how it feels. "Too similar", "gross" and "too girly" are all useful.
-
-# 3. Ask for options before it changes anything
-
-~ Mock-ups first. Your real site stays safe until you pick one.
-
-**What it is.** When I wasn't sure what a screen should look like, I asked for several versions on a separate page. Claude left my real site alone while I chose.
+**Ask for options before it changes anything.** When I wasn't sure about a screen, I asked for mock-ups on a separate page. My real site stayed safe while I chose.
 
 ```
 Give me 5 options, static, before changing the website.
 ```
 
-I picked the one I liked by number. Claude then built only that one into the site.
+> **Pro tip.** If Claude misunderstands, say what you meant. I asked for book views and meant home screens. I said so and got four home screens.
 
-> **Pro tip.** If Claude misunderstands, just say what you meant. I asked for book views and meant home screens. I said so, and got four home screens.
+# 3. Save it on GitHub and put it online
 
-# 4. Put it on GitHub
+~ Two free accounts turn a chat into a link you can send.
 
-~ GitHub is where your project lives, so you can keep it, share it and change it later.
-
-**What it is.** A folder of your project, saved online with every version of it. Claude can create it for you.
+**GitHub.** Ask Claude to save the project there. Claude has to be logged in to your GitHub on your computer (`gh auth login` in a terminal).
 
 ```
 Can you put this on GitHub so I can do it on Vercel?
 ```
 
-Claude made a repo called shelf-life with the whole site in one file named index.html. For this to work, Claude has to be logged in to your GitHub on your computer (the GitHub CLI, or `gh auth login` in a terminal).
+Claude made a repo called shelf-life, with the whole site in one file named index.html. I made it public on purpose so people can copy it. My reading lists and ratings are saved in my own browser, not in the repo.
 
-**Public or private?** Public means anyone can see and copy it. I made mine public on purpose, so people could build the exact one. Your reading lists and ratings are saved in your own browser, not in the repo, so they stay yours.
-
-> **Pro tip.** Ask Claude to make the repo a template. Then GitHub shows a **Use this template** button for anyone who visits it.
-
-> **Start here.** Ask Claude to create the repo and send you the link. Open it to check the files are there.
-
-# 5. Publish it on Vercel
-
-~ Vercel turns your GitHub repo into a real web address. It's free for personal projects.
+**Vercel.**
 
 1. Go to vercel.com/new and sign up with GitHub.
-2. Find your repo and click Import. If you don't see it, adjust the GitHub permissions and give Vercel access to that repo.
+2. Find your repo and click Import. If you don't see it, adjust the GitHub permissions to give Vercel access.
 3. Set the Framework Preset to **Other**. Leave the build and output settings empty.
 4. Click Deploy. About a minute later you have a link ending in .vercel.app.
 
-**How updates work.** Whenever Claude pushes a change to GitHub, Vercel republishes your site on its own. You never have to re-upload anything.
+From then on, whenever Claude pushes a change to GitHub, Vercel republishes the site by itself.
 
-> **The business catch.** Vercel's free Hobby plan is for personal, non-commercial sites. A bookshelf is fine. If you sell anything, see the cost breakdown in [Build Your Website With AI](https://www.senna-filter.com/guides/build-your-website-with-ai).
+> **The business catch.** Vercel's free Hobby plan is for personal, non-commercial sites. A bookshelf is fine. If you sell anything, read the cost breakdown in [Build Your Website With AI](https://www.senna-filter.com/guides/build-your-website-with-ai).
 
-# 6. Make the exact one, then make it yours
+# 4. Make the exact bookshelf yours
 
 ~ Copy the repo, deploy it, then change it with plain sentences.
 
 1. Open [github.com/sennafilter/shelf-life](https://github.com/sennafilter/shelf-life) and click **Use this template**, then **Create a new repository**.
-2. Deploy your copy on Vercel with the steps in section 5.
+2. Deploy your copy on Vercel with the steps above.
 3. Open your copy in Claude and start changing it.
 
-**Not on GitHub yet?** This button starts a Vercel deploy straight from the repo: [Deploy it on Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsennafilter%2Fshelf-life).
-
-> **Start here.** Use the template, deploy it, and open the link on your phone before you change anything. Then make your first edit.
-
-## Prompts to try
-
-Copy, paste, swap the brackets.
-
-### Use your own books
+There's also a button that starts a Vercel deploy straight from the repo: [Deploy it on Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsennafilter%2Fshelf-life).
 
 ```
 Replace the books on the shelf with my own list. Here is what I've read: [paste titles and authors]. Keep the same wooden bookcase.
 ```
 
-### Change the look
-
 ```
 Change the colors to something warmer, but keep it retro. Show me 3 options on a separate page first.
 ```
 
-### Make it a different collection
+> **Start here.** Use the template, deploy it and open the link on your phone before you change anything. Then make your first edit.
+
+# 5. Five more things to build
+
+~ Same loop, different subject. Pick one for this weekend.
+
+Each of these takes an afternoon. Paste the prompt, answer the questions Claude asks, then react with notes like you did above. For the full prompts, real examples and mistakes to avoid, see [5 Everyday Things to Build With AI This Weekend](https://www.senna-filter.com/guides/5-everyday-things-to-build-with-ai-this-weekend).
+
+### A points and perks tracker
+
+Every card you carry, its points and the perks you pay for, with the credits you haven't used flagged. You stop paying for perks you never use.
 
 ```
-Turn this into a recipe box instead of a library. Same bookcase look, but each book is a recipe card I can open.
+Build me a points and perks tracker for my credit cards. Make a tab for each card, show my points, and list every benefit with how much I've used and what resets soon. Ask me for my balances and benefits before you build it.
 ```
 
-### Add a page
+### A travel companion
+
+Paste your bookings once and get a day-by-day itinerary with everything in order. The whole trip lives in one place.
 
 ```
-Add an About page in the same style and link it in the footer. Give me only the files that changed.
+Build me a day-by-day trip itinerary. I'm going to [city] from [dates]. I'll paste my confirmations. Put everything in time order with a tab for each day and keep confirmation numbers next to each booking.
 ```
 
-### Real book covers
+### A meal planner that fills your cart
+
+Tell it what you like and how many nights you'll cook. It plans the week and builds the list. Dinner is decided before Monday starts.
 
 ```
-The covers are drawn, not real photos. Can we use real cover images? Tell me what you need to download first.
+Plan my dinners for this week. I cook [number] nights and I like [foods]. Build me a meal plan and one combined grocery list grouped by store section.
 ```
 
-## Before you share the link
+### A workout planner
 
-[ ] The site opens on your phone and the books are readable.
-[ ] Your name and anything personal on it is what you want public.
-[ ] Every button works. Click each list tab and open a book.
-[ ] The repo is public, and Use this template shows on its page.
+Tell it how much time you have today and it builds a workout that fits.
+
+```
+Build me a workout planner. I have [minutes] today and access to [equipment]. Give me a workout that fits, and let me pick a different length any day.
+```
+
+### A money dashboard
+
+Upload a few months of statements and see where the money goes, plus every subscription you forgot about.
+
+```
+Here are my last 3 months of bank statements. Build me a dashboard that shows spending by category and lists every recurring subscription. Everything stays on this page.
+```
+
+> **The mistake.** Using made-up numbers. A tool built on your real cards, bookings and statements is one you'll open every week. Check any account details Claude suggests against the original source.
+
+## Before you share your link
+
+[ ] It opens on your phone and everything is readable.
+[ ] Nothing personal is on it that you want to keep private.
+[ ] Every button works. Click through each tab and open each item.
+[ ] If you shared a repo, it's public and **Use this template** shows on its page.
 [ ] You opened your Vercel link in a private window.
 
-Everything here started with one screenshot and a sentence about what I liked. You can too.
+Everything here started with one screenshot and a sentence about what I liked. Start with yours.

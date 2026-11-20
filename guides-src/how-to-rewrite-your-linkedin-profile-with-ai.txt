@@ -1,0 +1,87 @@
+title: How to Rewrite Your LinkedIn Profile With AI
+cat: career claude
+date: 2026-11-19
+desc: Write a headline, About section and experience bullets that sound like you and say what you actually do.
+lead: Write a headline, About section and experience bullets that sound like you and say what you actually do.
+---
+Most LinkedIn profiles read like a resume pasted into a form. Your headline is a job title, your About section is empty and nobody can tell what you're good at. A better profile answers one question for a stranger in ten seconds: what does this person do, and why would I talk to them? Claude can help you say it clearly, as long as you give it real material and keep your own voice.
+
+## New to the words?
+
+- **Headline.** The line under your name. It's the most-seen text on your profile.
+- **About section.** A short summary of who you are and what you do.
+- **Search terms.** Words people type when looking for someone like you, like "data analyst" or "nonprofit fundraising".
+
+# 1. Decide who the profile is for
+
+~ One reader at a time.
+
+**What it is.** A profile for "everyone" speaks to no one. Pick the person you most want to find you: a recruiter in your field, a future client or a hiring manager.
+
+```
+I want my LinkedIn profile to attract [recruiters / clients / hiring managers] for [type of role or work]. Ask me five questions to find out what makes me a strong fit, what I'm proudest of and what I want to do next.
+```
+
+> **Start here.** Write the sentence "I help [who] do [what]." If it's hard, that's the part to work on first.
+
+# 2. Write the headline
+
+~ Say what you do, not just your title.
+
+```
+Here's my current role and what I do: [paste]. Write 8 LinkedIn headlines under 120 characters. Include what I do and who I help, use words people would search for, and skip buzzwords like "passionate" and "guru".
+```
+
+Pick the one that sounds like you and change a word or two.
+
+# 3. Write the About section
+
+~ Four short paragraphs.
+
+```
+Write my LinkedIn About section using only the facts below. Structure: one line on what I do and who for, a short paragraph on how I work, two or three specific results with numbers, and one line on what I'm looking for or how to reach me. First person, plain language, under 200 words. Facts: [paste].
+```
+
+**Why it matters.** Specific results beat adjectives. "Cut reporting time by half" beats "detail-oriented".
+
+# 4. Tighten your experience
+
+~ Results, not duties.
+
+```
+Here are the bullets from my last two jobs. Rewrite each to start with what I did and end with the result. Use only the facts I gave you and don't invent numbers. If a bullet has no result, ask me what happened.
+```
+
+# 5. Check it for you
+
+~ Keep your own voice.
+
+Read it out loud. Delete anything you'd never say in a conversation. Cut words like "leverage", "synergy" and "results-driven" and replace them with plain ones.
+
+```
+List every phrase in this profile that sounds generic or like marketing copy, and suggest a plainer way to say it that keeps the meaning.
+```
+
+> **The mistake.** Claiming something you can't back up. If a recruiter asks and you can't explain it, take it out.
+
+# 6. Finish the details
+
+~ Small things people notice.
+
+- A clear, recent photo of you
+- A custom profile link with your name
+- Skills that match the headline, so they show up in searches
+- A featured link to your best work, if you have one
+
+```
+Suggest 10 skills to list on my profile for [role], in order of how often they appear in job postings. Only include skills I actually have.
+```
+
+## Profile checklist
+
+[ ] I know who the profile is for.
+[ ] The headline says what I do and who I help.
+[ ] The About section includes specific results.
+[ ] No invented numbers or claims.
+[ ] I removed buzzwords.
+[ ] I read it out loud.

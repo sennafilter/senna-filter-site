@@ -1,0 +1,87 @@
+title: How to Learn a New Skill With Claude in 30 Days
+cat: life thinking
+date: 2026-11-19
+desc: Build a 30-day learning plan with practice, feedback and a final project, for almost any skill.
+lead: Build a 30-day learning plan with practice, feedback and a final project, for almost any skill.
+---
+Most people try to learn something new by watching videos until they feel smart, then stop. Learning sticks when you practice, get feedback and make something. Claude is a good partner for that: it can design the plan, explain what confuses you and give feedback on your work any time. It can't practice for you, so the plan is built around doing. This works for skills like a language, spreadsheets, drawing, public speaking or a new software tool.
+
+## New to the words?
+
+- **Learning plan.** A schedule of what to practice each day or week.
+- **Deliberate practice.** Practicing the specific thing you're bad at, not just repeating what you already do well.
+- **Feedback.** Someone telling you what's working and what isn't, so you can improve.
+
+# 1. Pick one skill and one outcome
+
+~ A skill is too big. An outcome isn't.
+
+**What it is.** Say what you want to be able to do in 30 days. "Learn Spanish" is vague. "Have a five-minute conversation about my day" is clear.
+
+```
+I want to learn [skill]. In 30 days I want to be able to [specific outcome]. I have [time] a day and I'm currently at [beginner / some experience]. Ask me up to five questions to make the goal realistic.
+```
+
+> **Start here.** Choose an outcome you could show someone, like a conversation, a finished piece or a working spreadsheet.
+
+# 2. Build the plan
+
+~ Four weeks, each with one focus.
+
+```
+Make me a 30-day learning plan for this goal. Divide it into four weeks, each with a focus. For each day, give a task that takes about [minutes]. Make at least half of the tasks practice, not reading or watching. Put a small project at the end of each week and a final project in week four.
+```
+
+**Why it matters.** The weekly project is what keeps you from endless tutorials.
+
+# 3. Practice with feedback
+
+~ Where Claude is most useful.
+
+**What it is.** Do the practice task, then show Claude what you did and ask for feedback.
+
+```
+Here's what I produced for today's task: [paste or describe]. Tell me: one thing I did well, the two most important things to improve and one exercise to fix the biggest one. Be specific and honest, not just encouraging.
+```
+
+**Make it better.** Ask Claude to be a tough but fair coach, or to explain why something is wrong instead of just fixing it.
+
+# 4. Explain what confuses you
+
+~ Ask in a different way until it clicks.
+
+```
+I'm confused about [specific thing]. Explain it using an analogy from [something you already know]. Then give me a quick question to check I understand it.
+```
+
+# 5. Check it against real sources
+
+~ AI can be wrong, especially at the edges of a skill.
+
+Check key facts, rules and techniques against a good textbook, course or expert, especially for anything where mistakes matter, like medical, legal or safety topics. When Claude and a source disagree, ask Claude why and trust the reliable source.
+
+> **The mistake.** Using AI as the only teacher. Pair it with a real course, book or person and use Claude to fill gaps.
+
+# 6. Do the final project
+
+~ Proof you learned something.
+
+```
+Help me plan a final project that shows what I've learned. It should take about [hours], use at least [three] of the skills from this plan and be something I can show someone. Then review my finished work against this plan.
+```
+
+# 7. Keep going or stop on purpose
+
+~ Decide what's next.
+
+```
+Based on my progress this month, what should I focus on in the next 30 days to keep improving? What's the one habit that would help most?
+```
+
+## Learning checklist
+
+[ ] I have a specific outcome I can show.
+[ ] At least half my tasks are practice.
+[ ] I get feedback after each practice.
+[ ] I check important facts against a reliable source.
+[ ] I finish with a project.

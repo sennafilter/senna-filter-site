@@ -1,0 +1,85 @@
+title: Claude vs ChatGPT: Which One Should You Use?
+cat: basics claude
+date: 2026-11-10
+desc: Stop reading comparisons. Here's a 10-minute test that shows which AI fits the way you work, plus when to use each one.
+lead: Stop reading comparisons. Here's a 10-minute test that shows which AI fits the way you work, plus when to use each one.
+---
+Every few weeks a new article says one of them is the winner. The honest answer is that both are good, both change constantly, and the better one depends on what you do all day. Instead of trusting a list that's out of date by the time you read it, run a short test with your own work. You'll know in ten minutes.
+
+## New to the words?
+
+- **Model.** The AI "brain" behind the chat. Each company releases new versions often, so a comparison from three months ago may not hold.
+- **Plan.** The free or paid tier you're on. Paid plans usually give you stronger models and higher limits, which changes the result.
+- **Prompt.** The message you type. For a fair test, you paste the exact same one into both.
+
+# 1. Pick three real tasks
+
+~ Use work you actually do, not a trick question.
+
+**What it is.** Choose three things from your week: something you write, something you analyze or organize, and something you want explained. A real email, a messy spreadsheet or a document you've been avoiding.
+
+**Why it matters.** Generic tests like "write a poem about the ocean" don't tell you anything about your job. Your own tasks do.
+
+> **Start here.** Write the three tasks in a note before you open either app. It keeps you honest about what you're judging.
+
+# 2. Run the same prompt in both
+
+~ Same words, same files, same moment.
+
+**How to do it.** Open both apps side by side. Paste the identical prompt and attach the identical file. Don't tweak the prompt for one of them.
+
+```
+I'm [your job]. Here is [the email / the document / the data]. Please [the task]. Keep the answer short enough to read in two minutes, and tell me anything you're unsure about.
+```
+
+**Make it fair.** Use the same plan level on both if you can. A paid plan against a free plan isn't a comparison.
+
+# 3. Score what you got
+
+~ Four questions, each out of five.
+
+1. **Did it do what I asked?** Not what it guessed I wanted.
+2. **Does it sound like me?** Could you send it with only small edits?
+3. **Is it correct?** Check any fact, number or name against the source.
+4. **Was it easy to work with?** Could you push back and get a better second version?
+
+Add up the scores for each tool. The totals matter less than which one you'd open again tomorrow.
+
+> **The mistake.** Judging on the first answer only. Send one follow-up like "make it shorter and warmer" to both. How a tool takes feedback is half of what you're buying.
+
+# 4. Check the practical differences
+
+~ Things that decide it after the writing quality is a tie.
+
+- **Files and formats.** What can you upload, and what can it hand back (documents, spreadsheets, a working page)?
+- **Connections.** Does it link to the apps you already use, like your email, calendar or drive?
+- **Memory.** Does it remember things about you between chats, and can you control that?
+- **Limits.** How much can you do before it asks you to wait?
+- **Price.** What does the plan you'd actually use cost per month?
+
+Check these on each company's own site, because they change often. Don't rely on a comparison article for them.
+
+# 5. Use both on purpose
+
+~ You don't have to marry one.
+
+Plenty of people keep both. A common split is one for long writing and careful reading, and the other for quick questions and images. Try it for a week and notice where you naturally reach.
+
+```
+I'm going to paste the same task into two different AI tools. Help me write a one-paragraph version of this task that is clear enough to give a good result in either: [paste your task].
+```
+
+## Quick decision guide
+
+- **Mostly writing, long documents, careful rewriting?** Test Claude first.
+- **Mostly quick answers, images and everyday help?** Test ChatGPT first.
+- **Building small tools and pages?** Test both on one small build and see which result you'd keep.
+- **Not sure?** Run the three-task test above. It beats any list.
+
+## Before you decide
+
+[ ] I tested with three tasks from my real work.
+[ ] I used the same prompt and files in both.
+[ ] I sent one follow-up to each.
+[ ] I checked facts against the source.
+[ ] I looked at current limits and price on each company's site.

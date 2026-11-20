@@ -1,0 +1,83 @@
+title: How to Plan a Trip With AI
+cat: life claude
+date: 2026-11-15
+desc: Build a day-by-day itinerary from your preferences and bookings, and avoid the mistakes AI makes with travel details.
+lead: Build a day-by-day itinerary from your preferences and bookings, and avoid the mistakes AI makes with travel details.
+---
+Planning a trip usually means thirty open tabs and a half-finished note. AI is good at the part that takes the longest: turning your preferences into a realistic plan. It's not good at knowing today's opening hours, prices or whether a restaurant still exists. So the method is to let Claude draft and organize, and to check the facts yourself. This guide shows you how.
+
+## New to the words?
+
+- **Itinerary.** The plan for each day of a trip, in order.
+- **Pace.** How much you do in a day. Relaxed might be two things a day. Packed might be five.
+- **Anchor.** A thing you're definitely doing, like a booked tour or a flight. Everything else fits around it.
+
+# 1. Tell Claude what kind of trip it is
+
+~ Your preferences matter more than the destination.
+
+```
+Help me plan a trip to [place] from [dates] for [who's going]. Our budget is about [amount] per person for everything except flights. We like [things you enjoy] and don't like [things you avoid]. We want a [relaxed / medium / packed] pace. Ask me up to five questions before you suggest anything.
+```
+
+> **Start here.** Answer the questions it asks. They're usually the same ones a good travel agent would ask.
+
+# 2. Add your anchors
+
+~ Bookings first, then everything else.
+
+**What it is.** Paste your flight times, hotel dates and any reservations. These can't move.
+
+```
+Here are my confirmed bookings: [paste]. Build a day-by-day plan around them. Keep arrival and departure days light. Group things that are close to each other so we're not crossing the city twice in a day. Add travel time between stops.
+```
+
+# 3. Fill the days
+
+~ Ask for options, not one answer.
+
+```
+For each day, give me a morning, afternoon and evening plan, and one backup idea for a rainy day. Mark anything that needs a reservation or a ticket bought ahead. Tell me which things are on the plan because they're well-known and which are off the beaten path.
+```
+
+**Why it matters.** Having a backup stops one bad forecast from wrecking a day.
+
+# 4. Check the facts
+
+~ This step is not optional.
+
+AI can invent or misremember details, especially for places that aren't famous. Before you rely on any plan, check these yourself on official sources:
+
+- Opening days and hours, including holidays
+- Ticket prices and whether you need to book ahead
+- Whether a place is still open
+- Transit routes and last trains
+- Entry rules, like visas or vaccines, from the government site
+
+```
+List every fact in this itinerary that I should double-check (hours, prices, bookings, transport) and give me a checklist with what to verify for each.
+```
+
+> **The mistake.** Trusting a restaurant or hours that Claude gave from memory. Always confirm with the venue's own site or a map app before you go.
+
+# 5. Make it usable on the trip
+
+~ A plan you can open on your phone.
+
+```
+Turn this itinerary into a clean page I can open on my phone, with a tab for each day, the address and booking details for each stop, and a packing list based on the plans and the season. Make it a single file I can save and open without internet.
+```
+
+# 6. Plan for the unexpected
+
+~ Five minutes now, less stress later.
+
+Ask Claude for a short list of "if this goes wrong" notes: what to do if a flight is cancelled, where to find a pharmacy, and the local emergency number. Save it with your confirmations.
+
+## Trip checklist
+
+[ ] I gave Claude my preferences, budget and pace.
+[ ] My bookings are the fixed points in the plan.
+[ ] I checked hours, prices and bookings on official sites.
+[ ] I have a rainy-day backup for each day.
+[ ] I saved a copy I can open offline.

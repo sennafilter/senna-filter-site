@@ -1,0 +1,85 @@
+title: How to Find a Side Hustle Idea With AI
+cat: career thinking
+date: 2026-11-18
+desc: Match your skills, time and money to real ideas, and test one cheaply before you quit anything.
+lead: Match your skills, time and money to real ideas, and test one cheaply before you quit anything.
+---
+"Start a side hustle" is easy to say and hard to act on, because the list of ideas is endless and most of them don't fit your life. AI can help you narrow it down by matching ideas to your skills, your hours and your budget. It can't promise any idea will make money, and nobody can, so the goal here is to find one worth a small, cheap test.
+
+> **Be realistic.** Most side projects earn little at first, and some earn nothing. Don't spend money or quit a job based on what AI says. This is education, not financial advice.
+
+## New to the words?
+
+- **Side hustle.** Work you do outside your main job to earn extra money.
+- **Validate.** Check that someone will actually pay before you build anything.
+- **Minimum test.** The smallest, cheapest thing you can try to see if there's interest.
+
+# 1. Take stock of what you have
+
+~ Skills, hours and money.
+
+```
+Interview me, one question at a time, to understand my side hustle starting point. Ask about: my skills and what people ask me for help with, what I enjoy and what drains me, how many hours a week I really have, how much money I could spend to start, and any rules from my employer about outside work. Then summarize it in six bullets.
+```
+
+> **Start here.** Be honest about your time. Five hours a week and fifteen hours a week lead to very different ideas.
+
+# 2. Generate ideas that fit
+
+~ Aim for a list, not the perfect pick.
+
+```
+Based on that summary, suggest 12 side hustle ideas. Mix services (selling my time), products (selling something I make once) and content (building an audience). For each, give: who would pay, how I'd find the first customer and the smallest thing I could try this month. Be honest about which ones are slow to pay off.
+```
+
+# 3. Score them
+
+~ Cut the list down to three.
+
+```
+Score each idea from 1 to 5 on: fit with my skills, fit with my hours, low startup cost, how fast I could get a first customer and how much I'd enjoy it. Show a table and then recommend my top 3, with the reasons.
+```
+
+**Check it.** You know your life better than Claude. Cross out anything that feels wrong, even if the score is high.
+
+# 4. Check if anyone wants it
+
+~ Don't build before you ask.
+
+**What to do.** Talk to five real people who might be customers. Search for how others charge for it. Look at what similar offers say.
+
+```
+Write a short, friendly message I can send to five people asking about [problem]. I want to find out whether they'd pay for help with it and what they currently do instead. Don't sell anything.
+```
+
+**Why it matters.** The best sign is someone asking "how much?" The worst is someone saying "that's cool" and doing nothing.
+
+# 5. Run the smallest test
+
+~ A weekend, not a business plan.
+
+```
+Design a one-weekend test for [idea] that costs under [amount]. It should tell me whether a stranger will pay. Include: what to offer, the price to try, where to post it and what result would count as a yes.
+```
+
+# 6. Check the boring parts
+
+~ Before you take a dollar.
+
+- Does your employer allow outside work?
+- Do you need a license, an insurance policy or a business registration where you live?
+- How will you track income and taxes?
+
+Ask a professional or your local government's small business site. AI can help you prepare questions, not give legal or tax answers.
+
+```
+List the questions I should ask an accountant or small business advisor before I start charging for [idea] in [place].
+```
+
+## Side hustle checklist
+
+[ ] I know my real hours and budget.
+[ ] I narrowed ideas to three.
+[ ] I talked to five potential customers.
+[ ] I have a small test with a clear yes or no result.
+[ ] I checked my employer's rules and local requirements.

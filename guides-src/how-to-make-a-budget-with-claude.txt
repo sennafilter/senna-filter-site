@@ -1,0 +1,79 @@
+title: How to Make a Budget With Claude
+cat: life claude
+date: 2026-11-14
+desc: Turn a few months of statements into a simple budget and a list of forgotten subscriptions, without a spreadsheet.
+lead: Turn a few months of statements into a simple budget and a list of forgotten subscriptions, without a spreadsheet.
+---
+Most budgets fail because they start with a blank spreadsheet and a lot of guilt. A better start is looking at what you actually spent. Claude can read your bank and card statements, group the spending and show you where the money goes. Then you decide what to change. This guide walks through it, and how to protect your privacy while you do.
+
+> **Before you start.** Statements contain sensitive details. Remove your account numbers, name and address, or use a CSV download with just the date, description and amount columns. Check your plan's privacy settings and don't share anything you aren't comfortable sharing. This guide is education, not financial advice.
+
+## New to the words?
+
+- **CSV.** A plain spreadsheet file. Most banks let you download your transactions as one.
+- **Category.** A group of spending, like groceries, rent or subscriptions.
+- **Fixed vs flexible.** Fixed costs are about the same every month (rent). Flexible costs change (eating out).
+- **Recurring charge.** Anything that bills you automatically each week, month or year.
+
+# 1. Collect three months of transactions
+
+~ One month hides the pattern. Three shows it.
+
+**How to do it.** Log in to your bank, find "download transactions" and choose CSV. Get the last three months for each account and card you use. Open the files and delete columns with account numbers.
+
+> **Start here.** Download the files before you open Claude. It takes five minutes and saves a lot of back-and-forth.
+
+# 2. Ask Claude to sort the spending
+
+~ Let it do the boring part.
+
+```
+Here are three months of my transactions. Sort every transaction into categories (rent or housing, groceries, eating out, transportation, subscriptions, shopping, health, travel, other). Show a table with each category's monthly average. Tell me which transactions you weren't sure how to categorize so I can fix them.
+```
+
+**Check it.** Skim the "not sure" list and correct any mistakes. A wrong category skews the totals.
+
+# 3. Find the recurring charges
+
+~ This is where the easy savings usually are.
+
+```
+List every charge that repeats weekly, monthly or yearly. For each, show the name, how often it bills, the amount and the date it started. Put anything that looks like a subscription first.
+```
+
+**What to do next.** Go through the list and ask yourself three things: do I use it, would I buy it again today, and is there a cheaper option? Cancel what you don't want yourself, in the service's own settings.
+
+# 4. Decide what the budget should do
+
+~ A budget is a decision, not a report.
+
+**What it is.** Pick one goal: save a certain amount, pay down a debt or just stop being surprised at the end of the month.
+
+```
+My goal is [goal]. My income after tax is about [amount] a month. Based on my average spending, suggest a simple monthly budget with three buckets: needs, wants and savings or debt. Show where I'm over and where I have room. Keep it to one page and explain your assumptions.
+```
+
+> **The mistake.** Making the budget perfect. Start with a rough one, use it for a month and adjust.
+
+# 5. Build a small tracker you can reuse
+
+~ Optional, but it's the part that sticks.
+
+```
+Build me a simple page where I can add my spending each week and see how I'm doing against this budget. Show a bar for each category, turn it red when I'm over, and keep everything on this page. Make it a single file I can save and reopen.
+```
+
+# 6. Check in once a month
+
+~ Fifteen minutes, same day each month.
+
+Download the new transactions, paste them in and ask "How did I do against my budget, and what changed?" Adjust one number and move on.
+
+## Budget checklist
+
+[ ] I removed account numbers from my files.
+[ ] I used three months of data.
+[ ] I fixed the "not sure" categories.
+[ ] I reviewed every recurring charge.
+[ ] I picked one goal for the budget.
+[ ] I picked a day each month to check in.

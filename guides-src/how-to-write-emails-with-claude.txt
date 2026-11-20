@@ -1,0 +1,96 @@
+title: How to Write Emails With Claude (That Don't Sound Like AI)
+cat: prompting career
+date: 2026-11-16
+desc: Draft, shorten and fix hard emails fast, and keep your own voice so nobody can tell a robot wrote them.
+lead: Draft, shorten and fix hard emails fast, and keep your own voice so nobody can tell a robot wrote them.
+---
+Email is the most common thing people use AI for, and the one most likely to go wrong. The result is stiff, long and full of phrases no person would say. The fix is to teach Claude your voice first, then give it a clear job for each email. You'll end up with drafts you only need to tweak.
+
+## New to the words?
+
+- **Voice sample.** A few of your own emails that sound like you. Claude learns your tone from them.
+- **Tone.** How the email feels: warm, direct, formal, apologetic.
+- **Draft.** A first version you edit before sending. You always read it before it goes.
+
+# 1. Give it your voice
+
+~ Do this once and reuse it.
+
+**How to do it.** Pick three emails you wrote that you like. Remove names and private details, then paste them.
+
+```
+Here are three emails I wrote. Describe my writing voice in six bullet points: sentence length, how I open and close, how formal I am, words I use a lot and words I never use. Then write a short style note I can paste into future prompts.
+```
+
+> **Start here.** Save that style note. Paste it at the top of every email request, or put it in a Claude Project's instructions.
+
+# 2. Say what the email needs to do
+
+~ One goal per email.
+
+```
+[Paste your style note]
+
+Write an email to [who] about [topic]. My goal is for them to [reply with X / approve Y / know Z]. Keep it under [number] words. Here's the background: [paste]. Don't add anything that isn't in the background.
+```
+
+**Why it matters.** A clear goal tells Claude what to put first and what to cut.
+
+# 3. Handle the hard ones
+
+~ Where AI helps the most.
+
+**Saying no.**
+
+```
+Write a kind, clear email declining [request]. Give one honest reason, offer [alternative if any], and don't over-apologize.
+```
+
+**A follow-up that isn't annoying.**
+
+```
+Write a short follow-up to an email I sent [number] days ago about [topic]. Make it easy to answer with one word. No guilt, no "just checking in".
+```
+
+**A difficult message.**
+
+```
+I need to tell [person] that [hard news]. Draft two versions: one very direct and one gentler. Both should be honest, and neither should blame them.
+```
+
+# 4. Edit instead of rewriting
+
+~ You'll use this one the most.
+
+```
+Here's my draft. Don't rewrite it. Fix typos, cut anything that doesn't need to be there, and flag anything that could be misread. Keep my words where possible.
+```
+
+Other quick fixes: "Make this half as long", "Make this warmer", or "Make the ask clearer."
+
+# 5. Remove the AI tells
+
+~ So it sounds like a person.
+
+AI emails often use phrases like "I hope this email finds you well", "I wanted to reach out" or "circle back". Ask Claude to find them.
+
+```
+List any phrases in this email that sound generic or like a template, and replace them with plain wording I'd actually use.
+```
+
+# 6. Read it before you send it
+
+~ You're still the sender.
+
+Check names, dates, numbers and attachments. Read it out loud once. If it makes a promise or states a fact, make sure it's true. Never send anything you haven't read.
+
+> **The mistake.** Sending the first draft. A quick read catches wrong names and details Claude made up.
+
+## Email checklist
+
+[ ] I used my voice sample.
+[ ] The email has one clear goal.
+[ ] It's as short as it can be.
+[ ] I removed stock phrases.
+[ ] I checked names, dates and facts.
+[ ] I read it out loud before sending.

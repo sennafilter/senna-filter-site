@@ -1,0 +1,84 @@
+title: How to Ask for a Raise With AI
+cat: career claude
+date: 2026-11-17
+desc: Build your case with real evidence, practice the conversation and write the ask, without bluffing or guessing.
+lead: Build your case with real evidence, practice the conversation and write the ask, without bluffing or guessing.
+---
+Most people ask for a raise with a feeling ("I've worked hard") instead of a case. Managers say yes to evidence: what you did, what it was worth and what the role pays. Claude is good at helping you gather that evidence and practice saying it. It can't know what you're worth or what your company will pay, so you do the fact-finding. This guide shows you how.
+
+> **A note on advice.** This is general education, not career or financial advice. Pay and rules vary a lot by company, role and place.
+
+## New to the words?
+
+- **Brag doc.** A running list of your wins, with numbers, kept over time.
+- **Market rate.** What similar jobs pay in your area, from sources you trust.
+- **Ask.** The specific number or change you're requesting.
+
+# 1. Build your brag doc
+
+~ Your case starts with a list.
+
+**How to do it.** Write down everything you've done in the last year: projects, problems solved, praise from others and anything you took on beyond your job. Messy is fine.
+
+```
+Here's a rough list of what I did this year. Interview me, one question at a time, to find numbers: time saved, money earned or saved, customers helped, errors reduced. Then turn it into a one-page list of my top 7 accomplishments. Only use what I tell you, and mark anything I'm not sure about.
+```
+
+> **Start here.** Check your email and chat for thank-yous and results you forgot. Paste the real ones in.
+
+# 2. Research the market yourself
+
+~ Claude can't look up your exact job reliably.
+
+**How to do it.** Check salary data from several sources: job postings that list pay ranges, salary survey sites, and people in your field who are willing to talk. Write down the range and where it came from.
+
+```
+Here's pay data I found for my role in my area: [paste with sources]. Help me figure out a reasonable range to ask for, and explain how to account for my experience and responsibilities. Point out what's missing or uncertain.
+```
+
+**Why it matters.** Numbers from AI memory can be wrong or out of date. Use only data you can point to.
+
+# 3. Write the case in one page
+
+~ Short beats long.
+
+```
+Using my accomplishments and this pay data, write a one-page summary I can bring to a conversation about my pay. Include: what I've done, what it was worth to the company, how my responsibilities have grown and what I'm asking for. Keep it factual, confident and free of threats or comparisons to coworkers.
+```
+
+# 4. Practice the conversation
+
+~ Say it out loud before it counts.
+
+```
+Pretend to be my manager. I'm going to ask for a raise to [amount]. Respond realistically: sometimes supportive, sometimes pushing back about budget or timing. After each of my responses, give me one tip, then continue. Do three rounds.
+```
+
+**Practice the hard answers.** Ask Claude to play a manager who says "not right now" or "the budget is frozen", and prepare what you'd say next, like asking what it would take to get there in six months.
+
+# 5. Plan the ask
+
+~ Timing and wording matter.
+
+```
+Write a short email asking my manager for a meeting to discuss my compensation and growth. Keep it calm and professional. Don't mention the number in the email.
+```
+
+Try to ask before budgets are set, after a clear win or during a review cycle, if you can.
+
+# 6. After the conversation
+
+~ Follow up in writing.
+
+```
+Write a short thank-you email recapping what we discussed and the next steps we agreed on, with dates if there are any.
+```
+
+## Raise checklist
+
+[ ] I have a list of results with numbers.
+[ ] I checked pay data from real sources.
+[ ] I have a specific number or range.
+[ ] I practiced out loud.
+[ ] I know my next step if the answer is "not now".
+[ ] I followed up in writing.

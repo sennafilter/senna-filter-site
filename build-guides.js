@@ -38,6 +38,8 @@ const CATS = [
   ['basics', 'Fundamentals'],
   ['agents', 'AI agents'],
   ['thinking', 'Thinking'],
+  ['career', 'Career'],
+  ['life', 'Everyday life'],
   ['resources', 'Resources']
 ];
 const CATNAME = Object.fromEntries(CATS);

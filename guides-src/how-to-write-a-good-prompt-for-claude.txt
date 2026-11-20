@@ -1,0 +1,110 @@
+title: How to Write a Good Prompt for Claude
+cat: prompting basics
+date: 2026-11-11
+desc: A simple five-part prompt you can reuse for almost anything, with before-and-after examples and a fill-in template.
+lead: A simple five-part prompt you can reuse for almost anything, with before-and-after examples and a fill-in template.
+---
+Most bad AI answers come from a thin prompt. "Write me a bio" leaves Claude guessing about who you are, who's reading and how long it should be. The fix isn't a magic phrase. It's giving the same few pieces of information every time, so Claude doesn't have to guess.
+
+## New to the words?
+
+- **Prompt.** What you type to Claude. It can be one line or several paragraphs.
+- **Context.** The background Claude can't know unless you say it: who you are, what you're working on, who it's for.
+- **Output format.** The shape of the answer you want, like a table, three bullets or an email.
+
+# 1. Say who you are and what the job is
+
+~ One sentence of context changes the whole answer.
+
+**What it is.** Start with your role and the task. This tells Claude the level to pitch the answer at.
+
+**Example.** Instead of "explain this contract", try "I run a two-person design studio and I'm not a lawyer. Explain this contract in plain English."
+
+> **Start here.** Begin every prompt with "I'm a [role] working on [task]."
+
+# 2. Give it the real material
+
+~ Paste it in. Don't describe it.
+
+**What it is.** The actual text, numbers or notes you're working from. Claude does better with your real draft than with your summary of it.
+
+**Why it matters.** When you describe a document, you leave out the details that matter. When you paste it, Claude sees them.
+
+# 3. Say who it's for and how it should sound
+
+~ The audience decides the tone.
+
+**What it is.** Name the reader and the feel. "For a skeptical manager who has five minutes" gets a different answer than "for a friend".
+
+**Make it better.** Paste a sample of your own writing and say "match this tone."
+
+# 4. Ask for a specific shape
+
+~ Length, format and what to leave out.
+
+**What it is.** Tell Claude how the answer should look so you don't have to reformat it.
+
+- "Three bullets, each under 15 words."
+- "A table with columns for option, cost and risk."
+- "An email under 120 words."
+- "No jargon and no intro paragraph."
+
+# 5. Invite questions
+
+~ The cheapest way to avoid a wrong answer.
+
+**What it is.** Let Claude ask before it starts. This is especially useful for anything complicated.
+
+```
+Before you answer, ask me up to three questions if anything is unclear.
+```
+
+> **Pro tip.** Answer the questions in one message, then say "go". You get a tailored answer in two steps instead of three rounds of fixing.
+
+## The template
+
+Copy this and fill in the brackets. You can delete lines that don't apply.
+
+```
+I'm a [role] working on [task].
+
+Here's the material:
+[paste it]
+
+This is for [audience], and it should sound [tone].
+
+Give me [format and length]. Leave out [what you don't want].
+
+Before you answer, ask me up to three questions if anything is unclear.
+```
+
+## Before and after
+
+**Before:**
+
+```
+Write a LinkedIn post about my new job.
+```
+
+**After:**
+
+```
+I'm a marketing coordinator who just started at a healthcare software company. Write a LinkedIn post announcing it. Audience: former coworkers and recruiters. Tone: warm and specific, not corporate. Under 100 words, no hashtags, and no phrases like "thrilled to announce". Ask me two questions first if you need anything.
+```
+
+The second one takes thirty seconds longer to write and saves ten minutes of editing.
+
+## When the answer is still off
+
+- **Too long?** "Cut this in half. Keep the numbers."
+- **Too stiff?** "Rewrite this like I'm explaining it to a friend."
+- **Wrong direction?** "That's not what I meant. Here's what I'm after: [one sentence]."
+- **Made something up?** "Which parts of that are you not sure about? Mark them."
+
+## Check your prompt
+
+[ ] I said who I am and what I'm doing.
+[ ] I pasted the real material.
+[ ] I named the audience and the tone.
+[ ] I asked for a specific format and length.
+[ ] I let Claude ask me questions first.

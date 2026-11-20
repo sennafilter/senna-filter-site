@@ -1,0 +1,90 @@
+title: What Is a Claude Project and How to Set One Up
+cat: claude setup
+date: 2026-11-16
+desc: Projects keep your instructions and files in one place so you stop re-explaining yourself. Here's how to set up your first one.
+lead: Projects keep your instructions and files in one place so you stop re-explaining yourself. Here's how to set up your first one.
+---
+If you find yourself pasting the same background into every new chat, a Project fixes that. A Project is a workspace inside Claude where you store instructions and files once, and every chat you start there already knows them. It's the easiest upgrade most people haven't made. Menus and names can change as Claude updates, so if something looks different, look for the Projects option in the app.
+
+## New to the words?
+
+- **Project.** A workspace in Claude that holds your instructions, files and related chats.
+- **Instructions.** A note that tells Claude how to behave in that project, every time.
+- **Project knowledge.** The files and documents you add so Claude can use them in every chat in the project.
+- **Chat.** One conversation. A project can hold many.
+
+# 1. Pick a job for the project
+
+~ One project, one purpose.
+
+**What it is.** A project works best when it has a clear job, like "my job search", "my weekly newsletter" or "my thesis". Mixing everything makes the instructions muddy.
+
+**Good first projects.**
+
+- Job search: your resume, target roles and interview stories
+- Writing: your style guide and past posts
+- A class or exam: notes, slides and the syllabus
+- Household: budget rules, meal preferences and recurring tasks
+
+> **Start here.** Choose the thing you ask Claude about most often. That's your first project.
+
+# 2. Create it and name it clearly
+
+~ A good name saves searching later.
+
+Open Projects in Claude, create a new one, and give it a name that says what it's for. Add a short description for yourself, like "Everything for my 2026 job search."
+
+# 3. Write the instructions
+
+~ This is the part that matters most.
+
+**What it is.** A short note Claude reads before every chat in the project. Cover who you are, what you're working on, how you like answers, and what to avoid.
+
+```
+You're helping me with [the job of this project].
+
+About me: [role, situation, goals in two or three sentences].
+
+How I like answers: [short and direct / step by step / with examples]. Use plain English and no jargon.
+
+Always: [things to do, like ask a question if something is unclear, or list sources].
+Never: [things to avoid, like making up facts or using buzzwords].
+
+When you're not sure about something, say so.
+```
+
+> **The mistake.** Writing a huge wall of rules. Ten clear lines beat a page of vague ones.
+
+# 4. Add your files
+
+~ Give it the real material.
+
+**What it is.** Upload the documents Claude should know: your resume, a style guide, notes, a spreadsheet or a brief. Name the files clearly, like "style-guide.pdf", so you can refer to them.
+
+**What to leave out.** Anything sensitive that you don't want stored there, like passwords or full account numbers. Check your plan's privacy settings before you add anything private.
+
+# 5. Test it with a real question
+
+~ Make sure it's working.
+
+Start a new chat inside the project and ask something it should be able to answer from your files.
+
+```
+Based on the files and instructions in this project, summarize what you know about me and what you're helping with. Tell me what's missing.
+```
+
+Fix the instructions or add files based on what it says is missing.
+
+# 6. Keep it up to date
+
+~ A project is only as good as what's in it.
+
+Once a month, delete outdated files, add new ones and tighten the instructions. When Claude gets something wrong repeatedly, add a line to the instructions to fix it.
+
+## Project checklist
+
+[ ] The project has one clear job.
+[ ] The instructions fit in about ten lines.
+[ ] I added the files Claude actually needs.
+[ ] I left out anything sensitive.
+[ ] I tested it with a new chat.

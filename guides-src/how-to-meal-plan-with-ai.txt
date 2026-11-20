@@ -1,0 +1,79 @@
+title: How to Meal Plan With AI (And Get the Grocery List Too)
+cat: life claude
+date: 2026-11-15
+desc: Plan a week of dinners around your tastes, budget and schedule, and turn it into one grocery list.
+lead: Plan a week of dinners around your tastes, budget and schedule, and turn it into one grocery list.
+---
+The hardest part of dinner isn't cooking. It's deciding, at 6 p.m., with nothing planned. A meal plan fixes that, but most people quit making them because it takes an hour to find recipes and write the list. AI does both in a couple of minutes. You give it the rules of your life, and it gives you the week.
+
+> **A note on health.** If you have allergies, a medical condition or specific dietary needs, check the plan with your doctor or dietitian. AI can get ingredients and nutrition details wrong.
+
+## New to the words?
+
+- **Batch cooking.** Making a big amount once and eating it across several meals.
+- **Staples.** Things you almost always have, like oil, salt, rice and pasta.
+- **Meal plan.** A list of what you'll eat on which days.
+
+# 1. Tell it the rules
+
+~ The more specific you are, the more usable the plan.
+
+```
+Plan my dinners for this week. I'm cooking [number] nights for [number] people. We like [foods] and don't eat [foods or allergies]. I have about [minutes] on weeknights and more time on [day]. My budget is about [amount] for the week. I own: [oven, slow cooker, rice cooker, air fryer, etc.]. Ask me questions if you need to.
+```
+
+> **Start here.** Be honest about your energy. A plan with a 90-minute recipe on Wednesday won't happen.
+
+# 2. Ask for overlap
+
+~ Using the same ingredients twice saves money and waste.
+
+```
+Make the plan so ingredients overlap. If I buy a whole rotisserie chicken, bell peppers or a head of cabbage, use it in at least two dinners. Put the quickest meals on the busiest days.
+```
+
+**Why it matters.** Half-used produce is the main way a grocery budget quietly leaks.
+
+# 3. Get the list, sorted by aisle
+
+~ The part that saves time in the store.
+
+```
+Turn this meal plan into one grocery list. Group it by section of the store (produce, dairy, meat, pantry, frozen). Combine duplicate items and add up the quantities. Mark anything I probably already have as "check pantry".
+```
+
+# 4. Check the details
+
+~ Quantities and times can be off.
+
+Look over the list for anything odd, like three cups of an ingredient the recipe uses a teaspoon of. Check cooking temperatures and times against the recipe source if you're unsure. Prices are estimates, so compare with your store's own site or app.
+
+> **The mistake.** Following an AI recipe without reading it first. Read it once all the way through before you start cooking.
+
+# 5. Keep what works
+
+~ Build your own list of favorites.
+
+After each week, tell Claude what you liked.
+
+```
+Here's what we liked and didn't like this week: [notes]. Save the winners as my "regular rotation" and use them to improve next week's plan.
+```
+
+Paste the rotation into a note, or into a Claude Project so it remembers your favorites.
+
+# 6. Plan for leftovers and lazy nights
+
+~ A plan needs an escape hatch.
+
+```
+Add two "emergency dinners" to my plan that use only pantry and freezer items and take 15 minutes or less.
+```
+
+## Meal plan checklist
+
+[ ] I gave rules: time, budget, tastes and equipment.
+[ ] Ingredients overlap across meals.
+[ ] The grocery list is grouped by store section.
+[ ] I checked allergies and quantities.
+[ ] I have two emergency dinners.

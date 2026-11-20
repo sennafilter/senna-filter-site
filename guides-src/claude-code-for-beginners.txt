@@ -1,0 +1,92 @@
+title: Claude Code for Beginners: Your First Project
+cat: vibe claude
+date: 2026-11-17
+desc: What Claude Code is, how to start it, and how to build and change a small project, with no coding background.
+lead: What Claude Code is, how to start it, and how to build and change a small project, with no coding background.
+---
+Claude Code is Claude working inside a folder on your computer. Instead of copying code out of a chat window, you ask in plain English and Claude creates and edits the files itself. It sounds technical, but if you can describe what you want, you can use it. This guide takes you from nothing to a small working page. Installation steps change, so use Anthropic's own instructions for the install itself.
+
+## New to the words?
+
+- **Terminal.** A text window where you type commands. It looks scary and isn't. You'll only type a few things.
+- **Folder.** The container for your project. Claude Code works inside one folder at a time.
+- **File.** One piece of your project, like index.html, which is a web page.
+- **Permission.** Claude asks before it changes things. You approve or say no.
+
+# 1. Make an empty folder
+
+~ A safe place to play.
+
+**How to do it.** Create a new folder on your computer named something like "my-first-project". Keep it empty. Claude can only touch what's inside the folder you start it in, so this keeps your other files safe.
+
+> **Start here.** Put the folder somewhere easy to find, like your Desktop.
+
+# 2. Install and open Claude Code
+
+~ Follow the official steps.
+
+**How to do it.** Go to Anthropic's Claude Code page and follow the install instructions for your computer. Then open the Terminal on your Mac or Command Prompt on Windows, move into your folder and start it. Or use the Code tab in the Claude desktop app, which lets you pick a folder without typing commands.
+
+**If you get stuck.** Copy the exact error message and paste it into a normal Claude chat with "I'm trying to install Claude Code. What does this mean?"
+
+# 3. Ask for something small
+
+~ Start tiny so you can see it work.
+
+```
+Create a simple one-page website about [a hobby, a pet or a hometown]. Use a clean design with a heading, a short paragraph and three photo placeholders. Save it as index.html. Then tell me how to open it.
+```
+
+**What happens.** Claude writes the file, shows you what it's doing and asks permission before it creates or changes anything. Read what it asks. If it makes sense, say yes.
+
+# 4. Open it and look
+
+~ Your first working thing.
+
+Open the folder, find index.html and double-click it. It opens in your browser. That's your page.
+
+# 5. Change it by asking
+
+~ This is the whole trick.
+
+Go back to Claude Code and say what you want different, in your own words.
+
+```
+Make the heading bigger and use a warmer color. Add a section with my three favorite things. Make it look good on a phone.
+```
+
+Refresh the page in your browser to see the change. Repeat until it's right.
+
+> **Pro tip.** Ask for one change at a time. If something breaks, you know which change caused it.
+
+# 6. Ask it to explain
+
+~ You learn by asking why.
+
+```
+Explain what you just changed in plain English, like I've never seen code. What does each file do?
+```
+
+# 7. Save your work
+
+~ Don't lose it.
+
+```
+Set up this folder so I can save versions of my project. Explain what you're doing, step by step.
+```
+
+Ask Claude to also help you put it on GitHub when you're ready, so you have a backup and can share it.
+
+## Common problems
+
+- **"Nothing happened when I opened the file."** Ask Claude "how do I open index.html?" and say which computer you have.
+- **"It looks broken."** Describe what you see, or paste a screenshot, and say "this looks wrong, fix it."
+- **"I don't understand what it's asking."** Say "explain that in plain English and tell me if it's safe to approve."
+
+## Beginner checklist
+
+[ ] I started in an empty folder.
+[ ] I read each permission request before approving.
+[ ] I made one change at a time.
+[ ] I asked Claude to explain what it did.
+[ ] I saved a backup of my work.

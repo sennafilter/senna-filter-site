@@ -1,0 +1,86 @@
+title: How to Tailor Your Resume With Claude
+cat: career claude
+date: 2026-11-12
+desc: Match your resume to any job posting in 15 minutes without making things up, with the prompts to do it.
+lead: Match your resume to any job posting in 15 minutes without making things up, with the prompts to do it.
+---
+Sending the same resume to every job is the fastest way to get ignored. Tailoring it by hand takes an hour each time, so most people skip it. Claude can do the first pass in minutes. The rule is simple: it can reword and reorder what's true about you, but it should never invent anything. This guide shows how to keep it honest.
+
+## New to the words?
+
+- **Job posting.** The listing for the role. The words in it are the words a recruiter and any screening software will look for.
+- **Keyword.** A skill or term the posting uses repeatedly, like "stakeholder reporting" or "SQL".
+- **Master resume.** One long document with everything you've ever done. You trim it down for each job.
+
+# 1. Build a master resume
+
+~ Everything you've done, in one place.
+
+**What it is.** A long, unedited list of your jobs, projects, results and tools. It can run several pages. You won't send it. You'll cut from it.
+
+**How to do it.** Paste your current resume and ask Claude to help you find what's missing.
+
+```
+Here is my current resume. Interview me, one question at a time, to find accomplishments I left out. Focus on numbers: how many, how much, how fast. When we're done, give me a master resume with every real accomplishment listed.
+```
+
+> **Start here.** Answer with real numbers. If you don't know one, say "I'm not sure" so Claude doesn't guess.
+
+# 2. Paste the job posting
+
+~ Let Claude read it for you.
+
+**What it is.** Copy the full posting and ask what the employer cares about most.
+
+```
+Here is a job posting. List the 10 most important skills and responsibilities, in order of how often or how strongly they're emphasized. Then list anything in the posting that sounds like a must-have.
+```
+
+# 3. Compare, don't rewrite yet
+
+~ Find the gaps first.
+
+**What it is.** Ask Claude to match your master resume against the posting before changing anything.
+
+```
+Here is my master resume and the job posting. Show me a table: each key requirement, whether my resume proves it, and which bullet proves it. Mark any requirement I don't have evidence for. Don't write anything new.
+```
+
+**Why it matters.** This shows you where you're strong and where you'd be stretching. You decide what to apply for with real information.
+
+# 4. Tailor with one rule
+
+~ Reword what's true. Never add what isn't.
+
+```
+Rewrite my resume for this job using only what's in my master resume. Reorder bullets so the most relevant come first, use the posting's wording where it truthfully describes my work, and keep it to one page. Do not add any skill, number, title or tool that isn't in my master resume. Flag anything you changed in a list at the end.
+```
+
+> **The mistake.** Letting AI add a skill "to match". If you can't talk about it in an interview, it doesn't belong on the page.
+
+# 5. Check it like a recruiter
+
+~ Two minutes of reading prevents a bad surprise.
+
+- Read every bullet and ask "could I explain this out loud?"
+- Check numbers, dates, job titles and company names yourself.
+- Look for phrases that sound like AI, like "results-driven" or "spearheaded". Replace them with plain words.
+
+```
+List every bullet in this resume that sounds generic or like marketing copy, and suggest a plainer version using only facts I've given you.
+```
+
+# 6. Save the best version
+
+~ Name it by company.
+
+Save each tailored version in a folder, like "Resume - Acme - 2026-11". When an interview comes up, you'll know exactly what you sent.
+
+## Before you apply
+
+[ ] Every bullet is true and I can explain it.
+[ ] The top third matches the job's top requirements.
+[ ] Numbers, dates and titles are correct.
+[ ] It reads like a person wrote it.
+[ ] It fits the page length the employer expects.
+[ ] I saved the version with the company name.
