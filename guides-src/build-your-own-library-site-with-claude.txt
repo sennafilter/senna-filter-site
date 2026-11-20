@@ -1,0 +1,173 @@
+title: Build Your Own Library Site With Claude
+cat: vibe claude
+date: 2026-11-19
+desc: I made a retro bookshelf website without writing code. Here's every step, plus the repo so you can make the exact one.
+lead: I made a retro bookshelf website without writing code. Here's every step, plus the repo so you can make the exact one.
+---
+I wanted a place for every book I've read, want to read and love, something like Goodreads but way cooler. So I described it to Claude, reacted to what it made, and ended up with a wooden bookcase full of books, my reading lists, and a live link. This guide walks through exactly how, so you can build the same thing, or swap the books for anything: recipes, trips, movies, a portfolio.
+
+> **Want the exact one?** Open the repo, click **Use this template**, then jump to step 5. Everything is here: [github.com/sennafilter/shelf-life](https://github.com/sennafilter/shelf-life)
+
+## What you'll end up with
+
+- A wooden bookcase with about 70 books on it, grouped by genre, with real-looking spines.
+- Reading lists you can flip between: all books, my reads, reading now, to read, recommended.
+- A side drawer for each book where you mark its status, give it stars and recommend it.
+- An "add a book" button, light and dark mode, and a live link you can send to anyone.
+
+## What you need
+
+- Claude, using the Code tab in the Claude app
+- A free GitHub account
+- A free Vercel account (sign up with GitHub)
+
+# 1. Describe it, with a reference
+
+~ Start with the feeling, not the features. A screenshot helps more than a paragraph.
+
+**What it is.** The first message tells Claude what you want and shows it something you love. I screenshotted a library site I admired and said what I wanted to be different.
+
+**Why it works.** "Make me a website" gets you something generic. A reference and a feeling gets you something with a point of view. Saying "I can't copy it exactly" also pushes Claude to make its own version.
+
+Copy-paste, with your own reference:
+
+```
+I want to create a website like Goodreads, but way cooler. Here's one I really like: books on a shelf, editorial, and I want real-looking books. I can't copy it exactly, so make mine different.
+```
+
+**Say who it's for.** I told Claude I like Colleen Hoover and the most popular books, nothing too girly, and that I love nonfiction. It filled the shelf with books like that instead of a random list.
+
+> **Start here.** Screenshot a site, an app or a poster you love. Paste it in with the message above.
+
+# 2. React like a designer
+
+~ The first version won't be right. Say plainly what bugs you.
+
+**What it is.** You look at what Claude made and tell it what you don't like, in your own words. You don't need design vocabulary.
+
+**How to do it.** Send one short note at a time. These are the real ones I sent:
+
+```
+This is too similar to hers. Maybe other colors, something more retro or editorial.
+```
+
+```
+Those lines are gross.
+```
+
+```
+These shelves look too much like hers.
+```
+
+```
+I want the books to look a little more realistic.
+```
+
+```
+I want to be able to see my reads, recommended, to read, and so on.
+```
+
+Each note changed something real. The colors went retro, the lines disappeared, the shelves became a wooden bookcase, and the reading lists showed up.
+
+> **Pro tip.** If you can't say what's wrong, say how it feels. "Too similar", "gross" and "too girly" are all useful.
+
+# 3. Ask for options before it changes anything
+
+~ Mock-ups first. Your real site stays safe until you pick one.
+
+**What it is.** When I wasn't sure what a screen should look like, I asked for several versions on a separate page. Claude left my real site alone while I chose.
+
+```
+Give me 5 options, static, before changing the website.
+```
+
+I picked the one I liked by number. Claude then built only that one into the site.
+
+> **Pro tip.** If Claude misunderstands, just say what you meant. I asked for book views and meant home screens. I said so, and got four home screens.
+
+# 4. Put it on GitHub
+
+~ GitHub is where your project lives, so you can keep it, share it and change it later.
+
+**What it is.** A folder of your project, saved online with every version of it. Claude can create it for you.
+
+```
+Can you put this on GitHub so I can do it on Vercel?
+```
+
+Claude made a repo called shelf-life with the whole site in one file named index.html. For this to work, Claude has to be logged in to your GitHub on your computer (the GitHub CLI, or `gh auth login` in a terminal).
+
+**Public or private?** Public means anyone can see and copy it. I made mine public on purpose, so people could build the exact one. Your reading lists and ratings are saved in your own browser, not in the repo, so they stay yours.
+
+> **Pro tip.** Ask Claude to make the repo a template. Then GitHub shows a **Use this template** button for anyone who visits it.
+
+> **Start here.** Ask Claude to create the repo and send you the link. Open it to check the files are there.
+
+# 5. Publish it on Vercel
+
+~ Vercel turns your GitHub repo into a real web address. It's free for personal projects.
+
+1. Go to vercel.com/new and sign up with GitHub.
+2. Find your repo and click Import. If you don't see it, adjust the GitHub permissions and give Vercel access to that repo.
+3. Set the Framework Preset to **Other**. Leave the build and output settings empty.
+4. Click Deploy. About a minute later you have a link ending in .vercel.app.
+
+**How updates work.** Whenever Claude pushes a change to GitHub, Vercel republishes your site on its own. You never have to re-upload anything.
+
+> **The business catch.** Vercel's free Hobby plan is for personal, non-commercial sites. A bookshelf is fine. If you sell anything, see the cost breakdown in [Build Your Website With AI](https://www.senna-filter.com/guides/build-your-website-with-ai).
+
+# 6. Make the exact one, then make it yours
+
+~ Copy the repo, deploy it, then change it with plain sentences.
+
+1. Open [github.com/sennafilter/shelf-life](https://github.com/sennafilter/shelf-life) and click **Use this template**, then **Create a new repository**.
+2. Deploy your copy on Vercel with the steps in section 5.
+3. Open your copy in Claude and start changing it.
+
+**Not on GitHub yet?** This button starts a Vercel deploy straight from the repo: [Deploy it on Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsennafilter%2Fshelf-life).
+
+> **Start here.** Use the template, deploy it, and open the link on your phone before you change anything. Then make your first edit.
+
+## Prompts to try
+
+Copy, paste, swap the brackets.
+
+### Use your own books
+
+```
+Replace the books on the shelf with my own list. Here is what I've read: [paste titles and authors]. Keep the same wooden bookcase.
+```
+
+### Change the look
+
+```
+Change the colors to something warmer, but keep it retro. Show me 3 options on a separate page first.
+```
+
+### Make it a different collection
+
+```
+Turn this into a recipe box instead of a library. Same bookcase look, but each book is a recipe card I can open.
+```
+
+### Add a page
+
+```
+Add an About page in the same style and link it in the footer. Give me only the files that changed.
+```
+
+### Real book covers
+
+```
+The covers are drawn, not real photos. Can we use real cover images? Tell me what you need to download first.
+```
+
+## Before you share the link
+
+[ ] The site opens on your phone and the books are readable.
+[ ] Your name and anything personal on it is what you want public.
+[ ] Every button works. Click each list tab and open a book.
+[ ] The repo is public, and Use this template shows on its page.
+[ ] You opened your Vercel link in a private window.
+
+Everything here started with one screenshot and a sentence about what I liked. You can too.
