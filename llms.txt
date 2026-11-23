@@ -12,6 +12,7 @@
 
 ## Guides
 
+- [How to Summarize a Long Document or PDF With Claude](https://www.senna-filter.com/guides/how-to-summarize-a-long-document-with-claude): Turn a long report, contract or PDF into a summary you can trust. Prompts that pull out key points, and how to check Claude didn't miss or invent anything.
 - [How to Analyze a Spreadsheet With Claude (No Formulas Needed)](https://www.senna-filter.com/guides/how-to-analyze-a-spreadsheet-with-claude): Upload a spreadsheet, ask questions in plain English and get trends, totals and charts, plus how to check Claude's math before you trust it.
 - [How to Learn a New Skill With Claude in 30 Days](https://www.senna-filter.com/guides/how-to-learn-a-new-skill-with-claude): Build a 30-day learning plan with practice, feedback and a final project, for almost any skill.
 - [How to Rewrite Your LinkedIn Profile With AI](https://www.senna-filter.com/guides/how-to-rewrite-your-linkedin-profile-with-ai): Write a headline, About section and experience bullets that sound like you and say what you actually do.

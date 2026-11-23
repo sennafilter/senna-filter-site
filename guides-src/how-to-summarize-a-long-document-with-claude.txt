@@ -1,0 +1,103 @@
+title: How to Summarize a Long Document or PDF With Claude
+cat: claude basics
+date: 2026-11-23
+desc: Turn a long report, contract or PDF into a summary you can trust. Prompts that pull out key points, and how to check Claude didn't miss or invent anything.
+lead: Turn a 40-page document into a one-page summary in minutes, and learn how to check that it's right before you rely on it.
+---
+Someone sends you a 40-page report with "thoughts?" and a deadline. You don't have time to read every line, but you can't afford to miss the one paragraph that matters. Claude can read the whole thing and hand you a summary in a minute or two. The catch is that a summary is only useful if it covers the right things and doesn't quietly change what the document says. This guide shows how to ask for the summary you actually need, and how to check it.
+
+> **Privacy first.** Don't upload confidential or personal material to any AI tool unless your workplace allows it. Check your company's AI policy first, and use the tools it approves.
+
+## New to the words?
+
+- **Summary.** A shorter version that keeps the main points. A good one depends on what *you* need from the document.
+- **Upload.** Attaching a file (like a PDF or Word document) to your chat so Claude can read it. Check Claude's help pages for which file types and sizes are supported right now, because these change.
+- **Context window.** How much text Claude can hold in mind at once in a single chat. Very long documents can run past it.
+
+# 1. Say who the summary is for
+
+~ "Summarize this" gets you a generic answer. A reason gets you a useful one.
+
+Before you upload anything, decide three things: why you're reading it, what you'll do with it, and how short it needs to be. A summary for a decision looks different from one for a quick briefing.
+
+```
+I'm going to upload a document. I'm reading it so I can [decide whether to sign it / brief my boss / prepare for a meeting]. Before you summarize, ask me anything you need to know about what I care about.
+```
+
+> **Start here.** Write one sentence about why you're reading the document. Put it at the top of every summary request.
+
+# 2. Upload it and ask for a structured summary
+
+~ Ask for a shape, not a blob of text.
+
+Attach the file, then paste a prompt that sets the format.
+
+```
+Summarize this document for [my boss / a new team member / me]. Give me: 1) a two-sentence overview, 2) the five most important points, 3) any deadlines, numbers or commitments, and 4) anything that looks unusual, risky or unclear. Use plain language. Only use what's in the document.
+```
+
+**Why it matters.** "Only use what's in the document" keeps Claude from filling gaps with outside guesses. Asking for deadlines and numbers separately makes sure they don't get lost in the prose.
+
+# 3. Ask for page or section references
+
+~ This is what makes checking possible.
+
+```
+For each point in your summary, tell me which page or section it comes from, so I can look it up.
+```
+
+If a point has no source, treat it with suspicion. Page references turn "trust me" into "go check."
+
+# 4. Zoom in on the parts that matter
+
+~ A summary is a map. Now go to the territory.
+
+Once you've seen the overview, ask about the sections that affect you.
+
+```
+Explain section [name or number] in plain English. What does it mean for me, and what should I double-check before I agree to it?
+```
+
+Other good follow-ups: "What questions should I ask the person who wrote this?" and "What does this document *not* say that I'd expect it to?"
+
+# 5. Handle documents that are too long
+
+~ Break it up instead of hoping it all fits.
+
+If Claude tells you the file is too big, or the summary seems to skip the middle, split the document into parts (by chapter or section) and summarize each one. Then ask for a summary of the summaries.
+
+```
+Here are my summaries of each section of a long document. Combine them into one summary with the main themes, and flag anywhere the sections seem to contradict each other.
+```
+
+> **Tip.** If you'll keep coming back to the same document, a Claude Project can hold it for you. See [What Is a Claude Project and How to Set One Up](https://www.senna-filter.com/guides/what-is-a-claude-project-and-how-to-set-one-up).
+
+# 6. Check the summary before you rely on it
+
+~ This is the step that protects you.
+
+Open the original and spot-check:
+
+- Pick three claims from the summary and find them in the document. Do they match?
+- Are the numbers and dates exactly right?
+- Is anything important in the document missing from the summary?
+- Did Claude add anything that isn't in the document?
+
+```
+Review your own summary against the document. List anything you stated that isn't directly supported by the text, and anything important you left out.
+```
+
+AI can sound confident while being wrong. For how and why that happens, read [How to Catch AI When It's Lying](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying). For better prompts in general, see [How to Write a Good Prompt for Claude](https://www.senna-filter.com/guides/how-to-write-a-good-prompt-for-claude).
+
+> **The mistake.** Forwarding an AI summary of a contract, policy or report as if it were the document itself. People will act on it, so make sure it's right first.
+
+> **Note.** This is general education, not legal, financial or medical advice. For contracts, medical records or anything with real consequences, have a qualified professional read the original.
+
+## Summary checklist
+
+[ ] I'm allowed to use AI with this document.
+[ ] I told Claude why I'm reading it and who the summary is for.
+[ ] I asked for a structure, including numbers, deadlines and risks.
+[ ] I asked for page or section references.
+[ ] I spot-checked at least three claims against the original.
+[ ] I read the important sections myself.

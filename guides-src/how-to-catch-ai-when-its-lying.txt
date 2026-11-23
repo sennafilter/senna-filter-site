@@ -54,6 +54,8 @@ Exact statistics, proper names, dates, quotes, citations, and anything after its
 
 > **Start here.** Pick your last AI answer that had a number or a name in it. Go verify just that one thing.
 
+Summarizing a long document? It's an easy place for details to slip, so see [How to Summarize a Long Document or PDF With Claude](https://www.senna-filter.com/guides/how-to-summarize-a-long-document-with-claude) for a checking routine.
+
 ## The one-line version
 
 It's not that the model doesn't know — it's that it forgot it was allowed to say so. Every new model gets a little better at this. For now, it's still on you.

@@ -74,6 +74,8 @@ Cross-check anything that matters, like formulas, dates, dosages and definitions
 
 > **The mistake.** Studying only from AI's summary. Use it to organize and test yourself, then go back to the original material for the details.
 
+Got a long reading assignment or report to get through first? See [How to Summarize a Long Document or PDF With Claude](https://www.senna-filter.com/guides/how-to-summarize-a-long-document-with-claude).
+
 ## Study checklist
 
 [ ] I used my own notes or textbook, not just the topic name.
