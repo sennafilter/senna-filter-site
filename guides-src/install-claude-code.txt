@@ -17,7 +17,6 @@ Claude Code sounds like something only engineers use. It isn't. I studied bioche
 ## Chatbot vs. Claude Code
 
 | | Chatbot (ChatGPT, Gemini, Claude) | Claude Code |
-|---|---|---|
 | Where it works | In a chat window | Inside a folder on your computer |
 | What you do | Ask, copy the answer, paste it somewhere | Describe what you want, approve what it does |
 | When something breaks | You paste the error back in | It reads the error, fixes it, and runs it again |
