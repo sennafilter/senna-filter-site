@@ -1,0 +1,94 @@
+title: What Not to Paste Into ChatGPT or Claude at Work
+cat: career claude
+date: 2026-11-20
+desc: Is it safe to put work info into ChatGPT or Claude? A plain-English check for what to keep out, how to swap in safe stand-ins, and who to ask.
+lead: A quick way to decide what's safe to share with an AI tool at work, and how to get the help without the risk.
+---
+Most people using AI at work have had the same pause: you're about to paste in a client email, a spreadsheet or meeting notes, and you wonder if you should. There's a good answer, and it isn't "never" or "whatever". This guide gives you a simple sort, a trick for getting help without sharing the sensitive parts, and the questions to ask your workplace.
+
+> **A note on scope.** This is general education, not legal or compliance advice. Your employer's rules come first, and they can differ a lot from one company to the next.
+
+## New to the words?
+
+- **Confidential information.** Anything your workplace or its customers wouldn't want public: contracts, pricing, plans, internal numbers.
+- **Personal data.** Information that identifies a real person, like a name with an email, an address, or an ID number.
+- **Approved tool.** An AI tool your employer has chosen, set up or okayed for work use, often through a work account.
+- **Placeholder.** A made-up stand-in, like "Client A" or "[amount]", that you use in place of the real detail.
+
+# 1. Find out what your workplace allows
+
+~ Ten minutes now saves a bad afternoon later.
+
+Look for an AI policy, an IT page or a note from your manager. If you can't find one, ask. Settings, data handling and plan terms differ between tools and plans, and they change, so check each tool's own privacy and data-controls pages rather than relying on what you heard.
+
+```
+Hi [name], I'd like to use an AI tool like ChatGPT or Claude for [kind of task, e.g. drafting emails and summarizing documents]. Is there an approved tool, and is there a policy on what I can and can't put into it? If there's no policy yet, who should I ask?
+```
+
+> **Start here.** If your workplace gives you an approved tool, use that one for work, not a personal account.
+
+# 2. Sort what you're about to paste
+
+~ Three buckets: go, think first, stop.
+
+**Usually fine.** Public information, your own writing and ideas, general questions, made-up examples.
+
+**Think first.** Internal documents, meeting notes, anything with names of colleagues or clients. Ask yourself whether you'd be comfortable if it were forwarded to the whole company. Check your policy before sharing.
+
+**Stop and ask.** Passwords and access codes, customer or patient records, financial account details, anything legal or under an NDA, and anything your policy names as off limits.
+
+**Why it matters.** Once you paste something into a tool, it's out of your hands. What happens to it depends on the tool and its settings, which is why step 1 comes first.
+
+# 3. Swap in safe stand-ins
+
+~ Get the help without the sensitive details.
+
+Most of the time Claude doesn't need the real names or numbers to do the job. It needs the shape of the problem.
+
+```
+I'm going to give you a draft with placeholders. Names are replaced with Client A and Client B, amounts are shown as [amount], and dates as [date]. Rewrite it to be shorter and more direct, and keep the placeholders exactly as they are.
+```
+
+Then you put the real details back yourself.
+
+**For spreadsheets.** Delete or blur the columns you don't need for the question, such as names and account numbers. Our guide on [analyzing a spreadsheet with Claude](https://www.senna-filter.com/guides/how-to-analyze-a-spreadsheet-with-claude) shows how to ask good questions of a cleaned-up file.
+
+# 4. Ask for help with the method, not the secret
+
+~ Sometimes you don't need to paste anything at all.
+
+Instead of pasting a real contract, ask how to review one. Instead of sharing a real complaint, ask how to answer an angry customer.
+
+```
+I need to write a reply to a customer who is upset about a late delivery. I won't share details. Give me a structure for the reply, three opening lines in different tones, and a list of things to avoid saying.
+```
+
+You fill in the specifics yourself. This is often all you need, and it keeps the sensitive part on your side.
+
+# 5. Check before you send or share the result
+
+~ The output is your responsibility too.
+
+Read what comes back before it leaves your hands. Make sure placeholders are replaced, nothing was invented, and nothing in the draft says more than you meant to. Our guide on [catching AI when it's wrong](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying) walks through quick checks.
+
+For meeting notes, see [how to turn meeting notes into action items with AI](https://www.senna-filter.com/guides/how-to-turn-meeting-notes-into-action-items-with-ai), which uses the same privacy habit.
+
+> **The mistake.** Assuming a tool is fine for work because it's popular. Whether it's allowed is your workplace's call, not the tool's.
+
+# 6. Keep a short personal rule
+
+~ A rule you'll actually remember.
+
+```
+Before I paste anything into AI: Is it mine or public? Could a placeholder do the job? Does my workplace allow this tool for this? If any answer is "not sure", I ask first.
+```
+
+Keep it in your notes app or in your Claude instructions, so it's in front of you when you need it.
+
+## Safe-use checklist
+
+[ ] I know whether my workplace has an AI policy, or I've asked.
+[ ] I'm using an approved tool and account for work.
+[ ] I replaced names, numbers and identifiers with placeholders.
+[ ] I didn't paste passwords, customer records or anything under an NDA.
+[ ] I read the result before sending or sharing it.

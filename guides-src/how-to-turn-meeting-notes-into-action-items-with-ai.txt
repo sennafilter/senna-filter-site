@@ -6,7 +6,7 @@ lead: Paste messy notes or a transcript and get decisions, owners and a follow-u
 ---
 The meeting ends, everyone nods, and a week later nobody remembers who was doing what. The fix is a short summary sent within an hour of the meeting, and most people skip it because writing it takes too long. Claude can turn your rough notes or a transcript into one in about two minutes. You still read it and send it. This guide shows the prompts and the checks.
 
-> **Privacy first.** Don't paste confidential material into any AI tool unless your company allows it. Check your workplace's AI policy and use the tools it approves.
+> **Privacy first.** Don't paste confidential material into any AI tool unless your company allows it. Check your workplace's AI policy and use the tools it approves. For a fuller walkthrough, see [What Not to Paste Into ChatGPT or Claude at Work](https://www.senna-filter.com/guides/what-not-to-paste-into-chatgpt-or-claude-at-work).
 
 ## New to the words?
 
