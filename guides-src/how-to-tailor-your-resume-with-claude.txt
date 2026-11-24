@@ -76,6 +76,8 @@ List every bullet in this resume that sounds generic or like marketing copy, and
 
 Save each tailored version in a folder, like "Resume - Acme - 2026-11". When an interview comes up, you'll know exactly what you sent.
 
+Applying with a cover letter too? See [How to Write a Cover Letter With AI](https://www.senna-filter.com/guides/how-to-write-a-cover-letter-with-ai) to use the same true facts in a letter that sounds like you.
+
 ## Before you apply
 
 [ ] Every bullet is true and I can explain it.

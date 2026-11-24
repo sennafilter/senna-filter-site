@@ -1,0 +1,100 @@
+title: How to Write a Cover Letter With AI (That Sounds Like You)
+cat: career claude
+date: 2026-11-24
+desc: Write a cover letter with Claude or ChatGPT from your real experience and the job posting, then edit it until it sounds like you, not a robot.
+lead: Write a cover letter with Claude or ChatGPT from your real experience and the job posting, then edit it until it sounds like you, not a robot.
+---
+Cover letters are the part of a job search people put off the longest. A blank page, a stranger reading it and no idea what to say. AI is good at getting you past that first blank page. It is not good at knowing what you have actually done, and that is the part a hiring manager cares about. So the plan here is simple: you supply the true material, AI shapes it, and you make the final edit. This works the same in Claude or ChatGPT.
+
+> **Before you start.** Never let AI invent experience, numbers or reasons you want the job. Anything in the letter must be something you could talk about in an interview. This guide is general education, not professional career advice.
+
+## New to the words?
+
+- **Job posting.** The listing for the role. Its wording tells you what the employer cares about.
+- **Raw material.** Your real facts: what you did, what happened and why you want this job. AI works from this.
+- **Generic.** Writing that could be sent to any company. This is what a vague prompt produces.
+- **Voice.** How you naturally write and sound. A good letter keeps yours.
+
+# 1. Collect your raw material first
+
+~ AI can only be as specific as you are.
+
+**How to do it.** Open a blank note and jot down three things: two or three accomplishments you are proud of (with whatever real results you can state), why this company or role interests you, and anything in your background that might look odd on paper, like a career change or a gap.
+
+> **Start here.** Messy bullet points are fine. You are not writing the letter yet, just gathering true facts.
+
+# 2. Let the AI read the job posting
+
+~ Find out what the letter needs to do before it writes a word.
+
+Paste the full posting and ask:
+
+```
+Here is a job posting. In plain language, tell me: what are the top three things this employer seems to care about most, what problem are they probably hiring to solve, and what questions would a hiring manager have about a typical applicant? Don't write anything yet.
+
+[paste posting]
+```
+
+**Check it.** Do those three priorities match your own read of the posting? If not, say so and ask again.
+
+# 3. Match your facts to their needs
+
+~ This is the step that stops a letter from being generic.
+
+```
+Here are my notes about my experience: [paste your notes]. For each of the three priorities you found, tell me which of my real experiences is the best proof. If I have nothing that fits one of them, say so instead of stretching. Ask me questions if you need more detail.
+```
+
+**What to do next.** Answer any questions it asks, in your own words. Those answers often become the best lines in the final letter.
+
+# 4. Write a first draft with clear rules
+
+~ The more rules, the less robotic the result.
+
+```
+Write a cover letter of about 250 words for the role in the posting above. Use only the experiences I confirmed, and do not add any facts, numbers or claims that I didn't give you. Open with a specific reason I'm interested in this company, not "I am writing to apply". Use plain, direct language, short sentences and no buzzwords. End with one calm sentence about next steps. Write it in the first person, as me.
+```
+
+> **The mistake.** Accepting the first draft. Treat it like a rough cut from a coworker, useful but not finished.
+
+# 5. Put your voice back in
+
+~ This is what makes it sound like a person.
+
+Read the draft aloud. Anywhere you would not say it that way, change it. Then ask the AI to help with only that part:
+
+```
+Here is a sample of how I normally write: [paste a short email or message you wrote]. Rewrite the draft so it sounds more like this sample. Keep every fact the same and don't make it fancier.
+```
+
+If you want to go further, the guide on [removing the tells of AI writing](https://www.senna-filter.com/guides/humanizer-delete-every-ai-tell-in-your-writing) walks through spotting the stiff phrases.
+
+# 6. Fact-check it line by line
+
+~ Five minutes that protect your credibility.
+
+```
+Go through this letter sentence by sentence. List every factual claim (names, titles, numbers, dates, tools) so I can check each one against my notes. Flag anything that wasn't in the notes I gave you.
+```
+
+Then check the company name, the job title and the hiring manager's name by hand. Wrong company names are a classic mistake when a letter is reused.
+
+# 7. Save it as a template, not a one-off
+
+~ Each new application gets faster.
+
+Keep your raw notes and your best-performing prompts in a folder. For the next job, repeat steps 2 to 4 with a new posting. To make the same facts work in a tailored resume, see [How to Tailor Your Resume With Claude](https://www.senna-filter.com/guides/how-to-tailor-your-resume-with-claude), and to prepare for what comes next, see [How to Prepare for a Job Interview With AI](https://www.senna-filter.com/guides/how-to-prepare-for-a-job-interview-with-ai).
+
+AI sometimes states things confidently that are wrong, which is why step 6 matters. If you want to know how to spot it, read [How to Catch AI When It's Lying](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying).
+
+> **A note on honesty.** Some employers ask whether you used AI in an application, and policies differ. If a posting says something about it, follow what it says. Using AI to organize and polish your own true experience is different from using it to say things that aren't true.
+
+## Cover letter checklist
+
+[ ] I wrote down my real experience before I opened AI.
+[ ] The AI identified what this employer cares about.
+[ ] Every claim in the letter is true and I can explain it.
+[ ] The opening is specific to this company.
+[ ] I read it aloud and changed anything that doesn't sound like me.
+[ ] I checked the company name, job title and contact name by hand.
+[ ] I saved my notes and prompts for the next application.
