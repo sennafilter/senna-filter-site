@@ -1,0 +1,106 @@
+title: How to Make a Presentation With AI (Without Boring Slides)
+cat: career claude
+date: 2026-11-25
+desc: Turn a rough idea into a clear slide outline, a speaker script and a deck you can present, using Claude or ChatGPT plus the slide tool you already use.
+lead: Turn a rough idea into a clear slide outline, a speaker script and a deck you can present, using Claude or ChatGPT plus the slide tool you already use.
+---
+Most bad presentations fail before a single slide exists. The story is muddy, so the slides are crowded. AI is very good at fixing that early part. It can ask you the questions you skipped, shape the story and write the words. Then you drop it into PowerPoint, Google Slides or Keynote and make it look right. This guide walks through the order that works.
+
+> **Before you start.** Don't paste confidential numbers, client names or unreleased plans into an AI chat unless your workplace allows it. Swap in stand-ins like "Client A". See [What Not to Paste Into ChatGPT or Claude at Work](https://www.senna-filter.com/guides/what-not-to-paste-into-chatgpt-or-claude-at-work).
+
+## New to the words?
+
+- **Outline.** The skeleton of your talk: one line per slide saying what that slide proves.
+- **Takeaway.** The one thing you want the audience to remember or do afterward.
+- **Speaker notes.** The words you say out loud. They live under the slide, not on it.
+- **Storyboard.** A rough plan of what each slide shows, before you design anything.
+
+# 1. Say who it's for and what you want
+
+~ A deck without an audience is a pile of facts.
+
+**How to do it.** Write three things in plain words: who will be in the room, how long you have, and what you want them to do or decide when you finish. Rough is fine.
+
+```
+I need to give a presentation. Before you write anything, ask me up to 8 questions about my audience, my goal, my time limit and what they already know. Ask them one at a time, and wait for my answer each time.
+```
+
+> **Start here.** Let Claude interview you. Your answers become the raw material for everything after.
+
+# 2. Pick one takeaway
+
+~ If you can't say it in one sentence, the deck isn't ready.
+
+```
+Based on my answers, suggest three possible one-sentence takeaways for this presentation. For each, tell me what the audience would need to believe first. I'll pick one.
+```
+
+**Check it.** Choose the sentence you could say to a friend without notes. Everything in the deck should serve that sentence.
+
+# 3. Build the outline before the slides
+
+~ Ten minutes here saves an hour of fixing slides.
+
+```
+Write a slide-by-slide outline for a [number]-minute talk built around this takeaway: [takeaway]. For each slide give me a headline written as a full sentence that makes a point, one line on what goes on the slide, and the evidence I should bring. Keep it to the fewest slides that tell the story.
+```
+
+**What to do next.** Read only the headlines in order. They should tell the whole story on their own. Move, cut or merge anything that doesn't.
+
+> **The mistake.** Accepting the first outline. Ask "What would a skeptical person in the room push back on?" and add a slide that answers it.
+
+# 4. Add your real material
+
+~ AI can structure your facts. It can't supply them.
+
+Paste in your own notes, data and examples, with the sensitive parts removed. Then ask:
+
+```
+Here is my material: [paste]. Match it to the outline. For each slide, tell me which piece of my material supports it. List any slide that has no evidence yet, and don't make up numbers or examples to fill the gaps. I'll find the real ones.
+```
+
+**Check it.** Every number, date and claim on a slide needs a source you've checked yourself. AI can sound sure and still be wrong. See [How to Catch AI When It's Lying](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying).
+
+# 5. Write short slide text and speaker notes
+
+~ Slides are for the eyes. Notes are for your mouth.
+
+```
+For each slide, write a short on-slide version (a headline plus at most three short bullets, or a single sentence) and separate speaker notes in a natural spoken voice. Describe what visual would help, such as a simple chart, a photo or a diagram. Keep the notes under 80 words per slide.
+```
+
+**What to do next.** Read the notes out loud. If a sentence feels stiff in your mouth, rewrite it the way you'd say it. If you want it to sound more like you, give Claude a sample of your own writing first, as in [How to Write Emails With Claude](https://www.senna-filter.com/guides/how-to-write-emails-with-claude).
+
+# 6. Get it into slides
+
+~ Pick the route that fits your tools.
+
+You have three common options:
+
+- **Paste into your usual slide tool.** Put the headline and bullets on each slide and the notes in the notes field. This works everywhere and gives you the most control.
+- **Use the AI feature inside your slide tool.** Some slide apps now have their own AI features. What they can do and what they cost changes often, so check the official page for the tool you use.
+- **Ask your chat assistant for a file or design.** Whether Claude or ChatGPT can hand you a finished deck depends on your plan and current features. Check the official help pages before you count on it.
+
+Whichever you choose, keep the design simple: one idea per slide, large text, plenty of empty space.
+
+# 7. Rehearse with AI as your audience
+
+~ The cheapest way to find the weak spots.
+
+```
+Act as a tough but fair [audience, e.g. senior manager]. I'll tell you my takeaway and then walk through my slides. After each slide, ask one hard question a real person might ask. At the end, tell me which two slides were weakest and why.
+```
+
+Then practice the talk once out loud with a timer. Cut a slide if you run long.
+
+Want to turn a meeting into the raw material for a deck? See [How to Turn Meeting Notes Into Action Items With AI](https://www.senna-filter.com/guides/how-to-turn-meeting-notes-into-action-items-with-ai).
+
+## Presentation checklist
+
+[ ] I know who the audience is and how long I have.
+[ ] I can say my takeaway in one sentence.
+[ ] The headlines alone tell the story.
+[ ] I checked every number and claim myself.
+[ ] Each slide has one idea and little text.
+[ ] I read my notes out loud and made them sound like me.
+[ ] I rehearsed once with a timer.

@@ -108,3 +108,5 @@ The second one takes thirty seconds longer to write and saves ten minutes of edi
 [ ] I named the audience and the tone.
 [ ] I asked for a specific format and length.
 [ ] I let Claude ask me questions first.
+
+Prompts work for slides too. See [How to Make a Presentation With AI](https://www.senna-filter.com/guides/how-to-make-a-presentation-with-ai).
