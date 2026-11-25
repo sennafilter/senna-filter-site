@@ -12,6 +12,9 @@
 
 ## Guides
 
+- [How to Make a Presentation With AI (Without Boring Slides)](https://www.senna-filter.com/guides/how-to-make-a-presentation-with-ai): Turn a rough idea into a clear slide outline, a speaker script and a deck you can present, using Claude or ChatGPT plus the slide tool you already use.
+- [How to Write a Cover Letter With AI (That Sounds Like You)](https://www.senna-filter.com/guides/how-to-write-a-cover-letter-with-ai): Write a cover letter with Claude or ChatGPT from your real experience and the job posting, then edit it until it sounds like you, not a robot.
+- [Install Claude Code: The Setup Guide](https://www.senna-filter.com/guides/install-claude-code): How to install Claude Code on Mac or Windows, sign in, and start your first session. No coding background needed.
 - [What Not to Paste Into ChatGPT or Claude at Work](https://www.senna-filter.com/guides/what-not-to-paste-into-chatgpt-or-claude-at-work): Is it safe to put work info into ChatGPT or Claude? A plain-English check for what to keep out, how to swap in safe stand-ins, and who to ask.
 - [How to Analyze a Spreadsheet With Claude (No Formulas Needed)](https://www.senna-filter.com/guides/how-to-analyze-a-spreadsheet-with-claude): Upload a spreadsheet, ask questions in plain English and get trends, totals and charts, plus how to check Claude's math before you trust it.
 - [How to Learn a New Skill With Claude in 30 Days](https://www.senna-filter.com/guides/how-to-learn-a-new-skill-with-claude): Build a 30-day learning plan with practice, feedback and a final project, for almost any skill.

@@ -78,3 +78,5 @@ Here are the action items from our last meeting. Write a short agenda for the ne
 [ ] Every action has an owner and a date, or is marked unclear.
 [ ] I checked the summary against what was actually said.
 [ ] I sent it within an hour.
+
+Need to present what came out of the meeting? See [How to Make a Presentation With AI](https://www.senna-filter.com/guides/how-to-make-a-presentation-with-ai).
