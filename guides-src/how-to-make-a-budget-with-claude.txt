@@ -79,3 +79,5 @@ Want to dig deeper into any spreadsheet, not just bank files? See [How to Analyz
 [ ] I reviewed every recurring charge.
 [ ] I picked one goal for the budget.
 [ ] I picked a day each month to check in.
+
+Budgeting is one of many choices that get easier with a clear method. See [How to Make a Hard Decision With AI](https://www.senna-filter.com/guides/how-to-make-a-decision-with-ai) for weighing bigger money decisions.

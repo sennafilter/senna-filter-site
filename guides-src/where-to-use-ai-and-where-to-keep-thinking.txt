@@ -71,3 +71,5 @@ Here's my attempt at [task]. Don't rewrite it yet — first tell me the three bi
 [ ] Could I explain and defend this answer without the AI in the room?
 
 Use AI to get better, not just to get finished. Faster, yes — but also smarter, more capable, more adaptable. That's how you use AI to become extra employable.
+
+Facing a big choice, not just a task? See [How to Make a Hard Decision With AI](https://www.senna-filter.com/guides/how-to-make-a-decision-with-ai).
