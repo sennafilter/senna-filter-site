@@ -1,0 +1,100 @@
+title: How to Make a Hard Decision With AI (Without Letting It Decide)
+cat: life claude
+date: 2026-11-26
+desc: Use Claude or ChatGPT to sort out your options, weigh what matters and test your thinking, then make the call yourself with more clarity.
+lead: Use AI as a thinking partner for a hard choice: lay out the options, weigh what matters, and spot what you missed, while the final call stays yours.
+---
+Big decisions are hard because everything is tangled together in your head: the facts, the fears, what other people want, and what you actually want. AI is good at untangling. It can ask the questions a patient friend would, put your options side by side and push back on weak reasoning. What it can't do is know your life or carry the consequences. This guide shows how to use it for the first part and keep the second part for yourself.
+
+> **A note on advice.** This is general education, not professional advice. For big money, health, legal or career choices, treat AI as a way to prepare your thinking, then talk to a qualified person before you act.
+
+## New to the words?
+
+- **Criteria.** The things that matter to you in this choice, like cost, time, stress or growth.
+- **Weighted scorecard.** A table where each option is scored on your criteria, and the criteria that matter most count for more.
+- **Devil's advocate.** Someone who argues against your plan on purpose so you can see the weak spots.
+
+# 1. Say what you're actually deciding
+
+~ Most stuck decisions are fuzzy questions.
+
+**How to do it.** Describe the situation in your own words, messy is fine, and ask Claude to sharpen the question before it gives any opinion.
+
+```
+I'm trying to make a decision and I'm stuck. Here's the situation: [describe it, including what's making it hard]. Before you suggest anything, ask me up to 5 questions that would help me figure out what I'm really deciding and what matters most to me. Ask them one at a time.
+```
+
+> **Start here.** Answer honestly, even where the answer is "I don't know." Those answers are often the most useful part.
+
+# 2. List every real option
+
+~ Including the boring ones.
+
+```
+Based on what I've told you, list the options I have, including ones I may not have considered, like waiting, doing a smaller version, or asking for something different. Keep each to one line.
+```
+
+**Why it works.** Stuck decisions often feel like A or B when there is a C. "Not yet" and "a trial version" are real options.
+
+# 3. Decide what matters, in your words
+
+~ This is the step AI can't do for you.
+
+Write your own list of what matters here, then let Claude help tidy it.
+
+```
+Here is what matters to me in this decision: [your list]. Put them in order of importance based on how I've described my situation, and tell me if any seem to conflict with each other. Don't add things I didn't say.
+```
+
+If it ranks something differently than you would, say so. You are the expert on your life.
+
+# 4. Compare the options side by side
+
+~ A simple scorecard beats a mental fog.
+
+```
+Make a table with my options as rows and my criteria as columns. Score each from 1 to 5 and give a one-line reason for every score. Mark any score that depends on something you're guessing at, and list what I should find out to be sure.
+```
+
+**Check the guesses.** Anything marked as an assumption is your homework. Look up the real number or ask the real person, and ask Claude to redo the table.
+
+> **The mistake.** Treating the totals as the answer. If the winner feels wrong, that feeling is information. Ask yourself which criterion the table is missing.
+
+# 5. Argue against your favorite
+
+~ Test it before you commit.
+
+```
+I'm leaning toward [option]. Play devil's advocate. Give me the strongest honest case against it, then tell me what would have to be true for it to be a mistake. Don't just agree with me.
+```
+
+Then flip it: ask for the strongest case against the option you're leaning away from. If both hold up, the decision is probably close, and that's okay.
+
+# 6. Make the call and plan the next step
+
+~ A decision you never act on is just a worry.
+
+```
+I've decided to go with [option]. Help me write a short plan: the first three steps this week, what could go wrong, and a date to check whether this is working. Keep it realistic.
+```
+
+A review date matters. It makes the choice feel less permanent, because you've already agreed when you'll look at it again.
+
+## Keep these in mind
+
+- **AI tends to agree with you.** If you lead with your preference, you may get it echoed back. Ask for the case against, as in step 5.
+- **It only knows what you tell it.** It can't see your full situation, your relationships or your values unless you say them.
+- **Check facts that matter.** Prices, dates and rules change. Use official sources, and see [How to Catch AI When It's Lying](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying).
+- **Protect private details.** Leave out names, account numbers and anything you wouldn't want stored. See [What Not to Paste Into ChatGPT or Claude at Work](https://www.senna-filter.com/guides/what-not-to-paste-into-chatgpt-or-claude-at-work).
+- **Know where to stop.** Using AI to think more clearly is different from outsourcing the thinking. [Where to Use AI, and Where to Keep Thinking](https://www.senna-filter.com/guides/where-to-use-ai-and-where-to-keep-thinking) draws that line.
+
+Want better answers from every prompt in this guide? See [How to Write a Good Prompt for Claude](https://www.senna-filter.com/guides/how-to-write-a-good-prompt-for-claude).
+
+## Decision checklist
+
+[ ] I described the situation and answered Claude's questions honestly.
+[ ] I listed more than two options, including waiting.
+[ ] The criteria are my own, not Claude's.
+[ ] I checked every assumption in the scorecard.
+[ ] I asked for the case against my favorite.
+[ ] I made the call myself and set a date to review it.
