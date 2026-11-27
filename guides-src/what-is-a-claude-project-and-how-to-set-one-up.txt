@@ -81,6 +81,8 @@ Fix the instructions or add files based on what it says is missing.
 
 Once a month, delete outdated files, add new ones and tighten the instructions. When Claude gets something wrong repeatedly, add a line to the instructions to fix it.
 
+Got a task that only you know how to do? Turn it into a written procedure with [How to Write an SOP With AI](https://www.senna-filter.com/guides/how-to-write-an-sop-with-ai).
+
 ## Project checklist
 
 [ ] The project has one clear job.

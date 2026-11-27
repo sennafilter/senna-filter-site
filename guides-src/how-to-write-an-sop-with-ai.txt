@@ -1,0 +1,90 @@
+title: How to Write an SOP With AI (Step by Step)
+cat: career claude
+date: 2026-11-27
+desc: Turn the way you really do a task into a clear step-by-step SOP a new teammate can follow, with AI doing the drafting and a real person testing it.
+lead: Turn the way you really do a task into a clear, step-by-step SOP a new teammate can follow, without staring at a blank page.
+---
+Every team has a task that lives in one person's head. When that person is out sick or moves on, nobody knows how it gets done. An SOP, short for standard operating procedure, is the written version: the same steps, in the same order, so anyone can follow them. Writing one feels like a chore, which is why it gets put off. AI is good at the formatting and the tidying. You supply the real process, and then you test the result. This guide shows how.
+
+> **Before you start.** Don't paste confidential material, such as customer names, pricing or internal systems details, into an AI tool unless your workplace allows it. Swap in placeholders like "Client A" when you can. Our guide on [what not to paste into ChatGPT or Claude at work](https://www.senna-filter.com/guides/what-not-to-paste-into-chatgpt-or-claude-at-work) covers this in more detail.
+
+## New to the words?
+
+- **SOP.** A written, step-by-step description of how to do a recurring task the same way every time.
+- **Owner.** The one person responsible for keeping the SOP up to date.
+- **Edge case.** An unusual situation the normal steps don't cover, like a missing form or an angry customer.
+- **Dry run.** Following the instructions exactly as written, to see whether they actually work.
+
+# 1. Pick one small task
+
+~ A narrow SOP gets used. A giant one gets ignored.
+
+**How to do it.** Choose something you do often and could explain in about ten steps: onboarding a new client, closing the month, posting an update, handling a refund request. If it needs more than a page, split it into two SOPs.
+
+> **Start here.** Pick the task that would hurt most if you were unavailable next week.
+
+# 2. Get the real process out of your head
+
+~ AI can't know how your team works. You have to tell it.
+
+**How to do it.** Talk through the task out loud or type it as messy bullets. Don't worry about order or wording. Include where things are stored, who gets involved and what usually goes wrong.
+
+```
+I'm going to describe how I do [task] in rough notes. Don't write the SOP yet. First, ask me up to 8 questions about anything unclear, such as who is involved, what tools I use, what triggers the task and what usually goes wrong. Here are my notes:
+
+[paste your notes]
+```
+
+**Check it.** Answer the questions honestly. The gaps it finds are the same ones a new person would hit.
+
+# 3. Ask for a first draft in a fixed shape
+
+~ Telling it the sections keeps the result consistent.
+
+```
+Using my notes and answers, write an SOP with these sections: Purpose, Who this is for, When to use it, What you need before you start, Steps (numbered, one action each), Common problems and what to do, and Who to ask. Use plain words. If a detail is missing, write [NEEDS INFO] instead of guessing. Do not invent tools, names or deadlines.
+```
+
+> **The mistake.** Letting AI fill gaps with confident guesses. The [NEEDS INFO] instruction makes the gaps visible so you can fill them yourself.
+
+# 4. Fix it with your own eyes
+
+~ You are the expert. The draft is a starting point.
+
+**How to do it.** Read it slowly, next to the real task if you can. Fix wrong steps, fill every [NEEDS INFO], and cut anything you wouldn't actually do. If a step has two actions in it, split it.
+
+```
+Here is my edited SOP. Check it for steps that are vague, steps that combine two actions, missing warnings and anything a new person could misread. List problems only. Don't rewrite it yet.
+```
+
+Our guide on [how to catch AI when it's wrong](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying) has quick checks you can reuse here.
+
+# 5. Test it on a real person
+
+~ This is the step most people skip, and the one that matters most.
+
+**How to do it.** Ask someone who has never done the task to follow the SOP while you watch without helping. Every time they stop, ask a question or do something different from what you expected, the SOP needs a fix. Write down each spot.
+
+```
+A new teammate tried this SOP. Here is where they got stuck: [list]. Suggest clearer wording for each of those steps and tell me if any need a screenshot or an example.
+```
+
+# 6. Give it an owner and a review date
+
+~ An out-of-date SOP is worse than none.
+
+**How to do it.** Put your name or the owner's name at the top, the date and a review date a few months out. Store it where your team already looks, and tell people it exists. If the task involves safety, legal or compliance rules, have the right person at your organization review it, since AI can't know your obligations.
+
+> This guide is general education, not professional advice. Follow your workplace's own policies for anything regulated.
+
+Once it works, turn your next team meeting's decisions into tasks with [How to Turn Meeting Notes Into Action Items With AI](https://www.senna-filter.com/guides/how-to-turn-meeting-notes-into-action-items-with-ai).
+
+## SOP checklist
+
+[ ] I'm allowed to use AI with this material.
+[ ] I chose one small, specific task.
+[ ] I described the real process, not an ideal one.
+[ ] I resolved every [NEEDS INFO].
+[ ] Each step is one clear action.
+[ ] Someone new tested it while I watched.
+[ ] It has an owner and a review date.

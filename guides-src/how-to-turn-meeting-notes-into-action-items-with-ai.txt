@@ -71,6 +71,8 @@ Every time I paste meeting notes, return: decisions, action items (owner and due
 Here are the action items from our last meeting. Write a short agenda for the next one that starts with a status check on each item, then covers [new topics].
 ```
 
+Got a task that only you know how to do? Turn it into a written procedure with [How to Write an SOP With AI](https://www.senna-filter.com/guides/how-to-write-an-sop-with-ai).
+
 ## Meeting checklist
 
 [ ] I'm allowed to use AI with this material.
