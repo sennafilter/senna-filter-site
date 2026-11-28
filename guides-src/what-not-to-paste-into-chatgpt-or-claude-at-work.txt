@@ -85,6 +85,8 @@ Before I paste anything into AI: Is it mine or public? Could a placeholder do th
 
 Keep it in your notes app or in your Claude instructions, so it's in front of you when you need it.
 
+**Related.** Writing about your own work? See [how to write a self-evaluation with AI](https://www.senna-filter.com/guides/how-to-write-a-self-evaluation-with-ai) for a safe way to do it.
+
 ## Safe-use checklist
 
 [ ] I know whether my workplace has an AI policy, or I've asked.
