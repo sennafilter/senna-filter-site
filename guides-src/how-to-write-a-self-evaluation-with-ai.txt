@@ -1,0 +1,83 @@
+title: How to Write a Self-Evaluation With AI (Without Making Things Up)
+cat: career claude
+date: 2026-11-28
+desc: Turn your wins into a clear self-evaluation or performance review with AI, using your real notes, honest numbers and your own voice.
+lead: Turn a year of scattered work into a clear self-evaluation, using your real notes and your own voice, not a pile of buzzwords.
+---
+Most self-evaluations are written the night before they're due, from memory, and it shows. You forget the best project, undersell the hard one and end up with "I worked hard and collaborated well." AI can fix the blank page. It can't fix a missing record, so the trick is to feed it your real material and make it ask you questions instead of inventing things.
+
+> **A note on advice.** This is general education, not career or HR advice. Review formats and rules differ by company, so follow what your employer asks for.
+
+## New to the words?
+
+- **Self-evaluation.** The part of a review where you describe your own work over a period, usually a quarter or a year.
+- **Impact.** What changed because of your work: time saved, money earned, a problem solved, a person helped.
+- **Evidence.** Something you can point to, like an email, a result, a message of thanks or a finished project.
+
+# 1. Collect your raw material first
+
+~ Ten messy minutes here save an hour later.
+
+Before you open Claude, gather what you already have: last review, your job description, goals you were given, sent emails, project notes, kind messages from coworkers. Don't tidy anything. Paste it all into one note.
+
+> **Start here.** Never paste anything your company says is confidential. Replace client names and private details with labels like "Client A." Our guide on [what not to paste into ChatGPT or Claude at work](https://www.senna-filter.com/guides/what-not-to-paste-into-chatgpt-or-claude-at-work) covers this.
+
+# 2. Let Claude interview you
+
+~ It's easier to answer questions than to write from nothing.
+
+```
+I'm writing my self-evaluation for [period]. My role is [role]. Here are my goals and my notes: [paste]. Don't write anything yet. Ask me 8 questions, one at a time, that would help me remember my biggest wins, my biggest challenges and what I learned. Skip questions my notes already answer.
+```
+
+**Why it works.** Your answers become the real content. Claude is only organizing it.
+
+# 3. Pull out your wins, with evidence
+
+~ Each win needs what you did, what happened and how you know.
+
+```
+From my notes and answers, list my 5 to 7 strongest accomplishments. For each one give: what I did, the result, and what evidence supports it. If a result has no number or proof in my notes, mark it "needs evidence" instead of guessing.
+```
+
+The "needs evidence" rule is the important part. AI will happily write a confident percentage that you never achieved. Fill the gaps yourself with real numbers, or describe the result in words.
+
+# 4. Draft it in your voice
+
+~ Give it a sample of how you actually write.
+
+```
+Write a self-evaluation of about [300] words using only the accomplishments above. Match the tone of this sample of my writing: [paste a short email you wrote]. Plain language, first person, no buzzwords, and no claims that aren't in my notes. Use these headings: What I accomplished, Where I struggled, What I want to learn next.
+```
+
+**Make it honest.** Include a real challenge. A review with zero struggles reads as hollow. Ask Claude to phrase the struggle as what happened, what you did about it and what you'd change.
+
+# 5. Cut the AI sound
+
+~ Reviewers can tell when everyone used the same tool.
+
+Read it out loud. Delete phrases you'd never say, like "spearheaded" or "leveraged synergies." Then try:
+
+```
+Rewrite this so it sounds like a person talking to their manager. Keep every fact. Remove filler and corporate phrases. Make it shorter by a third.
+```
+
+If you want a deeper clean-up, see our guide on [how to write a good prompt for Claude](https://www.senna-filter.com/guides/how-to-write-a-good-prompt-for-claude).
+
+# 6. Check every claim
+
+~ You're signing this, not the AI.
+
+Go line by line. Is each date, number and project name true? Could you back it up if your manager asked? Our guide on [how to catch AI when it's lying](https://www.senna-filter.com/guides/how-to-catch-ai-when-its-lying) shows what to look for. Also check your company's rules on using AI for reviews, and whether the tool you're using is approved for work.
+
+> **The mistake.** Submitting the first draft. A made-up number in a self-evaluation can follow you into pay and promotion talks. If you're using this review to make a case for pay, pair it with [how to ask for a raise with AI](https://www.senna-filter.com/guides/how-to-ask-for-a-raise-with-ai).
+
+## Self-evaluation checklist
+
+[ ] I gathered real notes and examples before starting.
+[ ] I removed confidential and personal details before pasting.
+[ ] Claude interviewed me instead of inventing my year.
+[ ] Every result has evidence or is described without a made-up number.
+[ ] I included one honest challenge and what I learned.
+[ ] I read it out loud and it sounds like me.
+[ ] I checked every fact before submitting.
